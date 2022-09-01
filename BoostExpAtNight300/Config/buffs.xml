@@ -1,0 +1,14 @@
+<config>
+	<append xpath="/buffs">
+	
+		<!-- Night Time EXP Buff -->
+	<buff name="buffNightExpBoost" hidden="true">
+		<stack_type value="ignore"/>
+		<effect_group>
+			<requirement name="IsNight"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" value="3" tags="Kill" />
+		</effect_group>
+	</buff>
+
+	</append>
+</config>
