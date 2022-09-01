@@ -1,0 +1,4170 @@
+﻿Key,schinese
+
+﻿campfireActivate,打开篝火
+caffeineBuzz,咖啡因狂热
+caffeineBuzzDesc,咖啡因可为你提供能量，短时间内保持体力充沛，并使身体更温暖。
+inpActActionLockStack,锁定堆叠
+inpActInventorySlot9Name,栏位 9
+inpActInventorySlot10Name,栏位 10
+inpActInventorySlot11Name,栏位 11
+inpActInventorySlot12Name,栏位 12
+inpActVehicleToggleTopLightName,切换顶灯
+inpActVehicleToggleSirenName,切换警笛
+inpActLockSelectedSlotName,锁定物品栏栏位
+inpActGuiKeyboardSpaceName,动作热键5
+inpActDebugScreenshotName,调试屏幕截图
+infectionDesc,你被感染了。使用抗生素、蜂蜜或草药抗生素来治愈感染。如果不进行治疗，你会变得越来越虚弱，最终死亡。
+lblContextActionCraft,制作
+lblContextActionDrink,饮用
+lblContextActionDrop,丢弃
+lblContextActionEat,食用
+lblContextActionForge,锻造
+lblContextActionPin,固定配方
+lblContextActionRead,查看
+lblContextActionResearch,研究
+lblContextActionScrap,分解
+lblContextActionWear,穿戴
+lblLevel,等级: {0}
+lblAcceptQuest,接受任务
+lblCancelQuest,取消任务
+lblRemoveQuest,删除任务
+lblShareQuest,分享任务
+megaCrushBuffName,能量饮料
+megaCrushBuffDesc,额外的能量激增可增强你的反应能力和体力!
+rangedWeaponStatsTip_title,远程武器统计
+statCargo,载货
+statCarryCapacity,背包空间
+statDamageUndead,对丧尸的伤害
+statResistBleed,流血抗性
+statResistCrit,感染、疲劳、扭伤、眩晕抗性
+statResistInfection,感染抗性
+statHealthChangeOT,治疗/秒
+statHealthMaxModifierOT,治疗
+statHyperthermalResist,炎热抗性
+statHypothermalResist,寒冷抗性
+statNoiseIncrease,噪音
+statPhysicalDamageResist,物理护甲
+statPhysicalDamageResistLight,物理护甲（轻型）
+statPhysicalDamageResistHeavy,物理护甲（重型）
+statPlayerExpGain,获得的经验值
+statStaminaChangeOT,体力/秒
+statStaminaDrainOT,体力
+statVehicleCargoCapacity,载货量
+statVehicleCargoOverloaded,货物超载
+statVehicleLightIntensity,光照强度
+xuiActiveEffects,主动效果
+xuiAllies,队友
+xuiBuyPrice,$
+xuiCreative,创意
+xuiCharacter,人物
+xuiCrafting,制作
+xuiCurrentLife,当前生命
+xuiCosmetics,饰品
+xuiDeaths,死亡
+xuiFood,食物
+xuiFeelsLike,体感
+xuiGameStage,游戏\n阶段
+xuiInventory,物品栏
+xuiItemsCrafted,已制作物品
+xuiJournal,日志
+xuiLongestLife,最长生存
+xuiLevel,等级
+xuiMap,地图
+xuiModifiers,修改器
+xuiNoSellPrice,
+xuiObjectives,目标
+xuiOptionsDynamicMesh,动态网格
+xuiOptionsVideoDistanceCustom,自定义
+xuiParty,队伍
+xuiPing,延迟
+xuiPlayerKills,击杀玩家
+xuiPlayers,玩家
+xuiPlayerShow,展示
+xuiPointsAvailable,[decea3]
+xuiPrefabEditor,预制编辑器
+xuiQuests,任务
+xuiRewards,奖励
+xuiRewardsNotAvailable,奖励不可用。
+xuiRwgCountyName,世界名称
+xuiRwgPreviewer,世界生成器
+xuiRwgWorldSeed,种子
+xuiSellPrice,$
+xuiSharedWaypoints,共享
+xuiSign,编辑标志文字
+xuiSkillBuy,解锁
+xuiSkillNerfedEffect,[FF6A00]技能不满足一项或多项要求。[-]
+xuiSkills,技能
+xuiSkillList,技能
+xuiSteamID,Steam ID
+xuiVehicleStorage,载具储物箱
+xuiVoice,语音
+xuiWater,水
+xuiWaypoints,已保存
+xuiWorldEditor,世界编辑器
+xuiWPskills,技能
+xuiXPToNextLevel,升级所需经验
+xuiZombieKills,击杀丧尸数
+inpActSkillsName,技能
+inpActSkillsDesc,打开技能标签
+uiLoadStartingGame,请稍候... \n正在搜刮物资
+uiLoadLoadingXml,请稍候... \n正在寻找幸存者
+uiLoadCreatingWorld,请稍候... \n正在与不死生物战斗
+uiLoadCreatingPlayer,请稍候... \n正在抵御突袭
+msgBuildingEnvironment,请稍候... \n正在搜寻庇护所
+msgGeneratingDistantTerrain,请稍候... \n正在寻找双筒望远镜
+msgStartingGame,请稍候... \n正在冶炼一些矿石
+uiLoadWaitingForServer,请稍候... \n正在为尸潮做准备
+waitingForServer,请稍候... \n正在寻找食物
+questBlockActivate,[73E9B2][{{0}}][-] 激活 {1}
+questRallyActivate,[73E9B2][{{0}}][-] 开始任务\n[decea3]( {1} )[-]
+itemTooltipFocusedOne,[73E9B2][{0}][-] 拿取 {1}
+itemTooltipFocusedSeveral,[73E9B2][{0}][-] 拿取 {1} ({2})
+forgeActivate,[73E9B2][{0}][-] 打开锻造炉
+useCampfire,[73E9B2][{0}][-] 使用
+useForge,[73E9B2][{0}][-] 使用
+useSecureDoor,[73E9B2][{0}][-] 使用
+useDoor,[73E9B2][{0}][-] 使用
+useOpen,[73E9B2][{0}][-] 打开
+useClose,[73E9B2][{0}][-] 关闭
+useWorkstation,[73E9B2][{0}][-] 使用
+lootAccess,[73E9B2][{0}][-] 存取 {1}
+lootEntity,[73E9B2][{0}][-] 搜寻 {1}
+lootTooltipEmpty,[73E9B2][{0}][-] 打开 {1}\n[808080](空的)[-]
+lootTooltipNew,[73E9B2][{0}][-] 搜寻 {1}\n[73E9B2](未触碰过)[-]
+lootTooltipTouched,[73E9B2][{0}][-] 打开 {1}
+lootVehicleEmpty,[73E9B2][{0}][-] 打开 {1}{2}\n[808080](空的)[-]
+lootVehicleNew,[73E9B2][{0}][-] 搜寻 {1}{2}\n[73E9B2](未触碰过)[-]
+lootVehicleTouched,[73E9B2][{0}][-] 打开 {1}{2}
+lootVehicleSecureJammed,[73E9B2][{0}][-] 使用 {1}{2}\n[808080](卡住的)[-]
+lootVehicleSecureLocked,[73E9B2][{0}][-] 使用 {1}{2}\n[808080](锁住的)[-]
+lootVehicleSecureUnlocked,[73E9B2][{0}][-] 使用 {1}{2}\n[808080](解锁的)[-]
+tooltipJammed,[73E9B2][{0}][-] 开启 {1}\n[808080](卡住的)[-]
+tooltipLocked,[73E9B2][{0}][-] 开启 {1}\n[808080](锁住的)[-]
+tooltipUnlocked,[73E9B2][{0}][-] 开启 {1}\n[808080](解锁的)[-]
+useBlock,[73E9B2][{0}][-] 使用 {1}
+editLabel,[73E9B2][{0}][-] 编辑标签
+useElevator,[73E9B2][{0}][-] 前往 [808080]( {1}层)[-]
+lootItem,[73E9B2][{0}][-] 拾取 {1}
+tooltipInteract,[73E9B2][{0}][-] 使用 {1}
+vendingMachineActivate,[73E9B2][{0}][-] 使用 {1}
+useSwitchLightOff,[73E9B2][{0}][-] 关掉
+useSwitchLightOn,[73E9B2][{0}][-] 打开
+npcTooltipTalk,[73E9B2][{0}][-] 交谈 {1}
+pickupCrops,[73E9B2][{{0}}][-] 收集 {0} {1}
+pickupPrompt,[73E9B2][{{0}}][-] 拾取 {0}
+xuiVendingWithOwner,自动售货机\n[808080]({0})[-]
+xuiLockAmmo,开启
+xuiUnlockAmmo,关闭
+activeBlockPrompt,{0}\n[73E9B2](激活)[-]
+inactiveBlockPrompt,{0}\n[808080](未激活)[-]
+blockcommand_aim,瞄准
+blockcommand_confirm,确认放置
+blockcommand_do_nothing,什么都不做
+blockcommand_fuel_add,添加到容器
+blockcommand_fuel_take,从容器装满
+blockcommand_repair,修理
+blockcommand_pick1,开锁\n[808080](开锁器)[-]
+blockcommand_pick2,开锁\n[808080](发夹)[-]
+uiNull,
+uiActionFillFrom,[73E9B2][{0}][-] 装填 {1}
+uiActionFillTo,[73E9B2][{0}][-] 添加 {1}
+uiActionTake,[73E9B2][{0}][-] 拿取 {1}
+uiActionUse,[73E9B2][{0}][-] 使用 {1}
+uiActionUntouched,\n[73E9B2](未触碰过)[-]
+uiAll,全部
+uiAllResearch,全部研究
+uiAmmo,弹药
+uiAmmoAndExplosives,弹药/炸药
+uiAmmunition,弹药
+uiArmor,护甲
+uiAttention,专注
+uiBackpack,背包
+uiBasicCrafting,制作
+uiBiomeName,生物群落名称
+uiBloodMoon,血月
+uiBlockName,{0}
+uiBlockAndMaterialName,{1} / {0}
+uiBooksSchematics,书和设计图
+uiBuffs,状态
+uiCantPickUpFuelNotEmpty,清空工作站燃料栏位！
+uiCantPickUpInputNotEmpty,清空工作站输入栏位！
+uiCantPickUpOutputNotEmpty,清空工作站输出栏位！
+uiCantPickUpQueueNotEmpty,清空工作站队列！
+uiCantPickUpToolsNotEmpty,清空工作站工具栏位！
+uiClothing,服装
+uiClothingAndArmor,服装和护甲
+uiClothingArmorMods,服装/护甲模组
+uiColorPickerHex,颜色 (Hex)
+uiColorPickerRGB,颜色 (RGB)
+uiConfirmPlacement,[73E9B2][{{0}}][-] 确认放置
+uiContainer,容器
+uiCopy,复制
+uiCopyIDToClipboard,复制ID到剪贴板
+uiCrafted,制作
+uiCraftedIn,制作于
+uiCraftingFuel,燃料
+uiCraftingOutput,输出
+uiCraftingQueue,队列
+uiCraftingQueueAndOutput,队列/输出
+uiCraftingTools,工具
+uiCraftOutput,制作输出
+uiCrouching,蹲伏
+uiDescription,描述
+uiDetails,详细信息
+uiDifficulty,难度
+ui_door_prefix,（
+ui_door_suffix,）
+ui_door_bottom,Bottom Door
+ui_door_left,Left Door
+ui_door_middle,Middle Door
+ui_door_right,Right Door
+ui_door_top,Top Door
+ui_drawer_bottom,Bottom Drawer
+ui_drawer_left,Left Drawer
+ui_drawer_left_bottom,Left Bottom Drawer
+ui_drawer_left_middle,Left Middle Drawer
+ui_drawer_left_top,Left Top Drawer
+ui_drawer_middle,Middle Drawer
+ui_drawer_right,Right Drawer
+ui_drawer_right_bottom,Right Bottom Drawer
+ui_drawer_right_middle,Right Middle Drawer
+ui_drawer_right_top,Right Top Drawer
+ui_drawer_top,Top Drawer
+ui_drawer_top_middle,Top Middle Drawer
+uiExplosives,爆炸物
+uiExplosivesAndMines,炸药和地雷
+uiFeatureInProgress,正在开发的功能。\n可能不工作，什么都不做或部分工作。
+uiFoodAndDrinks,食物和饮料
+uiGameContinue,继续游戏
+uiGameNew,新游戏
+uiGameSettingsBasic,基本
+uiGameSettingsAdvanced,高级
+uiGameSettingsExpert,专家
+uiGameSettingsMultiplayer,多人游戏
+uiGrowing,成长
+uiHeaderCrafting,制作
+uiHeaderCharacter,人物
+uiHeaderMap,地图
+uiHeaderSkills,技能树
+uiHeaderQuests,任务
+uiHeaderJournal,日志
+uiHeaderPlayers,玩家
+uiHeaderCreative,创作
+uiIngredientHave,", 拥有:"
+uiIngredientInclModded,包括改装
+uiIngredientNeed,\n需要:
+uiIngredientRetrieve,\n可回收:
+uiInspectLockSlot,锁定一个物品栏栏位
+uiInspectStackSingle,一次丢弃一个物品
+uiInspectStackSplit,按住并拖动，即可拿取半堆物品
+uiInspectStackSwap,丢弃或交换一堆物品
+uiInspectStackTake,按住并拖动，即可拿取一堆物品
+uiInspectStackView,检查物品、配方或生效中的效果
+uiInteractWithBlock,与{0}交互
+uiInventory,物品栏
+uiItemNotFound,缺少物品 [73E9B2]{0}[-]
+uiItemRequired,需要 {0}
+uiLevelShort,LVL
+uiLockAutoPick,自动开锁
+uiLockAutoPickChance,自动开锁的机率：[decea3]{0}%[-]
+uiLockVeryEasy,非常容易
+uiLockEasy,简单
+uiLockAverage,一般
+uiLockHard,困难
+uiLockVeryHard,非常难
+uiLockExtremelyHard,极度困难
+uiLockImpossible,不可能的
+uiLockpickingInsufficient,当前你的开锁等级[FF1919]{0}[-]，还不能打开[decea3]{1}[-]这个级别的锁。
+uiLockpickingSkillLevel,开锁
+uiLockpickingLockLevel,锁
+uiLockpicksLeft,你还剩下[decea3]{0}个{1}[-]
+uiLockpicksLeftNone,你的物品栏中没有任何[decea3]{0}[-]。
+uiLockpicksTooltipKB,使用[73E9B2][{0}][-]或[73E9B2][{1}][-]键或按住[73E9B2][{2}][-]并在屏幕上拖动[73E9B2][鼠标指针][-]来移动[decea3]{3}[-]。按[73E9B2][{4}][-]尝试解锁。
+uiLockpicksTooltipGP,使用[73E9B2][{0}][-]或[73E9B2][{1}][-]键移动[decea3]{2}[-]。按[73E9B2][{3}][-]尝试解锁。
+uiMapBedroll,保存点
+uiMapCursor,光标
+uiMapInfo,信息
+uiMapPlayer,位置
+uiMapWaypoint,路点
+uiMapWaypoints,路点
+uiMapWaypointsPersonal,个人的
+uiMapWaypointsShared,分享的
+uiMaterial,材料
+uiMax,最大
+uiMiscellaneous,杂项
+uiMissingIngredients,[decea3]缺少材料[-]
+uiMissingScrapWires,你的物品栏中没有[decea3]废电线[-]
+uiMods,模组
+uiMovementSpeed,移动速度
+uiMovementState,移动状态
+uiNoPower,没有电源
+uiNoSellPrice,没有卖价
+uiNoUpgradesForBlock,物块无法升级
+uiPatchNotes,最新更新
+uiOr,或
+uiPerkPoints,技能点
+uiPlayerEffects,效果
+uiPlayerPreview,人物预览
+uiPlayerHidePreview,隐藏人物预览
+uiPlayerStats,属性
+uiPlayerStatsCore,主要属性
+uiPlayerStatsMore,更多详情
+uiPlayerStatsLess,隐藏详情
+uiPlayerStatsAdvanced,进阶详情
+uiPowerOutput,输出
+uiPowerRemainingFuel,剩余燃料
+uiPowerUsed,已用
+uiPrefabName,预制名称
+uiPricePrefix,$
+uiPrimaryMaterial,主要材料
+uiQuality,品质
+uiQuality1,粗 糙
+uiQuality2,普 通
+uiQuality3,优 秀
+uiQuality4,精 良
+uiQuality5,史 诗
+uiQuality6,传 说
+uiQualityPrefix1,粗糙
+uiQualityPrefix2,普通
+uiQualityPrefix3,优秀
+uiQualityPrefix4,精良
+uiQualityPrefix5,史诗
+uiQualityPrefix6,传说
+uiQuestsShared,共享
+uiRadiation,辐射
+uiRayHitBlockName,块名
+uiRayHitTileEntity,平铺实体
+uiRepair,维修
+uiRepairable,可修复
+uiRepairCost,维修费用
+uiRepairItem,修复
+uiRequires,需要
+uiRequiredMaterials,所需材料
+uiRequiredTool,所需工具
+uiResistance,抗性
+uiResistances,抗性
+uiRestrictedArea,禁区
+uiRetrievableComponents,可回收组件
+uiRunning,奔跑
+uiScrapped,分解
+uiScrappedIn,分解于 
+uiScrapMaterial,废料
+uiSearch,查找
+uiServiceInfo,服务信息
+uiSettings,设置
+uiShowOnMap,在地图上显示
+uiSignEdit,编辑文字
+ui_skill_buy,升级
+ui_skill_cost,升级费用
+ui_skill_exp,技能经验
+ui_skill_level,当前等级
+ui_skill_points,技能点
+uiSkillPoint,技能点
+uiSkillPoints,技能点
+ui_skill_points_available,可用技能点
+uiSkillPointsName,技能点
+uiSkillBuy,升级
+uiSkillPointShort,点
+uiSkillPointsShort,点
+uiSortName,按名称排序（升序）
+uiSortGroup,按类型排序（升序）
+uiSortPrice,按价格排序（降序）
+uiSortWeight,按重量排序（降序）
+uiSPCostNext,下一级：
+uiSpeedKMH,公里/小时
+uiSpeedMPH,英里/小时
+uiStats,统计信息
+uiStorage,储物箱
+uiStorageCompartment,区域
+uiStorageCompartments,区域
+uiTabPersonal,个人的
+uiTabShared,分享的
+uiTeleportEW,X (E/W)
+uiTeleportNS,Z (N/S)
+uiToggleSearch,切换搜索
+uiTotal,总计：{0}
+uiTraps,陷阱
+uiTransferAll,将所有物品\n从背包移至容器中
+uiTransferAllToBag,拿走所有
+uiTransferStackables,将所有可堆叠的物品\n从背包移至容器中
+uiTransferStackablesToBag,拿走所有可堆叠的物品
+uiType,类型
+uiUpgrade,升级
+uiUpgradeChance,升级机会
+uiUpgradeCost,升级费用
+uiUpgradeFail,[FF1919]升级失败[-]
+uiUpgradeMax,无法进一步升级
+uiUpgradeSuccess,[73E9B2]升级成功[-]
+uiUpgradeRemoveMods,[decea3]在安装了模组的情况下无法升级[-] 
+uiUpgradeRequiresRepairs,[decea3]物品必须先进行修理[-]
+uiUnderwater,水下
+uiUnlockedBy,解锁于
+uiUnknownIngredient,未知材料
+uiUnlearned,需要学习
+uiUnpinPinnedRecipe,取消查看配方
+uiValue,价值
+uiVehicleCargo,货运量
+uiVehicleSeats,座位
+uiVehicleSlots,货物栏位
+uiVehicleConsumption,油耗
+uiVehicleFuelEfficiency,燃油效率
+uiVehicles,载具
+uiVehicleSpeed,速度
+uiVehicleSpeedTurbo,涡轮速度
+uiVehicleTank,油箱
+uiVersionNewAvailable,有可用更新
+uiWalking,步行
+uiWeaponsMelee,近战武器
+uiWeaponsMeleeAndTools,近战武器和工具
+uiWeaponsRanged,远程武器
+uiWeight,重量
+uiServerVersionMissmatch,Undead Legacy本地版本与服务器版本不匹配
+uiServerVersionUnknown,[ff0000]未知[-]
+statAccuracy,精密
+statAlcohol,酒精
+statAlcoholMax,最大酒精含量
+statArmorRating,护甲等级
+statAttackSpeed,攻击速度
+statAttacksPerMinute,近战攻速
+statBlockDamage,物块伤害
+statBlocksLight,阻挡光线
+statCarbs,碳水化合物
+statCarbsMax,最大碳水化合物含量
+statCondition,状态
+statCoreTemp,体温
+statCraftingTier,制作等级
+statCraftingTime,制作时间
+statCraftingSpeed,制作速度
+statCurrentLife,当前生存
+statDamage,伤害
+statDeaths,死亡
+statDismemberChance,肢解几率
+statDurability,耐久
+statDurabilityMax,最大耐久
+statDurabilityUse,耐久磨损倍增器
+statEfficiency,效率
+statTravelled,旅程
+statDysenteryChance,痢疾的风险
+statEncumbered,负重
+statEncumbrance,超重
+statEncumbranceBonus,额外携带上限
+statExpRate,经验奖励
+statExpToNextLevel,升级所需经验
+statFat,脂肪
+statFatMax,最大脂肪含量
+statFireRate,射速
+statFood,饥饿值
+statFoodMax,最大饥饿值
+statFoodRate,食物消耗率
+statFuel,燃料
+statGas,汽油
+statHandling,处理方式
+statHealing,康复
+statHealth,生命值
+statHealthMax,最大生命值
+statHealthRegen,生命值再生
+statItemsCrafted,已制作物品
+statJumpStrength,跳跃高度
+statKilledPlayers,击杀玩家
+statKilledZombies,击杀丧尸
+statLoad,加载
+statLockpicking,开锁
+statLongestLife,最长生存
+statLootStage,搜刮等级
+statMagazineSize,弹匣
+statMobility,移动速度
+statModificationSlots,栏位
+statPoisonChance,食物中毒的风险
+statPower,功率
+statPowerEfficiency,电源效率
+statProtein,蛋白质
+statProteinMax,最大蛋白质含量
+statRange,范围
+statRecoil,畏缩
+statReloadSpeed,装弹速度
+statResistBleeding,流血抗性
+statResistCold,寒冷抗性
+statResistDiseases,疾病抗性
+statResistFallDamage,减少跌落伤害
+statResistHeat,炎热抗性
+statResistPhysical,物理抗性
+statResistRadiation,辐射抗性
+statResistStun,眩晕抗性
+statResistToxic,毒药抗性
+statRoundsPerMinute,远程攻击速度
+statStamina,体力值
+statStaminaMax,最大体力值
+statStaminaRegen,体力值再生
+statStopsBleeding,停止流血
+statStopsLaceration,停止裂伤
+statStopsBrokenLimbs,愈合断肢
+statTreasureRadius,宝藏半径
+statVitamins,维生素
+statVitaminsMax,最大维生素含量
+statWater,口渴值
+statWaterMax,最大口渴值
+statWaterRate,水消耗率
+statWeight,负重
+statWeightMax,负重上限
+statWellness,健康
+statWellnessMax,最大健康值
+statWellnessRate,健康率
+tt_belongs_to_other_player,不要拿别人的东西
+tt_empty_before_pickup,拾取之前先清空它。
+tt_container_is_full,满了，不能再添加了。
+tt_not_enough_substance,还不足以填满。
+tt_no_compatible_items,我手里没有合适的容器。
+type1hAxes,单手斧
+type1hBlades,单手剑
+type1hBlunt,单手钝器
+type1hKnives,单手小刀
+type2hAxes,单手斧
+type2hMelee,双手近战
+type4x4,汽车 | 载具
+typeadvBuilding,高级
+typeAmmo,弹药
+typeAmmoWeapons,弹药/武器
+typeAmmunition,弹药
+typeApparel,服装
+typeArmor,护甲
+typeAutomotive,汽车
+typeBasics,基本的
+typeBatons,棒子
+typeBeams,梁
+typeBicycles,自行车 | 载具
+typeBladeLong,长刃
+typeBladeShort,短刃
+typeBlunt,钝器
+typeBluntLong,长钝器
+typeBluntShort,短钝器
+typeBlocks,物块
+typeBooks,书
+typeBows,弓
+typeBuilding,建筑
+typeBundles,物品组合
+typeCandy,糖果
+typeCannedFood,罐头食品
+typeCars,汽车 | 载具
+typeCatwalks,猫道
+typeCFChemicals,化学制品
+typeCFDrinkCooking,饮料
+typeCFFoodCooking,食物
+typeChemicals,化工
+typeChemicalComposite,化学复合材料
+typeClothing,服装
+typeClubs,棒子
+typeCollectors,资源收集器
+typeConsumables,消耗品
+typeConstructionTools,建造工具
+typeCookingTools,烹饪工具
+typeCorpses,尸体
+typeCraftingMisc,制作/其他
+typeCrops,耕种作物
+typeCrossbows,弩
+typeCutting,砍伐 | 采矿
+typeDebris,残骸
+typeDecorMiscellaneous,其他
+typeDecor,装饰
+typeDecorative,装饰
+typeDigging,挖掘
+typeDiggingTools,挖掘工具
+typeDoors,门
+typeDrinks,饮品
+typeDrugs,药品
+typeDyeMods,饰品染色剂
+typeElectrical,电气
+typeElectricalTools,电气布线工具
+typeExplosives,爆炸物
+typeFirearms,枪械
+typeFistWeapons,拳套
+typeFood,食物
+typeFoodCooking,食物/烹饪
+typeFurniture,家具/装饰
+typeGrenades,手雷
+typeGun,枪
+typeGuns,枪
+typeGyroCopters,旋翼机 | 载具
+typeHandTools,手动工具
+typeHealth,生命值
+typeHeavyArmor,重甲
+typeHelicopters,直升机|载具
+typeItem,物品
+typeJunk,垃圾
+typeKnives,小刀
+typeLandMines,地雷 | 建筑
+typeLaunchers,发射器
+typeLightArmor,轻甲
+typeLighting,照明
+typeLoot,容器
+typeMedical,药物
+typeMedicine,药物
+typeMediumArmor,中甲
+typeMelee,近战
+typeMeleeTools,近战工具
+typeMeleeWeapons,近战武器
+typeMachineGuns,机枪
+typeMinesExplosives,地雷/炸药
+typeMinibikes,摩托车 | 载具
+typeMotorcycles,摩托车 | 载具
+typeChoppingTools,伐木工具
+typeMaintenance,维修和升级工具
+typeMiningTools,挖矿工具
+typeMissions,任务物品
+typeMisc,杂项
+typeMods,物品模组
+typePainting,绘画
+typePaintingTools,绘画工具
+typePistols,手枪
+typePlumbing,水管
+typePolearms,长柄
+typePortableDrones,便携式无人机
+typePortableTurrets,便携式炮塔
+typePowered,电动
+typePoweredCutting,电动切割工具
+typePoweredDigging,电动挖掘工具
+typePoweredMining,电动采矿工具
+typePoweredMiningDigging,电动采矿/挖掘工具
+typeResearch,研究
+typeQuality,质量
+typeQualitySchematics,质量研究
+typeRanged,远程
+typeRangedGuns,枪
+typeRangedWeapons,远程武器
+typeRecipes,配方
+typeResources,资源
+typeRoadProps,道路装饰
+typeRocketLaunchers,火箭发射器
+typeSalvage,回收
+typeSalvageTools,回收工具
+typeScavenging,搜刮
+typeSchematics,设计图
+typeScience,科学
+typeSeeds,作物种子
+typeSecretStash,秘密藏匿处
+typeShortBlade,短刃
+typeShotguns,霰弹枪
+typeSigns,标志
+typeSkillBooks,技能书
+typeSledgehammers,大锤
+typeSmeltingTools,熔炉工具
+typeSniperRifles,狙击步枪
+typeSpawnPoint,刷新点
+typeSpears,矛
+typeSpecial,特殊物品
+typeSpecialItems,任务物品
+typeStairs,楼梯
+typeStorage,储物箱
+typeStorageEmpty,空的储物箱
+typeStorageTanks,储物罐
+typeStructural,结构
+typeSubmachineGuns,冲锋枪
+typeSupport,支撑
+typeSwords,剑刃
+typeTerrain,地形
+typeThrowable,可投掷
+typeThrowableExplosive,可投掷炸药
+typeToolParts,工具组件
+typeTools,工具
+typeToolsTraps,工具/陷阱
+typeTrade,交易
+typeTraps,陷阱
+typeTrees,树
+typeTrucks,卡车 | 载具
+typeVehicles,载具
+typeVents,通风管
+typeWeapons,武器
+typeWeaponsTools,武器/工具
+typeWorkstations,工作站
+typeWorkstationTools,工作站工具
+twitchBounty,赏金
+headerDisplay,显示
+headerQuality,质量
+headerUI,用户界面
+headerVideo,视频设置
+groupAll,所有
+groupAllBlocks,所有物块
+groupAmmo,弹药
+groupAmmoPortableTurret,便携式炮塔弹药
+groupAmmoPrimitive,简单弹药
+groupAmmoStandard,标准弹药
+groupAmmoWeapons,弹药/武器
+groupAmmoAndExplosives,弹药和炸药
+groupAppliances,家电
+groupAutomotive,汽车
+groupBasics,基本
+groupBasicBlocks,基础物块
+groupBars,栅栏和桁架
+groupBeams,梁
+groupBlocks,物块
+groupBooks,书
+groupBooksAndSchematics,书和设计图
+groupBuilding,建造
+groupBundles,组合包
+groupCatwalks,猫道
+groupChemicals,药品
+groupClothing,服装
+groupClothingAndArmor,服装和护甲
+groupCollectors,资源收集器
+groupConsumables,消耗品
+groupContainers,容器
+groupCorpses,尸体
+groupCrops,农作物
+groupDebris,残骸
+groupDecor,装饰品
+groupDecorMisc,装饰/其他
+groupDoors,门
+groupDrinks,饮料
+groupDyes,染料
+groupElectrical,电器
+groupExplosives,炸药
+groupFences,栅栏
+groupFirstAid,急救包
+groupFrames,方框
+groupFoliage,叶子
+groupFood,食物
+groupFoodCooking,食物/烹饪
+groupFurniture,家具
+groupGrenades,手雷
+groupHeroTreasure,财宝
+groupHeavyArmor,重甲
+groupItems,物品
+groupLightArmor,轻甲
+groupLighting,照明
+groupLoot,容器
+groupLootHelper,搜刮助手
+groupMedicine,药品
+groupMediumArmor,中甲
+groupMinesExplosives,地雷/炸药
+groupMods,模组
+groupOutdoor,户外
+groupPlumbing,水管
+groupPrefabBlocks,POI物块
+groupPrefabEditor,预制物品编辑器
+groupRangedWeapons,远程武器
+groupResources,资源
+groupRoadProps,道路装饰
+groupRobotics,机器人
+groupScience,科学
+groupSchematics,设计图
+groupSeeds,种子
+groupShrubs,灌木
+groupSigns,标志
+groupSpecial,特殊物体
+groupStairs,楼梯
+groupStorage,容器
+groupStorageEmpty,空的容器
+groupStorageHelpers,容器助手
+groupStorageTanks,储存罐
+groupStructural,结构
+groupSupport,支撑
+groupTerrain,地形
+groupTools,工具
+groupToolsTraps,工具/陷阱
+groupTraps,陷阱
+groupTrash,垃圾
+groupTrees,树木
+groupUnclassified,未分类的
+groupVariantHelpers,变体助手
+groupVegetation,植物
+groupVehicles,载具
+groupVents,通风管
+groupWeapons,武器
+groupWeaponsTools,武器和工具
+groupWindows,窗户
+groupWorkstations,工作站
+groupWorkstationTools,工作站工具
+ulm_loot_biker_1,掉落的战利品
+ulm_loot_biker_2,掉落的战利品
+ulm_loot_biker_3,掉落的战利品
+ulm_loot_boss_1,掉落的战利品
+ulm_loot_boss_2,掉落的战利品
+ulm_loot_boss_3,掉落的战利品
+ulm_loot_burnt_1,掉落的战利品
+ulm_loot_burnt_2,掉落的战利品
+ulm_loot_burnt_3,掉落的战利品
+ulm_loot_business_1,掉落的战利品
+ulm_loot_business_2,掉落的战利品
+ulm_loot_business_3,掉落的战利品
+ulm_loot_cheerleader_1,掉落的战利品
+ulm_loot_cheerleader_2,掉落的战利品
+ulm_loot_cheerleader_3,掉落的战利品
+ulm_loot_common_1,掉落的战利品
+ulm_loot_common_2,掉落的战利品
+ulm_loot_common_3,掉落的战利品
+ulm_loot_cop_1,掉落的战利品
+ulm_loot_cop_2,掉落的战利品
+ulm_loot_cop_3,掉落的战利品
+ulm_loot_farmer_1,掉落的战利品
+ulm_loot_farmer_2,掉落的战利品
+ulm_loot_farmer_3,掉落的战利品
+ulm_loot_fat_1,掉落的战利品
+ulm_loot_fat_2,掉落的战利品
+ulm_loot_fat_3,掉落的战利品
+ulm_loot_football_1,掉落的战利品
+ulm_loot_football_2,掉落的战利品
+ulm_loot_football_3,掉落的战利品
+ulm_loot_hazmat_1,掉落的战利品
+ulm_loot_hazmat_2,掉落的战利品
+ulm_loot_hazmat_3,掉落的战利品
+ulm_loot_lab_1,掉落的战利品
+ulm_loot_lab_2,掉落的战利品
+ulm_loot_lab_3,掉落的战利品
+ulm_loot_mini_boss_1,掉落的战利品
+ulm_loot_mini_boss_2,掉落的战利品
+ulm_loot_mini_boss_3,掉落的战利品
+ulm_loot_nurse_1,掉落的战利品
+ulm_loot_nurse_2,掉落的战利品
+ulm_loot_nurse_3,掉落的战利品
+ulm_loot_snow_1,掉落的战利品
+ulm_loot_snow_2,掉落的战利品
+ulm_loot_snow_3,掉落的战利品
+ulm_loot_skater_1,掉落的战利品
+ulm_loot_skater_2,掉落的战利品
+ulm_loot_skater_3,掉落的战利品
+ulm_loot_soldier_1,掉落的战利品
+ulm_loot_soldier_2,掉落的战利品
+ulm_loot_soldier_3,掉落的战利品
+ulm_loot_special_1,掉落的战利品
+ulm_loot_special_2,掉落的战利品
+ulm_loot_special_3,掉落的战利品
+ulm_loot_stripper_1,掉落的战利品
+ulm_loot_stripper_2,掉落的战利品
+ulm_loot_stripper_3,掉落的战利品
+ulm_loot_utility_1,掉落的战利品
+ulm_loot_utility_2,掉落的战利品
+ulm_loot_utility_3,掉落的战利品
+videoAntiAliasing,抗锯齿
+videoAntiAliasingDesc,从对象上除去锯齿状的边缘。
+videoAntiAliasingSharp,AA 锐化
+videoAntiAliasingSharpDesc,暂时性AA的锐化量。\n[decea3][性能影响：中等][-]
+videoBloom,光晕
+videoBloomDesc,高光处带有辉光。\n[decea3] [性能影响：中等] [-]
+videoDepthOfField,景深
+videoDepthOfFieldDesc,远处物体变得模糊。\n[decea3] [性能影响：中等] [-]
+videoDynamicMeshDistance,网格距离
+videoDynamicMeshDistanceDesc,可以查看动态网格系统渲染的距离，单位是米。[decea3][性能影响：高][-]
+videoDynamicMeshEnabled,动态网格
+videoDynamicMeshEnabledDesc,当启用时，玩家和POI物块的变化将显示在距离中。需要从主菜单重新加载游戏。[decea3][性能影响：中][-]
+videoDynamicMeshHighQualityMesh,动态网格选项
+videoDynamicMeshHighQualityMeshDesc,如果启用，则渲染的远处网格包括更多的细节。[decea3][性能影响：高，占用更多内存][-]
+videoDynamicMeshLandClaimBuffer,领地石缓冲区
+videoDynamicMeshLandClaimBufferDesc,动态网格系统可以影响的领地石周围的块数。
+videoDynamicMeshLandClaimOnly,仅限领地石
+videoDynamicMeshLandClaimOnlyDesc,动态网格系统仅应用于领地石周围。
+videoDynamicMeshMaxMeshCache,最大网格处理量
+videoDynamicMeshMaxMeshCacheDesc,在后台同时处理的网格数量。\n[decea3][性能影响：高，占用更多内存][-]
+videoDynamicMeshMaxRegionLoads,最大加载区域
+videoDynamicMeshMaxRegionLoadsDesc,同时加载的区域数量。\n[decea3][性能影响：高，影响帧数][-]
+videoFieldOfView,视角
+videoFieldOfViewDesc,你的可视角度范围。\n[decea3] [性能影响：低] [-]
+videoFullscreen,全屏
+videoFullscreenDesc,以全屏或窗口模式运行游戏。\n[decea3] [性能影响：中] [-]
+videoBrightness,亮度
+videoBrightnessDesc,游戏的明亮度。\n[decea3] [性能影响：无] [-]
+videoGrassDistance,草地距离
+videoGrassDistanceDesc,你可以看到草的最大距离。\n[decea3] [性能影响：中等] [-]
+videoJournalPopup,日志窗口
+videoJournalPopupDesc,获得新的日志条目时显示窗口而不只是一条工具提示。
+videoLODDistance,细节距离
+videoLODDistanceDesc,整个世界呈现细节的全局最大距离。\n[decea3] [性能影响：高] [-]
+videoMotionBlur,动态模糊
+videoMotionBlurDesc,动态模糊的质量级别（更多像素采样和平滑度）。\n[decea3] [性能影响：高] [-]
+videoOcclusion,视差
+videoOcclusionDesc,禁用不可见物体的贴图绘制。提升室内性能。\n在游戏中不能更改。\n[decea3] [性能影响：中] [-]
+videoQualityPreset,品质预设
+videoQualityPresetDesc,全局画面品质，会改变几乎所有的设置。\n[decea3] [性能影响：高] [-]
+videoReflectedShadows,反射阴影
+videoReflectedShadowsDesc,阴影经过内部反射处理和显示。\n[decea3] [性能影响：高] [-]
+videoReflectionQuality,反射品质
+videoReflectionQualityDesc,反射的清晰度水平，提供更加真实的光照。\n[decea3] [性能影响：非常高] [-]
+videoResolution,分辨率
+videoResolutionDesc,设置游戏显示的屏幕分辨率。\n[decea3] [性能影响：非常高] [-]
+videoScreenBounds,UI边距
+videoScreenBoundsDesc,限制UI在屏幕上使用的区域。
+videoShadowsDistance,阴影距离
+videoShadowsDistanceDesc,物体阴影的质量和距离。\n[decea3] [性能影响：高] [-]
+videoSSAO,环境光遮蔽
+videoSSAODesc,使用画面效果环境光遮蔽可以表现物体阴影的更多细节。\n[decea3] [性能影响：中] [-]
+videoSSReflections,屏幕空间反射
+videoSSReflectionsDesc,使用屏幕空间反射效果。\n[decea3] [性能影响：高] [-]
+videoStreamingMipmapsEnabled,纹理流
+videoStreamingMipmapsEnabledDesc,开启GPU纹理流，降低内存的使用。\n[decea3] [性能影响：中到高] [-]
+videoSunShafts,阳光直射
+videoSunShaftsDesc,也被称为：神的射线。太阳的光线会穿过挡住的物体。\n[decea3] [性能影响：中] [-]
+videoTempCelsius,温度单位
+videoTempCelsiusDesc,显示温度时使用的单位。
+videoTextureFilter,纹理过滤
+videoTextureFilterDesc,设置纹理过滤强度让混合更加自然。\n[decea3] [性能影响：中到高] [-]
+videoTextureQuality,贴图
+videoTextureQualityDesc,通过设置纹理分辨率来节省视频内存和性能。\n需要重新启动。\n[decea3] [性能影响：中] [-]
+videoTreeQuality,树木
+videoTreeQualityDesc,树木的总体质量取决于它们的距离。\n[decea3] [性能影响：高] [-]
+videoUIBackgroundOpacity,UI背景不透明度
+videoUIBackgroundOpacityDesc,UI壁纸/背景不透明度/透明度
+videoUIForegroundOpacity,UI前景不透明度
+videoUIForegroundOpacityDesc,UI轮廓和图标的不透明度/透明度
+videoUMATextureQuality,UMA纹理质量
+videoUMATextureQualityDesc,控制UMA角色的纹理贴图尺寸。
+videoViewDistance,可视距离
+videoViewDistanceDesc,可以看见的距离远近。\n在游戏中无法更改。\n[decea3] [性能影响：高] [-]
+videoVSync,垂直同步
+videoVSyncDesc,通过将游戏同步到显示器的刷新率来与屏幕撕裂作斗争。\n[decea3] [性能影响：低] [-]
+videoParticles,粒子
+videoParticlesDesc,粒子数量。\n[decea3] [性能影响：中到高] [-]
+videoWaterQuality,水面质量
+videoWaterQualityDesc,发生在水体表面的分层和效果。\n[decea3] [性能影响：高] [-]
+videoUiSize,UI尺寸
+videoUiSizeDesc,缩小所有UI元素
+videoUiFpsScaling,FPS 显示缩放
+videoUiFpsScalingDesc,在游戏中缩放 FPS 显示的大小，例如为了使视频/流媒体播放更流畅，减少卡顿。
+videoDyMode,动态分辨率模式
+videoDyModeDesc,动态分辨率会根据需要降低3d渲染分辨率以提高FPS
+videoDyMinFPS,动态分辨率。最低FPS
+videoDyMinFPSDesc,低于此FPS时降低游戏分辨率
+videoDyScale,动态分辨率缩放
+videoDyScaleDesc,如果想要固定量的下调，可设定动态分辨率缩放系数
+videoObjectQuality,目标质量
+videoObjectQualityDesc,实体和树木基于间隔距离的整体细节。也是实体和树木不再出现时的距离。\n[decea3] [性能影响：高] [-]
+videoTerrainQuality,地形质量
+videoTerrainQualityDesc,地形的整体质量和距离。\n在玩游戏时不会更新距离。\n[decea3] [性能影响：高] [-]
+videoAutoHideExpBar,自动隐藏经验值
+videoAutoHideExpBarDesc,没有获得任何经验值时会自动隐藏经验条。\n[decea3] [默认值：5秒后] [-]
+videoAutoHideToolbelt,自动隐藏工具栏
+videoAutoHideToolbeltDesc,在工具栏上的物品或物块之间切换时自动隐藏工具栏。修改此设置要求你至少滚动到另一个工具栏插槽一次，新设置才能生效。\n[decea3] [默认：5s后] [-]
+videoShowCompass,指南针
+videoShowCompassDesc,显示指南针。\n[decea3] [默认：开启] [-]
+videoShowDayAndTime,日期和时间
+videoShowDayAndTimeDesc,显示日期和时间。\n[decea3] [默认：开启] [-]
+videoShowDebugValues,开发者模式
+videoShowDebugValuesDesc,显示其他与Undead Legacy相关的调试信息。\n[decea3] [默认：关闭] [-]
+videoShowBuffTimers,显示buff计时器
+videoShowBuffTimersDesc,将剩余的活动增益时间显示为HUD上显示的活动增益的附加文本。\n[decea3] [默认：关闭] [-]
+videoShowStatValues,统计数字
+videoShowStatValuesDesc,在界面上显示某些玩家统计数据的数值。\n[decea3] [默认：物品栏] [-]
+videoShowTacticalHud,战术HUD
+videoShowTacticalHudDesc,在光标旁边显示体力和隐身[decea3][默认：关闭][-] 
+videoShowTargetHealth,目标生命值
+videoShowTargetHealthDesc,显示目标实体的生命条。\n[decea3] [默认：开启] [-]
+videoShowTargetBlockHealth,屏蔽生命数值
+videoShowTargetBlockHealthDesc,损坏，修复或升级物块时，显示目标块生命值。\n[decea3] [默认：关闭] [-]
+videoShowPlayerLevelOnHUD,在工具栏上方显示等级
+videoShowPlayerLevelOnHUDDesc,在工具栏经验条顶部显示当前玩家等级。
+videoShowMeleeIcon,当前近战图标
+videoShowMeleeIconDesc,显示当前近战武器图标。尚未完全实现。\n[decea3] [默认：关闭] [-]
+videoShowCarryWeight,负重条
+videoShowCarryWeightDesc,根据这个阈值显示负重条，如果你的负重高于这个百分比，它就会在介面上显示\n[decea3][默认：75%][-] 
+videoShowWater,口渴条
+videoShowWaterDesc,根据这个阈值显示口渴条，如果你的口渴值低于这个百分比，它就会在介面上显示\n[decea3][默认：50%][-]
+videoShowFood,饥饿条
+videoShowFoodDesc,根据这个阈值显示饥饿条，如果你的饥饿值低于这个百分比，它就会在介面上显示\n[decea3][默认：50%][-]
+videoShowSpeedometer,速度计
+videoShowSpeedometerDesc,显示车辆的车速表。\n[decea3] [默认：km / h] [-]
+videoShowToolbeltTooltip,工具栏工具提示
+videoShowToolbeltTooltipDesc,在工具栏上方显示“工具提示”窗口。\n[decea3] [默认：开启] [-]
+videoShowMeleeCrosshair,近战十字准线
+videoShowMeleeCrosshairDesc,使用近战类物品时，十字准线的可见性。
+videoShowRangedCrosshair,远程十字准线
+videoShowRangedCrosshairDesc,使用远程类物品时，十字准线的可见性。
+videoShowOnScreenIcons,屏幕上的图标
+videoShowOnScreenIconsDesc,屏幕上导航图标的可见性\n[decea3][默认: 开启][-]
+videoCompassInactiveMarkerOpacity,指南针图标的不透明度
+videoCompassInactiveMarkerOpacityDesc,指定罗盘上看到的[decea3]未激活[-]地图标记的不透明程度。
+goAdvanced,高级
+goGameName,名称
+goGameWorld,世界
+goMapSize,大小
+goMapSize4096,4公里
+goMapSize6144,6公里
+goMapSize8192,8公里
+goMapSize10240,10公里
+goMapSize12288,12公里
+goMapSize14336,14公里
+goMapSize16384,16公里
+goMaxSpawnedZombies,生成的最大丧尸数量
+goWorldGenerate,生成
+goWorldSeed,种子
+goWorldSize,大小
+goZombies,{0}丧尸
+goZombie,丧尸
+goMaxSpawnedAnimals,生成的最大动物数量
+goAnimals,{0}动物
+goLandClaimCount,领地石计数
+goLandClaimCountDesc,定义每个玩家允许有多少个领地石在同一时间被激活。
+goLandClaimCountValue,1
+goLandClaimCountValues,{0}
+optItemWeightMult,物品重量
+optItemWeightMultDesc,测量所有物品的重量值
+optBlockWeightMult,物块重量
+optBlockWeightMultDesc,测量所有物块的重量值
+optDroppedLootDecay,掉落战利品的消失
+optDroppedLootDecayDesc,被击杀敌人掉落的战利品消失速度
+optFoodBurnRate,饥饿度
+optFoodBurnRateDesc,空闲时饥饿度下降的速度。
+optWaterBurnRate,补水率
+optWaterBurnRateDesc,空闲时补水作用下降的速度。
+optShowUnknownRecipes,配方过滤器
+optShowUnknownRecipesDesc,[decea3]标准[-]-显示所有配方，未经过滤的搜索（Vanilla）。\n[decea3]每个工作站[-]-显示未知配方，受工作站限制的搜索。\n[decea3]真实生存[-]-只显示已学会及工作站相关的配方。
+optStartTutorialQuest,教程任务
+optStartTutorialQuestDesc,开始游戏时启动教程任务。\n如果你是第一次玩《亡灵遗产》，建议你至少要做一次这个任务。
+optBlockRespawnRate,汽车刷新时间
+optBlockRespawnRateDesc,汽车在彻底搜刮后刷新之前的天数，不影响被修复的汽车
+optUndeadLegacyVersion,Undead Legacy版本
+optUndeadLegacyVersionDesc,当前服务器运行的Undead Legacy版本
+optWanderingHordes,游荡的尸群
+optWanderingHordeFrequency,频率时间
+optWanderingHordeFrequencyDesc,在游戏中多少个小时后会出现一个游荡的尸群。在这个值的基础上，根据刷新条件，可能会添加[decea3]1[-]到[decea3]4[-]的额外小时数。\n最小值：[decea3]1[-]
+optWanderingHordeRange,频率RNG范围
+optWanderingHordeRangeDesc,额外的随机小时数添加到[decea3]游荡的尸群频率[-]，以增加间隔时间的随机性。\n例如，[decea3]频率：5[-]，[decea3]频率RNG范围：10[-]，那么游荡的尸群将在[decea3]5[-]到[decea3]15[-]（[decea3]5+10[-]）小时之间的时间在任何地方生成，如果出现特殊情况（没有玩家活着，等等）+额外小时数。
+optWanderingHordeEnemyCount,丧尸数量
+optWanderingHordeEnemyCountDesc,在游荡的尸群中生成固定的丧尸数量。\n最小值：[decea3]2[-]。\n[decea3]丧尸数量[-]+[decea3]丧尸RNG范围[-]的值不得超过：[decea3]64[-]
+optWanderingHordeEnemyRange,丧尸RNG范围
+optWanderingHordeEnemyRangeDesc,这个数值决定了游荡的尸群最多可以生成多少额外的丧尸。\n例如，[decea3]丧尸数量：5[-]，[decea3]丧尸RNG范围：10[-]，那么游荡的尸群将会有[decea3]5[-]到[decea3]15[-]（[decea3]5+10[-]）个之间的丧尸在任何地方生成。总值不得超过：[decea3]64[-]
+optStarterQuestEnabled,教程任务
+optStarterQuestEnabledDesc,开启或关闭新手入门教程任务。
+optHour,{0}小时
+optHours,{0}小时
+opt0P,关闭
+opt25P,25%
+opt50P,50%
+opt75P,75%
+opt100P,标准
+opt125P,125%
+opt150P,150%
+opt175P,175%
+opt200P,200%
+opt2m,2分钟
+opt5m,5分钟
+opt10m,10分钟
+opt15m,15分钟
+opt20m,20分钟
+opt30m,30分钟
+opt1h,1小时
+opt2h,2小时
+opt3h,3小时
+opt4h,4小时
+opt5h,5小时
+opt6h,6小时
+opt7h,7小时
+opt8h,8小时
+opt9h,9小时
+opt10h,10小时
+opt11h,11小时
+opt12h,12小时
+optRecipeFilter1,标准
+optRecipeFilter2,每个工作站
+optRecipeFilter3,真实生存
+optPercents,{0}％
+optAlwaysOn,始终开启
+optAuto25,25%时自动
+optAuto50,50%时自动
+optAuto75,75%时自动
+optDisabled,关闭
+optEnabled,开启
+optInventory,物品栏
+optMPH,英里/小时
+optKPH,公里/小时
+optComboOff,关闭
+optComboOn,开启
+optOnAimOff,开启-瞄准 关闭
+quest_journal,日志
+forgeTip_title,熔炉
+forgeTip,[decea3]熔炉[-]用于处理各种金属，玻璃，沙子，石头或粘土等原材料。\n \n大多数配方都需要专门的模具才能在冶炼过程中成型原材料。安装风箱将减少制作时间。\n \n通过按住[[decea3] E [-]]，你可以在领地石区域内拿起工作站。
+tutorialTipQuest02_title,任务跟踪
+tutorialTipQuest02,当前任务状态显示在屏幕右上角的目标跟踪器上。\n\n有关任务的更多信息，请打开你的物品栏并切换到 [decea3] 任务 [-] 菜单。
+pickUpLightsTip_title,UL / 拾取灯具
+pickUpLightsTip,大多数的灯具都是无法制作的，因此为你的基地获得各种灯具的主要方法是在世界上找到它们并把它们捡起来！有些灯不需要连接到电源，如红色灯笼或黄色手电筒。\n\n靠近所需的装饰块，如果可以拾取，按住交互按钮（默认键绑定：[decea3][E][-]），从打开的径向菜单中选择“拾取”。
+pickUpStorageTip_title,UL / 拾取容器
+pickUpStorageTip,几乎所有在世界上发现的存储容器都可以拿起，例如，[decea3]纸板托盘[-]——在早期游戏中非常有用！\n\n例外情况是桌上保险箱、壁式保险箱、枪支保险柜、坚硬的箱子、厨柜等\n\n靠近所需的装饰块，如果可以拾取，按住交互按钮（默认键绑定：[decea3][E][-]），从打开的径向菜单中选择“拾取”。
+pickUpStationsTip_title,UL / 拾取工作站
+pickUpStationsTip,所有[decea3]玩家制作的[-]工作站都可以在没有放置领地石的情况下拾取。\n\n只有空的工作站可以拾取，因此如果工作站的燃料、队列或输出栏中有物品，则该选项将不可用。\n\n靠近所需的装饰块，如果可以拾取，按住交互按钮（默认键绑定：[decea3][E][-]），从打开的径向菜单中选择“拾取”。\n\n[decea3]世界中发现的非玩家制作的工作站无法拾取。[-]
+pickUpDecorationsTip_title,UL / 拾取装饰物
+pickUpDecorationsTip,世界上很多装饰块都可以捡起来！\n\n靠近所需的装饰块，如果可以拾取，按住交互按钮（默认键绑定：[decea3][E][-]），从打开的径向菜单中选择“拾取”。
+scavengeNailsTip_title,UL / 收集钉子
+scavengeNailsTip,除了在[decea3]铁匠的锻造炉[-]制作[decea3]钉子[-]外，你还可以通过摧毁某种家具获得它们。\n\n可以获得[decea3]钉子[-]的主要家具是各种沙发和扶手椅。\n\n在这个过程中使用什么近战工具或武器都没有关系。
+scavengeResinTip_title,UL / 收集树脂
+scavengeResinTip,获得[decea3]树脂[-]的主要方法是用刀或任何其他带刃的武器，如大砍刀或其他类型的剑，切割一棵树。\n\n它会使树“出血”，流出宝贵的[decea3]树脂[-]。\n\n干燥的树木比不干燥的树木获得的[decea3]树脂[-]数量要少得多。更大的树，得到的[decea3]树脂[-]也会更多。
+scavengeHingesTip_title,UL / 收集铰链
+scavengeHingesTip,在[decea3]铁匠的锻造炉[-]制作[decea3]黄铜铰链[-]并不是获得它们的唯一方法。\n\n获得[decea3]黄铜铰链[-]的另一种方法是破坏门，这是早期游戏中相对容易获得[decea3]黄铜铰链[-]的来源。在这个过程中使用什么近战工具或武器并不重要。
+scavengeWaterTip_title,UL / 收集水
+scavengeWaterTip,在废土里获得饮用水是很困难的。收集水的主要方法之一是靠近矿泉水架、水桶、水龙头，坐便器等，并通过持有[decea3]空罐[-]或[decea3]空塑料瓶[-]与之互动。\n\n可以装满的罐子或塑料瓶的数量将取决于水源的水量。\n\n此外，你还可以制作[decea3]原始水井[-]或[decea3]水泵[-]，通过慢慢汲取的水来提供稳定的水源。\n\n[decea3]你不能从河流、湖泊或游泳池收集水，它的毒性太大，不能用于任何用途。[-]
+scavengeFuelTip_title,UL / 收集汽油
+scavengeFuelTip,可能要过一段时间才能自己制作[decea3]汽油[-]，因此获取[decea3]汽油[-]燃料的另一种方法是搜索各种[decea3] 油泵 [-]， [decea3]燃料桶或油桶[-]。一旦找到，你可以拿着[decea3]空的燃料罐或桶[-]以及部分填充的[decea3]汽油罐或桶[-]与之互动\n\n能装多少看运气。\n\n此外，在游戏的后期，你将能够制造[decea3]石油提取机[-]并批量生产[decea3]汽油[-] 。
+searchInventoryTip_title, UL / 物品栏 / 搜索
+searchInventoryTip,背包、容器或车辆容器有一个[decea3]切换搜索[-]按钮，可用于启用搜索功能。\n\n可帮你筛选出你想在物品栏、容器或车辆中查找的物品。清除搜索查询文本或再次点击[decea3]切换搜索[-]按钮将清除所有搜索结果。
+vehicleEncumbranceTip_title,UL / 车辆 / 载重
+vehicleEncumbranceTip,就像你这个玩家一样，载具也有它们自己的载重极限，然而与玩家不同的是，一旦达到极限，载具将变得无法操作，不能移动。\n\n载具载重量包含每个乘客的重量，以及载具的内部存储。\n\n一旦司机和所有乘客都在车内，你可以在速度表下的载重表上看到载具的载重情况。如果载具超重，速度表旁边的指示灯就会亮起。
+abandonedVehicleRepairTip_title,UL / 车辆 / 可修复
+abandonedVehicleRepairTip,有时你会遇到一辆可修复的载具。不同的载具需要不同种类的修理包：\n自行车-自行车修理包，\n小型机车-小型机车修理包，\n摩托车-摩托车修理包，\n汽车-汽车修理包，\n军用卡车-卡车修理包。\n\n要修理[decea3]可修复[-]载具，你必须要有[decea3]扳手[-]，[decea3]棘轮[-]或[decea3]冲击起子[-]这些工具，同时你的物品栏中必须有匹配的[decea3]修理包[-]，然后靠近[decea3]可修复[-]载具并按住交互键（默认：[decea3]E[-]），从径向菜单中选择修理载具选项。
+scavengeTitaniumTip_title,UL / 收集钛
+scavengeTitaniumTip,[decea3]钛[-]是一种非常稀有的资源，用于制造最高级的物品。\n\n没有天然的[decea3]钛[-]矿脉，因此，手工开采是不可能的，只能通过[decea3]搜刮[-]找到或从[decea3]商人[-]处购买，以及使用[decea3]矿石提取机[-]来获得，在每个收获周期中有很小的机率提取到少量[decea3]钛[-]。
+pinRecipeTip_title,UL / 物品栏 / 固定配方
+pinRecipeTip,为了跟踪你需要什么资源来制作某些物品，你可以使用制作信息面板中的固定物品操作来固定配方。单击该选项一次将在屏幕左侧显示固定配方，再次单击该选项将删除固定。如果您单击固定卡片上的“X”图标，你也可以删除任何活动的固定。\n\n固定配方将跟踪你的物品栏中的项目，并在你从物品栏中收集或丢失所需资源时实时更新可用材料量。\n\n同一时间只能激活一个固定配方。
+lockInventorySlotsTip_title,UL / 物品栏 / 栏位锁定
+lockInventorySlotsTip,你可以将鼠标悬停在任何物品栏栏位上，然后按[decea3][L][-]键锁定该物品栏栏位。按重量、价格、类型或名称对物品栏进行排序时，锁定的栏位将被忽略，按任何“转移到存储”按钮时，锁定的栏位将不受影响。\n\n要解锁锁定的物品栏栏位，请将鼠标悬停在其上，然后按[decea3][L][-]键。你可以在以下位置将默认键绑定配置为其他键：\n[decea3]选项->控制->UI->锁定物品栏栏位[-]
+researchSystemTip_title,UL / 制作 / 研究
+researchSystemTip,你可以通过研究系统解锁新的制作配方和制作更优质物品的能力。\n\n要开始研究新的配方，你首先必须制作一个[decea3]研究站[-]，在那里你可以消耗[decea3]研究数据[-]以及其他所需的材料来解锁新的配方。\n\n为了制作更高品质的物品，你必须建造一个[decea3]维修站[-]，在那里你可以修理物品，并提升它们的品质。要升级更高等级和/或品质的物品，你必须使用更高等级的[decea3]维修站[-]。 \n\n[decea3] 研究数据 [-] 可以通过分解设计图、挑战任务纸条或宝藏地图获得。通过在 [decea3] 拆解站[-]分解某些物品，可以获得额外的 [decea3] 研究数据[-] 。
+vehicleFeatureToggleTip_title,UL / 载具 / 附加功能开关
+vehicleFeatureToggleTip,某些车辆具有附加交互功能，可通过按[decea3][Q][-]或[decea3][R][-]键进行切换，例如，警灯或出租车顶灯可以用[decea3][Q][-]键打开/关闭，警笛也可以用[decea3][R][-]打开/关闭。\n\n你可以在以下位置配置不同的默认键绑定：\n[decea3]选项->控制->载具->打开/关闭顶灯或警笛[-]。
+journalNutrition_title,营养
+journalNutrition,在废土上保持健康并非易事，因此，以下是一些入门要点：\n\n你必须平衡四种主要营养素：脂肪，碳水化合物，蛋白质和维生素。\n\n前三个决定你的整体能量水平（卡路里）。维生素决定你的免疫系统的力量。\n\n只要卡路里保持在0以上，你就不会死亡，拥有0维生素并不是世界末日，但是你将更容易感染疾病。\n\n保持所有4种营养素在75％以上将被动地提升健康状况。如果4种营养素中的任何一种低于25％，你就会失去健康。\n\n健康不能低于0，每个健康点都会带来以下好处：\n-最大生命值加1 \n-最大体力值加1 \n-最大负重加1 \n-经验值获取增加1％\n\n如果你的身体有0卡路里，那么你就快死了：\n-任何被动的生命值再生都将被停止\n-每分钟失去2点生命值\n-体力再生速度减慢\n-体力再生降低最大可用体力\n-赶紧去找吃的吧。
+journalTutorialQuest_title,UL / 生存指南
+journalTutorialQuest,欢迎来到[decea3]亡灵遗产[-]！\n\n\n你的工具栏中有一个[decea3]逃生包[-]，里面包含一些新手装备，把它放在地上打开来看看都有些什么。\n\n[decea3]生存指南[-]任务将帮助你学习[decea3]亡灵遗产[-]中收集和制作的基础知识。\n\n[decea3]重要！[-]\n\n查看日志中[decea3]UL[-]相关条目，它们将为你介绍[decea3]亡灵遗产[-]中一些更复杂的机制。
+journalTutorialQuestSkipped_title,UL / 生存指南
+journalTutorialQuestSkipped,欢迎来到[decea3]亡灵遗产[-]！\n\n\n你的工具栏中有一个[decea3]逃生包[-]，里面包含一些新手装备，把它放在地上打开来看看都有些什么。\n\n[decea3]重要！[-]\n\n查看日志中[decea3]UL[-]相关条目，它们将为你介绍[decea3]亡灵遗产[-]中一些更复杂的机制。
+animalBossGrace,变异的大野猪
+animalCoyote,郊狼
+animalDireWolf,恶狼
+animalMountainLion,山狮
+animalSnake,蛇
+animalWolf,狼
+animalZombieBear,被感染的熊
+animalZombieVultureRadiated,辐射的丧尸秃鹫
+zombieArlene,腐烂的女孩
+zombieArleneFeral,凶残的腐烂女孩
+zombieArleneRadiated,被辐射的腐烂女孩
+zombieBiker,丧尸摩托车手
+zombieBikerFeral,凶残的丧尸摩托车手
+zombieBikerRadiated,被辐射的丧尸摩托车手
+zombieBoe,感染的丧尸
+zombieBoeFeral,凶残的丧尸
+zombieBoeRadiated,被辐射的丧尸
+zombieBurnt,被灼烧者丧尸
+zombieBurntFeral,凶残的被灼烧者丧尸
+zombieBurntRadiated,被辐射的被灼烧者丧尸
+zombieBusinessMan,感染的商人
+zombieBusinessManFeral,凶残的商人
+zombieBusinessManRadiated,被辐射的商人
+zombieDarlene,感染的女人
+zombieDarleneFeral,凶残的女人
+zombieDarleneRadiated,被辐射的女人
+zombieDemolition,爆破丧尸
+zombieFatCop,感染的警察
+zombieFatCopFeral,凶残的感染警察
+zombieFatCopRadiated,被辐射的感染警察
+zombieFatHawaiian,失智的游客
+zombieFatHawaiianFeral,凶残的游客
+zombieFatHawaiianRadiated,被辐射的游客
+zombieFemaleFat,贪婪的丧尸
+zombieFemaleFatFeral,凶残的贪婪丧尸
+zombieFemaleFatRadiated,被辐射的贪婪丧尸
+zombieJanitor,看门人丧尸
+zombieJanitorFeral,凶残的看门人丧尸
+zombieJanitorRadiated,被辐射的看门人丧尸
+zombieJoe,不死的干尸
+zombieJoeFeral,凶残的干尸
+zombieJoeRadiated,被辐射的干尸
+zombieLab,感染的科学家
+zombieLabFeral,凶残的科学家
+zombieLabRadiated,被辐射的科学家
+zombieMaleHazmat,穿着防化服的丧尸徒步者
+zombieMaleHazmatFeral,凶残的穿着防化服的丧尸徒步者
+zombieMaleHazmatRadiated,被辐射的穿着防化服的丧尸徒步者
+zombieMarlene,感染的女人
+zombieMarleneFeral,凶残的女人
+zombieMarleneRadiated,被辐射的女人
+zombieMoe,臃肿的徒步者
+zombieMoeFeral,凶残的臃肿徒步者
+zombieMoeRadiated,被辐射的臃肿徒步者
+zombieNurse,躁动的护士
+zombieNurseFeral,凶残的瘟疫感染护士
+zombieNurseRadiated,被辐射的护士
+zombieScreamer,尖叫丧尸
+zombieScreamerFeral,凶残的尖叫丧尸
+zombieScreamerRadiated,被辐射的尖叫丧尸
+zombieSkateboarder,腐烂的僵尸
+zombieSkateboarderFeral,凶残的腐烂僵尸
+zombieSkateboarderRadiated,被辐射的腐烂僵尸
+zombieLumberjack,感染的伐木工
+zombieLumberjackFeral,凶残的伐木工
+zombieLumberjackRadiated,被辐射的伐木工
+zombieSoldier,感染的士兵
+zombieSoldierFeral,凶残的士兵
+zombieSoldierRadiated,被辐射的士兵
+zombieSpider,猎人丧尸
+zombieSpiderFeral,凶残的猎人丧尸
+zombieSpiderRadiated,被辐射的猎人丧尸
+zombieSteve,行尸走肉
+zombieSteveFeral,凶残的行尸走肉
+zombieSteveRadiated,被辐射的行尸走肉
+zombieTomClark,躁动的徒步者
+zombieTomClarkFeral,凶残的徒步者
+zombieTomClarkRadiated,被辐射的徒步者
+zombieWightFeral,凶残的怀特
+zombieWightRadiated,被辐射的怀特
+zombieUtilityWorker,堕落的公用事业工人
+zombieUtilityWorkerFeral,凶残的公用事业工人
+zombieUtilityWorkerRadiated,被辐射的公用事业工人
+zombieYo,行走的僵尸
+zombieYoFeral,凶残的僵尸
+zombieYoRadiated,被辐射的僵尸
+adhesive,粘合剂
+branch,树枝
+brass,黄铜
+clay,粘土
+cloth,布
+coal,煤炭
+copper,铜
+cotton,棉
+electronics,电子产品
+feather,羽毛
+fiber,植物纤维
+glass,玻璃
+gold,金
+iron,铁
+knowledge,技能笔记
+lead,铅
+leather,皮革
+misc,其他
+meleeToolChainsawParts,电动工具零件
+organic,有机物
+paper,纸
+plastic,塑料
+plants,植物
+potassium,硝酸钾
+research,研究
+rubber,橡胶
+sand,砂
+silver,银
+steel,钢
+stick,木棍
+stone,石头
+sulfur,硫磺
+titanium,钛
+wood,木头
+unit_brass,黄铜
+unit_clay,粘土
+unit_coal,煤炭
+unit_copper,铜
+unit_glass,砂
+unit_gold,金
+unit_iron,铁
+unit_lead,铅
+unit_silver,银
+unit_stone,石头
+unit_titanium,钛
+ammo9mmBulletBall,9mm子弹
+ammo9mmBulletBallDesc,9毫米[decea3]标准[-]子弹，通常由[decea3] 小口径手枪 [-]使用。
+ammo9mmBulletHP,9mm子弹（空心）
+ammo9mmBulletHPDesc,9毫米[decea3]空心[-]子弹，是[decea3]小口径手枪[-]的替代弹药，具有更好的穿透力和准确性。在大多数地区都被禁止。
+ammo9mmBulletAP,9mm子弹（穿甲）
+ammo9mmBulletAPDesc,9毫米[decea3]穿甲[-]子弹，是[decea3]小口径手枪[-]的替代弹药，具有比标准弹药更高的穿透力。
+ammo44MagnumBulletBall,.44口径子弹
+ammo44MagnumBulletBallDesc,.44 口径 [decea3]标准[-]子弹，通常由[decea3]大口径手枪[-]使用。
+ammo44MagnumBulletHP,.44口径子弹（空心）
+ammo44MagnumBulletHPDesc,.44 口径 [decea3]空心[-]子弹，[decea3]大口径手枪[-]的替代弹药，具有更好的穿透力和准确性。在大多数地区都被禁止。
+ammo44MagnumBulletAP,.44口径子弹（穿甲）
+ammo44MagnumBulletAPDesc,.44 口径 [decea3]穿甲[-]子弹，是[decea3]大口径手枪[-]的替代弹药，具有比标准弹药更高的穿透力。
+ammo762mmBulletBall,7.62mm子弹
+ammo762mmBulletBallDesc,7.62毫米[decea3]标准[-]子弹，通常由[decea3]突击步枪[-]使用。
+ammo762mmBulletHP,7.62mm子弹（空心）
+ammo762mmBulletHPDesc,7.62毫米[decea3]空心[-]子弹，是[decea3]突击步枪[-]的替代弹药，具有更好的穿透力和准确性。在大多数地区都被禁止。
+ammo762mmBulletAP,7.62mm子弹（穿甲）
+ammo762mmBulletAPDesc,7.62毫米[decea3]穿甲[-]子弹，是[decea3]突击步枪[-]的替代弹药，具有比标准弹药更高的穿透力。
+ammoBlunderbuss,雷筒子弹
+ammoBlunderbussDesc,雷筒子弹可以用纸和火药加上小石头制成。
+ammoArrowExploding,箭（爆炸）
+ammoArrowFlaming,箭（火焰）
+ammoArrowIron,箭（铁）
+ammoArrowSteelAP,箭（钢）
+ammoArrowStone,箭（石头）
+ammoCrossbowBoltFlaming,弩箭（火焰）
+ammoCrossbowBoltExploding,弩箭（爆炸）
+ammoCrossbowBoltExplodingDesc,简单粗暴，重拳出击。适用大多数标准弩
+ammoCrossbowBoltIron,弩箭（铁）
+ammoCrossbowBoltIronDesc,铁制箭头，适用大多数标准弩。
+ammoCrossbowBoltSteelAP,弩箭（钢）
+ammoCrossbowBoltSteelAPDesc,钢制箭头，适用大多数标准弩。
+ammoCrossbowBoltStone,弩箭（石头）
+ammoCrossbowBoltStoneDesc,石制箭头，适用大多数标准弩。
+ammoGasCanSchematic,汽油
+ammoGasCanSchematicDesc,有关如何制作[decea3]汽油[-]的说明。
+ammoRocketHE,火箭弹
+ammoRocketHEDesc,用作火箭发射弹药。
+ammoRocketFrag,破片火箭弹
+ammoRocketFragDesc,破片火箭弹，用作火箭发射弹药。
+ammoShotgunShell,霰弹
+ammoShotgunShellDesc,12x50mm弹壳，最常见的霰弹枪弹药。弹丸由多个可击中目标的小颗粒组成。
+ammoShotgunSlug,霰弹块
+ammoShotgunSlugDesc,12x50mm弹头，比标准霰弹造成更大的伤害。弹丸由单个铅弹（弹头）组成。
+armorClothGroupDesc,不影响移动能力，有一些伤害防护，没有天气防护。
+armorLeatherGroupDesc,会影响移动能力，有一些伤害防护，没有天气防护。
+armorMilitaryGroupDesc,会影响移动能力，有一些伤害防护，没有天气防护。
+armorMiningHelmetDesc,提供良好的防护，通常需要在矿井或建筑工地工作时配备。
+armorHeavyGroupDesc,非常影响移动能力，良好的伤害防护，没有天气防护。
+armorSteelGroupDesc,非常影响移动能力，良好的伤害防护，没有天气防护。
+autoTurretSchematic,SMG自动炮塔
+batterybankSchematic,电池组
+bladeTrapSchematic,刀片陷阱
+bucketEmpty,空桶
+bucketEmptyDesc,可以用来装水。[decea3]你不能从河流、湖泊或游泳池收集水，它的毒性太大，不能用于任何用途。[-]
+carBattery,铅蓄电池
+cementMixerSchematic,水泥搅拌器
+chemistryStationSchematic,化学站
+dartTrapSchematic,飞镖陷阱
+drinkJarBeerSchematic,啤酒
+drinkJarCoffeeSchematic,咖啡
+drinkJarEmpty,空罐
+drinkJarEmptyDesc,可以用来装水。[decea3]你不能从河流、湖泊或游泳池收集水，它的毒性太大，不能用于任何用途。[-]
+drinkJarGoldenRodTeaSchematic,秋麒麟茶
+drinkJarGrandpasAwesomeSauceSchematic,美味酱
+drinkJarGrandpasLearningElixirSchematic,学习妙药
+drinkJarGrandpasMoonshineSchematic,私酒
+drinkJarPureMineralWater,矿泉水
+drinkJarRedTeaSchematic,红茶
+drinkYuccaJuiceSmoothieSchematic,丝兰汁果昔
+drugAntibioticsSchematic,抗生素
+drugHerbalAntibioticsSchematic,草药抗生素
+drugJailBreakers,越狱者
+drugJailBreakersDesc,暂时提高你的开锁技能，同时将开锁工具的耐久度提高[decea3]200%[-]。
+electricfencepostSchematic,电围栏柱
+electrictimerrelaySchematic,定时电继电器
+foodBakedPotatoSchematic,烤土豆
+foodBaconAndEggsSchematic,培根鸡蛋
+foodBlueberryPieSchematic,蓝莓派
+foodBoiledMeatSchematic,水煮肉
+foodCanShamSchematic,山威罐头
+foodChiliDogSchematic,辣狗
+foodCornBreadSchematic,玉米面包
+foodFishTacosSchematic,鱼肉塔可
+foodGrilledMeatSchematic,烤肉
+foodGumboStewSchematic,秋葵浓汤
+foodHoboStewSchematic,蔬菜炖肉
+foodMeatStewSchematic,炖肉
+foodPumpkinBreadSchematic,南瓜面包
+foodPumpkinCheesecakeSchematic,南瓜芝士蛋糕
+foodPumpkinPieSchematic,南瓜派
+foodShepardsPieSchematic,牧羊人派
+foodSpaghettiSchematic,意大利面
+foodSteakAndPotatoSchematic,牛排配土豆
+foodVegetableStewSchematic,炖杂蔬
+forgeSchematic,熔炉
+foodTunaFishGravyToastSchematic,金枪鱼肉汁吐司
+generatorbankSchematic,电学基础
+gunPistol,手枪
+gunPistolDesc,Kiloton Ballistics开发的标准民用手枪。需要弹匣才能使用。
+gunBotT1JunkSledge,大锤炮塔
+gunBotT1JunkSledgeDesc,近距离机器人近战炮塔。可用右键放置在地面上。
+gunBotT1JunkSledgeSchematic,大锤炮塔
+gunBotT2JunkTurret,垃圾炮塔
+gunBotT2JunkTurretDesc,可以当枪使或放置在地面上
+gunBotT2JunkTurretSchematic,垃圾炮塔
+gunBotT3JunkDrone,垃圾无人机
+gunBotT3JunkDroneDesc,在启示录中被编程为一个忠诚的伙伴。它可以帮助你携带一些物品或治疗你。
+gunBotT3JunkDroneSchematic,垃圾无人机
+gunBowT0PrimitiveBow,原始弓
+gunBowT0PrimitiveBowDesc,伤害不大，但是是一个很好的入门级远程武器
+gunBowT1WoodenBow,猎弓
+gunBowT1WoodenBowDesc,适合狩猎和杀戮
+gunBowT1WoodenBowSchematic,猎弓
+gunBowT3CompoundBow,复合弓
+gunBowT3CompoundBowDesc,与普通弓相比，造成更大的伤害并且更精确
+gunBowT3CompoundBowSchematic,复合弓
+gunBowT1IronCrossbow,铁弩
+gunBowT1IronCrossbowDesc,装弹速度较慢，但与弓相比，它造成的伤害更大，可以在水下射击。
+gunBowT1IronCrossbowSchematic,铁弩
+gunBowT3CompoundCrossbowSchematic,复合弩
+gunExplosivesT3RocketLauncher,火箭发射器
+gunExplosivesT3RocketLauncherDesc,一发入魂
+gunExplosivesT3RocketLauncherSchematic,火箭发射器
+gunHandgunT0PipePistol,生锈的左轮手枪
+gunHandgunT0PipePistolDesc,令人惊讶的是，它仍然可以使用。
+gunHandgunT0PipePistolBlueprint,生锈的左轮手枪
+gunHandgunT1Pistol,Bengal M9
+gunHandgunT1PistolDesc,标准配置手枪
+gunHandgunT1PistolSchematic,Bengal M9
+gunHandgunT2Magnum44,马格南点44
+gunHandgunT2Magnum44Desc,威力大但有巨大声响的左轮手枪
+gunHandgunT2Magnum44Schematic,马格南点44
+gunHandgunT3DesertVulture,沙漠秃鹰
+gunHandgunT3DesertVultureDesc,重型点44口径手枪
+gunHandgunT3DesertVultureSchematic,沙漠秃鹰
+gunHandgunT3SMG5,SMG-5
+gunHandgunT3SMG5Desc,标配冲锋枪
+gunHandgunT3SMG5Schematic,SMG-5
+gunMGT0PipeMachineGun,水管机枪
+gunMGT0PipeMachineGunDesc,用废旧金属和水管制成，令人惊讶的是它没有被炸毁。
+gunMGT0PipeMachineGunBlueprint,水管机枪
+gunMGT1AK47,AK-47
+gunMGT1AK47Desc,尽管它很简单，但这种武器在合适的人手中可以非常强大。
+gunMGT1AK47Schematic,AK-47
+gunMGT2TacticalAR,战术突击步枪
+gunMGT2TacticalARDesc,军用级突击步枪
+gunMGT2TacticalARSchematic,战术突击步枪
+gunMGT3M60,M60机枪
+gunMGT3M60Desc,机枪使用起来可能有些笨重，但在自动射击方面表现优越。
+gunMGT3M60Schematic,M60机枪
+gunRifleT0PipeRifle,水管步枪
+gunRifleT0PipeRifleDesc,非常原始的枪械。
+gunRifleT0PipeRifleBlueprint,水管步枪
+gunRifleT1HuntingRifle,猎枪
+gunRifleT1HuntingRifleDesc,一些农民最喜欢选择的远程武器，因为它兼具简单和火力。
+gunRifleT1HuntingRifleSchematic,猎枪
+gunRifleT2LeverActionRifle,杠杆式步枪
+gunRifleT2LeverActionRifleDesc,火力持续性上远远超越单发步枪。
+gunRifleT2LeverActionRifleSchematic,杠杆式步枪
+gunRifleT2MarksmanRifle,精确射手步枪
+gunRifleT2MarksmanRifleDesc,拥有不俗火力的中型步枪
+gunRifleT3SniperRifle,狙击步枪
+gunRifleT3SniperRifleDesc,高精度步枪是远距离狙击敌人的绝佳选择
+gunRifleT3SniperRifleSchematic,狙击步枪
+gunShotgunT0PipeShotgun,水管霰弹枪
+gunShotgunT0PipeShotgunDesc,短程原始枪械，在非常近的距离内有效。
+gunShotgunT0PipeShotgunBlueprint,水管霰弹枪
+gunShotgunT1DoubleBarrel,双管霰弹枪
+gunShotgunT1DoubleBarrelDesc,非常适合近距离屠杀
+gunShotgunT1DoubleBarrelSchematic,双管霰弹枪
+gunShotgunT2PumpShotgun,泵动式霰弹枪
+gunShotgunT2PumpShotgunDesc,长管霰弹枪，使用泵装填子弹。
+gunShotgunT2PumpShotgunSchematic,泵动式霰弹枪
+gunShotgunT3AutoShotgun,自动霰弹枪
+gunShotgunT3AutoShotgunDesc,半自动霰弹枪是一种致命的短距枪，它能把射程内的任何东西打成肉酱。
+gunShotgunT3AutoShotgunSchematic,自动霰弹枪
+leatherPoncho,披巾
+leatherPonchoDesc,这件披巾提供了一点保护，可帮助你在炎热的天气中生存。
+lightPlayerNoPowerGroupDesc,不需要外部电源
+medicalBloodDrawKit,抽血套件
+medicalBloodDrawKitDesc,使用抽血工具制作血袋。用于制作急救包。
+medicalFirstAidBandageSchematic,急救绷带
+medicalFirstAidKitSchematic,急救包
+medicalPlasterCastSchematic,石膏绷带
+meleeToolAxeT1IronFireaxe,铁斧
+meleeToolAxeT1IronFireaxeDesc,对树木的伤害提高[decea3] 200％[-]。
+meleeToolAxeT2SteelAxe,钢斧
+meleeToolAxeT2SteelAxeDesc,对树木的伤害提高[decea3] 300％[-]
+meleeToolAxeT3Chainsaw,链锯
+meleeToolAxeT3ChainsawDesc,对树木的伤害提高[decea3] 300％[-]
+meleeToolAxeT3ChainsawSchematic,链锯
+meleeToolFlashlight02,手电筒
+meleeToolFlashlight02Desc,可以用作光源
+meleeToolHuntingKnife,猎刀
+meleeToolHuntingKnifeDesc,可用于从树木上获得[decea3]树脂[-]，从仙人掌获得[decea3]丝兰果实[-]。也可用于给动物开膛破肚。
+meleeToolIronSetSchematic,铁制工具
+meleeToolMachete,铁砍刀
+meleeToolMacheteDesc,可用于从树木上获得[decea3]树脂[-]，从仙人掌获得[decea3]丝兰果实[-]。也可用于给动物开膛破肚或砍断丧尸肢体。
+meleeToolPickT1IronPickaxe,铁镐
+meleeToolPickT1IronPickaxeDesc,对矿石和沥青的破坏提高[decea3] 100％[-]。适合破碎石头和收集矿物
+meleeToolPickT2SteelPickaxe,钢镐
+meleeToolPickT2SteelPickaxeDesc,对矿石和沥青的破坏提高[decea3] 100％[-]。非常适合破碎石头和收集矿物
+meleeToolPickT3Auger,螺旋钻
+meleeToolPickT3AugerDesc,对地面和沥青的破坏提高[decea3] 120％[-]。
+meleeToolPickT3AugerSchematic,螺旋钻
+meleeToolRepairT1ClawHammer,羊角锤
+meleeToolRepairT1ClawHammerDesc,很好的物块修复和升级工具。可以用作武器
+meleeToolRepairT3Nailgun,钉枪
+meleeToolRepairT3NailgunDesc,最好的物块修复和升级工具。可以用作武器
+meleeToolRepairT3NailgunSchematic,钉枪
+meleeToolRepairT0StoneAxe,石斧
+meleeToolRepairT0StoneAxeDesc,对树木的伤害提高 [decea3] 200％[-]。不是最好的武器，但对切割木材很有用。
+meleeToolRepairT0TazasStoneAxe,塔扎的石斧
+meleeToolRepairT0TazasStoneAxeDesc,对树木的伤害提高 [decea3] 200％[-]。阿帕奇神器，拥有它的人在战斗中所向披靡。
+meleeToolSalvageT1Wrench,扳手
+meleeToolSalvageT1WrenchDesc,用于拆卸汽车，空调等机械设备的工具。可以修理载具
+meleeToolSalvageT1WrenchSchematic,扳手
+meleeToolSalvageT2Ratchet,棘轮
+meleeToolSalvageT2RatchetDesc,用于拆卸汽车，空调等机械设备的工具。可以修理载具
+meleeToolSalvageT2RatchetSchematic,棘轮
+meleeToolSalvageT3ImpactDriver,冲击起子
+meleeToolSalvageT3ImpactDriverDesc,用于拆卸汽车，空调等机械设备的工具。可以修理载具
+meleeToolSalvageT3ImpactDriverSchematic,冲击起子
+meleeToolShovelIron,铁铲
+meleeToolShovelIronDesc,挖掘泥土，沙子或雪的好工具。
+meleeToolShovelSteel,钢铲
+meleeToolShovelSteelDesc,挖掘泥土，沙子或雪的好工具。
+meleeToolShovelT0StoneShovel,石铲
+meleeToolShovelT0StoneShovelDesc,原始挖掘工具，如果没有更好的工具，不妨用它来收集泥土，沙子或积雪
+meleeToolShovelT1IronShovel,铁铲
+meleeToolShovelT1IronShovelDesc,适于挖掘泥土，沙子或雪
+meleeToolShovelT2SteelShovel,钢铲
+meleeToolShovelT2SteelShovelDesc,非常适合挖掘泥土，沙子或雪
+meleeToolSteelSetSchematic,钢制工具
+meleeToolTorch,火炬
+meleeToolTorchDesc,可以用作光源。一定机率会点燃敌人
+meleeWpnBatonT2StunBaton,电击棒
+meleeWpnBatonT2StunBatonDesc,原始蛮力与技术的结合
+meleeWpnBatonT2StunBatonSchematic,电击棒
+meleeWpnBladeT0BoneKnife,骨刀
+meleeWpnBladeT0BoneKnifeDesc,可用来解剖动物。攻击会导致流血
+meleeWpnBladeT1HuntingKnife,猎刀
+meleeWpnBladeT1HuntingKnifeDesc,可用来解剖动物。攻击会导致流血
+meleeWpnBladeT1HuntingKnifeSchematic,猎刀
+meleeWpnBladeT1CandyKnife,糖果刀
+meleeWpnBladeT1CandyKnifeDesc,用欢乐的心情刺杀敌人!
+meleeWpnBladeT3Machete,废砍刀
+meleeWpnBladeT3MacheteDesc,可用来解剖动物。攻击会导致流血
+meleeWpnClubT0WoodenClub,木棒
+meleeWpnClubT0WoodenClubDesc,原始钝器，可用来敲碎膝盖和头骨。
+meleeWpnClubT1BaseballBat,球棒
+meleeWpnClubT1BaseballBatDesc,敲碎膝盖和头骨的普通钝器
+meleeWpnClubT1BaseballBatSchematic,球棒
+meleeWpnClubT1CandyClub,拐杖糖棍棒
+meleeWpnClubT1CandyClubDesc,用欢乐的心情打倒敌人!
+meleeWpnClubT3SteelClub,钢棍
+meleeWpnClubT3SteelClubDesc,钢棍非常耐用，打击力强。可用来敲碎膝盖和头骨。
+meleeWpnKnucklesT0LeatherKnuckles,拳手绑带
+meleeWpnKnucklesT0LeatherKnucklesDesc,保护你的手，让你的出拳更有力。
+meleeWpnKnucklesT1IronKnuckles,铁质拳套
+meleeWpnKnucklesT1IronKnucklesDesc,保护你的手，让你的出拳更有力。
+meleeWpnKnucklesT1IronKnucklesSchematic,铁质拳套
+meleeWpnKnucklesT3SteelKnuckles,钢质拳套
+meleeWpnKnucklesT3SteelKnucklesDesc,保护你的手，让你的出拳更有力。也可用于解剖动物
+meleeWpnKnucklesT3SteelKnucklesSchematic,钢质拳套
+meleeWpnBatonT0PipeBaton,水管棒
+meleeWpnBatonT0PipeBatonDesc,用废旧零件和水管制作的棒子。重量较轻，但仍有相当大的威力。
+meleeWpnSledgeT0StoneSledgehammer,石质大锤
+meleeWpnSledgeT0StoneSledgehammerDesc,大锤是敲碎头颅最好的武器之一。
+meleeWpnSledgeT1IronSledgehammer,铁质大锤
+meleeWpnSledgeT1IronSledgehammerDesc,大锤是敲碎头颅最好的武器之一。
+meleeWpnSledgeT1IronSledgehammerSchematic,铁质大锤
+meleeWpnSledgeT3SteelSledgehammer,钢质大锤
+meleeWpnSledgeT3SteelSledgehammerDesc,大锤是敲碎头颅最好的武器之一。
+meleeWpnSledgeT3SteelSledgehammerSchematic,钢质大锤
+meleeWpnSpearT0StoneSpear,石矛
+meleeWpnSpearT0StoneSpearDesc,可以用作近战武器或作为远程武器投掷
+meleeWpnSpearT1IronSpear,铁矛
+meleeWpnSpearT1IronSpearDesc,可以用作近战武器或作为远程武器投掷
+meleeWpnSpearT1IronSpearSchematic,铁矛
+meleeWpnSpearT3SteelSpear,钢矛
+meleeWpnSpearT3SteelSpearDesc,可以用作近战武器或作为远程武器投掷
+modArmorAdvancedMuffledConnectorsSchematic,高级消音连接器
+modArmorBandolierSchematic,护甲弹药带
+modArmorCoolingMeshSchematic,散热网
+modArmorCustomizedFittingsSchematic,高级护甲配件
+modArmorDoubleStoragePocket,护甲双收纳口袋
+modArmorDoubleStoragePocketDesc,[decea3]护甲模组[-]\n安装在头盔、胸甲、手套、裤子或靴子上时可以扩充你的物品栏容量。
+modArmorDoubleStoragePocketSchematic,护甲双收纳口袋
+modArmorHelmetLightSchematic,头盔灯
+modArmorImpactBracingSchematic,冲击支撑
+modArmorImprovedFittingsSchematic,改进的护甲配件
+modArmorInsulatedLinerSchematic,隔热内衬
+modArmorMuffledConnectorsSchematic,消音连接器
+modArmorPlatingBasicSchematic,改进的护甲板
+modArmorPlatingReinforcedSchematic,高级护甲板
+modArmorStoragePocket,护甲收纳口袋
+modArmorStoragePocketDesc,[decea3]护甲模组[-]\n当安装在头盔、胸甲、手套、裤子或靴子中时，可以扩大你的物品栏。
+modArmorStoragePocketSchematic,护甲收纳口袋
+modArmorTripleStoragePocket,护甲三收纳口袋
+modArmorTripleStoragePocketDesc,[decea3]护甲模组[-]\n安装在头盔、胸甲、手套、裤子或靴子上时可以扩充你的物品栏容量。
+modArmorTripleStoragePocketSchematic,护甲三收纳口袋
+modArmorWaterPurifierSchematic,头盔净水器
+modClothingStoragePocket,服装收纳口袋
+modClothingStoragePocketDesc,[decea3]服装模组[-]\n安装在裤子、衬衫或大衣中时可扩充你的物品栏容量。
+modClothingCargoStoragePocket,服装双收纳口袋
+modClothingCargoStoragePocketDesc,[decea3]服装模组[-]\n安装在裤子、衬衫或大衣中时可扩充你的物品栏容量。
+modFuelTankLargeSchematic,电动工具大油箱
+modFuelTankSmallSchematic,电动工具小油箱
+modGunBarrelExtenderSchematic,枪管延伸
+modGunBipodSchematic,双脚支架
+modGunBowArrowRestSchematic,箭托
+modGunBowPolymerStringSchematic,复合弓弦
+modGunChokeSchematic,霰弹枪喉缩
+modGunCrippleEmSchematic,致残
+modGunDuckbillSchematic,霰弹枪鸭嘴枪口
+modGunFlashlightSchematic,武器照明
+modGunForegripSchematic,前握把
+modGunLaserSightSchematic,激光瞄准器
+modGunMagazineExtenderSchematic,弹匣扩充
+modGunMeleeBlessedMetalSchematic,异域合金套件
+modGunMeleeRadRemoverSchematic,辐射去除
+modGunMeleeTheHunterSchematic,猎人
+modGunMuzzleBrakeSchematic,枪口制动
+modGunReflexSightSchematic,反射式瞄准镜
+modGunRetractingStockSchematic,收缩枪托
+modGunScopeSmallSchematic,2倍镜
+modGunScopeMediumSchematic,4倍镜
+modGunScopeLargeSchematic,8倍镜
+modGunSoundSuppressorSilencerSchematic,消声器
+modGunTriggerGroupBurst3Schematic,触发器：三发点放
+modGunTriggerGroupAutomaticSchematic,触发器：全自动
+modGunTriggerGroupSemiSchematic,触发器：半自动
+modMeleeBunkerBusterSchematic,掩体炸弹
+modMeleeClubBurningShaftSchematic,燃烧杆
+modMeleeClubBarbedWireSchematic,铁丝网模组
+modMeleeClubMetalSpikesSchematic,金属长钉模组
+modMeleeErgonomicGripSchematic,人体工学握把
+modMeleeFortifyingGripSchematic,强化握把
+modMeleeGraveDiggerSchematic,掘墓者
+modMeleeIronBreakerSchematic,铁见愁
+modMeleeSerratedBladeSchematic,锯齿刀片
+modMeleeStructuralBraceSchematic,结构支撑
+modMeleeTemperedBladeSchematic,钢化刀片
+modMeleeWeightedHeadSchematic,重头
+modMeleeWoodSplitterSchematic,劈木
+modRoboticDroneArmorPlatingModSchematic,机器人无人机护甲
+modRoboticDroneCargoModSchematic,机器人无人机储物扩展
+modRoboticDroneHeadlampModSchematic,机器人无人机照明
+modRoboticDroneMedicModSchematic,机器人无人机医疗套件
+modRoboticDroneMoraleBoosterModSchematic,机器人无人机鼓舞士气
+modShotgunSawedOffBarrelSchematic,削短型霰弹枪模组
+modVehicleExpandedSeatSchematic,载具扩展座椅
+modVehicleFuelSaverSchematic,载具节油器
+modVehicleOffRoadHeadlightsSchematic,载具越野灯
+modVehicleReserveFuelTank,载具备用油箱
+modVehicleReserveFuelTankDesc,增加你的载具燃料储存。
+modVehicleReserveFuelTankSchematic,载具备用油箱
+modVehicleSuperChargerSchematic,载具增压器
+motionsensorSchematic,运动传感器
+oldCash,旧钞票
+oldCashDesc,这曾经是法定货币。卫生纸的绝佳替代品。一些商人可能有兴趣购买。
+questReward4x4PartsBundle,汽车零部件组合
+poweredDoorsSchematic,电动门和桥
+pressureplateSchematic,基础传感器
+resourceBrassObjectGroupDesc,可在你的背包或工作台中分解成 [decea3]废黄铜[-]
+resourceBrokenGlass,废玻璃
+resourceBrokenGlassDesc,碎玻璃可在锻造炉熔炼为玻璃。如果末世让你不堪重负，你也可以用其结束一切。
+resourceBulletCasing,子弹壳
+resourceBulletCasingDesc,用于弹丸类枪械的黄铜弹壳。将弹药的所有部分组合在一起。
+resourceBulletTip,子弹头
+resourceBulletTipDesc,用于弹丸类枪械的弹头。也被称为子弹的弹头，由熔化的铅铸成。
+resourceClayLump,粘土
+resourceClayLumpDesc,锻造的关键资源。与泥土一起从地表中少量挖出。也可以通过将泥土与水混合制成。
+resourceCobblestones,鹅卵石
+resourceCobblestonesDesc,鹅卵石可用于建造出奇坚固的石材结构。
+resourceCrushedSand,沙子
+resourceCrushedSandDesc,核心资源，可通过进一步粉碎石粉制成，或用于制造玻璃。
+resourceFeather,羽毛
+resourceFeatherDesc,羽毛主要发现于鸟巢和鸡身上。它们可以用来制作箭和弩箭。
+resourceFemur,大骨
+resourceFemurDesc,你可以将它磨碎从而得到[decea3]骨粉[-]。[decea3]骨粉[-]用于制作[decea3]胶水[-]。
+resourceFishingWeight,钓鱼配重
+resourceFishingWeightDesc,铅制品可在背包内分解为废铅，或在锻造炉熔炼为核心资源。
+resourceForgedIron,铁板
+resourceForgedIronDesc,通过将铁锭成型加工成扁平的锻铁件而制成。用于制作，维修和升级各种物品。
+resourceForgedSteel,钢板
+resourceForgedSteelDesc,通过将钢锭成型加工成扁平的锻钢件而制成。可用于制作游戏中最强大的物品。
+resourceGoldNugget,金块
+resourceGoldNuggetDesc,闪亮的，密集的金块，可以熔炼成锭增加价值。
+resourceGunPowder,火药
+resourceGunPowderDesc,由煤，硝酸盐和硫磺制成的火药，可以制作弹药和炸药。
+resourceLockPick,开锁器
+resourceLockPickDesc,如果你的物品栏里有开锁器，那么你可以通过按住E键并选择开锁动作来开锁。\n它们不需要装备在热键上。
+resourceMetalPipe,短铁管
+resourceMetalPipeDesc,十分寻常的短铁管。可用在很多配方中。
+resourceMilitaryFiberSchematic,军用纤维
+resourceOilSchematic,石油
+resourceRadiator,黄铜散热器
+resourceRadiatorDesc,
+resourceRawDiamond,钻石原石
+resourceRawDiamondDesc,要是在世界末日开始前发现这个就好，我不知道这是否是血钻。
+resourceRocketCasing,火箭弹壳
+resourceRocketCasingDesc,火箭弹壳可用于制作火箭发射器的弹药。
+resourceRocketTip,火箭引信
+resourceRocketTipDesc,火箭引信可用于制作火箭发射器的弹药。
+resourceScrapBrass,废黄铜
+resourceScrapBrassDesc,锻造的核心资源，可用于制造弹壳。
+resourceScrapIron,废铁
+resourceScrapIronDesc,制作，锻造，维修和升级的核心资源。除了木头没有什么比这更有用的了。
+resourceScrapLead,废铅
+resourceScrapLeadDesc,锻造的核心资源。可用于制作弹头等。
+resourceScrapPolymers,废塑料
+resourceScrapPolymersDesc,少量的废塑料，你可以仔细地塑造成新的形状。
+resourceSilverNugget,银块
+resourceSilverNuggetDesc,也许我应该留着这个，世界末日里的狼人是完全有可能的，对吧？
+resourceTrophy1,黄铜奖杯
+resourceTrophy1Desc,把它分解或在[decea3]锻造炉[-]中冶炼，它将更加有用。
+resourceTrophy2,铅质奖杯
+resourceTrophy2Desc,铅制品可在背包内分解为废铅，或在[decea3]锻造炉[-]熔炼为核心资源。
+resourceWood,回收的旧木板
+resourceWoodDesc,一些旧板，用处不大
+shotgunTurretSchematic,霰弹枪炮塔
+smallEngine,小型发动机
+smallEngineDesc,适用于小型车辆或工具的小型发动机
+speakerSchematic,电动喇叭
+spotlightPlayerSchematic,电动聚光灯
+switchSchematic,电动开关
+toolBeaker,烧杯
+toolBeakerDesc,制作化学站所需的工具。
+toolBellows,风箱
+toolBellowsDesc,可加强空气流动，提升锻造炉的熔炼速度[decea3] 25％[-]
+toolBellowsSchematic,风箱
+toolBellowsSchematicDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+resourceYuccaFibers,植物纤维
+resourceYuccaFibersDesc,植物纤维是通过破坏草和小植物获得的。可以用来制作很多东西，也可以用辅助动作来种草。
+thrownDynamite,炸药
+thrownDynamiteDesc,可以用右键点燃，然后用左键投掷。
+thrownDynamiteSchematic,炸药
+thrownAmmoPipeBomb,管状炸弹
+thrownAmmoPipeBombSchematic,管状炸弹
+thrownGrenade,手雷
+thrownGrenadeSchematic,手雷
+thrownGrenadeContact,触炸手雷
+thrownGrenadeContactSchematic,触炸手雷
+thrownTimedCharge,定时炸弹
+toolAnvil,铁砧
+toolAnvilDesc,用于制造[decea3]铁匠的锻造炉（2级）[-]，成型更高级的金属。
+toolAnvilSchematic,铁砧
+toolForgeCrucible,坩埚
+toolForgeCrucibleDesc,用于制造[decea3]熔炉（2级）[-]，可以加工银，金，钢和钛。
+toolForgeCrucibleSchematic,坩埚
+vehicle4x4TruckAccessoriesSchematic,四轮驱动配件
+vehicle4x4TruckChassisSchematic,四轮驱动车架
+vehicle4x4TruckPlaceable,四轮驱动护林员
+vehicle4x4TruckPlaceableDesc,可驾驶的载具。使用辅助动作将其放置在世界中。
+vehicleBicycleHandlebarsSchematic,自行车手把
+vehicleBicycleChassisSchematic,自行车车架
+vehicleBicyclePlaceable,山地自行车
+vehicleBicyclePlaceableDesc,可驾驶的载具。使用辅助动作将其放置在世界中。
+vehicleGyroCopterAccessoriesSchematic,旋翼机配件
+vehicleGyroCopterChassisSchematic,旋翼机机架
+vehicleGyrocopterPlaceable,侦察兵
+vehicleGyrocopterPlaceableDesc,可驾驶的载具。使用辅助动作将其放置在世界中。
+vehicleMinibikeChassisSchematic,小型机车车架
+vehicleMinibikeHandlebarsSchematic,小型机车手把
+vehicleMinibikePlaceable,彗星小型机车
+vehicleMinibikePlaceableDesc,可驾驶的载具。使用辅助动作将其放置在世界中。
+vehicleMotorcycleChassisSchematic,摩托车车架
+vehicleMotorcycleHandlebarsSchematic,摩托车手把
+vehicleMotorcyclePlaceable,漫游者摩托车
+vehicleMotorcyclePlaceableDesc,可驾驶的载具。使用辅助动作将其放置在世界中。
+workbenchSchematic,工作台
+mineCookingPotBlueprint,烹饪锅地雷
+mineCookingPotBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+rScrapIronPlateMineBlueprint,压炸地雷
+rScrapIronPlateMineBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+mineHubcapBlueprint,轮毂盖地雷
+mineHubcapBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+thrownTimedChargeBlueprint,定时炸弹
+thrownTimedChargeBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+mineAirFilterBlueprint,空滤地雷
+mineAirFilterBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+resourceLockPickBlueprint,开锁器
+resourceLockPickBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorIronSetSchematic,铁甲
+armorIronHelmetBlueprint,铁头盔
+armorIronHelmetBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorIronChestBlueprint,铁胸甲
+armorIronChestBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorIronGlovesBlueprint,铁手套
+armorIronGlovesBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorIronLegsBlueprint,铁腿甲
+armorIronLegsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorIronBootsBlueprint,铁靴
+armorIronBootsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorSteelHelmetBlueprint,钢头盔
+armorSteelHelmetBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorSteelChestBlueprint,钢胸甲
+armorSteelChestBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorSteelGlovesBlueprint,钢手套
+armorSteelGlovesBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorSteelLegsBlueprint,钢制护腿
+armorSteelLegsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorSteelBootsBlueprint,钢靴
+armorSteelBootsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorLeatherSetSchematic,皮甲
+armorLeatherHelmetBlueprint,皮头盔
+armorLeatherHelmetBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorLeatherChestBlueprint,皮胸甲
+armorLeatherChestBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorLeatherGlovesBlueprint,皮手套
+armorLeatherGlovesBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorLeatherLegsBlueprint,皮腿甲
+armorLeatherLegsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorLeatherBootsBlueprint,皮靴
+armorLeatherBootsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorMilitarySetSchematic,军用护甲
+armorMilitaryHelmetBlueprint,军用头盔
+armorMilitaryHelmetBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorMilitaryChestBlueprint,军用胸甲
+armorMilitaryChestBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorMilitaryGlovesBlueprint,军用手套
+armorMilitaryGlovesBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorMilitaryLegsBlueprint,军用腿甲
+armorMilitaryLegsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorMilitaryBootsBlueprint,军靴
+armorMilitaryBootsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeToolRepairT1ClawHammerBlueprint,羊角锤
+meleeToolRepairT1ClawHammerBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeToolAxeT1IronFireaxeBlueprint,铁斧
+meleeToolAxeT1IronFireaxeBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeToolPickT1IronPickaxeBlueprint,铁镐
+meleeToolPickT1IronPickaxeBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeToolShovelT1IronShovelBlueprint,铁铲
+meleeToolShovelT1IronShovelBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeToolAxeT2SteelAxeBlueprint,钢斧
+meleeToolAxeT2SteelAxeBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeToolPickT2SteelPickaxeBlueprint,钢镐
+meleeToolPickT2SteelPickaxeBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeToolShovelT2SteelShovelBlueprint,钢铲
+meleeToolShovelT2SteelShovelBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeWpnBladeT3MacheteSchematic,废砍刀
+meleeWpnBladeT3MacheteSchematicDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeWpnClubT3SteelClubBlueprint,钢棍
+meleeWpnClubT3SteelClubBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+meleeWpnSpearT3SteelSpearBlueprint,钢矛
+meleeWpnSpearT3SteelSpearBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+drugSteroidsBlueprint,类固醇
+drugSteroidsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+drugFortBitesBlueprint,强健宝
+drugFortBitesBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+drugRecogBlueprint,雷克格
+drugRecogBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ceilingLight01_playerBlueprint,基础灯泡
+ceilingLight01_playerBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+industrialLight01_playerBlueprint,工业灯
+industrialLight01_playerBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+industrialLight02_playerBlueprint,工业灯泡
+industrialLight02_playerBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ceilingLight07_playerBlueprint,荧光灯
+ceilingLight07_playerBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+electricwirerelayBlueprint,电线继电器
+electricwirerelayBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+pressureplateLongBlueprint,触发器1x5
+pressureplateLongBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+tripwirepostBlueprint,引爆线桩
+tripwirepostBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+garageDoorMetal_v1PoweredBlueprint,电动车库门3x2
+garageDoorMetal_v1PoweredBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+vaultDoor03_PoweredBlueprint,电动T3避难所门
+vaultDoor03_PoweredBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+vaultHatch_v3_PoweredBlueprint,电动T3避难所闸门
+vaultHatch_v3_PoweredBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+garageDoorIndustrial_PoweredBlueprint,电动车库门5x3
+garageDoorIndustrial_PoweredBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+metalReinforcedWoodDrawBridgePoweredBlueprint,电动加固吊桥
+metalReinforcedWoodDrawBridgePoweredBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+vehicleWheelsBlueprint,车轮
+vehicleWheelsBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+carBatteryBlueprint,汽车铅蓄电池
+carBatteryBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+armorMiningHelmetBlueprint,采矿头盔
+armorMiningHelmetBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmAmmo10mmRoundHPBlueprint,10mm子弹（空心）
+ulmAmmo10mmRoundHPBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmAmmo10mmRoundAPBlueprint,10mm子弹（穿甲）
+ulmAmmo10mmRoundAPBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmAmmo38CalRoundHPBlueprint,.38子弹（空心）
+ulmAmmo38CalRoundHPBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmAmmo38CalRoundAPBlueprint,.38子弹（穿甲）
+ulmAmmo38CalRoundAPBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmAmmo556mmRoundHPBlueprint,5.56mm子弹（空心）
+ulmAmmo556mmRoundHPBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmAmmo556mmRoundAPBlueprint,5.56mm子弹（穿甲）
+ulmAmmo556mmRoundAPBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmAmmo792mmRoundHPBlueprint,7.92mm子弹（空心）
+ulmAmmo792mmRoundHPBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmAmmo792mmRoundAPBlueprint,7.92mm子弹（穿甲）
+ulmAmmo792mmRoundAPBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationArtisan_1Blueprint,工匠桌
+ulmStationArtisan_1BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationArtisan_2Blueprint,工匠桌（2级）
+ulmStationArtisan_2BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationBallistics_1Blueprint,枪弹桌
+ulmStationBallistics_1BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationBallistics_2Blueprint,枪弹桌（2级）
+ulmStationBallistics_2BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationCarpenter_2Blueprint,木匠台（2级）
+ulmStationCarpenter_2BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationCarpenter_3Blueprint,木匠台（3级）
+ulmStationCarpenter_3BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationForge_1Blueprint,铁匠锻造炉
+ulmStationForge_1BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationForge_2Blueprint,铁匠锻造炉（2级）
+ulmStationForge_2BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationFurnace_2Blueprint,熔炉（2级）
+ulmStationFurnace_2BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationMaintenance_1Blueprint,维修站
+ulmStationMaintenance_1BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationMaintenance_2Blueprint,维修站（2级）
+ulmStationMaintenance_2BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationMaintenance_3Blueprint,维修站（3级）
+ulmStationMaintenance_3BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationMechanic_1Blueprint,机械师的桌子
+ulmStationMechanic_1BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationMechanic_2Blueprint,机械师的桌子（2级）
+ulmStationMechanic_2BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationResearch_2Blueprint,研究站（2级）
+ulmStationResearch_2BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationResearch_3Blueprint,研究站（3级）
+ulmStationResearch_3BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmStationTailor_1Blueprint,裁缝站
+ulmStationTailor_1BlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmTrapPoweredSpikesBlueprint,尖刺陷阱
+ulmTrapPoweredSpikesBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmBlockLightVariantHelperBlueprint,顶灯
+ulmBlockLightVariantHelperBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeAxeScrapIronBlueprint,废斧
+ulmMeleeAxeScrapIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeGreataxeScrapIronBlueprint,废巨斧
+ulmMeleeGreataxeScrapIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeKatanaScrapIronBlueprint,废武士刀
+ulmMeleeBladeKatanaScrapIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeKnifeScrapIronBlueprint,废刀
+ulmMeleeBladeKnifeScrapIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmToolPickaxeScrapIronBlueprint,废镐
+ulmToolPickaxeScrapIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeSledgeScrapIronBlueprint,废大锤
+ulmMeleeSledgeScrapIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmToolShovelScrapIronBlueprint,废铲
+ulmToolShovelScrapIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeClubIronBlueprint,铁棒
+ulmMeleeClubIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeKnifeCombatIronBlueprint,铁制战斗小刀
+ulmMeleeBladeKnifeCombatIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeKnifeKunaiBlueprint,铁制小刀
+ulmMeleeBladeKnifeKunaiBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeMacheteIronBlueprint,铁砍刀
+ulmMeleeBladeMacheteIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeSwordIronBlueprint,铁剑
+ulmMeleeBladeSwordIronBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeKnifeCombatSteelBlueprint,钢制战斗小刀
+ulmMeleeBladeKnifeCombatSteelBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeMacheteSteelBlueprint,钢砍刀
+ulmMeleeBladeMacheteSteelBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeKatanaBlueprint,钢武士刀
+ulmMeleeBladeKatanaBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeZweihanderBlueprint,钢巨剑
+ulmMeleeBladeZweihanderBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeAxeTitaniumBlueprint,钛斧
+ulmMeleeAxeTitaniumBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeKatanaTitaniumBlueprint,钛武士刀
+ulmMeleeBladeKatanaTitaniumBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeSpearTitaniumBlueprint,钛矛
+ulmMeleeSpearTitaniumBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeMacheteTitaniumBlueprint,钛砍刀
+ulmMeleeBladeMacheteTitaniumBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeSledgeTitaniumBlueprint,钛大锤
+ulmMeleeSledgeTitaniumBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeSawBlueprint,锯刃
+ulmMeleeBladeSawBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeBladeRexBlueprint,约拿的雷克斯之刃
+ulmMeleeBladeRexBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmMeleeSledgeBrinxsFurySchematic,布林克斯的愤怒
+ulmMeleeSledgeBrinxsFurySchematicDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmAmmo10mmRoundST,10mm子弹
+ulmAmmo10mmRoundSTDesc,[decea3]冲锋枪[-]常用的10毫米[decea3] 标准 [-]子弹。
+ulmAmmo10mmRoundHP,10mm子弹（空心）
+ulmAmmo10mmRoundHPDesc,10毫米[decea3]空心[-]子弹，[decea3]冲锋枪[-]的替代弹药，具有更好的穿透力和准确性。在大多数地区都被禁止。
+ulmAmmo10mmRoundAP,10mm子弹（穿甲）
+ulmAmmo10mmRoundAPDesc,10毫米[decea3] 穿甲 [-]子弹，是[decea3]冲锋枪[-]的替代弹药，具有比标准弹药更高的穿透力。
+ulmAmmo38CalRoundST,.38子弹
+ulmAmmo38CalRoundSTDesc,.38 口径 [decea3] 标准 [-]子弹，通常由[decea3] 轻型手枪[-]使用。
+ulmAmmo38CalRoundHP,.38子弹（空心）
+ulmAmmo38CalRoundHPDesc,.38 口径 [decea3]空心[-]子弹，[decea3]轻型手枪[-]的替代弹药，具有更好的穿透力和准确性。在大多数地区都被禁止。
+ulmAmmo38CalRoundAP,.38子弹（穿甲）
+ulmAmmo38CalRoundAPDesc,.38 口径 [decea3]穿甲 [-]子弹，是[decea3]轻型手枪[-]的替代弹药，具有比标准弹药更高的穿透力。
+ulmAmmo556mmRoundST,5.56mm子弹
+ulmAmmo556mmRoundSTDesc,5.56毫米[decea3] 标准 [-]子弹，通常由[decea3]战斗步枪[-]使用。
+ulmAmmo556mmRoundHP,5.56毫米子弹（空心）
+ulmAmmo556mmRoundHPDesc,5.56毫米[decea3]空心[-]子弹，[decea3]战斗步枪[-]的替代弹药，具有更好的穿透力和准确性。在大多数地区都被禁止。
+ulmAmmo556mmRoundAP,5.56mm子弹（穿甲）
+ulmAmmo556mmRoundAPDesc,5.56毫米[decea3] 穿甲 [-]子弹，是[decea3]战斗步枪[-]的替代弹药，具有比标准弹药更高的穿透力。
+ulmAmmo792mmRoundST,7.92mm子弹
+ulmAmmo792mmRoundSTDesc,7.92毫米[decea3] 标准 [-]子弹，通常由[decea3] 狙击步枪 [-]使用。
+ulmAmmo792mmRoundHP,7.92毫米子弹（空心）
+ulmAmmo792mmRoundHPDesc,7.92毫米[decea3]空心[-]子弹，是[decea3] 狙击步枪[-]的替代弹药，具有更好的穿透力和准确性。在大多数地区都被禁止。
+ulmAmmo792mmRoundAP,7.92毫米子弹（穿甲）
+ulmAmmo792mmRoundAPDesc,7.92毫米[decea3] 穿甲 [-]子弹，是[decea3] 狙击步枪 [-]的替代弹药，具有比标准弹药更高的穿透力。
+ulmAmmoFuelBiofuel,生物燃料
+ulmAmmoFuelBiofuelDesc,便携式容器，里面可以容纳一些生物燃料。
+ulmAmmoFuelBarrelEmpty,空油桶
+ulmAmmoFuelBarrelEmptyDesc,便携式容器，可以通过制作或与包含汽油的物块交互来灌装多达[decea3] 60 [-]单位的汽油。
+ulmAmmoFuelCanEmpty,空燃料罐
+ulmAmmoFuelCanEmptyDesc,便携式容器，可以通过制作或与包含汽油的物块交互来灌装多达[decea3] 20 [-]单位的汽油。
+ulmAmmoFuelGasoline,汽油
+ulmAmmoFuelGasolineDesc,便携式容器，最多可以存储[decea3] 20 [-]单位的汽油。
+ulmAmmoFuelGasolineBarrel,汽油桶
+ulmAmmoFuelGasolineBarrelDesc,便携式容器，最多可以存储[decea3] 60 [-]单位的汽油。
+ulmAmmoFuelJetFuel,航空燃料
+ulmAmmoFuelJetFuelDesc,便携式容器，里面可以容纳一些航空级燃料。
+ulmArmorThanosGlovesAdmin,开发：萨诺斯手套
+ulmArmorThanosGlovesAdminDesc,装备用以解锁更多负重。
+ulmDoorSciFi01Blueprint,铁推拉门
+ulmDoorSciFi01PoweredBlueprint,电动铁推拉门
+ulmDoorSciFi02Blueprint,玻璃推拉门
+ulmDoorSciFi02ScreenBlueprint,信息屏
+ulmDoorSciFi02PoweredBlueprint,电动玻璃推拉门
+ulmDoorSciFi03Blueprint,推拉门
+ulmDoorSciFi03PoweredBlueprint,电动推拉门
+ulmDoorSciFi04Blueprint,防爆推拉门
+ulmDoorSciFi04PoweredBlueprint,电动防爆推拉门
+ulmDrinkPlasticBottleBeer,啤酒（瓶装）
+ulmDrinkPlasticBottleBeerDesc,[decea3] 300％[-]拳头近战伤害\n获得体力[decea3] 50％[-]\n眩晕免疫。
+ulmDrinkPlasticBottleCoffee,咖啡（瓶装）
+ulmDrinkPlasticBottleCoffeeDesc,咖啡可使你保持体力，并在有限的时间内帮助你保持温暖。
+ulmDrinkPlasticBottleEmpty,空的塑料瓶
+ulmDrinkPlasticBottleEmptyDesc,可以用来装水。[decea3]你不能从河流、湖泊或游泳池收集水，它的毒性太大，不能用于任何用途。[-]
+ulmDrinkPlasticBottleHoney,蜂蜜（瓶装）
+ulmDrinkPlasticBottleHoneyDesc,蜂蜜是大自然的馈赠。可以提供能量，味道甜美，还可以帮助抵抗早期感染和肺炎。\n（无法立即治愈）
+ulmDrinkPlasticBottleMineralWater,矿泉水（瓶装）
+ulmDrinkPlasticBottleMineralWaterDesc,纯净矿泉水对你的消化有好处，能让你在相当长的时间内保持水分。劳累时不会使你很快又饿又渴。
+ulmDrinkPlasticBottleRiverWater,浑水（瓶装）
+ulmDrinkPlasticBottleRiverWaterDesc,不建议在未净化的情况下饮用。
+ulmDrinkPlasticBottleBoiledWater,淡水（瓶装）
+ulmDrinkPlasticBottleBoiledWaterDesc,水乃生命之源。
+ulmGunKineticAssaultRifleAug1,AUC-1
+ulmGunKineticAssaultRifleAug1Desc,虽然外形相对较小，但这种近距离战斗步枪多年来证明了它的实用性，然而其设计却暴露了它的年代。
+ulmGunKineticAssaultRifleFamas1,FAR-1
+ulmGunKineticAssaultRifleFamas1Desc,它的短枪管使其在近距离战斗中非常有用，但是它使用的子弹比传统的突击步枪要小。
+ulmGunKineticMicroSmg,微型SMG
+ulmGunKineticMicroSmgDesc,小巧而紧凑的微型SMG，接近手枪的大小，但能够以高射速向你的敌人倾泻子弹。
+ulmGunKineticMinigun,米尼岗M134机枪
+ulmGunKineticMinigunDesc,小心你扣住扳机的时间，它会消耗大量弹药。
+ulmGunKineticPistolColt,眼镜蛇手枪
+ulmGunKineticPistolColtDesc,可靠的半自动大口径经典武器。
+ulmGunKineticPistolDesertEagle,沙漠螳螂手枪
+ulmGunKineticPistolDesertEagleDesc,如果你需要最大口径的半自动自装式手枪，那么这把枪适合你。
+ulmGunKineticPistolGlock,Golconda手枪
+ulmGunKineticPistolGlockDesc,可靠的半自动聚合物底把手枪，带大容量弹匣。
+ulmGunKineticPistolMakarov,Mongrel手枪
+ulmGunKineticPistolMakarovDesc,紧凑轻巧的小口径手枪。好的自卫入门武器。
+ulmGunKineticPistolScrap1,垃圾手枪
+ulmGunKineticPistolScrap1Desc,由胡乱的垃圾零件组装而成，令人惊讶的是它在使用时不会爆炸。
+ulmGunKineticPistolScrap1Blueprint,垃圾手枪
+ulmGunKineticPistolScrap1BlueprintDesc,关于如何制作 [decea3] 垃圾手枪 [-] 的说明。
+ulmGunKineticPistolScrap2,废料手枪
+ulmGunKineticPistolScrap2Desc,尽管它是由一堆金属废料制成的，但它比看起来更坚固。
+ulmGunKineticPistolScrap2Blueprint,废料手枪
+ulmGunKineticPistolScrap2BlueprintDesc,关于如何制作 [decea3]废料手枪[-] 的说明。
+ulmGunKineticR90,R90冲锋枪
+ulmGunKineticR90Desc,小而紧凑的冲锋枪，带有独特的宽敞弹匣。
+ulmGunKineticRevolverBugert9mm,Badger-9左轮手枪
+ulmGunKineticRevolverBugert9mmDesc,非常紧凑的9毫米口径左轮手枪。隐蔽携带的理想武器。
+ulmGunKineticRevolverBugert38Cal,Badger-44左轮手枪
+ulmGunKineticRevolverBugert38CalDesc,非常紧凑的.44口径左轮手枪。隐蔽携带的理想武器。
+ulmGunKineticRocketLauncherAT4,ATRL-1毒刺
+ulmGunKineticRocketLauncherAT4Desc,标准军用级便携式无制导火箭发射器
+ulmGunKineticRocketLauncherM202,INCL-4地狱火
+ulmGunKineticRocketLauncherM202Desc,便携式无制导军用级火箭发射器，具有4个发射管，可快速发射。
+ulmGunKineticShotgunPumpBM4,卫道士
+ulmGunKineticShotgunPumpBM4Desc,具有高耐用性的军用级高级合金霰弹枪。
+ulmGunKineticShotgunEnforcer,执法者
+ulmGunKineticShotgunEnforcerDesc,长管猎枪，泵式装弹
+ulmGunKineticShotgunPeacekeeper,维和者
+ulmGunKineticShotgunPeacekeeperDesc,以纯粹的火力维护正义与和平的工具。
+ulmGunKineticShotgunScrap,废料霰弹枪
+ulmGunKineticShotgunScrapDesc,勉强组装在一起，即使它支持普通的霰弹枪弹药，威力也会降低。
+ulmGunKineticShotgunScrapBlueprint,废料霰弹枪
+ulmGunKineticShotgunScrapBlueprintDesc,关于如何制作 [decea3]废料霰弹枪[-] 的说明。
+ulmGunKineticSniperRifleM1A,突击步枪
+ulmGunKineticSniperRifleM1ADesc,尽管过时且已停产数十年，但由于其易用性和可靠性，它已经服役了很长时间。
+ulmGunKineticUMP,UMP
+ulmGunKineticUMPDesc,小巧、经济实惠、紧凑的通用冲锋枪。
+ulmGunPlasmaPistol,等离子手枪
+ulmGunPlasmaPistolDesc,没有说明
+ulmGunPlasmaSubMachineGun,等离子SMG
+ulmGunPlasmaSubMachineGunDesc,触手可及的强大杀伤力!
+ulmGunPulseLaserPistolBlack,脉冲激光手枪
+ulmGunPulseLaserPistolBlackDesc,没有说明
+ulmMeleeAxeScrapIron,废料斧
+ulmMeleeAxeScrapIronDesc,对树木的伤害提高 [decea3] 200％[-]。锋利的铁屑拼凑成斧头形状。适合切割木材。
+ulmMeleeAxeTitanium,钛斧
+ulmMeleeAxeTitaniumDesc,对树木的伤害提高 [decea3] 400％[-]。
+ulmMeleeBatonPoliceBaton,警用警棍
+ulmMeleeBatonPoliceBatonDesc,标准的警棍，铁芯，外面包着橡胶塑料外壳。
+ulmMeleeBatonPoliceBatonWithBlade,改装的警棍
+ulmMeleeBatonPoliceBatonWithBladeDesc,有人对这根警棍进行了改装，增加了制止力。
+ulmMeleeBladeFoldingKnife,小刀
+ulmMeleeBladeFoldingKnifeDesc,小型折叠式小刀。重量轻，易于携带，但不会造成太大的伤害。
+ulmMeleeBladeInferno,地狱之刃
+ulmMeleeBladeInfernoDesc,小型便携式电池的发明使得这种加热刀片得以诞生。内置的电源不断地保持其温度，每25年就需要更换一次。
+ulmMeleeBladeKatana,钢制武士刀
+ulmMeleeBladeKatanaDesc,双手握持的特殊弧形单刃刀，带圆形护手和长柄。
+ulmMeleeBladeKatanaScrapIron,废料武士刀
+ulmMeleeBladeKatanaScrapIronDesc,它看起来有点像一把武士刀，至少考虑到它是一些金属碎片的组合物，它已经足够接近了。
+ulmMeleeBladeKatanaTitanium,钛制武士刀
+ulmMeleeBladeKatanaTitaniumDesc,双手握持的特殊弧形单刃刀，带圆形护手和长柄。
+ulmMeleeBladeKatanaThermal,热能武士刀
+ulmMeleeBladeKatanaThermalDesc,一把特殊的刀，带有加热的单刃刀片，一个简约的防护装置和双手持握的长柄。内置电源持续保持温度，每25年需要更换一次。
+ulmMeleeBladeKnifeCleaverIron,切肉刀
+ulmMeleeBladeKnifeCleaverIronDesc,通常用于将大块软骨头和大块肉分开的工具。
+ulmMeleeBladeKnifeCleaverRusty,生锈的切肉刀
+ulmMeleeBladeKnifeCleaverRustyDesc,年深日久，刀刃已经严重腐蚀损坏。
+ulmMeleeBladeKnifeCombatIron,铁制战斗小刀
+ulmMeleeBladeKnifeCombatIronDesc,军用独裁者猎刀。
+ulmMeleeBladeKnifeCombatSteel,钢制战斗小刀
+ulmMeleeBladeKnifeCombatSteelDesc,军用重型战斗刀。
+ulmMeleeBladeKnifeKunai,铁制小刀
+ulmMeleeBladeKnifeKunaiDesc,简单的双刃铸铁刀，握把用布包裹。
+ulmMeleeBladeKnifeScrapIron,废小刀
+ulmMeleeBladeKnifeScrapIronDesc,一块锋利的金属碎片，上面点缀着一些不必要的垃圾，不会使它变得更锋利。
+ulmMeleeBladeMacheteIron,铁砍刀
+ulmMeleeBladeMacheteIronDesc,一种宽而重的刀，可用作清除茂密丛林植被的武器或工具。
+ulmMeleeBladeMacheteSteel,钢砍刀
+ulmMeleeBladeMacheteSteelDesc,一种宽而重的刀，可用作清除茂密丛林植被的武器或工具。
+ulmMeleeBladeMacheteTitanium,钛砍刀
+ulmMeleeBladeMacheteTitaniumDesc,一种宽而重的刀，可用作清除茂密丛林植被的武器或工具。
+ulmMeleeBladeSaw,锯刃
+ulmMeleeBladeSawDesc,这种锯齿状的刀片与其说像剑，不如说像锯子。
+ulmMeleeBladeRex,约拿的雷克斯之刃
+ulmMeleeBladeRexDesc,有人声称，这可能是唯一的废土战士乔纳（Jonah）无畏的体力大师使用的齿状武器。
+ulmMeleeBladeSwordIron,铁剑
+ulmMeleeBladeSwordIronDesc,铁制双刃剑，带小护手和握柄，可单手挥舞。
+ulmMeleeBladeZweihander,钢制巨剑
+ulmMeleeBladeZweihanderDesc,巨大的双刃剑，有长柄，可以双手挥舞。只有最强壮的人才能挥舞它。
+ulmMeleeKnucklesBrassKnuckles,黄铜拳套
+ulmMeleeKnucklesBrassKnucklesDesc,简单的黄铜铸造拳套
+ulmMeleeKnucklesBrassKnucklesBlueprint,黄铜拳套
+ulmMeleeKnucklesBrassKnucklesBlueprintDesc,允许你学习新的制作配方。如果已经学会，使用时可获得XP。
+ulmMeleeKnucklesScrapKnuckles,废旧拳套
+ulmMeleeKnucklesScrapKnucklesDesc,拳套上焊接了一些尖锐的家用物品，使其看起来更狂躁，更致命。
+ulmMeleeKnucklesScrapKnucklesBlueprint,废旧拳套
+ulmMeleeKnucklesScrapKnucklesBlueprintDesc,允许你学习新的制作配方。如果已经学会，使用时可获得XP。
+ulmMeleeKnucklesTitaniumKnuckles,钛合金拳套
+ulmMeleeKnucklesTitaniumKnucklesDesc,由最耐用的金属之一制成的拳套。
+ulmMeleeKnucklesTitaniumKnucklesBlueprint,钛合金拳套
+ulmMeleeKnucklesTitaniumKnucklesBlueprintDesc,允许你学习新的制作配方。如果已经学会，使用时可获得XP。
+ulmMeleeClubIron,铁棒
+ulmMeleeClubIronDesc,短金属管，带有加重的金属头，由胡乱的金属垃圾组成。
+ulmMeleeClubIronMorningStar,晨星之锤
+ulmMeleeClubIronMorningStarDesc,相对于常规狼牙棒，这是致命的改进，其特征是尖刺的加重头部，而不是典型的钝头。会引起出血。
+ulmMeleeClubSteel,钢棍
+ulmMeleeClubSteelDesc,比铁棍更耐用，并且造成更大的损坏。有益于折断膝盖和头骨。
+ulmMeleeClubTitanium,钛棒
+ulmMeleeClubTitaniumDesc,比钢棍更耐用，损伤更大。非常适合打断膝盖和头骨。
+ulmMeleeGreataxeScrapIron,废巨斧
+ulmMeleeGreataxeScrapIronDesc,对树木的伤害增加[decea3] +200％[-]。长柄双头战斧。可用于砍伐树木或斩首。
+ulmMeleeKnifeBayonet,刺刀
+ulmMeleeKnifeBayonetDesc,切割木材以获得[decea3] 树脂 [-]，仙人掌获得[decea3] 丝兰果 [-]的好工具。对解剖动物也有用。
+ulmMeleeKnifeCleaver,切肉刀
+ulmMeleePolearmPitchfork,干草叉
+ulmMeleePolearmPitchforkDesc,通常被农民用来管理干草捆
+ulmMeleeClubBone,骨棒
+ulmMeleeClubBoneDesc,从一具死亡生物的遗体上收集，手柄用胶带包裹，以获得最大的舒适握感！
+ulmMeleeClubCricketBat,板球棒
+ulmMeleeClubCricketBatDesc,由一个附在扁平木块上的藤柄组成。用于用手持物品击球的运动项目之一。
+ulmMeleeClubRollingPin,擀面杖
+ulmMeleeClubRollingPinDesc,传统的木制擀面杖，厨房里用来压平面团的非常有用的工具。在紧要关头可以用作武器。
+ulmMeleeSledgeScrapIron,废大锤
+ulmMeleeSledgeScrapIronDesc,胡乱的金属垃圾组装在一起，形成了一个长柄的重金属头。
+ulmMeleeSledgeTitanium,钛大锤
+ulmMeleeSledgeTitaniumDesc,准备和亡灵开战！
+ulmMeleeSledgeBrinxsFury,布林克斯的愤怒
+ulmMeleeSledgeBrinxsFuryDesc,传说中，布林克斯在废土前线无畏地冲锋陷阵，为族群的生存而战时，使用这件武器向黑暗大军释放他的愤怒。
+ulmMeleeSpearTitanium,钛矛
+ulmMeleeSpearTitaniumDesc,在耐用性、可靠性和锐度之间有很好的平衡。
+ulmMeleeSpearWood,木矛
+ulmMeleeSpearWoodDesc,最基本的长矛，只是一根锋利的长棍。
+ulmMeleeTwoHandedPipe,长管
+ulmMeleeTwoHandedPipeDesc,一根长管子，上面拧着一个L形的东西，简单而又有效的临时武器。
+ulmModArmorBackpackBasic,背包
+ulmModArmorBackpackBasicDesc,[decea3]胸甲模组[-]\n安装在胸甲或载具上时，可以扩大物品栏。
+ulmModArmorBackpackBasicBlueprint,背包
+ulmModArmorEllianniaLocket,埃莉安娜的吊坠
+ulmModArmorEllianniaLocketDesc,"[decea3]胸甲模组[-]\n一个刻有 ""吉利安，永远是我的女儿 ""的银色吊坠。"
+ulmModOffhandFlashlight,副手电筒模组
+ulmModOffhandFlashlightDesc,在你的左手装备它。支持的武器：[decea3]所有手枪[-]
+ulmModVehicleCargoBag,载具货物扩展
+ulmModVehicleCargoBagDesc,[decea3]载具模组[-]\n安装在胸甲或载具上时，可以扩大物品栏。
+ulmModVehicleCargoBagBlueprint,载具货物扩展
+ulmQuestRewardBicyclePartsBundle,自行车零件包
+ulmQuestRewardTruckPartsBundle,卡车零件包
+ulmQuestTreasureElliannia,埃莉安娜的地图
+ulmQuestTreasureEllianniaDesc,一把旧钥匙，上面包裹着一张小地图，上面有一个地方隐约标有一个红色的X标记。地图的背面写着：埃莉安娜的储藏室。
+ulmResource9mmBulletHP,手枪弹头，空心
+ulmResource9mmBulletHPDesc,9x20mm手枪空心弹头。也称为弹丸，由熔融铅铸成。
+ulmResource10mmBullet,SMG弹头
+ulmResource10mmBulletDesc,10x25mm弹头，用于冲锋枪。也称为弹丸，由熔融铅铸成。
+ulmResource10mmBulletHP,SMG弹头，空心
+ulmResource10mmBulletHPDesc,10x25mm空心弹头，用于冲锋枪。也称为弹丸，由熔融铅铸成。
+ulmResource10mmCasing,SMG弹壳，黄铜
+ulmResource10mmCasingDesc,10x25mm黄铜弹壳，用于冲锋枪。将子弹的所有组成部分整合在一起。
+ulmResource10mmCasingSteel,SMG弹壳，钢
+ulmResource10mmCasingSteelDesc,10x25mm钢弹壳，用于冲锋枪。将子弹的所有组成部分整合在一起。
+ulmResource44MagnumBullet,HY手枪弹头
+ulmResource44MagnumBulletDesc,11x30mm左轮手枪弹头。也称为弹丸，由熔融铅铸成。
+ulmResource44MagnumBulletHP,HY手枪弹头，空心
+ulmResource44MagnumBulletHPDesc,11x30mm左轮手枪空心弹头。也称为弹丸，由熔融铅铸成。
+ulmResource44MagnumBulletINC,HY手枪弹头，燃烧
+ulmResource44MagnumBulletINCDesc,11x30mm左轮手枪的燃烧弹头。也称为弹丸，由熔融铅铸成并注入燃烧物质。
+ulmResource44MagnumCasing,HY手枪弹壳，黄铜
+ulmResource44MagnumCasingDesc,11x30mm左轮手枪的黄铜弹壳。将子弹的所有组成部分整合在一起。
+ulmResource44MagnumCasingSteel,HY手枪弹壳，钢
+ulmResource44MagnumCasingSteelDesc,11x30mm左轮手枪钢制弹壳。将子弹的所有组成部分整合在一起。
+ulmResource762mmBullet,步枪弹头
+ulmResource762mmBulletDesc,8x50mm步枪弹头。也称为弹丸，由熔融铅铸成。
+ulmResource762mmBulletHP,空心步枪弹头
+ulmResource762mmBulletHPDesc,8x50mm空心步枪弹头。也称为弹丸，由熔融铅铸成。
+ulmResource762mmBulletINC,步枪弹头，燃烧
+ulmResource762mmBulletINCDesc,8x50mm左轮手枪的燃烧弹头。也称为弹丸，由熔融铅铸成并注入燃烧物质。
+ulmResource762mmCasing,步枪弹壳，黄铜
+ulmResource762mmCasingDesc,用于步枪的8x50mm黄铜弹壳。将子弹的所有组成部分整合在一起。
+ulmResource762mmCasingSteel,步枪弹壳，钢制
+ulmResource762mmCasingSteelDesc,8x50mm步枪用钢制弹壳。将子弹的所有组成部分整合在一起。
+ulmResourceAdhesive,粘合剂
+ulmResourceAdhesiveDesc,橡胶基胶粘剂，具有出色的粘合性能。
+ulmResourceAdvancedRepairKit,高级修理包
+ulmResourceAdvancedRepairKitDesc,[decea3]高级修理包[-]用于维修最高级的手持和破损物品，车辆等。
+ulmResourceAdvancedRepairKitBlueprint,高级修理包
+ulmResourceAdvancedRepairKitBlueprintDesc,关于如何制作[decea3]高级修理包[-]的说明。
+ulmResourceBallBearings,滚珠轴承
+ulmResourceBallBearingsDesc,标准滚珠轴承。如果要使两个对象之间以最小的摩擦旋转，这非常有用。
+ulmResourceBark,树皮
+ulmResourceBarkDesc,木本植物茎和根的外层。
+ulmResourceBeltBuckle,黄铜皮带扣
+ulmResourceBeltBuckleDesc,用于将皮带或皮带的两端固定在一起。
+ulmResourceBenchVice,台虎钳
+ulmResourceBenchViceDesc,制作工作台时需要。
+ulmResourceBobbyPin,发夹
+ulmResourceBobbyPinDesc,发夹通常由某种金属制成。帮助将头发固定在适当的位置，或用作简易的开锁器。
+ulmResourceBobbyPinBlueprint,发夹
+ulmResourceBonePowder,骨粉
+ulmResourceBonePowderDesc,骨粉是制造胶水的主要成分。
+ulmResourceBook,旧书
+ulmResourceBookDesc,一本旧书会给你纸，而且烧得很好。
+ulmResourceBottleEmpty,空啤酒瓶
+ulmResourceBottleEmptyDesc,一个空的啤酒瓶。制作莫洛托夫鸡尾酒或酿造自己的啤酒的理想选择。
+ulmResourceBowl,碗
+ulmResourceBowlDesc,如果你想做汤/炖菜，那么你需要在用餐前将其倒入一个容器，而碗会是个理想选择。
+ulmResourceBowstring,弦
+ulmResourceBowstringDesc,琴弦，用来制作弓或弩。
+ulmResourceBranch,树枝
+ulmResourceBranchDesc,用于某些制作配方。燃烧得很快，你会期待什么呢。
+ulmResourceBrassValve,黄铜阀
+ulmResourceBrassValveDesc,用于住宅或商用飞机，蒸汽，石油或天然气。
+ulmResourceBrick,粘土砖
+ulmResourceBrickDesc,可用于制作或获取粘土。
+ulmResourceBicycleRepairKit,自行车修理包
+ulmResourceBicycleRepairKitDesc,修理自行车所需的一切。
+ulmResourceBicycleWheel,自行车轮
+ulmResourceBicycleWheelDesc,标准自行车轮
+ulmResourceBicycleWheelBlueprint,自行车车轮
+ulmResourceBicycleWheelBlueprintDesc,有关如何制作[decea3]自行车轮[-]的说明。
+ulmResourceCarRepairKit,汽车修理包
+ulmResourceCarRepairKitDesc,包含修理汽车的所有零件。
+ulmResourceCarRepairKitBlueprint,汽车修理包
+ulmResourceCarRepairKitBlueprintDesc,关于如何制作[decea3]汽车修理包[-]的说明。
+ulmResourceCarWheel,车轮
+ulmResourceCarWheelDesc,通用车轮
+ulmResourceCarWheelBlueprint,车轮
+ulmResourceCarWheelBlueprintDesc,有关如何制作[decea3] 4x4车轮[-]的说明。
+ulmResourceCharcoal,木炭
+ulmResourceCharcoalDesc,通常在壁炉、柴火炉之类的地方，在一个叫做木炭燃烧的过程中，通过强烈加热木材和蒸发所有的水而产生的碳残留物。可用于医学、艺术和最重要的冶金业，作为一种燃料来源。
+ulmResourceCoalPowder,煤粉
+ulmResourceCoalPowderDesc,火药生产的核心原料。
+ulmResourceConcreteReinforcement,混凝土加固
+ulmResourceConcreteReinforcementDesc,用于将现有的[decea3]混凝土块[-]加固为[decea3]钢筋混凝土块[-]
+ulmResourceSteelReinforcement,钢筋加固
+ulmResourceSteelReinforcementDesc,用于将现有的[decea3]钢筋混凝土块[-]加固成[decea3]钢块[-]。
+ulmResourceTitaniumReinforcement,钛合金加固
+ulmResourceTitaniumReinforcementDesc,用于将现有的[decea3]钢块[-]加固成[decea3]钛块[-]。
+ulmResourceDeadWeight,腐烂的肉块
+ulmResourceDeadWeightDesc,有一种恶臭的腐烂尸体气味。
+ulmResourceDuneRunnerDashboard,沙丘赛跑者仪表板
+ulmResourceDuneRunnerDashboardDesc,用于操纵和控制车辆的换档并监视其性能的基本读数。
+ulmResourceDuneRunnerDashboardSchematic,沙丘赛跑者仪表板
+ulmResourceDuneRunnerDashboardSchematicDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmResourceDuneRunnerFrame,沙丘赛跑者车架
+ulmResourceDuneRunnerFrameDesc,将不同的车辆部件固定在一起。
+ulmResourceDuneRunnerFrameSchematic,沙丘赛跑者车架
+ulmResourceDuneRunnerFrameSchematicDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmResourceDuneRunnerSeat,沙丘赛跑者座椅
+ulmResourceDuneRunnerSeatDesc,舒适紧凑的汽车运动座椅。
+ulmResourceDuneRunnerSeatSchematic,沙丘赛跑者座椅
+ulmResourceDuneRunnerSeatSchematicDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmResourceDuneRunnerSuspension,沙丘赛跑者悬挂
+ulmResourceDuneRunnerSuspensionDesc,为车辆提供更舒适的乘坐以及越野能力。
+ulmResourceDuneRunnerSuspensionSchematic,沙丘赛跑者悬挂
+ulmResourceDuneRunnerSuspensionSchematicDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmResourceDuneRunnerWheel,沙丘赛跑者车轮
+ulmResourceDuneRunnerWheelDesc,具有出色抓地力的越野车轮。
+ulmResourceDuneRunnerWheelSchematic,沙丘赛跑者车轮
+ulmResourceDuneRunnerWheelSchematicDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmResourceElectronicCircuitboard,电路板
+ulmResourceElectronicCircuitboardDesc,可用于高级制作配方。
+ulmResourceElectronicComponents,电子元器件
+ulmResourceElectronicComponentsDesc,现代电子产品的组成部分，例如保险丝，开关，二极管，晶体管，电容器，电阻器，微型芯片等。
+ulmResourceElectronicCopperCoil,铜线圈
+ulmResourceElectronicCopperCoilDesc,大多数电动机和伺服器的关键部件
+ulmResourceElectronicDiode,二极管
+ulmResourceElectronicDiodeDesc,一个非常简单的发光二极管。用于电子产品。
+ulmResourceElectronicFuse,保险丝
+ulmResourceElectronicFuseDesc,用于电子产品。
+ulmResourceElectronicInsulator,绝缘体
+ulmResourceElectronicInsulatorDesc,一种由陶瓷复合材料制成的电绝缘体，可以在电场的影响下控制电流。
+ulmResourceElectronicLCDScreen,液晶屏
+ulmResourceElectronicLCDScreenDesc,非常基本的LCD屏幕，分辨率较低。
+ulmResourceElectronicMicrochip,微型芯片
+ulmResourceElectronicMicrochipDesc,用于大多数电子元件；根据芯片的类型，它们可用于处理信息，指令或存储数据。
+ulmResourceElectronicResistor,电阻器
+ulmResourceElectronicResistorDesc,降低电气元件电压的一种方法是使用电阻器。
+ulmResourceElectronicSwitch,电气开关
+ulmResourceElectronicSwitchDesc,用于打开或关闭电气设备内电气部件的非常基本的电气开关。
+ulmResourceEngineV1,小型引擎
+ulmResourceEngineV1Desc,来自常规割草机的非常小巧的发动机。用于发电。
+ulmResourceEngineV4,航空引擎
+ulmResourceEngineV4Desc,小型飞机的内燃机。用于发电。
+ulmResourceEngineV6,越野车引擎
+ulmResourceEngineV6Desc,沙丘赛跑者越野车的内燃机。用于发电或制作沙丘赛跑者。
+ulmResourceEngineV8M,摩托车引擎
+ulmResourceEngineV8MDesc,中型内燃机.用于发电。
+ulmResourceEngineV8,汽车引擎
+ulmResourceEngineV8Desc,中型内燃机。用于发电。
+ulmResourceEngineV12,卡车引擎
+ulmResourceEngineV12Desc,大型内燃机。用于发电。
+ulmResourceFirewood,木柴
+ulmResourceFirewoodDesc,引起火灾的最普遍的燃料来源。
+ulmResourceForgedTitanium,钛板
+ulmResourceForgedTitaniumDesc,用于建造高级物品和物块。
+ulmResourceFuelBrick,燃料砖
+ulmResourceFuelBrickDesc,压缩的木块主要由废木料制成，燃烧效果特别好。
+ulmResourceGears,齿轮
+ulmResourceGearsDesc,通常与另一个齿状部分啮合以传递扭矩。
+ulmResourceGlass,玻璃
+ulmResourceGlassDesc,具有广泛的实际，技术和装饰用途的透明无定形固体。有了它，你可以制作各种玻璃瓶，窗户等。
+ulmResourceGyrocopterWheel,旋翼机轮
+ulmResourceGyrocopterWheelDesc,标准旋翼机轮
+ulmResourceGyrocopterWheelBlueprint,旋翼机轮
+ulmResourceGyrocopterWheelBlueprintDesc,有关如何制作[decea3]旋翼机[-]的说明。
+ulmResourceHandleWood,木柄
+ulmResourceHandleWoodDesc,用于制作镐和斧头。
+ulmResourceHingeBrass,黄铜铰链
+ulmResourceHingeBrassDesc,耐用的铰链，是用来连接两个固体，使两者之间可做转动的机械装置。
+ulmResourceHingeIron,铁铰链
+ulmResourceHingeIronDesc,耐用的铁铰链，是用来连接两个固体，使两者之间可做转动的机械装置。
+ulmResourceHingeSteel,钢铰链
+ulmResourceHingeSteelDesc,非常耐用的铰链，是用来连接两个固体，使两者之间可做转动的机械装置。
+ulmResourceHoney,蜂窝
+ulmResourceHoneyDesc,为了得到可用的蜂蜜，你需要在[decea3]营火[-]处进行加工。
+ulmResourceIngotBrass,黄铜锭
+ulmResourceIngotBrassDesc,致密的黄铜锭。我想知道这能做多少颗子弹？
+ulmResourceIngotCopper,铜锭
+ulmResourceIngotCopperDesc,致密的铜锭。电气元件中用于导电的常见金属。
+ulmResourceIngotCrudeIron,粗铁锭
+ulmResourceIngotCrudeIronDesc,致密的粗铁锭。基本粗金属锻造中使用的常见金属。
+ulmResourceIngotGold,金锭
+ulmResourceIngotGoldDesc,致密的金锭。
+ulmResourceIngotIron,铁锭
+ulmResourceIngotIronDesc,致密的铸锭，可以进一步加工并成型为不同的物品。
+ulmResourceIngotLead,铅锭
+ulmResourceIngotLeadDesc,致密的铅锭。储存金属的最佳方法是熔化废料，然后将其从液态转变为锭以进行长期存储。
+ulmResourceIngotSilver,银锭
+ulmResourceIngotSilverDesc,致密的银锭。
+ulmResourceIngotSteel,钢锭
+ulmResourceIngotSteelDesc,致密的铸锭，可以进一步加工并成型为不同的物品。
+ulmResourceIngotTitanium,钛锭
+ulmResourceIngotTitaniumDesc,用于钛基合金的构造。
+ulmResourceIngotZinc,锌锭
+ulmResourceIngotZincDesc,很少以纯净形式使用，最常见的是与其他金属形成合金，可与铜结合使用来制造黄铜。
+ulmResourceLightBulb,灯泡
+ulmResourceLightBulbDesc,灰尘多但保存完好的灯泡。
+ulmResourceLithiumBattery,锂电池
+ulmResourceLithiumBatteryDesc,由多个较小的锂电池单元组成的电池组。比普通铅酸电池性能更好。可作为小型机车的电池使用。
+ulmResourceLithiumBatteryCells,锂电池
+ulmResourceLithiumBatteryCellsDesc,小型紧凑型锂电池。每个电池都提供很少的功率，但是N多个组合到一起，它们可以胜过铅酸电池。用作小型机车的备用电池。
+ulmResourceMetalMesh,金属网
+ulmResourceMetalMeshDesc,耐用的金属网。用作防弹玻璃制造的增强材料。
+ulmResourceMinibikeRepairKit,小型机车修理包
+ulmResourceMinibikeRepairKitDesc,包含所有修理小型机车的必要零件。
+ulmResourceMinibikeRepairKitBlueprint,小型机车修理包
+ulmResourceMinibikeRepairKitBlueprintDesc,关于如何制作[decea3]小型机车修理包[-]的说明。
+ulmResourceMinibikeWheel,小型机车车轮
+ulmResourceMinibikeWheelDesc,标准小型机车车轮
+ulmResourceMinibikeWheelBlueprint,小型机车车轮
+ulmResourceMinibikeWheelBlueprintDesc,有关如何制作[decea3]小型机车车轮[-]的说明。
+ulmResourceMotorcycleRepairKit,摩托车修理包
+ulmResourceMotorcycleRepairKitDesc,包含所有修理摩托车的必要零件。
+ulmResourceMotorcycleRepairKitBlueprint,摩托车修理包
+ulmResourceMotorcycleRepairKitBlueprintDesc,关于如何制作[decea3]摩托车修理包[-]的说明。
+ulmResourceMotorcycleWheel,摩托车车轮
+ulmResourceMotorcycleWheelDesc,掠夺者摩托车车轮
+ulmResourceMotorcycleWheelBlueprint,摩托车车轮
+ulmResourceMotorcycleWheelBlueprintDesc,有关如何制作[decea3]摩托车车轮[-]的说明。
+ulmResourceNutsAndBolts,螺母和螺栓
+ulmResourceNutsAndBoltsDesc,各种尺寸的螺母，螺栓和垫圈。
+ulmResourceOreCopper,铜矿石
+ulmResourceOreCopperDesc,一大块[decea3]铜矿石[-]。它在原始状态下用处不大，你必须先在熔炉里把它熔化精炼，然后凝固成[decea3] 铜锭 [-]。
+ulmResourceOreIron,铁矿石
+ulmResourceOreIronDesc,一大块[decea3]铁矿石[-]。它在原始状态下用处不大，你必须先在熔炉里把它熔化精炼，然后凝固成[decea3] 铁锭 [-]。
+ulmResourceOreLead,铅矿石
+ulmResourceOreLeadDesc,一大块[decea3]铅矿石[-]。它在原始状态下用处不大，你必须先在熔炉里把它熔化精炼，然后凝固成[decea3] 铅锭 [-]。
+ulmResourceOrePotassiumNitrate,硝石矿
+ulmResourceOrePotassiumNitrateDesc,一大块富含[decea3]硝酸钾[-]的矿石。在它的原始状态下不是很有用，用[decea3]研钵和杵[-]来生产[decea3]硝酸钾粉末[-]。
+ulmResourceOreStone,大石头
+ulmResourceOreStoneDesc,一块大石头，可用于制造石板或鹅卵石。
+ulmResourceOreSulfur,硫矿石
+ulmResourceOreSulfurDesc,可以在 [decea3]硝石矿[-]中找到少量的，必须在 [decea3]研钵和研杵[-]中进一步加工，才能得到火药的成分之一—— [decea3]硫粉[-]。
+ulmResourceOreTitanium,钛矿石
+ulmResourceOreTitaniumDesc,一大块 [decea3]钛矿石[-]。它在原始状态下用处不大，你必须先在熔炉里把它熔化精炼，然后凝固成 [decea3]钛锭[-]。
+ulmResourceOreZinc,锌矿石
+ulmResourceOreZincDesc,一大块 [decea3]锌矿石[-]。它在原始状态下用处不大，你必须先在熔炉里把它熔化精炼，然后凝固成 [decea3]锌锭[-]。
+ulmResourcePartsSMG,SMG 零件
+ulmResourcePartsSMGDesc,曾经是 SMG 的一部分。
+ulmResourcePlank,木板
+ulmResourcePlankDesc,用于大多数与木工有关的制作配方。可使用圆锯在工作台上更高效地制作。
+ulmResourcePoliceLights,警灯
+ulmResourcePoliceLightsDesc,你可以使用这些来升级警车
+ulmResourcePrimitiveRepairKit,原始修理包
+ulmResourcePrimitiveRepairKitDesc,修复最基本、最原始的石器或木器的所有必要部件。
+ulmResourceRebarIron,铁制钢筋
+ulmResourceRebarIronDesc,用于构造钢筋框架和铁棒。也具有其他应用。
+ulmResourceRebarSteel,钢制钢筋
+ulmResourceRebarSteelDesc,用于钢条的构造。
+ulmResourceRebarTitanium,钛制钢筋
+ulmResourceRebarTitaniumDesc,用于建造高级物品和物块。
+ulmResourceResearch,研究数据
+ulmResourceResearchDesc,一组有价值的研究数据。当收集到足够的数据时，就有可能在研究站上学习新的配方。
+ulmResourceResin,树脂
+ulmResourceResinDesc,可以从树木中收集的高粘性物质。通常是有机化合物的混合物。许多植物，特别是木本植物，会因受到伤害而产生树脂。
+ulmResourceRope,绳子
+ulmResourceRopeDesc,将多股纤维绞合或编织在一起，形成一根绳索，比纤维本身要坚固得多。
+ulmResourceScrapCopper,废铜
+ulmResourceScrapCopperDesc,主要用于制造铜管和电线。
+ulmResourceScrapLeather,废皮革
+ulmResourceScrapLeatherDesc,用于修补皮革盔甲。修复[decea3] 50 [-]耐久度。
+ulmResourceScrapOrganic,有机废物
+ulmResourceScrapOrganicDesc,一种有机物质的混合物质，用于制造土壤肥料。
+ulmResourceScrapPlank,碎木板
+ulmResourceScrapPlankDesc,一块破碎的木板。如果你发现类似的碎片，则可以用胶水将其还原。
+ulmResourceScrapRubber,废橡胶
+ulmResourceScrapRubberDesc,废橡胶可用于制作橡胶车轮和其他组件。
+ulmResourceScrapSteel,废钢
+ulmResourceScrapSteelDesc,各种可回收的钢板，型材和面板的集合。通过分解获得的物品，这些物品大多以钢为基础材料。
+ulmResourceScrapTitanium,废钛
+ulmResourceScrapTitaniumDesc,用于钛基合金的构造。
+ulmResourceScrapWires,废电线
+ulmResourceScrapWiresDesc,大多数电子产品都依靠某种形式的电线将电能从一个组件转移到另一个组件。
+ulmResourceScrapWood,废木
+ulmResourceScrapWoodDesc,中小型木材，是通过切割或切碎较大的木材（例如树木，树枝，伐木残渣，树桩，树根，木材废料等）而形成的。
+ulmResourceStonePowder,石粉
+ulmResourceStonePowderDesc,精细研磨的石材
+ulmResourceSulfurPowder,硫粉
+ulmResourceSulfurPowderDesc,主要通过分解硫矿石制成，并用于制造火药。
+ulmResourceTreeRepairKit,树木修理包
+ulmResourceTreeRepairKitDesc,修复大多数树木的所有必要部件。
+ulmResourceTruckRepairKit,卡车修理包
+ulmResourceTruckRepairKitDesc,包含修复一台卡车所需要的必要零件。
+ulmResourceTruckRepairKitBlueprint,卡车修理包
+ulmResourceTruckRepairKitBlueprintDesc,关于如何制作[decea3]卡车修理包[-]的说明。
+ulmResourceTruckWheel,卡车车轮
+ulmResourceTruckWheelDesc,通用卡车车轮
+ulmResourceTruckWheelBlueprint,卡车车轮
+ulmResourceTruckWheelBlueprintDesc,有关如何制作[decea3]卡车车轮[-]的说明。
+ulmResourceLumber,木头
+ulmResourceLumberDesc,可进一步加工成其他资源，如木板、木柴等。
+ulmBookSniperRifles,狙击步枪
+ulmBookSniperRiflesDesc,阅读本技能书将使你的[decea3]狙击步枪[-]行动技能等级提高[decea3]1[-]。
+ulmBookArchery,弓弩
+ulmBookArcheryDesc,阅读本技能书将使你的[decea3]弓弩[-]行动技能等级提高[decea3]1[-]。
+ulmBookSpears,长矛
+ulmBookSpearsDesc,阅读本技能书将使你的[decea3]长矛[-]行动技能等级提高[decea3]1[-]。
+ulmBookLockPicking,开锁
+ulmBookLockPickingDesc,阅读本技能书将使你的[decea3]开锁[-]行动技能等级提高[decea3]1[-]。
+ulmBookLooting,搜刮
+ulmBookLootingDesc,阅读本技能书将使你的[decea3]搜刮[-]行动技能等级提高[decea3]1[-]。
+ulmBookButcher,动物解剖
+ulmBookButcherDesc,阅读本技能书将使你的[decea3]动物解剖[-]行动技能等级提高[decea3]1[-]。
+ulmBookAssaultRifles,机枪
+ulmBookAssaultRiflesDesc,阅读本技能书将使你的[decea3]机枪[-]行动技能等级提高[decea3]1[-]。
+ulmBookClubs,棍棒
+ulmBookClubsDesc,阅读本技能书将使你的[decea3]棍棒[-]行动技能等级提高[decea3]1[-]。
+ulmBookSledgehammers,大锤
+ulmBookSledgehammersDesc,阅读本技能书将使你的[decea3]大锤[-]行动技能等级提高[decea3]1[-]。
+ulmBookAxes,伐木工具
+ulmBookAxesDesc,阅读本技能书将使你的[decea3]伐木工具[-]行动技能等级提高[decea3]1[-]。
+ulmBookShovels,挖掘工具
+ulmBookShovelsDesc,阅读本技能书将使你的[decea3]挖掘工具[-]行动技能等级提高[decea3]1[-]。
+ulmBookMining,采矿工具
+ulmBookMiningDesc,阅读本技能书将使你的[decea3]采矿工具[-]行动技能等级提高[decea3]1[-]。
+ulmBookShotguns,霰弹枪
+ulmBookShotgunsDesc,阅读本技能书将使你的[decea3]霰弹枪[-]行动技能等级提高[decea3]1[-]。
+ulmBookBrawler,格斗家
+ulmBookBrawlerDesc,阅读本技能书将使你的[decea3]格斗家[-]行动技能等级提高[decea3]1[-]。
+ulmBookResistHeat,耐热性
+ulmBookResistHeatDesc,阅读本技能书将使你的[decea3]耐热性[-]行动技能等级提高[decea3]1[-]。
+ulmBookResistCold,耐寒性
+ulmBookResistColdDesc,阅读本技能书将使你的[decea3]耐寒性[-]行动技能等级提高[decea3]1[-]。
+ulmBookResistPain,耐痛性
+ulmBookResistPainDesc,阅读本技能书将使你的[decea3]耐痛性[-]行动技能等级提高[decea3]1[-]。
+ulmBookHealing,治疗
+ulmBookHealingDesc,阅读本技能书将使你的[decea3]治疗[-]行动技能等级提高[decea3]1[-]。
+ulmBookHandguns,手枪
+ulmBookHandgunsDesc,阅读本技能书将使你的[decea3]手枪[-]行动技能等级提高[decea3]1[-]。
+ulmBookBlades,刀和剑
+ulmBookBladesDesc,阅读本技能书将使你的[decea3]刀和剑[-]行动技能等级提高[decea3]1[-]。
+ulmBookAthletics,体质
+ulmBookAthleticsDesc,阅读本技能书将使你的[decea3]体质[-]行动技能等级提高[decea3]1[-]。
+ulmBookSneaking,潜行
+ulmBookSneakingDesc,阅读本技能书将使你的[decea3]潜行[-]行动技能等级提高[decea3]1[-]。
+ulmBookAssasin,刺客
+ulmBookAssasinDesc,阅读本技能书将使你的[decea3]刺客[-]行动技能等级提高[decea3]1[-]。
+ulmBookSubmachineGuns,冲锋枪
+ulmBookSubmachineGunsDesc,阅读本技能书将使你的[decea3]冲锋枪[-]行动技能等级提高[decea3]1[-]。
+ulmBookShockers,近战水管武器
+ulmBookShockersDesc,阅读这本技能书将使你的[decea3]近战水管武器[-]行动技能的等级提高[decea3]1[-]。
+ulmBookTrading,贸易
+ulmBookTradingDesc,阅读本技能书将使你的[decea3]贸易[-]行动技能等级提高[decea3]1[-]。
+ulmBookQuesting,任务
+ulmBookQuestingDesc,阅读本技能书将使你的[decea3]任务[-]行动技能等级提高[decea3]1[-]。
+ulmBookSalvaging,回收工具
+ulmBookSalvagingDesc,阅读本技能书将使你的[decea3]回收工具[-]行动技能等级提高[decea3]1[-]。
+ulmBookStrength,举重
+ulmBookStrengthDesc,阅读这本技能书将使你的[decea3]举重[-]行动技能的等级提高[decea3]1[-]。
+ulmToolBerserkerDrill,女武神钻头
+ulmToolBerserkerDrillDesc,对矿石，沥青的破坏提高 [decea3] 200％[-]，对地表的破坏提高[decea3] 120％[-]。
+ulmToolBerserkerDrillBlueprint,女武神钻头
+ulmToolBerserkerDrillBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmToolBoneSaw,骨锯
+ulmToolBoneSawDesc,一种用于将动物尸体切割成小块的粗糙骨锯。
+ulmMeleeAxeCarpenters,木匠斧
+ulmMeleeAxeCarpentersDesc,对树木的伤害提高[decea3] +200％[-]
+ulmToolFryingPan,平底锅
+ulmToolFryingPanDesc,一个旧的煎锅。用作武器非常沉重且不平稳，但如果这是唯一可用的武器，它能救你的命。
+ulmToolHammerWood,木锤
+ulmToolHammerWoodDesc,木工用最基本的木锤。可用于升级或修复块。
+ulmToolJackhammer,手提钻
+ulmToolJackhammerDesc,对矿石和沥青的破坏提高 [decea3] +200％[-]。将其指向岩石或混凝土，并保持稳定以在几秒钟内将其粉碎！
+ulmToolJackhammerBlueprint,手提钻
+ulmToolJackhammerBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+ulmToolMoldBrick,砖模
+ulmToolMoldBrickDesc,用于将粘土成型为砖的模具。
+ulmToolMoldGlass,平板模具
+ulmToolMoldGlassDesc,液态沙子、玻璃或金属凝固成固体板的模具。
+ulmToolMoldIngot,铸锭模具
+ulmToolMoldIngotDesc,将液态金属凝固成锭的模具。
+ulmToolPickaxeIceBreaker,破冰镐
+ulmToolPickaxeIceBreakerDesc,对矿石和沥青的破坏提高 [decea3] 100％[-]。通常这种工具是用来破冰的，但据说也可以用来开采一些岩石或矿石。
+ulmToolPickaxeScrapIron,废镐
+ulmToolPickaxeScrapIronDesc,对矿石和沥青的破坏提高 [decea3] 100％[-]。形状粗糙的废铁片，尖头类似于镐头，耐用性值得怀疑。
+ulmToolPickaxeStone,石镐
+ulmToolPickaxeStoneDesc,对矿石和沥青的破坏提高 [decea3] +100％[-]。用石头砸石头似乎不符合逻辑，但凭借蛮力和运气，你也许能用这种非常原始的采矿工具开采出一些石头。
+ulmToolPickaxeTitanium,钛镐
+ulmToolPickaxeTitaniumDesc,对矿石和沥青的伤害增加[decea3]+100%[-]。由非常耐用的钛金属制成，主要用于开采岩石或矿石。
+ulmToolPickaxeTitaniumBlueprint,钛镐
+ulmToolPickaxeTitaniumBlueprintDesc,允许你学习新的制作配方。如果已经学会，使用时可获得XP。
+ulmToolSaw,锯
+ulmToolSawDesc,它几乎不能砍柴，但可能仍然有用。
+ulmToolShovelScrapIron,废铲
+ulmToolShovelScrapIronDesc,由各种废铁碎屑组装而成。比一块用绳子绑在棍子上的石头要好。
+ulmToolShovelTitanium,钛铲
+ulmToolShovelTitaniumDesc,挖掘泥土，沙子或雪地的最豪华的工具。
+ulmQualityUnlocksGroupDesc,一组研究数据，用于提高你的制作技能并在此类别中制作更高品质的物品。\n\n[decea3]使用前必须先学会此研究的上一级！[-]
+ulmDebuffEncumbered,超重
+ulmDebuffEncumberedDesc,你所携带的东西超出了身体和装备所能承受的范围。超重时，你的活动能力和跳跃力量将逐渐减弱，继续超重的话影响更大。对身体的压力过大会导致长期问题，因此要小心。
+ulmBuffHercules,大力士
+ulmBuffHerculesDesc,你携带更多物品的能力增加了[decea3]200[-]。\n与[decea3]类固醇[-]效果叠加。
+ulmBuffHoldHeavyWeapon,重型武器
+ulmBuffHoldHeavyWeaponDesc,你手持重型武器，移动和跳跃能力降低[decea3]25%[-]
+ulmBuffHoldMovementSpeed10,加速
+ulmBuffHoldMovementSpeed10Desc,你拿着武器，走路和跑步速度提高[decea3] 10％[-]
+attbooks,收藏
+skillCombatPerksName,战斗
+skillAgilityAthleticsName,体质
+skillAgilityStealthName,潜行
+skillIntellectInfluenceName,影响力
+skillIntellectCraftsmanshipName,搜刮
+ulm_AttAttributes,天赋树
+ulm_AttAttributesDesc,\n\n\n\n\n\n\n\n\n\n\n选择右侧的一项技能以查看有关此技能的更多详细信息
+ulm_skill_placeholder,技能不可用
+ulmAttributes,主动技能
+attActionSkills,行动技能
+ulmBooks,收藏家
+reqSkillPoints1,1个技能点
+reqSkillPoints2,2个技能点
+reqSkillPoints3,3个技能点
+actionPerkTipExp,经验值
+actionPerkTipExpLong,当前经验
+actionPerkTipExpNext,下一个
+actionPerkTipExpNextLong,升级经验
+actionSkillDeathPenalty,你失忆了，因此你的一些\n[decea3]行动技能[-]降了一级
+attPerceptionName,感知
+attPerceptionDesc,更快掌握[decea3]感知[-]技能，提高爆头伤害和肢解机率：[decea3]狩猎步枪[-]，[decea3]狙击步枪[-]，[decea3]弓[-]，[decea3]弩[ -]和[decea3]矛[-]
+attPerceptionDesc01,技能经验值[decea3] +10％[-] \n爆头伤害[decea3] +5％[-] \n肢解几率[decea3] +2.5％[-]
+attPerceptionDesc02,技能经验值[decea3] +20％[-] \n爆头伤害[decea3] +10％[-] \n肢解几率[decea3] +5％[-]
+attPerceptionDesc03,技能经验值[decea3] +30％[-] \n爆头伤害[decea3] +15％[-] \n肢解几率[decea3] +7.5％[-]
+attPerceptionDesc04,技能经验值[decea3] +40％[-] \n爆头伤害[decea3] +20％[-] \n肢解几率[decea3] +10％[-]
+attPerceptionDesc05,技能经验值[decea3] +50％[-] \n爆头伤害[decea3] +25％[-] \n肢解几率[decea3] +12.5％[-]
+attPerceptionDesc06,技能经验值[decea3] +60％[-] \n爆头伤害[decea3] +30％[-] \n肢解几率[decea3] +15％[-]
+attPerceptionDesc07,技能经验值[decea3] +70％[-] \n爆头伤害[decea3] +35％[-] \n肢解几率[decea3] +17.5％[-]
+attPerceptionDesc08,技能经验值[decea3] +80％[-] \n爆头伤害[decea3] +40％[-] \n肢解几率[decea3] +20％[-]
+attPerceptionDesc09,技能经验值[decea3] +90％[-] \n爆头伤害[decea3] +45％[-] \n肢解几率[decea3] +22.5％[-]
+attPerceptionDesc10,技能经验值[decea3] +100％[-] \n爆头伤害[decea3] +50％[-] \n肢解几率[decea3] +25％[-]
+skillPerceptionGeneralName,狩猎
+skillPerceptionScavengingName,搜刮
+perkDeadEye1,猎枪和狙击步枪的伤害和瞄准精度提高[decea3] 5％[-]，装填速度加快[decea3] 4％[-]
+perkDeadEye2,猎枪和狙击步枪的伤害和瞄准精度提高[decea3] 10％[-]，装填速度加快[decea3] 8％[-]
+perkDeadEye3,猎枪和狙击步枪的伤害和瞄准精度提高[decea3] 15％[-]，装填速度加快[decea3] 12％[-]。瞄准时体力消耗减少[decea3] 10％[-]，而成功击杀可以触发最多[decea3] 30％[-]的连击伤害
+perkDeadEye4,猎枪和狙击步枪的伤害和瞄准精度提高[decea3] 20％[-]，装填速度加快[decea3] 16％[-]。瞄准时体力消耗减少[decea3] 20％[-]，而成功击杀可以触发最多[decea3] 40％[-]的连击伤害
+perkDeadEye5,猎枪和狙击步枪的伤害和瞄准精度提高[decea3] 25％[-]，装填速度加快[decea3] 20％[-]。瞄准时体力消耗减少[decea3] 30％[-]，而成功击杀可以触发最多[decea3] 50％[-]的连击伤害
+perkArchery1,弓弩的伤害，瞄准精度，抽箭和装弹速度提高[decea3] 5％[-]
+perkArchery2,弓弩的伤害，瞄准精度，抽箭和装弹速度提高[decea3] 10％[-]
+perkArchery3,弓弩的伤害，瞄准精度，抽箭和装弹速度提高[decea3] 15％[-]
+perkArchery4,弓弩的伤害，瞄准精度，抽箭和装弹速度提高[decea3] 20％[-]
+perkArchery5,弓弩的伤害，瞄准精度，抽箭和装弹速度提高[decea3] 25％[-]
+perkJavelinMaster1,长矛和标枪造成的伤害提高[decea3] 5％[-]，投掷的力量增加[decea3] 5％[-]
+perkJavelinMaster2,长矛和标枪造成的伤害提高[decea3] 10％[-]，投掷的力量增加[decea3] 10％[-]
+perkJavelinMaster3,长矛和标枪造成的伤害提高[decea3] 15％[-]，投掷的力量提高[decea3] 15％[-]
+perkJavelinMaster4,长矛和标枪造成的伤害提高[decea3] 20％[-]，投掷的力量增加[decea3] 20％[-]
+perkJavelinMaster5,长矛和标枪造成的伤害提高[decea3] 25％[-]，投掷的力量提高[decea3] 25％[-]
+perkLockPicking1,开锁技能提高[decea3] 25[-]\n发夹的耐久提高[decea3] 20％[-]
+perkLockPicking2,开锁技能提高[decea3] 50[-]\n发夹的耐久提高[decea3] 40％[-]
+perkLockPicking3,开锁技能提高[decea3] 75[-]\n发夹的耐久提高[decea3] 60％[-]
+perkLockPicking4,开锁技能提高[decea3] 100[-]\n发夹的耐久提高[decea3] 80％[-]
+perkTheHuntsman1,带刃工具或武器从动物尸体收集资源多[decea3] 10％[-]
+perkTheHuntsman2,带刃工具或武器从动物尸体收集资源多[decea3] 20％[-]
+perkTheHuntsman3,带刃工具或武器从动物尸体收集资源多[decea3] 30％[-]
+perkTheHuntsman4,带刃工具或武器从动物尸体收集资源多[decea3] 40％[-]
+perkTheHuntsman5,带刃工具或武器从动物尸体收集资源多[decea3] 50％[-]
+attActionSkillsDesc,行动技能在执行各种任务时可被动提升。\n\n不同的任务会提升不同的行动技能，例如，如果你使用某种武器，进行某种身体活动等。\n\n选择任何一项行动技能，以查看其当前的技能进展。
+actionPerkDesc,[decea3]行动技能[-]：当执行某种任务或找到并阅读与该技能相关的特殊技能书时，等级会自行提高。\n\n
+actionPerkSniperRifles,狙击步枪
+actionPerkSniperRiflesLevelUp,你的[decea3]狙击步枪[-]技能提高了!
+actionPerkSniperRifles1,伤害，瞄准精度，肢解[decea3] +5％[-] \n爆头伤害[decea3] +10％[-] \n装弹速度[decea3] +2％[-][decea3]解锁7.92mm空心弹制作[-]
+actionPerkSniperRifles2,伤害，瞄准精度，肢解[decea3] +10％[-] \n爆头伤害[decea3] +20％[-] \n装弹速度[decea3] +4％[-][decea3]解锁7.92mm穿甲弹制作[-]
+actionPerkSniperRifles3,伤害，瞄准精度，肢解[decea3] +15％[-] \n爆头伤害[decea3] +30％[-] \n装弹速度[decea3] +6％[-]
+actionPerkSniperRifles4,伤害，瞄准精度，肢解[decea3] +20％[-] \n爆头伤害[decea3] +40％[-] \n装弹速度[decea3] +8％[-]
+actionPerkSniperRifles5,伤害，瞄准精度，肢解[decea3] +25％[-] \n爆头伤害[decea3] +50％[-] \n装弹速度[decea3] +10％[-]
+actionPerkArchery,弓弩
+actionPerkArcheryLevelUp,你的[decea3]弓弩[-]技能提高了!
+actionPerkArchery1,伤害，瞄准精度，肢解[decea3] +5％[-] \n爆头伤害[decea3] +10％[-] \n装弹和抽箭速度[decea3] +5％[-]
+actionPerkArchery2,伤害，瞄准精度，肢解[decea3] +10％[-] \n爆头伤害[decea3] +20％[-] \n装弹和抽箭速度[decea3] +10％[-]
+actionPerkArchery3,伤害，瞄准精度，肢解[decea3] +15％[-] \n爆头伤害[decea3] +30％[-] \n装弹和抽箭速度[decea3] +15％[-]
+actionPerkArchery4,伤害，瞄准精度，肢解[decea3] +20％[-] \n爆头伤害[decea3] +40％[-] \n装弹和抽箭速度[decea3] +20％[-]
+actionPerkArchery5,伤害，瞄准精度，肢解[decea3] +25％[-] \n爆头伤害[decea3] +50％[-] \n装弹和抽箭速度[decea3] +25％[-]
+actionPerkSpears,长矛
+actionPerkSpearsLevelUp,你的[decea3]长矛[-]技能提高了!
+actionPerkSpears1,伤害，肢解[decea3] +5％[-] \n投掷强度[decea3] +5％[-] \n爆头伤害[decea3] +10％[-]
+actionPerkSpears2,伤害，肢解[decea3] +10％[-] \n投掷强度[decea3] +10％[-] \n爆头伤害[decea3] +20％[-]
+actionPerkSpears3,伤害，肢解[decea3] +15％[-] \n投掷强度[decea3] +15％[-] \n爆头伤害[decea3] +30％[-]
+actionPerkSpears4,伤害，肢解[decea3] +20％[-] \n投掷强度[decea3] +20％[-] \n爆头伤害[decea3] +40％[-]
+actionPerkSpears5,伤害，肢解[decea3] +25％[-] \n投掷强度[decea3] +25％[-] \n爆头伤害[decea3] +50％[-]
+actionPerkLockPicking,开锁
+actionPerkLockpickingDesc,提高你的开锁能力，使你的开锁速度提高到[decea3]50%[-]。用开锁工具撬锁来提高这个技能。
+actionPerkLockPickingLevelUp,你的[decea3] 开锁 [-]技能提高了!
+actionPerkLockPicking1,开锁技能提高[decea3] 20[-]\n开锁器和发夹的耐久提高[decea3] 20％[-]
+actionPerkLockPicking2,开锁技能提高[decea3] 40[-]\n开锁器和发夹的耐久提高[decea3] 40％[-]
+actionPerkLockPicking3,开锁技能提高[decea3] 60[-]\n开锁器和发夹的耐久提高[decea3] 60％[-]
+actionPerkLockPicking4,开锁技能提高[decea3] 80[-]\n开锁器和发夹的耐久提高[decea3] 80％[-]
+actionPerkLockPicking5,开锁技能提高[decea3] 100[-]\n开锁器和发夹的耐久提高[decea3] 100％[-]
+actionPerkLooting,搜刮
+actionPerkLootingLevelUp,你的[decea3]搜刮[-]技能提高了!
+actionPerkLooting1,搜刮速度[decea3] +10％[-] \n搜刮游戏等级[decea3] +5％[-]
+actionPerkLooting2,搜刮速度[decea3] +20％[-] \n搜刮游戏等级[decea3] +10％[-]
+actionPerkLooting3,搜刮速度[decea3] +30％[-] \n搜刮游戏等级[decea3] +15％[-]
+actionPerkLooting4,搜刮速度[decea3] +40％[-] \n搜刮游戏等级[decea3] +20％[-]
+actionPerkLooting5,搜刮速度[decea3] +50％[-] \n搜刮游戏等级[decea3] +25％[-]
+actionPerkButcher,动物解剖
+actionPerkButcherLevelUp,你的[decea3]动物解剖[-]技能提高了!
+actionPerkButcher1,动物尸体资源[decea3] +10％[-]
+actionPerkButcher2,动物尸体资源[decea3] +20％[-]
+actionPerkButcher3,动物尸体资源[decea3] +30％[-]
+actionPerkButcher4,动物尸体资源[decea3] +40％[-]
+actionPerkButcher5,动物尸体资源[decea3] +50％[-]
+attStrengthName,力量
+attStrengthDesc,更快地掌握[decea3]力量[-]技能，提高爆头伤害和肢解机率：[decea3]机枪[-]，[decea3]棍棒[-]和[decea3]大锤[-]
+attStrengthDesc01,技能经验值[decea3] +10％[-] \n爆头伤害[decea3] +5％[-] \n肢解几率[decea3] +2.5％[-]
+attStrengthDesc02,技能经验值[decea3] +20％[-] \n爆头伤害[decea3] +10％[-] \n肢解几率[decea3] +5％[-]
+attStrengthDesc03,技能经验值[decea3] +30％[-] \n爆头伤害[decea3] +15％[-] \n肢解几率[decea3] +7.5％[-]
+attStrengthDesc04,技能经验值[decea3] +40％[-] \n爆头伤害[decea3] +20％[-] \n肢解几率[decea3] +10％[-]
+attStrengthDesc05,技能经验值[decea3] +50％[-] \n爆头伤害[decea3] +25％[-] \n肢解几率[decea3] +12.5％[-]
+attStrengthDesc06,技能经验值[decea3] +60％[-] \n爆头伤害[decea3] +30％[-] \n肢解几率[decea3] +15％[-]
+attStrengthDesc07,技能经验值[decea3] +70％[-] \n爆头伤害[decea3] +35％[-] \n肢解几率[decea3] +17.5％[-]
+attStrengthDesc08,技能经验值[decea3] +80％[-] \n爆头伤害[decea3] +40％[-] \n肢解几率[decea3] +20％[-]
+attStrengthDesc09,技能经验值[decea3] +90％[-] \n爆头伤害[decea3] +45％[-] \n肢解几率[decea3] +22.5％[-]
+attStrengthDesc10,技能经验值[decea3] +100％[-] \n爆头伤害[decea3] +50％[-] \n肢解几率[decea3] +25％[-]
+skillStrengthGeneralName,肌肉
+skillStrengthConstructionName,矿业
+perkMachineGunner1,机枪的伤害增加[decea3] 5％[-]，射击、装弹速度加快[decea3] 5％[-]
+perkMachineGunner2,机枪的伤害增加[decea3] 10％[-]，射击、装弹速度加快[decea3] 10％[-]
+perkMachineGunner3,机枪的伤害增加[decea3] 15％[-]，射击、装弹速度加快[decea3] 15％[-]\n\n[decea3]突击队肾上腺素：每次命中[-] \n[decea3] +2 [-]体力
+perkMachineGunner4,机枪的伤害增加[decea3] 20％[-]，射击、装弹速度加快[decea3] 20％[-] \n\n[decea3]突击队肾上腺素：每次命中[-] \n[decea3] +4 [-]体力
+perkMachineGunner5,机枪的伤害增加[decea3] 25％[-]，射击、装弹速度加快[decea3] 25％[-] \n\n[decea3]突击队肾上腺素：每次命中[-] \n[decea3] +6 [-]体力
+perkPummelPete1,棍棒造成的伤害增加[decea3] 5％[-]，眩晕和强力攻击额外造成[decea3] 10％[-]伤害，有[decea3] 10％[-]几率将敌人击倒
+perkPummelPete2,棍棒造成的伤害增加[decea3] 10％[-]，眩晕和强力攻击额外造成[decea3] 20％[-]伤害，有[decea3] 20％[-]几率将敌人击倒
+perkPummelPete3,棍棒造成的伤害增加[decea3] 15％[-]，眩晕和强力攻击额外造成[decea3] 30％[-]伤害，有[decea3] 30％[-]几率将敌人击倒。每[decea3] 5 [-]次命中造成100％额外伤害
+perkPummelPete4,棍棒造成的伤害增加[decea3] 20％[-]，眩晕和强力攻击额外造成[decea3] 40％[-]伤害，有[decea3] 40％[-]几率将敌人击倒。每[decea3] 4 [-]次命中造成100％额外伤害
+perkPummelPete5,棍棒造成的伤害增加[decea3] 25％[-]，眩晕和强力攻击额外造成[decea3] 50％[-]伤害，有[decea3] 50％[-]几率将敌人击倒。每[decea3] 3 [-]次命中造成100％额外伤害
+perkSkullCrusher1,大锤造成的伤害提高[decea3] 5％[-]。强力攻击有[Decea3] 10％[-]几率击倒敌人
+perkSkullCrusher2,大锤造成的伤害提高[decea3] 10％[-]。强力攻击有[Decea3] 20％[-]几率击倒敌人
+perkSkullCrusher3,大锤造成的伤害提高[decea3] 15％[-]。强力攻击有30％[-]几率击倒敌人，有[decea3] 10％[-]几率击倒附近敌人
+perkSkullCrusher4,大锤造成的伤害提高[decea3] 20％[-]。强力攻击有40％[-]几率击倒敌人，[decea3] 20％[-]几率击倒附近敌人
+perkSkullCrusher5,大锤造成的伤害提高[decea3] 25％[-]。强力攻击有[Decea3] 50％[-]几率击倒敌人，[decea3] 30％[-]几率击倒附近敌人
+perkMiner69r1,斧头，镐，链锯，螺旋钻和其他采矿工具造成的伤害增加[decea3] 10％[-]
+perkMiner69r2,斧头，镐，链锯，螺旋钻和其他采矿工具造成的伤害增加[decea3] 20％[-]
+perkMiner69r3,斧头，镐，链锯，螺旋钻和其他采矿工具造成的伤害增加[decea3] 30％[-]
+perkMiner69r4,斧头，镐，链锯，螺旋钻和其他采矿工具造成的伤害增加[decea3] 40％[-]
+perkMiner69r5,斧头，镐，链锯，螺旋钻和其他采矿工具造成的伤害增加[decea3] 50％[-]
+perkMotherLode1,斧头，镐，链锯，螺旋钻和其他采矿工具从矿石，石头，地形块和树木中的采集量增加[decea3] 10％[-]
+perkMotherLode2,斧头，镐，链锯，螺旋钻和其他采矿工具从矿石，石头，地形块和树木中的采集量增加[decea3] 20％[-]
+perkMotherLode3,斧头，镐，链锯，螺旋钻和其他采矿工具从矿石，石头，地形块和树木中的采集量增加[decea3] 30％[-]
+perkMotherLode4,斧头，镐，链锯，螺旋钻和其他采矿工具从矿石，石头，地形块和树木中的采集量增加[decea3] 40％[-]
+perkMotherLode5,斧头，镐，链锯，螺旋钻和其他采矿工具从矿石，石头，地形块和树木中的采集量增加[decea3] 50％[-]
+perkPackMule1,使背包的货物容量增加[decea3] 20 [-]个单位
+perkPackMule2,使背包的货物容量增加[decea3] 40 [-]个单位
+perkPackMule3,使背包的货物容量增加[decea3] 60 [-]个单位
+perkPackMule4,使背包的货物容量增加[decea3] 80 [-]个单位
+perkPackMule5,将背包的货物容量增加[decea3] 100 [-]个单位
+actionPerkStrength,举重
+actionPerkStrengthLevelUp,你的[decea3]举重[-]技能提高了!
+actionPerkStrength1,增加你的背包货物容量[decea3]20[-]单位
+actionPerkStrength2,增加你的背包货物容量[decea3]40[-]单位
+actionPerkStrength3,增加你的背包货物容量[decea3]60[-]单位
+actionPerkStrength4,增加你的背包货物容量[decea3]80[-]单位
+actionPerkStrength5,增加你的背包货物容量[decea3]100[-]单位
+actionPerkAssaultRifles,机枪
+actionPerkAssaultRiflesLevelUp,你的[decea3]机枪[-]技能提高了!
+actionPerkAssaultRifles1,伤害，瞄准精度，肢解[decea3] +5％[-] \n爆头伤害[decea3] +10％[-] \n装弹速度[decea3] +2％[-][decea3]解锁5.56mm空心弹制作[-]
+actionPerkAssaultRifles2,伤害，瞄准精度，肢解[decea3] +10％[-] \n爆头伤害[decea3] +20％[-] \n装弹速度[decea3] +4％[-][decea3]解锁5.56mm穿甲弹制作[-]
+actionPerkAssaultRifles3,伤害，瞄准精度，肢解[decea3] +15％[-] \n爆头伤害[decea3] +30％[-] \n装弹速度[decea3] +6％[-]
+actionPerkAssaultRifles4,伤害，瞄准精度，肢解[decea3] +20％[-] \n爆头伤害[decea3] +40％[-] \n装弹速度[decea3] +8％[-]
+actionPerkAssaultRifles5,伤害，瞄准精度，肢解[decea3] +25％[-] \n爆头伤害[decea3] +50％[-] \n装弹速度[decea3] +10％[-]
+actionPerkClubs,棍棒
+actionPerkClubsLevelUp,你的[decea3] 棍棒 [-]技能提高了!
+actionPerkClubs1,伤害，肢解[decea3] +5％[-] \n爆头伤害[decea3] +10％[-] \n对被击晕目标的额外伤害[decea3] +10％[-]
+actionPerkClubs2,伤害，肢解[decea3] +10％[-] \n爆头伤害[decea3] +20％[-] \n击晕目标的额外伤害[decea3] +20％[-]
+actionPerkClubs3,伤害，肢解[decea3] +15％[-] \n爆头伤害[decea3] +30％[-] \n击晕目标的额外伤害[decea3] +30％[-]
+actionPerkClubs4,伤害，肢解[decea3] +20％[-] \n爆头伤害[decea3] +40％[-] \n击晕目标的额外伤害[decea3] +40％[-]
+actionPerkClubs5,伤害，肢解[decea3] +25％[-] \n爆头伤害[decea3] +50％[-] \n击晕目标的额外伤害[decea3] +50％[-]
+actionPerkSledgehammers,大锤
+actionPerkSledgehammersLevelUp,你的[decea3]大锤[-]技能提高了!
+actionPerkSledgehammers1,伤害，肢解[decea3] +5％[-] \n额外爆头伤害[decea3] +10％[-] \n
+actionPerkSledgehammers2,伤害，肢解[decea3] +10％[-] \n额外爆头伤害[decea3] +20％[-] \n
+actionPerkSledgehammers3,伤害，肢解[decea3] +15％[-] \n额外爆头伤害[decea3] +30％[-] \n
+actionPerkSledgehammers4,伤害，肢解[decea3] +20％[-] \n额外爆头伤害[decea3] +40％[-] \n
+actionPerkSledgehammers5,伤害，肢解[decea3] +25％[-] \n额外爆头伤害[decea3] +50％[-] \n
+actionPerkAxes,伐木工具
+actionPerkAxesLevelUp,你的[decea3]伐木工具[-]技能提高了!
+actionPerkAxes1,伤害[decea3] +10％[-] \n收集效率[decea3] +10％[-]
+actionPerkAxes2,伤害[decea3] +20％[-] \n收集效率[decea3] +20％[-]
+actionPerkAxes3,伤害[decea3] +30％[-] \n收集效率[decea3] +30％[-]
+actionPerkAxes4,伤害[decea3] +40％[-] \n收集效率[decea3] +40％[-]
+actionPerkAxes5,伤害[decea3] +50％[-] \n收集效率[decea3] +50％[-]
+actionPerkShovels,挖掘工具
+actionPerkShovelsLevelUp,你的[decea3]挖掘工具[-]技能提高了!
+actionPerkShovels1,伤害[decea3] +10％[-] \n收集效率[decea3] +10％[-]
+actionPerkShovels2,伤害[decea3] +20％[-] \n收集效率[decea3] +20％[-]
+actionPerkShovels3,伤害[decea3] +30％[-] \n收集效率[decea3] +30％[-]
+actionPerkShovels4,伤害[decea3] +40％[-] \n收集效率[decea3] +40％[-]
+actionPerkShovels5,伤害[decea3] +50％[-] \n收集效率[decea3] +50％[-]
+actionPerkMining,采矿工具
+actionPerkMiningDesc,你在使用与采矿有关的工具（如镐和铁镐）时变得更加熟练。使用采矿工具来提高这一技能。
+actionPerkMiningEffect,[decea3]+0.5%[-] 物块伤害，[decea3]+0.2%[-] 攻击速度，[decea3]-0.2%[-] 体力消耗。
+actionPerkMiningLevelUp,你的[decea3]采矿工具[-]技能提高了!
+actionPerkMining1,伤害[decea3] +10％[-] \n收集效率[decea3] +10％[-]
+actionPerkMining2,伤害[decea3] +20％[-] \n收集效率[decea3] +20％[-]
+actionPerkMining3,伤害[decea3] +30％[-] \n收集效率[decea3] +30％[-]
+actionPerkMining4,伤害[decea3] +40％[-] \n收集效率[decea3] +40％[-]
+actionPerkMining5,伤害[decea3] +50％[-] \n收集效率[decea3] +50％[-]
+attFortitudeName,强健
+attFortitudeDesc,熟练掌握[decea3] 强健 [-]技能，提高爆头伤害和肢解几率：[decea3]霰弹枪[-]，[decea3]徒手格斗[-]和[decea3]拳套[-]
+attFortitudeDesc01,技能经验值[decea3] +10％[-] \n爆头伤害[decea3] +5％[-] \n肢解几率[decea3] +2.5％[-]
+attFortitudeDesc02,技能经验值[decea3] +20％[-] \n爆头伤害[decea3] +10％[-] \n肢解几率[decea3] +5％[-]
+attFortitudeDesc03,技能经验值[decea3] +30％[-] \n爆头伤害[decea3] +15％[-] \n肢解几率[decea3] +7.5％[-]
+attFortitudeDesc04,技能经验值[decea3] +40％[-] \n爆头伤害[decea3] +20％[-] \n肢解几率[decea3] +10％[-]
+attFortitudeDesc05,技能经验值[decea3] +50％[-] \n爆头伤害[decea3] +25％[-] \n肢解几率[decea3] +12.5％[-]
+attFortitudeDesc06,技能经验值[decea3] +60％[-] \n爆头伤害[decea3] +30％[-] \n肢解几率[decea3] +15％[-]
+attFortitudeDesc07,技能经验值[decea3] +70％[-] \n爆头伤害[decea3] +35％[-] \n肢解几率[decea3] +17.5％[-]
+attFortitudeDesc08,技能经验值[decea3] +80％[-] \n爆头伤害[decea3] +40％[-] \n肢解几率[decea3] +20％[-]
+attFortitudeDesc09,技能经验值[decea3] +90％[-] \n爆头伤害[decea3] +45％[-] \n肢解几率[decea3] +22.5％[-]
+attFortitudeDesc10,技能经验值[decea3] +100％[-] \n爆头伤害[decea3] +50％[-] \n肢解几率[decea3] +25％[-]
+skillFortitudeSurvivalName,生存
+skillFortitudeRecoveryName,恢复
+perkBoomstick1,霰弹枪的伤害、射速、装弹速度提高[decea3] 5％[-]。
+perkBoomstick2,霰弹枪的伤害、射速、装弹速度提高[decea3] 10％[-]。使敌人昏迷[decea3] 4 [-]秒
+perkBoomstick3,霰弹枪的伤害、射速、装弹速度提高[decea3] 15％[-]。使敌人昏迷[decea3] 6 [-]秒
+perkBoomstick4,霰弹枪的伤害、射速、装弹速度提高[decea3] 20％[-]。使敌人昏迷[decea3] 8 [-]秒
+perkBoomstick5,霰弹枪的伤害、射速、装弹速度提高[decea3] 25％[-]。使敌人昏迷[decea3] 8 [-]秒。[decea3]射击腿部瘫痪敌人[-]
+perkBrawler1,拳头和拳套造成的伤害增加[decea3] 5％[-]，打中头部可以解除感染能力。
+perkBrawler2,拳头和拳套造成的伤害增加[decea3] 10％[-]。强力攻击有[Decea3] 30％[-]几率使敌人昏迷
+perkBrawler3,拳头和拳套造成的伤害增加[decea3] 15％[-]，对头部的强力攻击有[decea3] 20％[-]几率击倒敌人
+perkBrawler4,拳头和拳套造成的伤害增加[decea3] 20％[-]，对头部的强力攻击有[decea3] 30％[-]几率击倒敌人
+perkBrawler5,拳头和拳套造成的伤害增加[decea3] 25％[-]，用拳头将敌人斩首的可能性提高[decea3] 20％[-]
+perkWellInsulated1,获得[decea3] 5 [-]点隔热防寒能力，寒冷和过热时，食物和水的损失减少[decea3] 15％[-]
+perkWellInsulated2,获得[decea3] 10 [-]点隔热防寒能力，寒冷和过热时，食物和水的损失减少[decea3] 30％[-]
+perkWellInsulated3,获得[decea3] 15 [-]点隔热防寒能力，寒暑不侵
+perkPainTolerance1,生命值损失降低[decea3] 4％[-]，增加[decea3] 10％[-]眩晕抗性
+perkPainTolerance2,生命值损失降低[decea3] 8％[-]，增加[decea3] 20％[-]眩晕抗性
+perkPainTolerance3,生命值损失降低[decea3] 12％[-]，增加[decea3] 30％[-]眩晕抗性
+perkPainTolerance4,生命值损失降低[decea3] 16％[-]，增加[decea3] 40％[-]眩晕抗性
+perkPainTolerance5,生命值损失降低[decea3] 20％[-]，增加[decea3] 50％[-]眩晕抗性
+perkPhysicianName,野战军医
+perkPhysician1,随着时间的推移，医疗物品恢复的生命值增加[decea3] 10％[-]，使用时给予的经验值增加[decea3] 40％[-]
+perkPhysician2,随着时间的推移，医疗物品恢复的生命值增加[decea3] 20％[-]，使用时给予的经验值增加[decea3] 60％[-]。
+perkPhysician3,随着时间的推移，医疗物品恢复的生命值增加[decea3] 30％[-]，使用时给予的经验值增加[decea3] 80％[-]
+perkPhysician4,随着时间的推移，医疗物品恢复的生命值增加[decea3] 50％[-]，使用时给予的经验值增加[decea3] 100％[-]。
+actionPerkShotguns,霰弹枪
+actionPerkShotgunsDesc,提高 [decea3] 霰弹枪 [-] 的射速、装填速度、伤害和瞄准 [decea3]25%[-]。使用霰弹枪来提高这项技能。
+actionPerkShotgunsEffect,将 [decea3] 霰弹枪 [-] 的射速、装填速度、伤害和瞄准 \n 提高 [decea3]0.25%[-]。
+actionPerkShotgunsLevelUp,你的[decea3] 霰弹枪 [-]技能提高了!
+actionPerkShotguns1,伤害，射速，肢解[decea3] +5％[-] \n爆头伤害[decea3] +10％[-] \n装弹速度[decea3] +2％[-]
+actionPerkShotguns2,伤害，射速，肢解[decea3] +10％[-] \n爆头伤害[decea3] +20％[-] \n装弹速度[decea3] +4％[-]
+actionPerkShotguns3,伤害，射速，肢解[decea3] +15％[-] \n爆头伤害[decea3] +30％[-] \n装弹速度[decea3] +6％[-]
+actionPerkShotguns4,伤害，射速，肢解[decea3] +20％[-] \n爆头伤害[decea3] +40％[-] \n装弹速度[decea3] +8％[-]
+actionPerkShotguns5,伤害，射速，肢解[decea3] +25％[-] \n爆头伤害[decea3] +50％[-] \n装弹速度[decea3] +10％[-]
+actionPerkBrawler,格斗家
+actionPerkBrawlerLevelUp,你的[decea3] 格斗家 [-]技能提高了!
+actionPerkBrawler1,伤害，肢解[decea3] +5％[-] \n爆头伤害[decea3] +10％[-]
+actionPerkBrawler2,伤害，肢解[decea3] +10％[-] \n爆头伤害[decea3] +20％[-]
+actionPerkBrawler3,伤害，肢解[decea3] +15％[-] \n爆头伤害[decea3] +30％[-]
+actionPerkBrawler4,伤害，肢解[decea3] +20％[-] \n爆头伤害[decea3] +40％[-]
+actionPerkBrawler5,伤害，肢解[decea3] +25％[-] \n爆头伤害[decea3] +50％[-]
+actionPerkResistHeat,耐热性
+actionPerkResistHeatLevelUp,你的[decea3]耐热性[-]技能提高了!
+actionPerkResistHeat1,耐热性[decea3] +5 [-]
+actionPerkResistHeat2,耐热性[decea3] +10 [-]
+actionPerkResistHeat3,耐热性[decea3] +15 [-]
+actionPerkResistHeat4,耐热性[decea3] +20 [-]
+actionPerkResistHeat5,耐热性[decea3] +25 [-]
+actionPerkResistCold,耐寒性
+actionPerkResistColdLevelUp,你的[decea3]耐寒性[-]技能提高了!
+actionPerkResistCold1,耐寒性[decea3] +5 [-]
+actionPerkResistCold2,耐寒性[decea3] +10 [-]
+actionPerkResistCold3,耐寒性[decea3] +15 [-]
+actionPerkResistCold4,耐寒性[decea3] +20 [-]
+actionPerkResistCold5,耐寒性[decea3] +25 [-]
+actionPerkResistPain,耐痛性
+actionPerkResistPainLevelUp,你的[decea3]耐痛性[-]技能提高了!
+actionPerkResistPain1,生命损失[decea3] -4％[-] \n眩晕抗性[decea3] +10％[-]
+actionPerkResistPain2,生命损失[decea3] -8％[-] \n眩晕抗性[decea3] +20％[-]
+actionPerkResistPain3,生命损失[decea3] -12％[-] \n眩晕抗性[decea3] +30％[-]
+actionPerkResistPain4,生命损失[decea3] -16％[-] \n眩晕抗性[decea3] +40％[-]
+actionPerkResistPain5,生命损失[decea3] -20％[-] \n眩晕抗性[decea3] +50％[-]
+actionPerkHealing,治疗
+actionPerkHealingDesc,将最大生命值提高到 [decea3]50[-]。使用治疗物品或药物来提高此技能。
+actionPerkHealingEffect,将最大生命值提高 [decea3]0.5[-]。
+actionPerkHealingLevelUp,你的[decea3]治疗[-]技能提高了!
+actionPerkHealing1,医疗用品效果[decea3] +10％[-]
+actionPerkHealing2,医疗用品效果[decea3] +20％[-]
+actionPerkHealing3,医疗用品效果[decea3] +30％[-]
+actionPerkHealing4,医疗用品效果[decea3] +40％[-]
+actionPerkHealing5,医疗用品效果[decea3] +50％[-]
+attAgilityName,敏捷
+attAgilityDesc,更快地掌握[decea3]敏捷[-]技能，提高爆头伤害和肢解几率：[decea3]手枪[-]，[decea3]剑[-]，[decea3]刀[-]和[decea3]斧[-]
+attAgility01,技能经验值[decea3] +10％[-] \n爆头伤害[decea3] +5％[-] \n肢解几率[decea3] +2.5％[-]
+attAgility02,技能经验值[decea3] +20％[-] \n爆头伤害[decea3] +10％[-] \n肢解几率[decea3] +5％[-]
+attAgility03,技能经验值[decea3] +30％[-] \n爆头伤害[decea3] +15％[-] \n肢解几率[decea3] +7.5％[-]
+attAgility04,技能经验值[decea3] +40％[-] \n爆头伤害[decea3] +20％[-] \n肢解几率[decea3] +10％[-]
+attAgility05,技能经验值[decea3] +50％[-] \n爆头伤害[decea3] +25％[-] \n肢解几率[decea3] +12.5％[-]
+attAgility06,技能经验值[decea3] +60％[-] \n爆头伤害[decea3] +30％[-] \n肢解几率[decea3] +15％[-]
+attAgility07,技能经验值[decea3] +70％[-] \n爆头伤害[decea3] +35％[-] \n肢解几率[decea3] +17.5％[-]
+attAgility08,技能经验值[decea3] +80％[-] \n爆头伤害[decea3] +40％[-] \n肢解几率[decea3] +20％[-]
+attAgility09,技能经验值[decea3] +90％[-] \n爆头伤害[decea3] +45％[-] \n肢解几率[decea3] +22.5％[-]
+attAgility10,技能经验值[decea3] +100％[-] \n爆头伤害[decea3] +50％[-] \n肢解几率[decea3] +25％[-]
+perkGunslinger1,手枪造成的伤害提高[decea3] 5％[-]，射速提高[decea3] 5％[-]，装弹速度提高[decea3] 10％[-]
+perkGunslinger2,手枪造成的伤害提高[decea3] 10％[-]，射速提高[decea3] 10％[-]，装弹速度提高[decea3] 15％[-]
+perkGunslinger3,手枪造成的伤害提高[decea3] 15％[-]，射速提高[decea3] 15％[-]，装弹速度提高[decea3] 20％[-]。致命伤害：短时间内连续命中[decea3] 5 [-]次会造成致命伤害
+perkGunslinger4,手枪造成的伤害提高[decea3] 20％[-]，射速提高[decea3] 20％[-]，装弹速度提高[decea3] 25％[-]。致命伤害：短时间内连续命中[decea3] 4 [-]次会导致最后一枪造成[decea3]100％[-]额外伤害
+perkGunslinger5,手枪造成的伤害提高[decea3] 25％[-]，射速提高[decea3] 25％[-]，装弹速度提高[decea3] 30％[-]。致命伤害：短时间内连续命中[decea3] 3 [-]次会导致最后一枪造成[decea3]100％[-]额外伤害
+perkDeepCuts1,剑刃造成的伤害增加[decea3] 5％[-]，并且能对一个敌人造成最多[decea3] 3 [-]处流血创伤，强力攻击能造成[decea3] 2 [-]处伤口。每次攻击都会刷新流血持续时间。流血的敌人奔跑速度减慢[decea3] 10％[-]
+perkDeepCuts2,剑刃造成的伤害增加[decea3] 10％[-]，并且能对一个敌人造成最多[decea3] 4 [-]处流血创伤，强力攻击能造成[decea3] 3 [-]处伤口。
+perkDeepCuts3,剑刃造成的伤害增加[decea3] 15％[-]，并且能对一个敌人造成最多[decea3] 5 [-]处流血创伤，强力攻击能造成[decea3] 4 [-]处伤口。侧击时有[decea3] 40％[-]几率造成[decea3] 1 [-]处流血创伤。流血的敌人奔跑速度减慢[decea3] 15％[-]
+perkDeepCuts4,剑刃造成的伤害增加[decea3] 20％[-]，并且能对一个敌人造成最多[decea3] 6 [-]处流血创伤，强力攻击能造成[decea3] 4 [-]处伤口。侧击时有[decea3] 70％[-]几率造成[decea3] 1 [-]处流血创伤。
+perkDeepCuts5,剑刃造成的伤害增加[decea3] 25％[-]，并且能对一个敌人造成最多[decea3] 7 [-]处流血创伤，强力攻击能造成[decea3] 5 [-]处伤口。侧击时造成[decea3] 1 [-]处流血创伤。流血的敌人奔跑速度减慢[decea3] 20％[-]
+perkRuleOneCardioName,有氧运动
+perkRuleOneCardio1,你的最大体力增加[decea3]+5[-]\n冲刺时，体力的再生速度提高[decea3] 10％[-]
+perkRuleOneCardio2,你的最大体力增加[decea3]+10[-]\n冲刺时，体力的再生速度提高[decea3] 10％[-]
+perkRuleOneCardio3,你的最大体力增加[decea3]+15[-]\n冲刺时，体力的再生速度提高[decea3] 20％[-]
+perkRuleOneCardio4,你的最大体力增加[decea3]+20[-]\n冲刺时，体力的再生速度提高[decea3] 20％[-]
+perkRuleOneCardio5,你的最大体力增加[decea3]+25[-]\n冲刺时，体力的再生速度提高[decea3] 30％[-]
+perkFromTheShadowsName,暗影狐狸
+perkFromTheShadows1,躲在阴影里的效率提高[decea3] 13％[-]，行动噪音降低了[decea3] 10％[-]，潜行移动速度提高[decea3] 10％[-]。敌人搜索你的时间最长可达[decea3] 50 [-]秒
+perkFromTheShadows2,躲在阴影里的效率提高[decea3] 26％[-]，行动噪音降低了[decea3] 20％[-]，潜行移动速度提高[decea3] 20％[-]。敌人搜索你的时间最长可达[decea3] 40 [-]秒
+perkFromTheShadows3,躲在阴影里的效率提高[decea3] 39％[-]，行动噪音降低了[decea3] 30％[-]，潜行移动速度提高[decea3] 30％[-]。敌人搜索你的时间最长可达[decea3] 30 [-]秒
+perkFromTheShadows4,躲在阴影里的效率提高[decea3] 52％[-]，行动噪音降低了[decea3] 40％[-]，潜行移动速度提高[decea3] 40％[-]。敌人搜索你的时间最长可达[decea3] 25 [-]秒
+perkFromTheShadows5,躲在阴影里的效率提高[decea3] 65％[-]，行动噪音降低了[decea3] 50％[-]，潜行移动速度提高[decea3] 50％[-]。敌人搜索你的时间最长可达[decea3] 20 [-]秒
+perkHiddenStrike1,潜行攻击造成的伤害提高[decea3] 50％[-]
+perkHiddenStrike2,潜行攻击造成的伤害提高[decea3] 100％[-]
+perkHiddenStrike3,潜行攻击造成的伤害提高[decea3] 150％[-]
+perkHiddenStrike4,潜行攻击造成的伤害提高[decea3] 200％[-]
+perkHiddenStrike5,潜行攻击造成的伤害提高[decea3] 250％[-]
+actionPerkHandguns,手枪
+actionPerkHandgunsDesc,提高 [decea3] 手枪 [-] 的射速、装填速度、伤害和瞄准精度 [decea3]25%[-]。使用手枪来提高这项技能。
+actionPerkHandgunsEffect,将 [decea3]Handgun[-] 射速、装填速度、伤害和瞄准 \n 提高 [decea3]0.25%[-]。
+actionPerkHandgunsLevelUp,你的[decea3]手枪[-]技能提高了!
+actionPerkHandguns1,伤害，瞄准精度，肢解[decea3] +5％[-] \n爆头伤害[decea3] +10％[-] \n装弹速度[decea3] +2％[-]
+actionPerkHandguns2,伤害，瞄准精度，肢解[decea3] +10％[-] \n爆头伤害[decea3] +20％[-] \n装弹速度[decea3] +4％[-]
+actionPerkHandguns3,伤害，瞄准精度，肢解[decea3] +15％[-] \n爆头伤害[decea3] +30％[-] \n装弹速度[decea3] +6％[-]
+actionPerkHandguns4,伤害，瞄准精度，肢解[decea3] +20％[-] \n爆头伤害[decea3] +40％[-] \n装弹速度[decea3] +8％[-]
+actionPerkHandguns5,伤害，瞄准精度，肢解[decea3] +25％[-] \n爆头伤害[decea3] +50％[-] \n装弹速度[decea3] +10％[-]
+actionPerkBlades,刀和剑
+actionPerkBladesDesc,将刀刃武器伤害、攻击速度和肢解几率提高至 [decea3]25%[-]，并将收集肉提高至 [decea3]40%[-]。使用刀刃武器来提高此技能。
+actionPerkBladesEffect,将刀刃武器伤害、攻击速度和肢解几率提高 [decea3]0.25%[-]。收集肉类效率提高[decea3]0.4%[-] 。
+actionPerkBladesLevelUp,你的[decea3]刀刃[-]技能提高了!
+actionPerkBlades1,伤害，肢解[decea3] +5％[-] \n爆头伤害[decea3] +10％[-]
+actionPerkBlades2,伤害，肢解[decea3] +10％[-] \n爆头伤害[decea3] +20％[-]
+actionPerkBlades3,伤害，肢解[decea3] +15％[-] \n爆头伤害[decea3] +30％[-]
+actionPerkBlades4,伤害，肢解[decea3] +20％[-] \n爆头伤害[decea3] +40％[-]
+actionPerkBlades5,伤害，肢解[decea3] +25％[-] \n爆头伤害[decea3] +50％[-]
+actionPerkAthletics,体质
+actionPerkAthleticsDesc,提高你跑步时的体力再生和最大体力至 [decea3]20%[-]。步行、跑步、跳跃或游泳以提高技能。
+actionPerkAthleticsEffect,提高跑步时的体力再生和最大体力 [decea3]0.2%[-]。
+actionPerkAthleticsLevelUp,你的[decea3]体质[-]技能提高了!
+actionPerkAthletics1,最大体力[decea3] +5％[-] \n冲刺体力恢复[decea3] +5％[-]
+actionPerkAthletics2,最大体力[decea3] +10％[-] \n冲刺体力恢复[decea3] 10％[-]
+actionPerkAthletics3,最大体力[decea3] +15％[-] \n冲刺体力恢复[decea3] 15％[-]
+actionPerkAthletics4,最大体力[decea3] +20％[-] \n冲刺体力恢复[decea3] 20％[-]
+actionPerkAthletics5,最大体力[decea3] +25％[-] \n冲刺体力恢复[decea3] 25％[-]
+actionPerkSneaking,潜行
+actionPerkSneakingDesc,提高你的蹲伏速度并降低蹲伏时的噪音至 [decea3]25%[-]。蹲下时移动以提高此技能。
+actionPerkSneakingEffect,提高你的蹲伏速度并降低蹲伏时的噪音 [decea3]0.25%[-]。
+actionPerkSneakingLevelUp,你的[decea3] 潜行 [-]技能提高了!
+actionPerkSneaking1,蹲伏速度[decea3] +5％[-] \n检测和噪音[decea3] -5％[-]
+actionPerkSneaking2,蹲伏速度[decea3] +10％[-] \n检测和噪音[decea3] -10％[-]
+actionPerkSneaking3,蹲伏速度[decea3] +15％[-] \n检测和噪音[decea3] -15％[-]
+actionPerkSneaking4,蹲伏速度[decea3] +20％[-] \n检测和噪音[decea3] -20％[-]
+actionPerkSneaking5,蹲伏速度[decea3] +25％[-] \n检测和噪音[decea3] -25％[-]
+actionPerkAssasin,刺客
+actionPerkAssasinLevelUp,你的[decea3]刺客[-]技能提高了!
+actionPerkAssasin1,潜行攻击造成的伤害提高[decea3] 20％[-]
+actionPerkAssasin2,潜行攻击造成的伤害提高[decea3] 40％[-]
+actionPerkAssasin3,潜行攻击造成的伤害提高[decea3] 60％[-]
+actionPerkAssasin4,潜行攻击造成的伤害提高[decea3] 80％[-]
+actionPerkAssasin5,潜行攻击造成的伤害提高[decea3] 100％[-]
+actionPerkSubmachineGuns,冲锋枪
+actionPerkSubmachineGunsDesc,提高 [decea3] 冲锋枪 [-] 的射速、装填速度、伤害和瞄准精度至 [decea3]25%[-]。使用冲锋枪来提高这项技能。
+actionPerkSubmachineGunsEffect,使[decea3]冲锋枪[-]的射速，重装速度，伤害和瞄准\n提高[decea3] 0.25％[-]。
+actionPerkSubmachineGunsLevelUp,你的[decea3]冲锋枪[-]技能提高了！
+actionPerkSubmachineGuns1,伤害，瞄准，肢解[decea3]+5%[-]\n爆头伤害[decea3]+10%[-]\n装弹速度[decea3]+2%[-][decea3]解锁10mm空心弹制作[-]
+actionPerkSubmachineGuns2,伤害，瞄准，肢解[decea3]+10%[-]\n爆头伤害[decea3]+20%[-]\n装弹速度[decea3]+4%[-][decea3]解锁10mm穿甲弹制作[-]
+actionPerkSubmachineGuns3,伤害，瞄准，肢解[decea3]+15%[-]\n爆头伤害[decea3]+30%[-]\n装弹速度[decea3]+6%[-]
+actionPerkSubmachineGuns4,伤害，瞄准，肢解[decea3]+20%[-]\n爆头伤害[decea3]+40%[-]\n装弹速度[decea3]+8%[-]
+actionPerkSubmachineGuns5,伤害，瞄准，肢解[decea3]+25%[-]\n爆头伤害[decea3]+50%[-]\n装弹速度[decea3]+10%[-]
+perkPistolPeteTakeAimDesc,9毫米武器在使用瞄准镜或机械瞄具时，射程增加[decea3]20%[-]
+perkPistolPeteTakeAimLongDesc,9毫米武器在使用瞄准镜或机械瞄具时，射程增加[decea3]20%[-]
+perkPistolPeteSwissKneesDesc,成功击中同一目标的腿部会增加[decea3]10%[-]的致残机率
+perkPistolPeteSwissKneesLongDesc,成功击中同一目标的腿部会增加[decea3]10%[-]的致残机率
+perkPistolPeteSteadyHandDesc,更准确地快速发射9毫米口径的枪支
+perkPistolPeteSteadyHandLongDesc,更准确地快速发射9毫米口径的枪支
+perkPistolPeteMaintenanceDesc,9毫米枪的损坏速度[decea3]降低20%[-] 
+perkPistolPeteMaintenanceLongDesc,9毫米枪的损坏速度[decea3]降低20%[-] 
+perkPistolPeteHPAmmoDesc,你可以制作9毫米空尖弹
+perkPistolPeteHPAmmoLongDesc,你可以制作9毫米空尖弹
+perkPistolPeteAPAmmoDesc,你可以制作9毫米穿甲弹
+perkPistolPeteAPAmmoLongDesc,你可以制作9毫米穿甲弹
+perkPistolPeteDamageDesc,9毫米枪造成的伤害增加[decea3]10%[-] 
+perkPistolPeteDamageLongDesc,9毫米枪造成的伤害增加[decea3]10%[-] 
+perkPistolPeteCompleteDesc,9毫米枪在近距离无视[decea3]20%[-]的护甲，并造成流血伤害
+perkPistolPeteCompleteLongDesc,9毫米枪在近距离无视[decea3]20%[-]的护甲，并造成流血伤害
+attIntellectName,智慧
+attIntellectDesc,更快掌握[decea3]智慧[-]技能，提高爆头伤害和肢解几率：[decea3]冲锋枪[-]，[decea3]炸药[-]，[decea3]便携式炮塔[-]和[decea3] 电击棒 [-]
+attIntellect01,技能经验值[decea3] +10％[-] \n爆头伤害[decea3] +5％[-] \n肢解几率[decea3] +2.5％[-]
+attIntellect02,技能经验值[decea3] +20％[-] \n爆头伤害[decea3] +10％[-] \n肢解几率[decea3] +5％[-]
+attIntellect03,技能经验值[decea3] +30％[-] \n爆头伤害[decea3] +15％[-] \n肢解几率[decea3] +7.5％[-]
+attIntellect04,技能经验值[decea3] +40％[-] \n爆头伤害[decea3] +20％[-] \n肢解几率[decea3] +10％[-]
+attIntellect05,技能经验值[decea3] +50％[-] \n爆头伤害[decea3] +25％[-] \n肢解几率[decea3] +12.5％[-]
+attIntellect06,技能经验值[decea3] +60％[-] \n爆头伤害[decea3] +30％[-] \n肢解几率[decea3] +15％[-]
+attIntellect07,技能经验值[decea3] +70％[-] \n爆头伤害[decea3] +35％[-] \n肢解几率[decea3] +17.5％[-]
+attIntellect08,技能经验值[decea3] +80％[-] \n爆头伤害[decea3] +40％[-] \n肢解几率[decea3] +20％[-]
+attIntellect09,技能经验值[decea3] +90％[-] \n爆头伤害[decea3] +45％[-] \n肢解几率[decea3] +22.5％[-]
+attIntellect10,技能经验值[decea3] +100％[-] \n爆头伤害[decea3] +50％[-] \n肢解几率[decea3] +25％[-]
+ulmPerkSubmachineGunsName,冲锋枪
+ulmPerkSubmachineGunsDesc,熟练使用冲锋枪。
+ulmPerkSubmachineGuns1,冲锋枪造成的伤害增加[decea3]5%[-]，射击速度增加[decea3]5%[-]，装弹速度增加[decea3]10%[-]
+ulmPerkSubmachineGuns2,冲锋枪造成的伤害增加[decea3]10%[-]，射击速度增加[decea3]10%[-]，装弹速度增加[decea3]15%[-]
+ulmPerkSubmachineGuns3,冲锋枪造成的伤害增加[decea3]15%[-]，射击速度增加[decea3]15%[-]，装弹速度增加[decea3]20%[-]
+ulmPerkSubmachineGuns4,冲锋枪造成的伤害增加[decea3]20%[-]，射击速度增加[decea3]20%[-]，装弹速度增加[decea3]25%[-]
+ulmPerkSubmachineGuns5,冲锋枪造成的伤害增加[decea3]25%[-]，射击速度增加[decea3]25%[-]，装弹速度增加[decea3]30%[-]
+perkDemolitionsExpert1,火箭发射器和炸药造成的伤害提高[decea3] 10％[-]，瞄准精度提高[decea3] 10％[-]，肢解的几率增加[decea3] 10％[-]，装弹速度提高[decea3] 5％[-]
+perkDemolitionsExpert2,火箭发射器和炸药造成的伤害提高[decea3] 20％[-]，瞄准精度提高[decea3] 20％[-]，肢解的几率增加[decea3] 20％[-]，装弹速度提高[decea3] 10％[-]
+perkDemolitionsExpert3,火箭发射器和炸药造成的伤害提高[decea3] 30％[-]，瞄准精度提高[decea3] 30％[-]，肢解的几率增加[decea3] 30％[-]，装弹速度提高[decea3] 15％[-]
+perkDemolitionsExpert4,火箭发射器和炸药造成的伤害提高[decea3] 40％[-]，瞄准精度提高[decea3] 40％[-]，肢解的几率增加[decea3] 40％[-]，装弹速度提高[decea3] 20％[-]
+perkDemolitionsExpert5,火箭发射器和炸药造成的伤害提高[decea3] 50％[-]，瞄准精度提高[decea3] 50％[-]，肢解的几率增加[decea3] 50％[-]，装弹速度提高[decea3] 25％[-]
+perkElectrocutioner,警棍
+perkElectrocutioner1,警棍的伤害提高[decea3] 10％[-]，眩晕时间延长[decea3] 20％[-]
+perkElectrocutioner2,警棍的伤害提高[decea3] 20％[-]，眩晕时间延长[decea3] 40％[-]
+perkElectrocutioner3,警棍的伤害提高[decea3] 30％[-]，眩晕时间延长[decea3] 60％[-]
+perkElectrocutioner4,警棍的伤害提高[decea3] 40％[-]，眩晕时间延长[decea3] 80％[-]
+perkElectrocutioner5,警棍的伤害提高[decea3] 50％[-]，眩晕时间延长[decea3] 100％[-]
+perkTurrets1,便携式炮塔造成的伤害提高[decea3] 10％[-]，射速提高[decea3] 30％[-]。弹匣的大小增加了[decea3] 10 [-]发。机器人的激活范围从[decea3] 10 [-]增加到[decea3] 14 [-]米。你可以部署多个炮塔，但只有最接近的炮塔将处于激活状态。\n从电力陷阱击杀中获得[decea3] 5％[-] 经验值。
+perkTurrets2,便携式炮塔造成的伤害提高[decea3] 20％[-]，射速提高[decea3] 60％[-]。弹匣的大小增加了[decea3] 20 [-]发。机器人的激活范围是[decea3] 15 [-]米。\n从电力陷阱击杀中获得[decea3] 10％[-] 经验值。
+perkTurrets3,便携式炮塔造成的伤害提高[decea3] 30％[-]，射速提高[decea3] 90％[-]。弹匣的大小增加了[decea3] 30 [-]发。机器人的激活范围是[decea3] 16 [-]米。\n从电力陷阱击杀中获得[decea3] 15％[-] 经验值。
+perkTurrets4,便携式炮塔造成的伤害提高[decea3] 40％[-]，射速提高[decea3] 120％[-]。弹匣的大小增加了[decea3] 40 [-]发。便携式炮塔的装弹速度提高[decea3] 10％[-]。机器人的激活范围是[decea3] 17 [-]米。\n从电力陷阱击杀中获得[decea3] 20％[-] 经验值。
+perkTurrets5,便携式炮塔的装弹速度提高[decea3] 20％[-]。弹匣的大小增加了[decea3] 50 [-]发。机器人的激活范围是[decea3] 18 [-]米。部署的[decea3]两个[-]机器人可以同时处于激活状态。\n从电力陷阱击杀中获得[decea3] 25％[-] 经验值。
+perkBetterBarter1,在商人处购买或售出商品时获得[decea3] 5％[-]优惠
+perkBetterBarter2,在商人处购买或售出商品时获得[decea3] 10％[-]优惠
+perkBetterBarter3,在商人处购买或售出商品时获得[decea3] 15％[-]优惠
+perkBetterBarter4,在商人处购买或售出商品时获得[decea3] 20％[-]优惠
+perkBetterBarter5,在商人处购买或售出商品时获得[decea3] 25％[-]优惠
+perkDaringAdventurer1,完成任务时，增加[decea3] 5％[-]公爵币。提供额外的任务奖励
+perkDaringAdventurer2,完成任务时，增加[decea3] 10％[-]公爵币
+perkDaringAdventurer3,完成任务时，增加[decea3] 15％[-]公爵币。提供额外的任务奖励
+perkDaringAdventurer4,完成任务时，增加[decea3] 20％[-]公爵币。额外任务奖励
+perkSalvageOperations1,诸如扳手，棘轮和冲击起子之类的回收工具造成的伤害增加[decea3] 10％[-]，并可以多获取[decea3] 10％[-]的资源
+perkSalvageOperations2,诸如扳手，棘轮和冲击起子之类的回收工具造成的伤害增加[decea3] 20％[-]，并可以多获取[decea3] 20％[-]的资源
+perkSalvageOperations3,诸如扳手，棘轮和冲击起子之类的回收工具造成的伤害增加[decea3] 30％[-]，并可以多获取[decea3] 30％[-]的资源
+perkSalvageOperations4,诸如扳手，棘轮和冲击起子之类的回收工具造成的伤害增加[decea3] 40％[-]，并可以多获取[decea3] 40％[-]的资源
+perkSalvageOperations5,诸如扳手，棘轮和冲击起子之类的回收工具造成的伤害增加[decea3] 50％[-]，并可以多获取[decea3] 50％[-]的资源
+actionPerkExplosives,爆炸物
+actionPerkExplosivesLevelUp,你的[decea3]爆炸物[-]技能提高了!
+actionPerkExplosives1,伤害[decea3] +10％[-] \n瞄准精度和肢解几率[decea3] +5％[-] \n装弹速度[decea3] +2％[-]
+actionPerkExplosives2,伤害[decea3] +20％[-] \n瞄准精度和肢解几率[decea3] +10％[-] \n装弹速度[decea3] +4％[-]
+actionPerkExplosives3,伤害[decea3] +30％[-] \n瞄准精度和肢解几率[decea3] +15％[-] \n装弹速度[decea3] +6％[-]
+actionPerkExplosives4,伤害[decea3] +40％[-] \n瞄准精度和肢解几率[decea3] +20％[-] \n装弹速度[decea3] +8％[-]
+actionPerkExplosives5,伤害[decea3] +50％[-] \n瞄准精度和肢解几率[decea3] +25％[-] \n装弹速度[decea3] +10％[-]
+actionPerkShockers,警棍武器
+actionPerkShockersLevelUp,你的[decea3]警棍武器[-]技能提高了!
+actionPerkShockers1,伤害，肢解[decea3] +5％[-] \n爆头伤害[decea3] +10％[-]
+actionPerkShockers2,伤害，肢解[decea3] +10％[-] \n爆头伤害[decea3] +20％[-]
+actionPerkShockers3,伤害，肢解[decea3] +15％[-] \n爆头伤害[decea3] +30％[-]
+actionPerkShockers4,伤害，肢解[decea3] +20％[-] \n爆头伤害[decea3] +40％[-]
+actionPerkShockers5,伤害，肢解[decea3] +25％[-] \n爆头伤害[decea3] +50％[-]
+actionPerkTurrets,炮塔
+actionPerkTurretsLevelUp,你的[decea3]炮塔[-]技能提高了!
+actionPerkTurrets1,便携式炮塔性能[decea3] +5％[-] \n电力陷阱经验值 [decea3] +5％[-]
+actionPerkTurrets2,便携式炮塔性能[decea3] +10％[-] \n电力陷阱经验值 [decea3] +10％[-]
+actionPerkTurrets3,便携式炮塔性能[decea3] +15％[-] \n电力陷阱经验值 [decea3] +15％[-]
+actionPerkTurrets4,便携式炮塔性能[decea3] +20％[-] \n电力陷阱经验值 [decea3] +20％[-]
+actionPerkTurrets5,便携式炮塔性能[decea3] +25％[-] \n电力陷阱经验值 [decea3] +25％[-]
+actionPerkTrading,贸易
+actionPerkTradingLevelUp,你的[decea3]交易[-]技能提高了!
+actionPerkTrading1,更好的销售价格[decea3] 5％[-]优惠 \n秘密库存[decea3] +1 [-]
+actionPerkTrading2,更好的销售价格[decea3] 10％[-]优惠 \n秘密库存[decea3] +2 [-]
+actionPerkTrading3,更好的销售价格[decea3] 15％[-]优惠 \n秘密库存[decea3] +3 [-]
+actionPerkTrading4,更好的销售价格[decea3] 20％[-]优惠 \n秘密库存[decea3] +4 [-]
+actionPerkTrading5,更好的销售价格[decea3] 25％[-]优惠 \n秘密库存[decea3] +5 [-]
+actionPerkQuesting,任务
+actionPerkQuestingLevelUp,你的[decea3]任务[-]技能提高了!
+actionPerkQuesting1,奖励公爵币[decea3] +5％[-]
+actionPerkQuesting2,奖励公爵币[decea3] +10％[-]
+actionPerkQuesting3,奖励公爵币[decea3] +15％[-] \n额外任务奖励
+actionPerkQuesting4,奖励公爵币[decea3] +20％[-] \n额外任务奖励
+actionPerkQuesting5,奖励公爵币[decea3] +25％[-]
+actionPerkSalvaging,回收工具
+actionPerkSalvagingLevelUp,你的[decea3]回收工具[-]技能提高了!
+actionPerkSalvaging1,伤害[decea3] +10％[-] \n回收效率[decea3] +10％[-]
+actionPerkSalvaging2,伤害[decea3] +20％[-] \n回收效率[decea3] +20％[-]
+actionPerkSalvaging3,伤害[decea3] +30％[-] \n回收效率[decea3] +30％[-]
+actionPerkSalvaging4,伤害[decea3] +40％[-] \n回收效率[decea3] +40％[-]
+actionPerkSalvaging5,伤害[decea3] +50％[-] \n回收效率[decea3] +50％[-]
+perkNightStalkerThiefAdrenalineDesc,夜间负重[decea3] +50 [-]
+perkNightStalkerThiefAdrenalineLongDesc,盗贼肾上腺素：晚上肾上腺素激增的时候，你不会感受到负重的压力。夜间负重[decea3] +50 [-]
+perkFiremansAlmanacCompleteDesc,冲刺时间更长，并且在火烧地区域中[decea3] +50 [-]负重
+perkFiremansAlmanacCompleteLongDesc,冲刺时间更长，并且在火烧地区域中[decea3] +50 [-]负重
+perkGreatHeistComplete,大劫案-完成
+perkGreatHeistCompleteDesc,[decea3]开锁技能增加25[-]\n学习如何制作[decea3]发夹[-]，增加[decea3]发夹[-]和[decea3]开锁器[-]的耐久[decea3]25%[-]。
+perkGreatHeistCompleteLongDesc,[decea3]开锁技能增加25[-]\n学习如何制作[decea3]发夹[-]，增加[decea3]发夹[-]和[decea3]开锁器[-]的耐久[decea3]25%[-]。
+perkInfiltrator1,地雷和陷阱触发会慢[decea3] 0.5s [-]。地雷造成的伤害降低[decea3] 20％[-]。
+perkInfiltrator2,地雷和陷阱触发会慢[decea3] 1s [-]。地雷造成的伤害降低[decea3] 35％[-]。
+perkInfiltrator3,地雷和陷阱触发会慢[decea3] 2s [-]。地雷造成的伤害降低[decea3] 50％[-]。[decea3]可以拾取地雷了[-]
+perkAnimalTrackerRank1Desc,追踪小型猎物，如兔子，蛇或鸡。它们被标记在你的指南针和地图上
+perkAnimalTrackerRank2Desc,跟踪中型猎物，如鹿，公猪，狼和土狼
+perkAnimalTrackerRank3Desc,追踪大型猎物，如山狮和熊
+perkPenetratorRank1Desc,使用枪械、弓弩和矛时无视目标 [decea3] 15％[-] 的护甲防护
+perkPenetratorRank2Desc,使用枪械、弓弩和矛时无视目标 [decea3] 25％[-] 的护甲防护，使用猎枪和狙击步枪，穿甲弹可以额外穿透[decea3] 1 [-]个目标或一块生命值最高为 [decea3] 500 [-] 的物块
+perkPenetratorRank3Desc,使用枪械、弓弩和矛时无视目标 [decea3] 35％[-] 的护甲防护，使用猎枪和狙击步枪，穿甲弹可以额外穿透[decea3] 2 [-]个目标或一块生命值最高为 [decea3] 750 [-] 的物块
+perkPenetratorRank4Desc,使用枪械、弓弩和矛时无视目标 [decea3] 35％[-] 的护甲防护，使用猎枪和狙击步枪，穿甲弹可以额外穿透[decea3] 3 [-]个目标或一块生命值最高为 [decea3] 1000 [-] 的物块
+perkLuckyLooter1,搜刮速度[decea3] +10％[-] \n搜刮游戏等级[decea3] +5％[-]
+perkLuckyLooter2,搜刮速度[decea3] +20％[-] \n搜刮游戏等级[decea3] +10％[-]
+perkLuckyLooter3,搜刮速度[decea3] +30％[-] \n搜刮游戏等级[decea3] +15％[-]
+perkLuckyLooter4,搜刮速度[decea3] +40％[-] \n搜刮游戏等级[decea3] +20％[-]
+perkLuckyLooter5,搜刮速度[decea3] +50％[-] \n搜刮游戏等级[decea3] +25％[-]
+perkTreasureHunterRank1Desc,在埋藏的宝物中找到[decea3] 10％[-]更多物品。缩小搜索范围[decea3]30％[-]
+perkTreasureHunterRank2Desc,在埋藏的宝物中找到[decea3] 20％[-]更多物品，缩小搜索范围[decea3] 50％[-]
+perkTreasureHunterRank3Desc,在埋藏的宝物中找到[decea3] 30％[-]更多物品，缩小搜索范围[decea3] 70％[-]
+perkSexualTrex1,近战武器和工具体力的消耗减少[decea3] 5％[-]，强力攻击体力的消耗减少[decea3] 10％[-]。成功击杀可以恢复[decea3] 10 [-]体力。
+perkSexualTrex2,近战武器和工具体力的消耗减少[decea3] 10％[-]，强力攻击体力的消耗减少[decea3] 20％[-]。成功击杀可以恢复[decea3] 20 [-]体力。
+perkSexualTrex3,近战武器和工具体力的消耗减少[decea3] 20％[-]，强力攻击体力的消耗减少[decea3] 40％[-]。成功击杀可以恢复[decea3] 30 [-]体力。
+perkHeavyArmorRank1Desc,重甲移动速度和体力惩罚减少[decea3] 5％[-]。耐久度提高[decea3] 50％[-]
+perkHeavyArmorRank2Desc,重甲移动速度和体力惩罚减少[decea3] 10％[-]。耐久度提高[decea3] 100％[-]
+perkHeavyArmorRank3Desc,重甲移动速度和体力惩罚减少[decea3] 17％[-]。耐久度提高[decea3] 150％[-]
+perkHeavyArmorRank4Desc,重甲移动速度和体力惩罚减少[decea3] 25％[-]。耐久度提高[decea3] 200％[-]
+perkLivingOffTheLand1,从野生或种植的农作物中收集[decea3] 2 [-]物品。
+perkLivingOffTheLand2,农田成本降低了[decea3] 25％[-]。
+perkLivingOffTheLand3,从野生或种植的农作物中收集[decea3] 3 [-]物品。农田成本降低了[decea3] 50％[-]
+perkHealingFactorRank1Desc,每[decea3] 90 [-]秒恢复1生命值。严重伤口愈合加快[decea3] 20％[-]
+perkHealingFactorRank2Desc,每[decea3] 45 [-]秒恢复1生命值。严重伤口愈合加快[decea3] 40％[-]
+perkHealingFactorRank3Desc,每[decea3] 20 [-]秒恢复1生命值。严重伤口愈合加快[decea3] 60％[-]
+perkHealingFactorRank4Desc,每[decea3] 10 [-]秒恢复1生命值。严重伤口愈合加快[decea3] 80％[-]
+perkHealingFactorRank5Desc,每[decea3] 6 [-]秒恢复1生命值。严重伤口愈合加快两倍
+perkSlowMetabolismRank1Desc,使食物和水的消耗减少[decea3] 5％[-]。屏住呼吸[decea3] 84 [-]秒。痢疾的机率降低[decea3] 1％[-]，消耗品的效果时间延长[decea3] 10％[-]
+perkSlowMetabolismRank2Desc,使食物和水的消耗减少[decea3] 10％[-]。屏住呼吸[decea3] 108 [-]秒。痢疾的机率降低[decea3] 2％[-]，消耗品的效果时间延长[decea3] 20％[-]
+perkSlowMetabolismRank3Desc,使食物和水的消耗减少[decea3] 15％[-]。屏住呼吸[decea3] 132 [-]秒。痢疾的机率减少[decea3] 3％[-]，消耗品的效果时间延长[decea3] 30％[-]
+perkSlowMetabolismRank4Desc,使食物和水的消耗减少[decea3] 20％[-]。屏住呼吸[decea3] 156 [-]秒。痢疾的机率降低[decea3] 4％[-]，消耗品的效果时间延长[decea3] 40％[-]
+perkSlowMetabolismRank5Desc,使食物和水的消耗减少[decea3] 25％[-]。屏住呼吸[decea3] 180 [-]秒。痢疾的机率降低[decea3] 5％[-]，消耗品的效果时间延长[decea3] 50％[-]
+perkRunAndGun1,提升腰射精度[decea3] 10％[-]，并且在重新装弹时移动惩罚减少[decea3] 30％[-]
+perkRunAndGun2,提升腰射精度[decea3] 17％[-]，并且在重新装弹时移动惩罚减少[decea3] 60％[-]
+perkRunAndGun3,提升腰射精度[decea3] 25％[-]，并且在重新装弹时不会产生移动惩罚
+perkFlurryOfBlows1,木棒，拳套，刀，剑刃和电击棒的攻击速度提高[decea3] 10％[-]。使用所有近战武器，每一次击杀都会恢复[decea3] 5 [-]体力
+perkFlurryOfBlows2,木棒，拳套，刀，剑刃和电击棒的攻击速度提高[decea3] 17％[-]。使用所有近战武器，每一次击杀都会恢复[decea3] 10 [-]体力
+perkFlurryOfBlows3,木棒，拳套，刀，剑刃和电击棒的攻击速度提高[decea3] 25％[-]。使用所有近战武器，每一次击杀都会恢复[decea3] 20 [-]体力
+perkLightArmorRank1Desc,轻甲的移动速度惩罚降低[decea3] 15％[-]，体力惩罚降低[decea3] 10％[-]。耐久度提高[decea3] 50％[-]
+perkLightArmorRank2Desc,轻甲的移动速度惩罚降低[decea3] 30％[-]，体力惩罚降低[decea3] 20％[-]。耐久度提高[decea3] 100％[-]
+perkLightArmorRank3Desc,轻甲的移动速度惩罚降低[decea3] 50％[-]，体力惩罚降低[decea3] 35％[-]。耐久度提高[decea3] 150％[-]
+perkLightArmorRank4Desc,轻甲的移动速度惩罚降低[decea3] 75％[-]，体力惩罚降低[decea3] 50％[-]。耐久度提高[decea3] 200％[-]
+perkParkourRank1Desc,跳跃时的体力消耗减少[decea3] 10％[-]，安全跌落距离增加[decea3] 1 [-]米
+perkParkourRank2Desc,跳跃时的体力消耗减少[decea3] 20％[-]，安全跌落距离增加[decea3] 2 [-]米，跳跃高度增加[decea3] 1 [-]米
+perkParkourRank3Desc,跳跃时的体力消耗减少[decea3] 30％[-]，安全跌落距离增加[decea3] 4 [-]米，并且在跌落时不会骨折
+perkParkourRank4Desc,跳跃时的体力消耗减少[decea3] 40％[-]，安全跌落距离增加[decea3] 5 [-]米，跳跃高度增加[decea3] 2 [-]米，并且跌落时永远不会扭伤或骨折
+perkCharismaticNatureRank1Desc,附近的盟友增加[decea3] 20 [-]生命值和体力值
+perkCharismaticNatureRank2Desc,附近的盟友增加[decea3] 20％[-]物块和近战伤害
+perkCharismaticNatureRank3Desc,附近的盟友增加所有伤害[decea3] 10％[-]抗性，流血伤害减少[decea3] 50％[-]，流血速度降低[decea3] 50％[-]。
+perkCharismaticNatureRank4Desc,附近的盟友所有属性增加[decea3] 1 [-]
+perkAdvancedEngineeringRank1Desc,熔炉制作速度加快[decea3] 20％[-]。制作胶水需要更少的资源
+perkAdvancedEngineeringRank2Desc,工作台，水泥搅拌机和制作快[decea3] 20％[-]
+perkAdvancedEngineeringRank3Desc,从电力陷阱击杀中获得[decea3] 20％[-] 经验值。所有锻造配方的成本降低[decea3] 10％[-]，锻造钢和电气设备的成本降低[decea3] 15％[-]
+perkAdvancedEngineeringRank4Desc,从电力陷阱击杀中获得[decea3] 35％[-] 经验值。所有锻造配方的成本降低[decea3] 15％[-]，锻造钢和电气设备的成本降低[decea3] 25％[-]
+perkAdvancedEngineeringRank5Desc,从电力陷阱击杀中获得[decea3] 50％[-] 经验值。所有锻造配方的成本降低[decea3] 20％[-]，锻造钢和电气设备的成本降低[decea3] 35％[-]
+perkWasteTreasuresClothDesc,制作衣物所需的棉花减少[decea3] 25％[-]
+perkWasteTreasuresClothLongDesc,制作衣物所需的棉花减少[decea3] 25％[-]
+perkUrbanCombatCigarDesc,对交易谈判的影响提高[decea3] 5％[-]
+perkUrbanCombatCigarLongDesc,对交易谈判的影响提高[decea3] 5％[-]
+ulmPerkEfficientPackerName,认真的包装工
+ulmPerkEfficientPackerDesc,细致的打包技巧使你可以有效而有序地使用非常有限的背包空间，从而在相同的可用空间下携带更多物品。
+ulmPerkEfficientPacker1,使用更有效的打包技巧，让你的背包里多装[decea3] 20 [-]个单位的物品
+ulmPerkEfficientPacker2,使用更有效的打包技巧，让你的背包里多装[decea3] 40 [-]个单位的物品
+ulmPerkEfficientPacker3,使用更有效的打包技巧，让你的背包里多装[decea3] 60 [-]个单位的物品
+ulmPerkEfficientPacker4,使用更有效的打包技巧，让你的背包里多装[decea3] 80 [-]个单位的物品
+ulmPerkEfficientPacker5,使用更有效的打包技巧，让你的背包里多装[decea3] 100 [-]个单位的物品
+ulmPerkDroneSpecialistName,无人机专家
+ulmPerkDroneSpecialistDesc,学习如何微调和重新校准无人机的伺服装置，提高载重量。
+ulmPerkDroneSpecialist1,无人机载重量增加[decea3]25%[-]单位
+ulmPerkDroneSpecialist2,无人机载重量增加[decea3]50%[-]单位
+ulmPerkDroneSpecialist3,无人机载重量增加[decea3]100%[-]单位
+ulmPerkDroneSpecialist4,无人机载重量增加[decea3]150%[-]单位
+ulmPerkDroneSpecialist5,无人机载重量增加[decea3]200%[-]单位
+ulmPerkGiftOfLifeName,生命的礼物
+ulmPerkGiftOfLifeDesc,遗传和健康习惯的结合让你获得更好的身体健康，因此，你的最大健康值可以增加。
+ulmPerkGiftOfLife1,最大健康值[decea3]+5[-]
+ulmPerkGiftOfLife2,最大健康值[decea3]+10[-]
+ulmPerkGiftOfLife3,最大健康值[decea3]+15[-]
+ulmPerkGiftOfLife4,最大健康值[decea3]+20[-]
+ulmPerkGiftOfLife5,最大健康值[decea3]+25[-]
+perkBarBrawling1BasicMovesDesc,用拳头、皮革、铁制和尖刺指节套武器造成的伤害提高[decea3]10％[-]
+perkBarBrawling2DropABombDesc,冲刺强力攻击有很高的几率击倒你的对手。
+perkBarBrawling3KillerInstinctDesc,每次击杀获得  [decea3]5%[-] 的伤害，最高  [decea3]15%[-]。 [decea3]10[-] 秒后，如果没有杀死任何目标，杀手本能下降一级。
+perkBarBrawling4FinishingMovesDesc,对被击倒并被击晕的对手造成[decea3] 20％[-]额外伤害
+perkBarBrawling5AdrenalineHealingDesc,战斗中，每一击生命值恢复[decea3]1[-]点
+perkBarBrawling6RageModeDesc,被击中后，格斗攻击速度提高[decea3]20%[-]，移动速度加快[decea3]10%[-]
+perkBarBrawling7BoozedUpDesc,喝啤酒不会再让你眼花，你兴奋的时间也会延长一倍。
+perkBarBrawling8CompleteDesc,在短时间内进行第 7 次徒手攻击，造成[decea3]300%[-] 的伤害。
+ulmSkillUtilityName,实用
+autoTurret,SMG自动炮塔
+autoTurretDesc,运动传感自动炮塔，使用10毫米SMG弹药。
+cntBathTubEmpty,浴缸
+cntBathTubEmptyDesc,用于盛水的容器，人或动物可以在其中洗澡。
+cntCollapsedWorkbench,损坏的工作台
+cntCollapsedWorkbenchDesc,损坏的，可搜刮的工作台不能用来制作东西，但可以在其中存放一些贵重物品。
+counterSinkCommercial,商用盥洗盆
+forge,熔炉
+generatorbank,发电机
+modularRopeTiled,绳梯
+modularRopeTiledDesc,[decea3]可以用来爬上爬下。[-]与梯子相比不太耐用。
+palletBrownBoxesBase,堆叠的盒子
+palletBrownBoxesTile,堆叠的盒子
+palletBrownBoxesTop,盒子
+palletBrownBoxesLoose,堆叠的盒子
+solarbank,太阳能电池组
+tire,轮胎
+tireDesc,橡胶轮胎，可用于装饰车库。
+tnt,炸药包
+tntDesc,炸药包可以通过将多个炸药棒连接在一起而制成。
+wallHungSink,洗手池
+wineBarrel,啤酒桶
+wineBarrelDesc,用来存放啤酒
+wineBarrelPlayer,啤酒桶
+wineBarrelPlayerDesc,用来存放啤酒
+wineBarrelPlayerSecure,啤酒桶
+wineBarrelPlayerSecureDesc,用来存放啤酒
+wineBarrelPlain,啤酒桶，普通
+wineBarrelPlainDesc,用来存放啤酒
+wineBarrelPlainPlayer,啤酒桶，普通
+wineBarrelPlainPlayerDesc,用来存放啤酒
+wineBarrelPlainPlayerSecure,啤酒桶，普通
+wineBarrelPlainPlayerSecureDesc,用来存放啤酒
+wineBarrelSet,啤酒桶
+wineBarrelSetDesc,用来存放啤酒
+wineBarrelSetPlayer,啤酒桶
+wineBarrelSetPlayerDesc,用来存放啤酒
+wineBarrelSetPlayerSecure,啤酒桶
+wineBarrelSetPlayerSecureDesc,用来存放啤酒
+workbench,工作台
+workbenchDesc,工作台可让你制作更多更好的物品和物块。
+cntBarrelPlasticSingle00,水桶
+cntBarrelPlasticSingle00Desc,用于储存水的容器。
+cntBarrelPlasticSingle45,水桶
+cntBarrelPlasticSingle45Desc,用于储存水的容器。
+cntBarrelPlasticQuadA,水桶托盘
+cntBarrelPlasticQuadADesc,用于储存水的容器。
+cntBarrelPlasticQuadB,水桶
+cntBarrelPlasticQuadBDesc,用于储存水的容器。
+cntBeerCooler,饮料冷却器
+cntBeerCoolerDesc,家具。
+cntCar03SedanDamage0v01,轿车
+cntCar03SedanDamage0v02,轿车
+cntCar03SedanDamage0v03,轿车
+cntCar03SedanDamage0v04,轿车
+cntCar03SedanDamage0v05,轿车
+cntCar03SedanDamage0v06,轿车
+cntCar03SedanDamage0v07,轿车
+cntCar03SedanDamage0v08,轿车
+cntGasPumpEmpty,[FF1919]损坏的[-]气泵
+cntGasPumpEmptyDesc,
+cntGasPumpFull,气泵
+cntGasPumpFullDesc,
+cntStoreElectronicsBookShelfSpeaker,书架音箱
+cntWaterCoolerBottle,矿泉水瓶
+cntWaterCoolerBottleDesc,用于储存干净矿泉水的容器。
+cntWaterCoolerFull,矿泉水架
+cntWaterCoolerFullDesc,用于储存干净矿泉水的容器。
+plantedAloe1,芦荟种子
+plantedAloe1Schematic,芦荟种子
+plantedBlueberry1,蓝莓种子
+plantedBlueberry1Schematic,蓝莓种子
+plantedChrysanthemum1,菊花种子
+plantedChrysanthemum1Schematic,菊花种子
+plantedCoffee1,咖啡种子
+plantedCoffee1Schematic,咖啡种子
+plantedCorn1,玉米种子
+plantedCorn1Schematic,玉米种子
+plantedCotton1,棉花种子
+plantedCotton1Schematic,棉花种子
+plantedGoldenrod1,秋麒麟种子
+plantedGoldenrod1Schematic,秋麒麟种子
+plantedGraceCorn1,超级玉米种子
+plantedGraceCorn1Schematic,超级玉米种子
+plantedHop1,啤酒花种子
+plantedHop1Schematic,啤酒花种子
+plantedMushroom1,蘑菇种子
+plantedMushroom1Desc,把这些蘑菇种子种在一块农田里，让它们长出来供你收割。与大多数农作物不同，蘑菇生长不需要阳光。
+plantedMushroom1Schematic,蘑菇种子
+plantedPotato1,土豆种子
+plantedPotato1Schematic,土豆种子
+plantedPumpkin1,南瓜种子
+plantedPumpkin1Schematic,南瓜种子
+plantedtreeGrassSeed1,草籽
+plantedtreeGrassSeed1Schematic,草籽
+plantedYucca1,丝兰果实种子
+plantedYucca1Schematic,丝兰果实种子
+sectionalPlaidChair,旧扶手椅
+lootHelperDesc,将随机生成一个在blockplaceholders.xml中定义的[decea3]空的/打开[-]或[decea3]可搜刮[-]的容器。
+cntCabinetBottomRandomLootHelper,[Cabinet Random Helper]
+cntStoveRandomLootHelper,[Stove Random Helper]
+cntGasGrillRandomLootHelper,[Gas Grill Random Helper]
+cntCharcoalGrillRandomLootHelper,[Charcoal Grill Random Helper]
+cntMicrowaveRandomLootHelper,[Microwave Random Helper]
+cntRetroFridgeRandomLootHelper,[Retro Fridge Random Helper]
+cntFridgeStainlessSteelRandomLootHelper,[Steel Fridge Random Helper]
+cntCoolerRandomLootHelper,[Cooler Random Helper]
+cntWasherRandomLootHelper,[Washing Machine Random Helper]
+cntDryerRandomLootHelper,[Dryer Random Helper]
+cntWasherIndustrialRandomLootHelper,[Industrial Washer Random Helper]
+cntWasherIndustrialTippedRandomLootHelper,[Industrial Washer Tipped Random Helper]
+cntLaundryBasketRandomLootHelper,[Laundry Basket Random Helper]
+cntDomedTrashCanRandomLootHelper,[Domed Trash Can Random Helper]
+cntBruteStyleTrashCanRandomLootHelper,[Trash Can Random Helper]
+cntTiltTruckRandomLootHelper,[Tilt Truck Random Helper]
+cntGasPumpRandomLootHelper,[Gas Pump Random Helper]
+cntNightstandRandomLootHelper,[Nightstand Random Helper]
+cntModularClosetRandomLootHelper,[Garment Bag Random Helper]
+cntMedicineCabinetFaucetRandomLootHelper,"[Medicine Cabinet, Faucet Random Helper]"
+cntMedicineCabinetClosedRandomLootHelper,[Medicine Cabinet Random Helper]
+cntPillCaseRandomLootHelper,[Medicine Cabinet Random Helper]
+cntWallSafeRandomLootHelper,[Wall Safe Random Helper]
+cntWallSafeNonPaintingRandomLootHelper,"[Wall Safe, No Painting Random Helper]"
+cntDeskSafeRandomLootHelper,[Desk Safe Random Helper]
+cntPaintingPictureSafeRandomLootHelper,"[Painting, Wall Safe Random Helper]"
+cntWoodDesk01RandomLootHelper,[Wood Desk Random Helper]
+cntMetalDesk02RandomLootHelper,[Metal Desk Random Helper]
+wallClockRandomLootHelper,[Wall Clock Random Helper]
+cntFileCabinetShortRandomLootHelper,"[File Cabinet, Short Random Helper]"
+cntFileCabinetTallRandomLootHelper,"[File Cabinet, Tall Random Helper]"
+cntBathTubsRandomLootHelper,[Bathtubs Random Helper]
+cntCashRegisterRandomLootHelper,[Cash Registers Random Helper]
+cntShoppingCartRandomLootHelper,[Shopping Cart Random Helper]
+cntShoppingBasketRandomLootHelper,[Shopping Basket Random Helper]
+cntToolBoxRandomLootHelper,[Toolbox Random Helper]
+cntToolBoxOffsetRandomLootHelper,[Toolbox Offset Random Helper]
+cntRollingToolBoxRandomLootHelper,[Rolling Toolbox Random Helper]
+cntUtilityCartRandomLootHelper,[Utility Cart Random Helper]
+cntStoreShelfSingleBottomFoodRandomLootHelper,"[Store Shelf Single Bot, Food Random Helper]"
+cntStoreShelfSingleTopFoodRandomLootHelper,"[Store Shelf Single Top, Food Random Helper]"
+cntStoreShelfDoubleBottomFoodRandomLootHelper,"[Store Shelf Double Bot, Food Random Helper]"
+cntStoreShelfDoubleTopFoodRandomLootHelper,"[Store Shelf Double Top, Food Random Helper]"
+cntStoreShelfSingleBottomHardwareRandomLootHelper,"[Store Shelf Single Bot, Hardware Random Helper]"
+cntStoreShelfSingleTopHardwareRandomLootHelper,"[Store Shelf Single Top, Hardware Random Helper]"
+cntStoreShelfDoubleBottomHardwareRandomLootHelper,"[Store Shelf Double Bot, Hardware Random Helper]"
+cntStoreShelfDoubleTopHardwareRandomLootHelper,"[Store Shelf Double Top, Hardware Random Helper]"
+cntStoreShelfSingleBottomPharmaRandomLootHelper,"[Store Shelf Single Bot, Medical Random Helper]"
+cntStoreShelfDoubleBottomPharmaRandomLootHelper,"[Store Shelf Double Bot, Medical Random Helper]"
+cntStoreProduceBasketCornerRandomLootHelper,"[Produce Basket, Corner Random Helper]"
+cntStoreProduceBasketRandomLootHelper,[Produce Basket Random Helper]
+cntDisplayCaseAmmoLeftRandomLootHelper,"[Ammo Display Case, Left Random Helper]"
+cntDisplayCaseAmmoMiddleRandomLootHelper,"[Ammo Display Case, Mid Random Helper]"
+cntDisplayCaseAmmoRightRandomLootHelper,"[Ammo Display Case, Right Random Helper]"
+cntGunRackSmallRandomLootHelper,"[Gun Rack, Small Random Helper]"
+cntGunRackLargeRandomLootHelper,"[Gun Rack, Large Random Helper]"
+cntStoreShelfElectronicsSingleTallRandomLootHelper,"[Store Shelf Single, Electronics Random Helper]"
+cntStoreShelfElectronicsDoubleTallRandomLootHelper,"[Store Shelf Double, Electronics Random Helper]"
+cntClothesRackRoundRandomLootHelper,"[Clothes Rack, Round Random Helper]"
+cntClothesRackRectangleRandomLootHelper,"[Clothes Rack, Rectangle Random Helper]"
+cntClothesRackWallRandomLootHelper,"[Clothes Rack, Wall Random Helper]"
+cntClothesShelfHalfRandomLootHelper,[Clothes Shelf Random Helper]
+cntClothesShelfStackRandomLootHelper,[Clothes Shelf Stack Random Helper]
+cntStoreShelfDoubleBottomShoesRandomLootHelper,"[Store Shelf Double Bot, Shoes Random Helper]"
+cntStoreShelfDoubleTopShoesRandomLootHelper,"[Store Shelf Double Top, Shoes Random Helper]"
+cntStoreShelfSingleBottomShoesRandomLootHelper,"[Store Shelf Single Bot, Shoes Random Helper]"
+cntStoreShelfSingleTopShoesRandomLootHelper,"[Store Shelf Single Top, Shoes Random Helper]"
+cntShoesPileRandomLootHelper,[Shoes Pile Random Helper]
+cntBookcaseGoodRandomLootHelper,"[Bookcase, Good Random Helper]"
+cntBookcasePoorRandomLootHelper,"[Bookcase, Poor Random Helper]"
+cntBookShelfSingleBottomRandomLootHelper,[Book Shelf Single Bot Random Helper]
+cntBookShelfSingleTopRandomLootHelper,[Book Shelf Single Top Random Helper]
+cntBookShelfDoubleBottomRandomLootHelper,[Book Shelf Double Bot Random Helper]
+cntBookShelfDoubleTopRandomLootHelper,[Book Shelf Double Top Random Helper]
+cntBookShelfSingleCapBottomRandomLootHelper,[Book Shelf Cap Bot Random Helper]
+cntBookShelfSingleCapTopRandomLootHelper,[Book Shelf Cap Top Random Helper]
+cntBookPileRandomLootHelper,[Book Pile Random Helper]
+cntVendingMachine2RandomLootHelper,[Vending Machine Random Helper]
+cntLuggageMediumRandomLootHelper,[Luggage Medium Random Helper]
+cntLuggageBigRandomLootHelper,[Luggage Big Random Helper]
+cntLuggagePileARandomLootHelper,[Luggage Pile A Random Helper]
+cntLuggagePileBRandomLootHelper,[Luggage Pile B Random Helper]
+cntBagsRandomLootHelper,[Bag/Backpack Random Helper]
+cntArmyTruckRandomLootHelper,[Army Truck Random Helper]
+cntAmbulanceTruck01RandomLootHelper,[Ambulance/Air Random Helper]
+cntServiceTruckMoPowerRandomLootHelper,[Mo Power Truck/Air Random Helper]
+cntServiceTruckWorkingStiffToolsRandomLootHelper,[Working Stiffs Truck/Air Random Helper]
+cntWastelandRandomLootHelper,[Wasteland Loot Random Helper]
+cntDesertRandomLootHelper,[Desert Loot Random Helper]
+cntBurntForestRandomLootHelper,[Burnt Forest Loot Random Helper]
+cntForestRandomLootHelper,[Forest Loot Random Helper]
+cntHouseRandomLootHelper,[House Loot Random Helper]
+cntStreetRandomLootHelper,[Street Loot Random Helper]
+cntYardRandomLootHelper,[Yard Loot Random Helper]
+cntGarageRandomLootHelper,[Garage Loot Random Helper]
+cntConstructionSuppliesRandomLootHelper,[Construction Loot Random Helper]
+cntStoreCratesRandomLootHelper,[Store Crate Random Helper]
+cntToolsAndForgeRandomLootHelper,[Tools/Forge Random Helper]
+cntWorkstationsRandomLootHelper,[Workstation Random Helper]
+cntWorkstationsBustedRandomLootHelper,"[Workstation, Busted Random Helper]"
+cntForgeBustedRandomLootHelper,[Destroyed Forge Random Helper]
+cntWorkbenchBustedRandomLootHelper,[Destroyed Workbench Random Helper]
+cntCementMixerBustedRandomLootHelper,[Destroyed Cement Mixer Random Helper]
+cntChemistryStationBustedRandomLootHelper,[Destroyed Chemistry Station Random Helper]
+cntQuestRandomLootHelper,[Quest Loot Random Helper]
+cntQuestNoPHRandomLootHelper,"[Quest Loot, No PH Random Helper]"
+cntLockersShortRandomLootHelper,[Lockers Short Random Helper]
+cntLockersTallRandomLootHelper,[Lockers Tall Random Helper]
+cntLockersTallDoubleRandomLootHelper,[Lockers Tall Double Random Helper]
+cntLockersTallMixRandomLootHelper,[Lockers Mixed 1 Random Helper]
+cntLockersTallMixLinkRandomLootHelper,[Lockers Mixed 2 Random Helper]
+cntFreezerGroceriesMiddleRandomLootHelper,"[Freezer Middle, Groceries Random Helper]"
+cntFreezerGroceriesLeftRandomLootHelper,"[Freezer Left, Groceries Random Helper]"
+cntFreezerGroceriesRightRandomLootHelper,"[Freezer Right, Groceries Random Helper]"
+cntFreezerBeveragesMiddleRandomLootHelper,"[Freezer Middle, Beverages Random Helper]"
+cntFreezerBeveragesLeftRandomLootHelper,"[Freezer Left, Beverages Random Helper]"
+cntFreezerBeveragesRightRandomLootHelper,"[Freezer Right, Beverages Random Helper]"
+cntFreezerBeveragesStandaloneRandomLootHelper,"[Freezer Standalone, Beverages Random Helper]"
+cntCupboardCabinetRedTopLootHelper,[Cupboard Red Random Helper]
+cntCabinetOldBottomLootHelper,[Cabinet Old Random Helper]
+carsRandomHelper,[Cars Random Helper]
+carWrecksRandomHelper,[Car Wrecks Random Helper]
+cars3WideRandomHelper,[Cars 3 Wide Random Helper]
+cntCar03SedanDamage0RandomHelper,[Full Car/Air Random Helper]
+cntCar03SedanDamage1RandomHelper,[2nd Stage Car/Air Random Helper]
+cntCar03SedanDamage2RandomHelper,[Wrecked Car/Air Random Helper]
+terrStoneHelper,[Stone Terrain Helper]
+cntCashRegisterSecure,安全收银机
+cntFileCabinetShortSecure,安全文件柜
+cntFileCabinetTallSecure,安全文件柜
+cntLockersShortSecure,安全储物柜
+cntLockersTallSecure,安全储物柜
+cntLockersTallDoubleSecure,安全储物柜
+cntLockersTallMixSecure,安全储物柜
+cntLockersTallMixLinkSecure,安全储物柜
+cntToolBoxSecure,安全工具箱
+cntToolBoxOffsetSecure,安全工具箱
+cntRollingToolBoxSecure,安全滚轮工具箱
+cntWoodDesk01Secure,安全木制办公桌
+cntMetalDesk02Secure,安全铁制办公桌
+ulmBlockConcreteBarrier1VariantHelper,混凝土屏障
+ulmBlockTrapGlassBusinessVariantHelper,商业玻璃（陷阱）
+ulmBlockTrapGlassBusinessVariantHelperDesc,假的地板或陷阱，踩在上面会碎裂。
+ulmBlockTVVariantHelper,电视
+ulmBlockTVVariantHelperDesc,不起作用，但会让你有宾至如归的感觉。
+ulmBlockWoodVariantHelper,木块
+ulmBlockWoodVariantHelperDesc,提供基本保护。
+ulmBlockRWoodVariantHelper,强化木块
+ulmBlockRWoodVariantHelperDesc,提供比常规木块更好的保护。
+ulmBlockMRWoodVariantHelper,金属强化木块
+ulmBlockMRWoodVariantHelperDesc,比非金属加固木块提供更多保护。
+ulmBlockRScrapIronVariantHelper,废铁块
+ulmBlockRScrapIronVariantHelperDesc,提供一般的保护。
+ulmBlockSteelVariantHelper,钢块
+ulmBlockSteelVariantHelperDesc,提供出色的保护。
+ulmBlockSSteelVariantHelper,不锈钢块
+ulmBlockSSteelVariantHelperDesc,提供比钢块更好的保护。
+ulmBlockPewSegmentVariantHelper,座椅排
+ulmBlockRopeVariantHelper,绳索（可攀爬）
+ulmCollectorOilPumpActive,石油提取机
+ulmCollectorOilPumpActiveDesc,从土壤深处缓慢提取[decea3]油页岩[-]。
+ulmCollectorOilPumpHarvest,石油提取机
+ulmCollectorOilPumpHarvestDesc,从土壤深处缓慢提取[decea3]油页岩[-]。
+ulmCollectorOreActive,选矿机
+ulmCollectorOreActiveDesc,从土壤深处缓慢随机提取矿石。有小几率提取[decea3]钛矿[-]
+ulmCollectorOreHarvest,选矿机
+ulmCollectorOreHarvestDesc,从土壤深处缓慢随机提取矿石。有小几率提取[decea3]钛矿[-]
+ulmBlockWaterpump,水泵
+ulmBlockWaterpumpDesc,从土壤深处缓慢地抽取浑水（游戏时间每1小时一个单位），受辐射污染较少。
+ulmCollectorWellWood,原始水井
+ulmCollectorWellWoodDesc,从土壤深处缓慢地抽取浑水（游戏时间每2小时一个单位），受辐射污染较少。
+ulmContainerBagStarter,逃生袋
+ulmContainerBagStarterDesc,便携式套件，包含在紧急情况下生存 48 小时所需的物品。将其放在地面上打开。
+ulmContainerBagStarterLoot,逃生袋
+ulmContainerBagStarterLootDesc,便携式套件，包含在紧急情况下生存 48 小时所需的物品。
+ulmContainerBirdnestEmpty,鸟巢\n[808080]（已搜刮）[-]
+ulmContainerBirdnestEmptyDesc,被洗劫一空的鸟巢
+ulmContainerCarPickupTruck,被遗弃的蓝色皮卡
+ulmContainerATM1Secure,ATM
+ulmContainerATM1Insecure,ATM
+ulmContainerATM2Secure,ATM
+ulmContainerATM2Insecure,ATM
+ulmContainerATMStandingRandomHelper,[Standing ATM Random Helper]
+ulmContainerATM3Secure,销售点终端机
+ulmContainerATM3Insecure,销售点终端机
+ulmContainerATM4Secure,销售点终端机
+ulmContainerATM4Insecure,销售点终端机
+ulmContainerATMTerminalRandomHelper,[Cash Terminal Random Helper]
+ulmContainerATM5Secure,ATM
+ulmContainerATM5Insecure,ATM
+ulmContainerATM6Secure,ATM
+ulmContainerATM6Insecure,ATM
+ulmContainerATMOnWallRandomHelper,[ATM Random Helper]
+ulmContainerATM7Secure,墙面ATM
+ulmContainerATM7Insecure,墙面ATM
+ulmContainerATM8Secure,墙面ATM
+ulmContainerATM8Insecure,墙面ATM
+ulmContainerATM9Secure,墙面ATM
+ulmContainerATM9Insecure,墙面ATM
+ulmContainerATMInWallRandomHelper,[Wall ATM Random Helper]
+ulmContainerCollapsedTannery,被毁的制革站
+ulmContainerCollapsedTanneryDesc,制革站残留，用于加工各种野兽皮革的工作站。
+ulmContainerNightstandClosed,床头柜
+ulmContainerNightstandClosedDesc,设计用于放在床旁或其他地方的小柜子，用于存放普通家用物品或衣物。
+ulmContainerNightstandOpen1,床头柜
+ulmContainerNightstandOpen1Desc,设计用于放在床旁或其他地方的小柜子，用于存放普通家用物品或衣物。
+ulmContainerNightstandOpen2,床头柜
+ulmContainerNightstandOpen2Desc,设计用于放在床旁或其他地方的小柜子，用于存放普通家用物品或衣物。
+ulmContainerNightstandOpen3,床头柜
+ulmContainerNightstandOpen3Desc,设计用于放在床旁或其他地方的小柜子，用于存放普通家用物品或衣物。
+ulmContainerChestOpen,破损的储物箱
+ulmContainerChestOpenDesc,这个箱子似乎没有盖。
+ulmContainerChestHeroPlayer,加固的箱子
+ulmContainerChestHeroPlayerDesc,能储存相当数量的物品，耐用程度适中。
+ulmContainerHardenedChestSecurePlayer,加固的箱子
+ulmContainerHardenedChestSecurePlayerDesc,非常耐用和宽敞的存储空间。
+ulmContainerHardenedChestInsecurePlayer,加固的不安全箱子
+ulmContainerHardenedChestInsecurePlayerDesc,非常耐用和宽敞的存储空间。没有锁。
+ulmContainerMunitionsBoxPlayer,弹药盒
+ulmContainerMunitionsBoxPlayerDesc,相对安全的容器。
+ulmContainerVault,金库
+ulmContainerVaultDesc,最安全的容器，存放你所有最宝贵的物品。尺寸（宽x深x高）：[decea3]3x3x3[-]
+ulmContainerGunSafePlayer,枪支保险柜
+ulmContainerGunSafePlayerDesc,良好而可靠的存储。
+ulmContainerGunSafeInsecurePlayer,不安全的枪支保险柜
+ulmContainerGunSafeInsecurePlayerDesc,良好而可靠的存储。没有锁。
+ulmContainerStationChemistryCollapsed,倒塌的化学站
+ulmContainerStationChemistryCollapsedDesc,混合和酿造各种混合物和化学药品。
+ulmContainerWorkbenchCollapsed,倒塌的工作台
+ulmContainerWorkbenchCollapsedDesc,比起赤手空拳，你可以制作更多高级物品和物块。
+ulmContainerSciFi01A,金属容器（装饰）
+ulmContainerSciFi01ADesc,装饰而已，没有储藏空间。
+ulmContainerSciFi01ALoot,金属容器
+ulmContainerSciFi01ALootDesc,耐用且宽敞的存储空间。
+ulmContainerSciFi01ALootSecure,安全金属容器
+ulmContainerSciFi01ALootSecureDesc,耐用且宽敞的存储空间。
+ulmContainerSciFi01ALootSecureSigned,标牌金属容器
+ulmContainerSciFi01ALootSecureSignedDesc,耐用且宽敞的存储空间。
+ulmContainerSciFi01B,金属容器（装饰）
+ulmContainerSciFi01BDesc,装饰而已，没有储藏空间。
+ulmContainerSciFi01BLoot,金属容器
+ulmContainerSciFi01BLootDesc,耐用且宽敞的存储空间。
+ulmContainerSciFi01BLootSecure,安全金属容器
+ulmContainerSciFi01BLootSecureDesc,耐用且宽敞的存储空间。
+ulmContainerSciFi01C,金属容器（装饰）
+ulmContainerSciFi01CDesc,装饰而已，没有储藏空间。尺寸（宽x深x高）：[decea3]2x1x1[-]
+ulmContainerSciFi01CLoot,金属容器
+ulmContainerSciFi01CLootDesc,耐用且宽敞的大储物空间。尺寸（宽x深x高）：[decea3]2x1x1[-]
+ulmContainerSciFi01CLootSecure,安全金属容器
+ulmContainerSciFi01CLootSecureDesc,耐用且宽敞的大储物空间。尺寸（宽x深x高）：[decea3]2x1x1[-]
+ulmContainerSciFi01CLootSecureSigned,标牌金属容器
+ulmContainerSciFi01CLootSecureSignedDesc,耐用且宽敞的大储物空间。尺寸（宽x深x高）：[decea3]2x1x1[-]
+ulmContainerSciFi01D,金属容器（装饰）
+ulmContainerSciFi01DDesc,装饰而已，没有储藏空间。尺寸（宽x深x高）：[decea3]2x1x1[-]
+ulmContainerSciFi01DLoot,金属容器
+ulmContainerSciFi01DLootDesc,耐用且宽敞的大储物空间。尺寸（宽x深x高）：[decea3]2x1x1[-]
+ulmContainerSciFi01DLootSecure,安全金属容器
+ulmContainerSciFi01DLootSecureDesc,耐用且宽敞的大储物空间。尺寸（宽x深x高）：[decea3]2x1x1[-]
+ulmContainerSciFi01DLootSecureSigned,标牌金属容器
+ulmContainerSciFi01DLootSecureSignedDesc,耐用且宽敞的大储物空间。尺寸（宽x深x高）：[decea3]2x1x1[-]
+ulmContainerSciFiVariantHelper,科幻容器
+ulmContainerSciFiVariantHelperDesc,仅用于构建POI和创意。
+ulmBlockElevatorPlatform2,电梯平台（2层）
+ulmBlockElevatorPlatform2Desc,具有内置电源。尺寸（宽x深x高）：[decea3] 9x9x6 [-]
+ulmBlockElevatorPlatform3,电梯平台（3层）
+ulmBlockElevatorPlatform3Desc,具有内置电源。尺寸（宽x深x高）：[decea3] 9x9x11 [-]
+ulmBlockElevatorPlatform4,电梯平台（4层）
+ulmBlockElevatorPlatform4Desc,具有内置电源。尺寸（宽x深x高）：[decea3] 9x9x16 [-]
+ulmBlockElevatorPlatform5,电梯平台（5层）
+ulmBlockElevatorPlatform5Desc,具有内置电源。尺寸（宽x深x高）：[decea3] 9x9x21 [-]
+ulmBlockElevatorPlatform6,电梯平台（6层）
+ulmBlockElevatorPlatform6Desc,具有内置电源。尺寸（宽x深x高）：[decea3] 9x9x26 [-]
+ulmLightCeiling02Player,银色顶灯
+ulmLightCeiling02BrassPlayer,黄铜顶灯
+ulmLightCeiling04Player,仓库顶灯
+ulmLightCeiling05Player,银色玻璃灯
+ulmLightCeiling05BrassPlayer,黄铜玻璃灯
+ulmLightCeilingFanPlayer,吊扇灯
+ulmLightChandelierFanPlayer,吊灯
+ulmLightDeskLampPlayer,台灯
+ulmLightEndTablePlayer,茶几灯
+ulmLightFluorescentPlayer,荧光灯
+ulmLightFlashlightPlayer,工业手电筒
+ulmLightPorch01Player,旧户外灯
+ulmLightPorch04Player,铁制户外灯
+ulmLightPorch04BrassPlayer,黄铜户外灯
+ulmLightRecessedPlayer,嵌入式灯
+ulmLightRoadBarricadePlayer,路障灯
+ulmLightRoadBarricadePlayerDesc,内置电池供电
+ulmLightSconcePlayer,壁灯
+ulmLightSignExitPlayer,出口标志
+ulmLightSignOpen,开放标志
+ulmLightSignPillsLogoPlayer,大药丸标志灯
+ulmLightSignPillsLogoSmallPlayer,药丸标志灯
+ulmLightStreetLampClassicPlayer,经典路灯
+ulmLightTableLampPlayer,台灯
+ulmLightTrackPlayer,轨道灯
+ulmLightWall01Player,仓库室外灯
+ulmLightWorkLampPlayer,工作灯
+ulmLightXRayDisplay1Player,X射线显示器 A
+ulmLightXRayDisplay2Player,X射线显示器 B
+ulmStreetLight01Player,路灯
+ulmStreetLight02Player,双重路灯
+ulmStreetLight03Player,三重路灯
+ulmStreetLight04Player,四重路灯
+ulmFluorescentLightPlayer,灯槽
+ulmFluorescentLightBrokenPlayer,破损的灯槽
+ulmBlockResourceCarBattery,汽车电池
+ulmBlockResourceCarBatteryDesc,用于POI建筑物
+ulmBlockResourceCarBatteryCentered,汽车电池（居中）
+ulmBlockResourceCarBatteryCenteredDesc,用于POI建筑物
+ulmBlockResourceCarBatteryCorner,汽车电池（转角）
+ulmBlockResourceCarBatteryCornerDesc,用于POI建筑物
+ulmBlockResourcePropaneTank,储气罐
+ulmBlockResourcePropaneTankDesc,高度易燃气体。用于制作不需要可燃燃料的烤箱和高级化学工作站。[FF6A00]警告：升级现有的化学工作站将删除燃料，工具和输出栏位中的所有物品。[-]
+ulmBlockResourceWaterTank,水箱
+ulmBlockResourceWaterTankDesc,一个水箱。你可以使用它来制作或连接到现有的水龙头（需要扳手），以便可以将其用于装满空的水容器。
+ulmBlockWireStrippers,线材工具
+ulmBlockWireStrippersDesc,用于POI建筑物
+ulmStationArtisan_1,工匠桌
+ulmStationArtisan_1Desc,用于制作各种建筑和装饰块的工作场所。
+ulmStationArtisan_2,工匠桌（2级）
+ulmStationArtisan_2Desc,改进的工作场所，用于制作各种建筑和装饰块。
+ulmStationBallistics_1,枪弹桌
+ulmStationBallistics_1Desc,用于处理，组装和制作弹药的工作场所。
+ulmStationBallistics_2,枪弹桌（2级）
+ulmStationBallistics_2Desc,用于处理，组装和制作弹药的工作场所。
+ulmStationCarpenter_1,木匠台
+ulmStationCarpenter_1Desc,制作木质物品和家具的工作场所。
+ulmStationCarpenter_2,木匠台（2级）
+ulmStationCarpenter_2Desc,资源消耗减少[decea3] 10％[-]\n制作速度加快[decea3] 15％[-]。更少浪费的制作：产生更多的资源。
+ulmStationCarpenter_3,木匠台（3级）
+ulmStationCarpenter_3Desc,资源消耗减少[decea3] 20％[-]\n制作速度加快[decea3] 30％[-]。更少浪费的制作：产生更多的资源。
+ulmStationChemistry_1,化学站
+ulmStationChemistry_1Desc,混合和酿造各种混合物和化学药品。
+ulmStationDisassembly_1,拆解站
+ulmStationDisassembly_1Desc,用于拆卸各种复杂物品或物块的工作场所。
+ulmStationEvent_1,节日活动装饰工作站
+ulmStationEvent_1Desc,用于制作各种节日活动相关装饰品的工作站。
+ulmStationForge_1,铁匠的锻造炉
+ulmStationForge_1Desc,用于加工各种金属钻头和铸锭的工作场所。
+ulmStationForge_2,铁匠的锻造炉（2级）
+ulmStationForge_2Desc,用于成型钢和钛。
+ulmStationFurnace_1,熔炉
+ulmStationFurnace_1Desc,用于加工金属锭，砖块和水泥的工作场所。
+ulmStationFurnace_2,熔炉（2级）
+ulmStationFurnace_2Desc,用于将银，金，钢和钛熔炼成锭。
+ulmStationMaintenance_1,维修站
+ulmStationMaintenance_1Desc,用于维修和升级物品
+ulmStationMaintenance_2,维修站（2级）
+ulmStationMaintenance_2Desc,用于维修和升级物品
+ulmStationMaintenance_3,维修站（3级）
+ulmStationMaintenance_3Desc,用于维修和升级物品
+ulmStationMechanic_1,机械师的桌子
+ulmStationMechanic_1Desc,用于制造基础车辆的工作场所，例如自行车，小型机车，摩托车，其零件和改装件。
+ulmStationMechanic_2,机械师的桌子（2级）
+ulmStationMechanic_2Desc,用于制造高级车辆（如汽车，卡车，其零件和改装件）的工作场所。
+ulmStationMortarAndPestle_1,研钵和研杵
+ulmStationMortarAndPestle_1Desc,将各种物品磨成粉末的工作场所。
+ulmStationResearch_1,研究站
+ulmStationResearch_1Desc,研究1级技术和蓝图的工作场所。
+ulmStationResearch_2,研究站（2级）
+ulmStationResearch_2Desc,研究2级技术和蓝图的工作场所。
+ulmStationResearch_3,研究站（3级）
+ulmStationResearch_3Desc,研究3级技术和蓝图的工作场所。
+ulmStationTailor_1,裁缝站
+ulmStationTailor_1Desc,用于制作布料、衣服和护甲的工作场所。
+ulmStationWorkbench_1,工作台
+ulmStationWorkbench_1Desc,比起赤手空拳，你可以制作更多高级物品和物块。
+workbench3DPrinter,3D打印机
+workbench3DPrinterDesc,用各种基于长丝的聚合物打印零件的工作场所。
+workbenchBackpackDesc,可以制作最基本的物品，不需要任何专用工具。
+WorkbenchCampfire2,篝火T2
+WorkbenchCampfire3,篝火T3
+WorkbenchCampfire4,篝火T4
+workbenchCementMixerDesc,帮助你制作混凝土或沥青等材料。
+workbenchFarming,农夫工作台
+workbenchFarmingDesc,制作种子，肥料，盆等的工作场所
+workbenchTableSawDesc,为你的基地制造家具，高级形状和装饰品。
+workbenchTannery,制革站
+workbenchTanneryDesc,干燥和准备皮革以进行进一步处理的工作场所。
+ulmContainerTest,橱柜
+ulmContainerTest2,桌子
+ulmContainerBagDuffle,行李袋
+ulmContainerBagDuffleDesc,一个用于存储战利品的简单容器。
+ulmContainerSafeWallEmpty,墙面保险箱
+ulmContainerSmallSafeVariantHelper,小保险箱
+ulmContainerSmallSafeVariantHelperDesc,用于存放贵重物品的小巧但安全的存储空间。\n[808080]包含多种形状。[-]
+ulmDecoChristmasTree,圣诞树
+ulmDecoIronTable,铁制桌子
+ulmDecoIronTableDesc,用铁板、管子和其他铁件制成的结实的铁制桌子。
+ulmDecoLogTable,原木桌
+ulmDecoLogTableDesc,由原木和基础木板制成的简单桌子。
+ulmDecoPresentBox01a,礼物盒
+ulmDecoPresentBox01b,礼物盒
+ulmDecoPresentBox01c,礼物盒
+ulmDecoPresentBox01d,礼物盒
+ulmDecoPresentBox02a,礼物盒
+ulmDecoPresentBox02b,礼物盒
+ulmDecoPresentBox02c,礼物盒
+ulmDecoPresentBox02d,礼物盒
+ulmDecoPresentBox03a,礼物盒
+ulmDecoPresentBox03b,礼物盒
+ulmDecoPresentBox03c,礼物盒
+ulmDecoPresentBox03d,礼物盒
+ulmDecoPresentBox04a,礼物盒
+ulmDecoPresentBox04b,礼物盒
+ulmDecoPresentBox04c,礼物盒
+ulmDecoPresentBox04d,礼物盒
+ulmDecoPresentBox05a,礼物盒
+ulmDecoPresentBox05b,礼物盒
+ulmDecoPresentBox05c,礼物盒
+ulmDecoPresentBox06a,礼物盒
+ulmDecoPresentBox06b,礼物盒
+ulmDecoPresentBoxVariantHelper,礼物盒
+ulmDecoSnowman01,雪人
+ulmDecoSnowman02,雪人
+ulmDecoSnowmanVariantHelper,雪人
+ulmDecoSquirrelTexCubSF,毛绒松鼠
+ulmDecoSquirrelTexCubSFDesc,毛绒松鼠
+ulmDecoToySquirrel,毛绒松鼠
+ulmDecoToySquirrelDesc,毛绒松鼠
+ulmDoorClassic01aSingle,房门 1-A
+ulmDoorClassic01aDouble,双开门 1-A
+ulmDoorClassic01aSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01aDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01bSingle,房门 1-B
+ulmDoorClassic01bDouble,双开门 1-B
+ulmDoorClassic01bSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01bDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01cSingle,房门 1-C
+ulmDoorClassic01cDouble,双开门 1-C
+ulmDoorClassic01cSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01cDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01dSingle,房门 1-D
+ulmDoorClassic01dDouble,双开门 1-D
+ulmDoorClassic01dSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01dDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01eSingle,房门 1-E
+ulmDoorClassic01eDouble,双开门 1-E
+ulmDoorClassic01eSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01eDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01fSingle,房门 1-F
+ulmDoorClassic01fDouble,双开门 1-F
+ulmDoorClassic01fSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01fDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01gSingle,房门 1-G
+ulmDoorClassic01gDouble,双开门 1-G
+ulmDoorClassic01gSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorClassic01gDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorModern01aSingle,现代住宅门 1-A
+ulmDoorModern01aDouble,现代双开门 1-A
+ulmDoorModern01aSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorModern01aDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorModern01bSingle,现代住宅门 1-B
+ulmDoorModern01bDouble,现代双开门 1-B
+ulmDoorModern01bSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorModern01bDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial01aSingle,工业门 1-A
+ulmDoorIndustrial01aDouble,工业双开门 1-A
+ulmDoorIndustrial01aSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial01aDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial01bSingle,工业门 1-B
+ulmDoorIndustrial01bDouble,工业双开门 1-B
+ulmDoorIndustrial01bSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial01bDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02aSingle,工业门 2-A
+ulmDoorIndustrial02aSingleNoGlass,工业门 2-A
+ulmDoorIndustrial02aSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02aSingleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02aDouble,工业双开门 2-A
+ulmDoorIndustrial02aDoubleNoGlass,工业双开门 2-A
+ulmDoorIndustrial02aDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02aDoubleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02bSingle,工业门 2-B
+ulmDoorIndustrial02bSingleNoGlass,工业门 2-B
+ulmDoorIndustrial02bSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02bSingleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02bDouble,工业双开门 2-B
+ulmDoorIndustrial02bDoubleNoGlass,工业双开门 2-B
+ulmDoorIndustrial02bDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02bDoubleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02cSingle,工业门 2-C
+ulmDoorIndustrial02cSingleNoGlass,工业门 2-C
+ulmDoorIndustrial02cSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02cSingleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02cDouble,工业双开门 2-C
+ulmDoorIndustrial02cDoubleNoGlass,工业双开门 2-C
+ulmDoorIndustrial02cDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial02cDoubleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03aDouble,工业双开门 3-A
+ulmDoorIndustrial03aDoubleNoGlass,工业双开门 3-A
+ulmDoorIndustrial03aDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03aDoubleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03bSingle,工业门 3-B
+ulmDoorIndustrial03bSingleNoGlass,工业门 3-B
+ulmDoorIndustrial03bSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03bSingleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03bDouble,工业双开门 3-B
+ulmDoorIndustrial03bDoubleNoGlass,工业双开门 3-B
+ulmDoorIndustrial03bDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03bDoubleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03cSingle,工业门 3-C
+ulmDoorIndustrial03cSingleNoGlass,工业门 3-C
+ulmDoorIndustrial03cSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03cSingleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03cDouble,工业双开门 3-C
+ulmDoorIndustrial03cDoubleNoGlass,工业双开门 3-C
+ulmDoorIndustrial03cDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial03cDoubleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12aDouble,工业双开门 12-A
+ulmDoorIndustrial12aDoubleNoGlass,工业双开门 12-A
+ulmDoorIndustrial12aDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12aDoubleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12bSingle,工业门 12-B
+ulmDoorIndustrial12bSingleNoGlass,工业门 12-B
+ulmDoorIndustrial12bSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12bSingleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12bDouble,工业双开门 12-B
+ulmDoorIndustrial12bDoubleNoGlass,工业双开门 12-B
+ulmDoorIndustrial12bDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12bDoubleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12cSingle,工业门 12-C
+ulmDoorIndustrial12cSingleNoGlass,工业门 12-C
+ulmDoorIndustrial12cSinglePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12cSingleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12cDouble,工业双开门 12-C
+ulmDoorIndustrial12cDoubleNoGlass,工业双开门 12-C
+ulmDoorIndustrial12cDoublePicked,门\n[808080]（撬开的）[-]
+ulmDoorIndustrial12cDoubleNoGlassPicked,门\n[808080]（撬开的）[-]
+ulmDoorSciFi01,滑动铁门
+ulmDoorSciFi01Desc,耐用的铁制滑动门。尺寸（宽x深x高）：[decea3] 3x1x3 [-]
+ulmDoorSciFi01Insecure,不安全的铁质推拉门
+ulmDoorSciFi01InsecureDesc,耐用的铁质推拉门，由铁制成。尺寸（宽x深x高）：[decea3]3x1x3[-]
+ulmDoorSciFi01Locked,锁住的滑动铁门
+ulmDoorSciFi01LockedDesc,仅限POI编辑。尺寸（宽x深x高）：[decea3] 3x1x3 [-]
+ulmDoorSciFi01Powered,电动推拉铁门
+ulmDoorSciFi01PoweredDesc,耐用的铁制滑动门。需要电源。尺寸（宽x深x高）：[decea3]3x1x3[-]
+ulmDoorSciFi02,滑动玻璃门
+ulmDoorSciFi02Desc,耐用的铁制滑动玻璃门。尺寸（宽x深x高）：[decea3] 3x1x3 [-]
+ulmDoorSciFi02Insecure,不安全的玻璃推拉门
+ulmDoorSciFi02InsecureDesc,耐用的铁制玻璃推拉门。尺寸（宽x深x高）：[decea3]3x1x3[-]
+ulmDoorSciFi02Locked,锁住的滑动玻璃门
+ulmDoorSciFi02LockedDesc,仅限POI编辑。尺寸（宽x深x高）：[decea3] 3x1x3 [-]
+ulmDoorSciFi02Powered,电动玻璃推拉门
+ulmDoorSciFi02PoweredDesc,耐用的铁制玻璃推拉门。需要电源。尺寸（宽x深x高）：[decea3]3x1x3[-] 。
+ulmDoorSciFi02Screen,信息屏
+ulmDoorSciFi02ScreenDesc,标志屏幕，可以在上面显示你输入的文字。
+ulmDoorSciFi02Switch,开关
+ulmDoorSciFi03,滑动门
+ulmDoorSciFi03Desc,非常耐用的大型铁制滑动门。尺寸（宽x深x高）：[decea3]7x3x5[-]
+ulmDoorSciFi03Insecure,不安全的推拉门
+ulmDoorSciFi03InsecureDesc,耐用的铁制大推拉门。尺寸（宽x深x高）：[decea3]7x3x5[-]
+ulmDoorSciFi03Locked,锁住的滑动门
+ulmDoorSciFi03LockedDesc,仅限POI编辑。尺寸（宽x深x高）：[decea3] 7x3x5 [-]
+ulmDoorSciFi03Powered,电动推拉门
+ulmDoorSciFi03PoweredDesc,经久耐用的铁制大推拉门。需要电源。尺寸（宽x深x高）：[decea3]7x3x5[-] 
+ulmDoorSciFi04,滑动防爆门
+ulmDoorSciFi04Desc,非常耐用的铁制滑动防爆门。尺寸（宽x深x高）：[decea3]3x3x3[-]
+ulmDoorSciFi04Insecure,不安全的滑动防爆门
+ulmDoorSciFi04InsecureDesc,耐用的铁制滑动防爆门。尺寸（宽x深x高）：[decea3]3x3x3[-]
+ulmDoorSciFi04Locked,锁住的滑动防爆门
+ulmDoorSciFi04LockedDesc,仅限POI编辑。尺寸（宽x深x高）：[decea3]3x3x3[-]
+ulmDoorSciFi04Powered,电动滑动防爆门
+ulmDoorSciFi04PoweredDesc,非常耐用的铁制滑动防爆门。尺寸（宽x深x高）：[decea3]3x3x3[-] 
+secureDoorWoodenPicked,木门\n[808080]（撬开的）[-]
+secureReinforcedDoorWoodenPicked,加固木门\n[808080]（撬开的）[-]
+metalReinforcedDoorWoodenPicked,金属加固门\n[808080]（撬开的）[-]
+ironDoor1_v1Picked,铁门\n[808080]（撬开的）[-]
+ironDoor1_v2Picked,加固铁门\n[808080]（撬开的）[-]
+ironDoor1_v3Picked,加固铁门\n[808080]（撬开的）[-]
+vaultDoor01Picked,保险库门\n[808080]（撬开的）[-]
+vaultDoor02Picked,加固保险库门\n[808080]（撬开的）[-]
+vaultDoor03Picked,加固保险库门\n[808080]（撬开的）[-]
+commercialDoor1_v1Picked,商业门\n[808080]（撬开的）[-]
+commercialDoor1_v2Picked,加固商业门\n[808080]（撬开的）[-]
+commercialDoor1_v3Picked,加固商业门\n[808080]（撬开的）[-]
+commercialDoor2_v1Picked,商业门\n[808080]（撬开的）[-]
+commercialDoor2_v2Picked,加固商业门\n[808080]（撬开的）[-]
+commercialDoor2_v3Picked,加固商业门\n[808080]（撬开的）[-]
+commercialDoor4_v1Picked,商业门\n[808080]（撬开的）[-]
+commercialDoor4_v2Picked,加固商业门\n[808080]（撬开的）[-]
+commercialDoor4_v3Picked,加固商业门\n[808080]（撬开的）[-]
+houseFrontDoor1_v1Picked,门\n[808080]（撬开的）[-]
+houseFrontDoor1_v2Picked,加固门\n[808080]（撬开的）[-]
+houseFrontDoor1_v3Picked,加固门\n[808080]（撬开的）[-]
+houseFrontDoor2_v1Picked,门\n[808080]（撬开的）[-]
+houseFrontDoor2_v2Picked,加固门\n[808080]（撬开的）[-]
+houseFrontDoor2_v3Picked,加固门\n[808080]（撬开的）[-]
+garageDoorMetal_v1Picked,车库门 3x2\n[808080]（撬开的）[-]
+garageDoorMetal_v2Picked,加固车库门 3x2\n[808080]（撬开的）[-]
+garageDoorMetal_v3Picked,加固车库门 3x2\n[808080]（撬开的）[-]
+garageDoorHousePicked,车库卷闸门 5x3 (POI)\n[808080]（撬开的）[-]
+garageDoorHousePlayerPicked,车库卷闸门 5x3 (POI)\n[808080]（撬开的）[-]
+garageDoorHouseBrownPicked,车库门 房子 棕色 5x3（POI）\n[808080]（撬开的）[-]
+garageDoorIndustrialPicked,钢制车库门 5x3（POI）\n[808080]（撬开的）[-]
+woodHatch1_v1Picked,木闸门\n[808080]（撬开的）[-]
+woodHatch1_v2Picked,加固木闸门\n[808080]（撬开的）[-]
+woodHatch1_v3Picked,加固木闸门\n[808080]（撬开的）[-]
+scrapHatch_v1Picked,铁闸门\n[808080]（撬开的）[-]
+scrapHatch_v2Picked,加固铁闸门\n[808080]（撬开的）[-]
+scrapHatch_v3Picked,加固铁闸门\n[808080]（撬开的）[-]
+vaultHatch_v1Picked,保险库闸门\n[808080]（撬开的）[-]
+vaultHatch_v2Picked,加固保险库闸门\n[808080]（撬开的）[-]
+vaultHatch_v3Picked,加固保险库闸门\n[808080]（撬开的）[-]
+ulmBlockStoreWindowVariantHelper,金属窗
+ulmBlockStoreWindowBulletproofVariantHelper,防弹金属窗
+ulmBlockWoodWindowVariantHelper,木窗
+ulmDoorWoodVariantHelper,木门
+ulmDoorWoodDoubleVariantHelper,木制双开门
+ulmDoorMetalVariantHelper,金属门
+ulmDoorMetalDoubleVariantHelper,金属双开门
+ulmContainerStashElliannia,埃莉安娜的储藏室
+ulmContainerStashEllianniaInsecure,埃莉安娜的储藏室
+ulmContainerStashEllianniaDesc,一个小金属盒子。盒子下面刻有一些文字：埃莉安娜的储藏室。
+ulmTrapPoweredSpikes,电动尖刺陷阱
+ulmTrapPoweredSpikesDesc,内置传感器，当有动力时，触发内部伺服器和活塞，迅速推出致命的金属尖刺。
+rConcreteShapes:VariantHelper,钢筋混凝土形状
+titaniumShapes:VariantHelper,钛合金形状
+materialmatBrick,砖块
+materialmatClothStable,遮阳棚
+materialmatCobblestone,鹅卵石
+materialmatConcrete,混凝土
+materialmatMetal,波纹金属
+materialmatReinforcedConcrete,钢筋混凝土
+materialmatSteel,钢
+materialmatTitanium,钛合金
+materialmatWood,木头
+materialmatWoodWeak,框架
+ulmVehicleHelicopterDH,DH-800直升机
+ulmVehicleHelicopterDH1,DH-800直升机
+ulmVehicleHelicopterDH2,DH-800直升机
+ulmVehicleHelicopterDH3,DH-800直升机
+ulmVehicleHelicopterDH4,DH-800直升机
+ulmVehicleHelicopterDH5,DH-800直升机
+ulmVehicleHelicopterDH6,DH-800直升机
+ulmVehicleHelicopterDH7,DH-800直升机
+ulmVehicleHelicopterRaven,Raven直升机
+ulmVehicleMineCart,矿车
+ulmVehicleMineCartBlueprint,矿车
+ulmVehicleMiningDumpTruck,矿山自卸车
+ulmVehicleMilitaryTruck,军用卡车
+ulmVehicleMilitaryTruckDesertTarp1,军用卡车
+ulmVehicleMilitaryTruckDesertTarp2,军用卡车
+ulmVehicleMilitaryTruckDesertTarp3,军用卡车
+ulmVehicleMilitaryTruckDesertRails,军用卡车
+ulmVehicleMilitaryTruckCamoTarp1,军用卡车
+ulmVehicleMilitaryTruckCamoTarp2,军用卡车
+ulmVehicleMilitaryTruckCamoTarp3,军用卡车
+ulmVehicleMilitaryTruckCamoRails,军用卡车
+ulmVehicleMilitaryTruckVariantHelper,军用卡车
+ulmVehicleMilitaryTruckSecureVariantHelper,军用卡车
+ulmVehicleMilitaryTruckRandomHelper,[Military Truck Random Helper]
+ulmVehicleSedan1,轿车
+ulmVehicleSedan1White,轿车
+ulmVehicleSedan1Black,轿车
+ulmVehicleSedan1Police,黑白色轿车
+ulmVehicleSedan1Yellow,轿车
+ulmVehicleSedan1Green,轿车
+ulmVehicleSedan1Mixed,轿车
+ulmVehicleSedan1Red,轿车
+ulmVehicleSedan1Blue,轿车
+ulmVehicleSedan1PoliceWithLights,警用轿车
+ulmVehicleSedan1VariantHelper,轿车
+ulmVehicleSedan1WideVariantHelper,轿车
+ulmVehicleSedan1SecureVariantHelper,轿车
+ulmVehicleSedan1SecureWideVariantHelper,轿车
+ulmVehicleSedan1RepairableVariantHelper,轿车
+ulmVehicleSedan1DamagedVariantHelper,损坏的轿车
+ulmVehicleSedan1WreckedVariantHelper,残破的轿车
+ulmVehicleDuneRunner,沙丘奔跑者
+ulmVehicleDuneRunnerDesc,快速、轻便、灵活的全地形四轮驱动侦察车，货物空间有限，但速度如摩托车。
+ulmVehicleSedan2,轿车
+ulmVehicleSedan2White,轿车
+ulmVehicleSedan2Black,轿车
+ulmVehicleSedan2Beige,轿车
+ulmVehicleSedan2Blue,轿车
+ulmVehicleSedan2Green,轿车
+ulmVehicleSedan2GreenBlack,轿车
+ulmVehicleSedan2Orange,轿车
+ulmVehicleSedan2Red,轿车
+ulmVehicleSedan2Police,警用轿车
+ulmVehicleSedan2Taxi,出租车轿车
+ulmVehicleSedan2VariantHelper,轿车
+ulmVehicleSedan2WideVariantHelper,轿车
+ulmVehicleSedan2SecureVariantHelper,轿车
+ulmVehicleSedan2SecureWideVariantHelper,轿车
+ulmVehicleSedan2WreckedVariantHelper,残破的轿车
+ulmVehicleSedan3,轿车
+ulmVehicleSedan3White,轿车
+ulmVehicleSedan3Black,轿车
+ulmVehicleSedan3Blue,轿车
+ulmVehicleSedan3Beige,轿车
+ulmVehicleSedan3Brown,轿车
+ulmVehicleSedan3Gray,轿车
+ulmVehicleSedan3Green,轿车
+ulmVehicleSedan3Orange,轿车
+ulmVehicleSedan3Red,轿车
+ulmVehicleSedan3Yellow,轿车
+ulmVehicleSedan3Mixed1,轿车
+ulmVehicleSedan3Mixed2,轿车
+ulmVehicleSedan3Mixed3,轿车
+ulmVehicleSedan3Mixed4,轿车
+ulmVehicleSedan3Mixed5,轿车
+ulmVehicleSedan3VariantHelper,轿车
+ulmVehicleSedan3WideVariantHelper,轿车
+ulmVehicleSedan3SecureVariantHelper,轿车
+ulmVehicleSedan3SecureWideVariantHelper,轿车
+ulmVehicleSedan3WreckedVariantHelper,残破的轿车
+ulmVehicleCoupe1,旧跑车
+ulmVehicleCoupe1White,旧跑车
+ulmVehicleCoupe1WhiteStripe,旧跑车
+ulmVehicleCoupe1Black,旧跑车
+ulmVehicleCoupe1BlackStripe,旧跑车
+ulmVehicleCoupe1Red,旧跑车
+ulmVehicleCoupe1RedStripe,旧跑车
+ulmVehicleCoupe1Beige,旧跑车
+ulmVehicleCoupe1Blue,旧跑车
+ulmVehicleCoupe1BlueStripe,旧跑车
+ulmVehicleCoupe1Gray,旧跑车
+ulmVehicleCoupe1Green,旧跑车
+ulmVehicleCoupe1Orange,旧跑车
+ulmVehicleCoupe1OrangeStripe,旧跑车
+ulmVehicleCoupe1Purple,旧跑车
+ulmVehicleCoupe1Cherry,旧跑车
+ulmVehicleCoupe1Yellow,旧跑车
+ulmVehicleCoupe1YellowStripe,旧跑车
+ulmVehicleCoupe1Mixed1,旧跑车
+ulmVehicleCoupe1Mixed2,旧跑车
+ulmVehicleCoupe1Mixed3,旧跑车
+ulmVehicleCoupe1VariantHelper,旧跑车
+ulmVehicleCoupe1SecureVariantHelper,旧跑车
+ulmVehicleCoupe1WideVariantHelper,旧跑车
+ulmVehicleCoupe1WreckedVariantHelper,残破的旧跑车
+ulmVehicle4x4TruckVariantHelper,四轮驱动卡车
+ulmVehicle4x4TruckWideVariantHelper,四轮驱动卡车
+ulmVehicle4x4TruckSecureVariantHelper,四轮驱动卡车
+ulmVehicle4x4TruckSecureWideVariantHelper,四轮驱动卡车
+ulmVehicle4x4TruckWreckedVariantHelper,残破的四轮驱动卡车
+ulmVehicleHumvee,军用四轮驱动车
+ulmVehicleHumveeSnow,军用四轮驱动车
+ulmVehicleHumveeSnowCargo,军用四轮驱动车
+ulmVehicleHumveeDesert,军用四轮驱动车
+ulmVehicleHumveeDesertCargo,军用四轮驱动车
+ulmVehicleHumveeJungle,军用四轮驱动车
+ulmVehicleHumveeJungleCargo,军用四轮驱动车
+ulmVehicleHumveeBurnt,军用四轮驱动车
+ulmVehicleHumveeBurntCargo,军用四轮驱动车
+ulmVehicleHumveeVariantHelper,军用四轮驱动车
+ulmVehicleHumveeSecureVariantHelper,军用四轮驱动车
+ulmVehicleHumveeRandomHelper,[Military 4x4 Random Helper]
+ulmVehicleSUV1,越野车
+ulmVehicleSUV1White,越野车
+ulmVehicleSUV1Gray,越野车
+ulmVehicleSUV1Black,越野车
+ulmVehicleSUV1Blue,越野车
+ulmVehicleSUV1Green,越野车
+ulmVehicleSUV1Red,越野车
+ulmVehicleSUV1Cherry,越野车
+ulmVehicleSUV1Pink,越野车
+ulmVehicleSUV1Orange,越野车
+ulmVehicleSUV1Beige,越野车
+ulmVehicleSUV1Police,警用越野车
+ulmVehicleSUV1Security,安防越野车
+ulmVehicleSUV1VariantHelper,越野车
+ulmVehicleSUV1WideVariantHelper,越野车
+ulmVehicleSUV1SecureVariantHelper,越野车
+ulmVehicleSUV1SecureWideVariantHelper,越野车
+ulmVehicleSUV1WreckedVariantHelper,残破的越野车
+ulmVehicleBicycleAVariantHelper,自行车
+ulmVehicleBicycleBVariantHelper,自行车
+ulmVehicleBicycleCVariantHelper,自行车
+ulmVehicleMinibikeAVariantHelper,小型机车
+ulmVehicleMinibikeBVariantHelper,小型机车
+ulmVehicleMinibikeCVariantHelper,小型机车
+ulmVehicleMotorcycleAVariantHelper,摩托车
+ulmVehicleMotorcycleBVariantHelper,摩托车
+ulmVehicleMotorcycleCVariantHelper,摩托车
+ulmVehicleBikesARandomHelper,[Bikes Hor. Random Helper]
+ulmVehicleBikesBRandomHelper,[Bikes Vert. A Random Helper]
+ulmVehicleBikesCRandomHelper,[Bikes Vert. B Random Helper]
+ulmDecoMech01a,M.A.C.E.
+ulmDecoMech01aDesc,机动装甲作战外骨骼(简称M.A.C.E)是为在世界上问题最严重的地区维护和平的执法者而生产的特种装备。
+quest,任务
+questChain,任务链
+treasure,隐藏的存货
+RewardQuest_keyword,任务
+RewardTypeChainQuest,连锁奖励
+RewardSkillPoint_keyword,技能点
+ulmSkillBook,技能书
+ulmSkillBookOffer,阅读此[decea3]技能书[-]后，你将获得两个技能点数的奖励。
+ulmQuestIntroduction,生存指南
+ulmQuestIntroductionOffer,如果你正在看这个，说明你还活着！\n\n记住，废土是一个残酷无情的地方，这个小指南可以帮助你开始[decea3]亡灵遗产[-]！
+ulmQuestIntroduction1,指引（1/6）
+ulmQuestIntroduction1Subtitle,你的逃生包
+ulmQuestIntroduction1Desc,[decea3]放置[-]你的[decea3]逃生包[-]并查看里面的物品。
+ulmQuestIntroduction2,指引（2/6）
+ulmQuestIntroduction2Subtitle,你的日志
+ulmQuestIntroduction2Desc,在[decea3]日志[-]窗口中了解[decea3]亡灵遗产[-]的特性，它也可能包含关于游戏其他方面的有用信息。
+ulmQuestIntroduction3,指引（3/6）
+ulmQuestIntroduction3Subtitle,你的第一个工具
+ulmQuestIntroduction3Desc,为你自己制作一把[decea3]石斧[-]和[decea3]石镐[-]，用于收集资源和保护自己。找到材料，为自己制作第一件工具吧！
+ulmQuestIntroduction4,指引（4/6）
+ulmQuestIntroduction4Subtitle,你的第一把近战武器
+ulmQuestIntroduction4Desc,制作一把[decea3]木矛[-]，以便你更好地保护自己。如果你需要更多的[decea3]绳索[-]，可以在[decea3]木匠台[-]中制作，[decea3]树脂[-]可以从非干枯的树上收集。
+ulmQuestIntroduction5,指引（5/6）
+ulmQuestIntroduction5Subtitle,你的第一个工作台
+ulmQuestIntroduction5Desc,建造一个[decea3]木匠台[-]，帮助你将木材加工成更多有用的物品。找到材料，建造你的第一个工作站！
+ulmQuestIntroduction6,指引（6/6）
+ulmQuestIntroduction6Subtitle,你的第一把弓
+ulmQuestIntroduction6Desc,制作一把[decea3]弓（原始）[-]和[decea3]箭（石制）[-]，这样就拥有了基础的远程武器。所有材料都在[decea3]木匠台[-]中制作
+ulmQuestTreasureEllianniaOffer,幸存者，\n如果你正在读这封信，那么我很可能已经不在了，与其让我储藏的物资被浪费，不如让你拥有其中之一。我已经在这张地图上为你标出了位置。\n\n祝你好运，\nElliannia
+ranger_station_02,02号护林站
+ulmMeleeClubTitaniumBlueprint,钛棒
+ulmMeleeClubTitaniumBlueprintDesc,让你学习新的制作配方。如果已学会，则在使用时给予经验。
+awningShapes:VariantHelper,遮阳篷形状
+cellarDoorDoubleWoodPicked,木制酒窖门\n[808080](撬开的)[-]
+cellarDoorDoubleIronPicked,铁制酒窖门\n[808080](撬开的)[-]
+cellarDoorDoubleSteelPicked,钢制酒窖门\n[808080](撬开的)[-]
+shuttersWood01Picked,木制百叶窗\n[808080](撬开的)[-]
+shuttersWood02Picked,木制百叶窗\n[808080](撬开的)[-]
+shuttersIron01Picked,铁制百叶窗\n[808080](撬开的)[-]
+shuttersIron02Picked,铁制百叶窗\n[808080](撬开的)[-]
+shuttersSteel01Picked,钢制百叶窗\n[808080](撬开的)[-]
+shuttersSteel02Picked,钢制百叶窗\n[808080](撬开的)[-]
+rollUpDoor3x3WhitePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3BrownPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3RedPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3OrangePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3YellowPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3GreenPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3BluePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3PurplePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3GreyPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3BlackPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor3x3PinkPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4WhitePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4BrownPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4RedPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4OrangePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4YellowPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4GreenPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4BluePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4PurplePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4GreyPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4BlackPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor5x4PinkPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4WhitePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4BrownPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4RedPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4OrangePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4YellowPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4GreenPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4BluePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4PurplePicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4GreyPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4BlackPicked,卷闸门\n[808080](撬开的)[-]
+rollUpDoor7x4PinkPicked,卷闸门\n[808080](撬开的)[-]
+statCritDamageResist,致命伤害抗性
+statDamageAnimals,对动物的伤害
+statDamageDirt,对泥土的伤害
+statDamageIron,对铁的伤害
+statDamageMetal,对金属的伤害
+statDamageStone,对石头的伤害
+statDamageWood,对木头的伤害
+statDegradationPerUse,每次使用损坏
+uiInsufficientStationLevel,工作站级别不够
+typeWindows,窗户
+drinkJarGrandpasForgettingElixir,遗忘妙药
+drinkJarGrandpasForgettingElixirDesc,重置你的主动技能点，允许你在属性和主动技能之间重新分配，行动技能不受影响。
+modArmorAdvancedMuffledConnectors,高级消音连接器
+modArmorBandolier,护甲弹药带
+modArmorCoolingMesh,散热网
+modArmorCustomizedFittings,高级护甲配件
+modArmorHelmetLight,头盔灯
+modArmorImpactBracing,冲击支撑
+modArmorImprovedFittings,改进的护甲配件
+modArmorInsulatedLiner,隔热内衬
+modArmorMuffledConnectors,消音连接器
+modArmorPlatingBasic,改进的护甲板
+modArmorPlatingReinforced,高级护甲板
+modArmorWaterPurifier,头盔净水器
+modFuelTankLarge,电动工具大油箱
+modFuelTankSmall,电动工具小油箱
+modGunBarrelExtender,枪管延伸
+modGunBipod,双脚支架
+modGunBowArrowRest,箭托
+modGunBowPolymerString,复合弓弦
+modGunChoke,霰弹枪喉缩
+modGunCrippleEm,致残
+modGunDrumMagazineExtender,弹鼓
+modGunDrumMagazineExtenderDesc,这个大弹鼓增加了机枪的弹药容量，但重新装填速度稍慢。
+modGunDuckbill,霰弹枪鸭嘴枪口
+modGunFlashlight,武器照明
+modGunForegrip,前握把
+modGunLaserSight,激光瞄准器
+modGunMagazineExtender,弹匣扩充
+modGunMeleeBlessedMetal,异域合金套件
+modGunMeleeBlessedMetalDesc,增加对丧尸目标的伤害。
+modGunMeleeRadRemover,辐射去除
+modGunMeleeTheHunter,猎人套件
+modGunMeleeTheHunterDesc,增加对所有动物的伤害。
+modGunMuzzleBrake,枪口制动
+modGunReflexSight,反射式瞄准镜
+modGunRetractingStock,收缩枪托
+modGunScopeSmall,2倍镜
+modGunScopeMedium,4倍镜
+modGunScopeLarge,8倍镜
+modGunSoundSuppressorSilencer,消声器
+modGunTriggerGroupBurst3,触发器：三发点放
+modGunTriggerGroupAutomatic,触发器：全自动
+modGunTriggerGroupSemi,触发器：半自动
+modMeleeBunkerBuster,掩体炸弹
+modMeleeBunkerBusterDesc,增加对[decea3]石头[-]的伤害。
+modMeleeClubBurningShaft,燃烧杆
+modMeleeClubBarbedWire,铁丝网模组
+modMeleeClubMetalSpikes,金属长钉模组
+modMeleeDiamondTip,钻石尖头
+modMeleeDiamondTipDesc,任何手工工具或有刃武器在这种改装下都会损坏得更慢。
+modMeleeErgonomicGrip,人体工学握把
+modMeleeFiremansAxeMod,消防员之刃
+modMeleeFiremansAxeModDesc,对物块造成更多的伤害，但对敌人的伤害较少。
+modMeleeFortifyingGrip,强化握把
+modMeleeGraveDigger,掘墓者
+modMeleeGraveDiggerDesc,增加对[decea3]泥土[-]的伤害。
+modMeleeIronBreaker,铁见愁
+modMeleeIronBreakerDesc,增加对[decea3]铁[-]的伤害。
+modMeleeSerratedBlade,锯齿刀片
+modMeleeStructuralBrace,结构支撑
+modMeleeStructuralBraceDesc,近战武器和工具损坏得更慢。
+modMeleeTemperedBlade,钢化刀片
+modMeleeTemperedBladeDesc,刀刃改装，增加物块伤害并使武器损坏得更慢。
+modMeleeWeightedHead,重头
+modMeleeWoodSplitter,劈木
+modMeleeWoodSplitterDesc,增加对[decea3]木头[-]的伤害。
+modRoboticDroneArmorPlatingMod,机器人无人机护甲
+modRoboticDroneCargoMod,机器人无人机储物扩展
+modRoboticDroneHeadlampMod,机器人无人机照明
+modRoboticDroneMedicMod,机器人无人机医疗套件
+modRoboticDroneMoraleBoosterMod,机器人无人机鼓舞士气
+modShotgunSawedOffBarrel,削短型霰弹枪模组
+modVehicleFuelSaver,载具节油器
+modVehicleOffRoadHeadlights,载具越野灯
+modVehicleSuperCharger,载具增压器
+cntMunitionsBoxArmySecure,安全弹药盒
+cntMunitionsBoxRedSecure,安全弹药盒
+cntMunitionsBoxGreenSecure,安全弹药盒
+cntMunitionsBoxBlueSecure,安全弹药盒
+cntMunitionsBoxOrangeSecure,安全弹药盒
+ulmStationRepair_T,商人维修站
+ulmStationRepair_TDesc,有偿修理物品。
+materialmatIron,波纹金属
+bank_01,证券银行
