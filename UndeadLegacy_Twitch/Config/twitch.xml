@@ -1,0 +1,1498 @@
+<Subquake>
+	
+<insertBefore xpath="/twitch/category[@name='Supplies']">
+	<category name="Animals" display_name="TwitchActionCategory_Animals" icon="symbol_deer"/>
+	<category name="Hordes" display_name="TwitchActionCategory_Hordes" icon="ui_game_symbol_zombie"/>
+</insertBefore>
+	
+<insertAfter xpath="/twitch/category[@name='Special']">
+	<category name="Vehicles" display_name="TwitchActionCategory_Vehicles" icon="symbol_steering_wheel"/>
+</insertAfter>
+
+<!-- Zombies -->
+	
+<set xpath="/twitch/action[@name='twitch_normalZombie']">
+	<property name="command" value="#normal"/>
+	<property name="category" value="Spawns"/>
+	<property name="title_key" value="TwitchAction_SpawnNormal"/>
+	<property name="description_key" value="TwitchAction_SpawnNormalDesc"/>
+	<property name="event_name" value="spawn_standard"/>
+	<property name="add_cooldown" value="true"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="waiting_blocked" value="true"/>
+	<property name="default_cost" value="25"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_feralZombie']">
+	<property name="command" value="#feral"/>
+	<property name="title_key" value="TwitchAction_SpawnFeral"/>
+	<property name="description_key" value="TwitchAction_SpawnFeralDesc"/>
+	<property name="start_gamestage" value="75"/>
+	<property name="event_name" value="spawn_feral"/>
+	<property name="default_cost" value="50"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_radZombie']">
+	<property name="command" value="#radiated"/>
+	<property name="title_key" value="TwitchAction_SpawnRad"/>
+	<property name="description_key" value="TwitchAction_SpawnRadDesc"/>
+	<property name="start_gamestage" value="100"/>
+	<property name="event_name" value="spawn_rad"/>
+	<property name="default_cost" value="75"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_toughZombie']">
+	<property name="start_gamestage" value="10"/>
+	<property name="default_cost" value="50"/>
+	<property name="enabled" value="false"/>
+	<property name="show_in_action_list" value="false"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_toughFeralZombie']">
+	<property name="start_gamestage" value="60"/>
+	<property name="default_cost" value="75"/>
+	<property name="enabled" value="false"/>
+	<property name="cooldown" value="10"/>
+	<property name="show_in_action_list" value="false"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_toughRadZombie']">
+	<property name="start_gamestage" value="110"/>
+	<property name="default_cost" value="100"/>
+	<property name="enabled" value="false"/>
+	<property name="cooldown" value="10"/>
+	<property name="show_in_action_list" value="false"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_crawlerZombie']">
+	<property name="command" value="#crawler"/>
+	<property name="title_key" value="TwitchAction_SpawnCrawler"/>
+	<property name="description_key" value="TwitchAction_SpawnCrawlerDesc"/>
+	<property name="event_name" value="spawn_crawler"/>
+	<property name="enabled" value="true"/>
+	<property name="default_cost" value="20"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spiderZombie']">
+	<property name="command" value="#spider"/>
+	<property name="title_key" value="TwitchAction_SpawnSpider"/>
+	<property name="description_key" value="TwitchAction_SpawnSpiderDesc"/>
+	<property name="event_name" value="spawn_spider"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spiderZombieFeral']">
+	<property name="command" value="#spider"/>
+	<property name="title_key" value="TwitchAction_SpawnSpiderFeral"/>
+	<property name="description_key" value="TwitchAction_SpawnSpiderFeralDesc"/>
+	<property name="event_name" value="spawn_spider_feral"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spiderZombieRad']">
+	<property name="command" value="#spider"/>
+	<property name="title_key" value="TwitchAction_SpawnSpiderRad"/>
+	<property name="description_key" value="TwitchAction_SpawnSpiderRadDesc"/>
+	<property name="event_name" value="spawn_spider_rad"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_bikerZombie']">
+	<property name="command" value="#biker"/>
+	<property name="title_key" value="TwitchAction_SpawnBiker"/>
+	<property name="description_key" value="TwitchAction_SpawnBikerDesc"/>
+	<property name="event_name" value="spawn_biker"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_bikerZombieFeral']">
+	<property name="command" value="#biker"/>
+	<property name="title_key" value="TwitchAction_SpawnBikerFeral"/>
+	<property name="description_key" value="TwitchAction_SpawnBikerFeralDesc"/>
+	<property name="event_name" value="spawn_biker_feral"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_bikerZombieRad']">
+	<property name="command" value="#biker"/>
+	<property name="title_key" value="TwitchAction_SpawnBikerRad"/>
+	<property name="description_key" value="TwitchAction_SpawnBikerRadDesc"/>
+	<property name="event_name" value="spawn_biker_rad"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_soldierZombie']">
+	<property name="command" value="#soldier"/>
+	<property name="title_key" value="TwitchAction_SpawnSoldier"/>
+	<property name="description_key" value="TwitchAction_SpawnSoldierDesc"/>
+	<property name="event_name" value="spawn_soldier"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_soldierZombieFeral']">
+	<property name="command" value="#soldier"/>
+	<property name="title_key" value="TwitchAction_SpawnSoldierFeral"/>
+	<property name="description_key" value="TwitchAction_SpawnSoldierFeralDesc"/>
+	<property name="event_name" value="spawn_soldier_feral"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_soldierZombieRad']">
+	<property name="command" value="#soldier"/>
+	<property name="title_key" value="TwitchAction_SpawnSoldierRad"/>
+	<property name="description_key" value="TwitchAction_SpawnSoldierRadDesc"/>
+	<property name="event_name" value="spawn_soldier_rad"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_mamaZombie']">
+	<property name="command" value="#bigmama"/>
+	<property name="title_key" value="TwitchAction_SpawnHungry"/>
+	<property name="description_key" value="TwitchAction_SpawnHungryDesc"/>
+	<property name="event_name" value="spawn_mama"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_mamaZombieFeral']">
+	<property name="command" value="#bigmama"/>
+	<property name="title_key" value="TwitchAction_SpawnHungryFeral"/>
+	<property name="description_key" value="TwitchAction_SpawnHungryFeralDesc"/>
+	<property name="event_name" value="spawn_mama_feral"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_mamaZombieRad']">
+	<property name="command" value="#bigmama"/>
+	<property name="title_key" value="TwitchAction_SpawnHungryRad"/>
+	<property name="description_key" value="TwitchAction_SpawnHungryRadDesc"/>
+	<property name="event_name" value="spawn_mama_rad"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_touristZombie']">
+	<property name="command" value="#tourist"/>
+	<property name="title_key" value="TwitchAction_SpawnTourist"/>
+	<property name="description_key" value="TwitchAction_SpawnTouristDesc"/>
+	<property name="event_name" value="spawn_tourist"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_touristZombieFeral']">
+	<property name="command" value="#tourist"/>
+	<property name="title_key" value="TwitchAction_SpawnTouristFeral"/>
+	<property name="description_key" value="TwitchAction_SpawnTouristFeralDesc"/>
+	<property name="event_name" value="spawn_tourist_feral"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_touristZombieRad']">
+	<property name="command" value="#tourist"/>
+	<property name="title_key" value="TwitchAction_SpawnTouristRad"/>
+	<property name="description_key" value="TwitchAction_SpawnTouristRadDesc"/>
+	<property name="event_name" value="spawn_tourist_rad"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_boomZombie']">
+	<property name="start_gamestage" value="35"/>
+	<property name="default_cost" value="100"/>
+	<property name="enabled" value="false"/>
+	<property name="show_in_action_list" value="false"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_cop']">
+	<property name="command" value="#cop"/>
+	<property name="title_key" value="TwitchAction_SpawnCop"/>
+	<property name="description_key" value="TwitchAction_SpawnCopDesc"/>
+	<property name="event_name" value="spawn_cop"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="60"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_feralcop']">
+	<property name="command" value="#cop"/>
+	<property name="title_key" value="TwitchAction_SpawnCopFeral"/>
+	<property name="description_key" value="TwitchAction_SpawnCopFeralDesc"/>
+	<property name="start_gamestage" value="85"/>
+	<property name="event_name" value="spawn_feralcop"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="60"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_radcop']">
+	<property name="command" value="#cop"/>
+	<property name="title_key" value="TwitchAction_SpawnCopRad"/>
+	<property name="description_key" value="TwitchAction_SpawnCopRadDesc"/>
+	<property name="start_gamestage" value="145"/>
+	<property name="event_name" value="spawn_radcop"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="180"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_mutated']">
+	<property name="command" value="#spawn_mutated"/>
+	<property name="title_key" value="TwitchAction_SpawnMutated"/>
+	<property name="description_key" value="TwitchAction_SpawnMutatedDesc"/>
+	<property name="event_name" value="spawn_mutated"/>
+	<property name="default_cost" value="80"/>
+	<property name="cooldown" value="60"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_mutatedFeral']">
+	<property name="command" value="#spawn_mutated"/>
+	<property name="title_key" value="TwitchAction_SpawnMutatedFeral"/>
+	<property name="description_key" value="TwitchAction_SpawnMutatedFeralDesc"/>
+	<property name="start_gamestage" value="125"/>
+	<property name="event_name" value="spawn_mutated_feral"/>
+	<property name="cooldown" value="120"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_mutatedRad']">
+	<property name="command" value="#spawn_mutated"/>
+	<property name="title_key" value="TwitchAction_SpawnMutatedRad"/>
+	<property name="description_key" value="TwitchAction_SpawnMutatedRadDesc"/>
+	<property name="start_gamestage" value="145"/>
+	<property name="event_name" value="spawn_mutated_rad"/>
+	<property name="enabled" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_wightZombie']">
+	<property name="command" value="#wight"/>
+	<property name="title_key" value="TwitchAction_SpawnWight"/>
+	<property name="description_key" value="TwitchAction_SpawnWightDesc"/>
+	<property name="start_gamestage" value="150"/>
+	<property name="event_name" value="spawn_wight"/>
+	<property name="default_cost" value="100"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_radwightZombie']">
+	<property name="command" value="#spawn_wight"/>
+	<property name="command_key" value="TwitchAction_SpawnWightCommand"/>
+	<property name="title_key" value="TwitchAction_SpawnWightRad"/>
+	<property name="description_key" value="TwitchAction_SpawnWightRadDesc"/>
+	<property name="start_gamestage" value="130"/>
+	<property name="event_name" value="spawn_wightrad"/>
+	<property name="default_cost" value="200"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_demo']">
+	<property name="command" value="#demo"/>
+	<property name="title_key" value="TwitchAction_SpawnDemo"/>
+	<property name="description_key" value="TwitchAction_SpawnDemoDesc"/>
+	<property name="start_gamestage" value="70"/>
+	<property name="event_name" value="spawn_demo"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="30"/>
+	<property name="enabled" value="true"/>
+	<property name="special_only" value="true"/></set>
+	
+<!-- Animals -->
+	
+<set xpath="/twitch/action[@name='twitch_snake']">
+	<property name="command" value="#snake"/>
+	<property name="title_key" value="TwitchAction_SpawnSnake"/>
+	<property name="description_key" value="TwitchAction_SpawnSnakeDesc"/>
+	<property name="category" value="Animals"/>
+	<property name="start_gamestage" value="3"/>
+	<property name="event_name" value="spawn_snake"/>
+	<property name="default_cost" value="20"/>
+	<property name="cooldown" value="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_coyote']">
+	<property name="command" value="#coyote"/>
+	<property name="title_key" value="TwitchAction_SpawnCoyote"/>
+	<property name="description_key" value="TwitchAction_SpawnCoyoteDesc"/>
+	<property name="start_gamestage" value="5"/>
+	<property name="event_name" value="spawn_coyote"/>
+	<property name="default_cost" value="50"/>
+	<property name="cooldown" value="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_boar']">
+	<property name="command" value="#boar"/>
+	<property name="title_key" value="TwitchAction_SpawnBoar"/>
+	<property name="description_key" value="TwitchAction_SpawnBoarDesc"/>
+	<property name="start_gamestage" value="35"/>
+	<property name="event_name" value="spawn_boar"/>
+	<property name="default_cost" value="75"/>
+	<property name="cooldown" value="90"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_dog']">
+	<property name="command" value="#dog"/>
+	<property name="title_key" value="TwitchAction_SpawnDog"/>
+	<property name="description_key" value="TwitchAction_SpawnDogDesc"/>
+	<property name="start_gamestage" value="20"/>
+	<property name="event_name" value="spawn_dog"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_wolf']">
+	<property name="command" value="#wolf"/>
+	<property name="title_key" value="TwitchAction_SpawnWolf"/>
+	<property name="description_key" value="TwitchAction_SpawnWolfDesc"/>
+	<property name="start_gamestage" value="25"/>
+	<property name="event_name" value="spawn_wolf"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_direwolf']">
+	<property name="command" value="#direwolf"/>
+	<property name="title_key" value="TwitchAction_SpawnDireWolf"/>
+	<property name="description_key" value="TwitchAction_SpawnDireWolfDesc"/>
+	<property name="start_gamestage" value="55"/>
+	<property name="event_name" value="spawn_direwolf"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="90"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_lion']">
+	<property name="command" value="#lion"/>
+	<property name="title_key" value="TwitchAction_SpawnLion"/>
+	<property name="description_key" value="TwitchAction_SpawnLionDesc"/>
+	<property name="start_gamestage" value="65"/>
+	<property name="event_name" value="spawn_mountainlion"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_bear']">
+	<property name="command" value="#bear"/>
+	<property name="title_key" value="TwitchAction_SpawnBear"/>
+	<property name="description_key" value="TwitchAction_SpawnBearDesc"/>
+	<property name="start_gamestage" value="80"/>
+	<property name="event_name" value="spawn_bear"/>
+	<property name="special_only" value="false"/>
+	<property name="default_cost" value="250"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_zombiebear']">
+	<property name="command" value="#zbear"/>
+	<property name="title_key" value="TwitchAction_SpawnBearZombie"/>
+	<property name="description_key" value="TwitchAction_SpawnBearZombieDesc"/>
+	<property name="start_gamestage" value="110"/>
+	<property name="event_name" value="spawn_zombiebear"/>
+	<property name="special_only" value="false"/>
+	<property name="default_cost" value="500"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_vulture']">
+	<property name="command" value="#vulture"/>
+	<property name="title_key" value="TwitchAction_SpawnVulture"/>
+	<property name="description_key" value="TwitchAction_SpawnVultureDesc"/>
+	<property name="start_gamestage" value="8"/>
+	<property name="event_name" value="spawn_vulture"/>
+	<property name="default_cost" value="50"/>
+	<property name="cooldown" value="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_radvulture']">
+	<property name="command" value="#radvulture"/>
+	<property name="title_key" value="TwitchAction_SpawnVultureRad"/>
+	<property name="description_key" value="TwitchAction_SpawnVultureRadDesc"/>
+	<property name="start_gamestage" value="130"/>
+	<property name="event_name" value="spawn_radvulture"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="120"/></set>
+	
+<!-- Supplies -->
+	
+<set xpath="/twitch/action[@name='twitch_spawnWeapon1']">
+	<property name="command" value="#weapon"/>
+	<property name="title_key" value="TwitchAction_SupplyWeapon1"/>
+	<property name="description_key" value="TwitchAction_SupplyWeapon1Desc"/>
+	<property name="category" value="Spawns,Supplies"/>
+	<property name="event_name" value="spawn_weapon0"/>
+	<property name="default_cost" value="100"/>
+	<property name="is_positive" value="true"/>
+	<property name="is_crate" value="true"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnWeapon2']">
+	<property name="command" value="#weapon"/>
+	<property name="title_key" value="TwitchAction_SupplyWeapon2"/>
+	<property name="description_key" value="TwitchAction_SupplyWeapon2Desc"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="spawn_weapon1"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnWeapon3']">
+	<property name="command" value="#weapon"/>
+	<property name="title_key" value="TwitchAction_SupplyWeapon3"/>
+	<property name="description_key" value="TwitchAction_SupplyWeapon3Desc"/>
+	<property name="start_gamestage" value="50"/>
+	<property name="event_name" value="spawn_weapon2"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnWeapon4']">
+	<property name="command" value="#weapon"/>
+	<property name="title_key" value="TwitchAction_SupplyWeapon4"/>
+	<property name="description_key" value="TwitchAction_SupplyWeapon4Desc"/>
+	<property name="start_gamestage" value="90"/>
+	<property name="event_name" value="spawn_weapon3"/>
+	<property name="default_cost" value="300"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnArmor0']">
+	<property name="command" value="#armor"/>
+	<property name="title_key" value="TwitchAction_SupplyArmor1"/>
+	<property name="description_key" value="TwitchAction_SupplyArmor1Desc"/>
+	<property name="event_name" value="spawn_armor0"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnArmor1']">
+	<property name="command" value="#armor"/>
+	<property name="title_key" value="TwitchAction_SupplyArmor2"/>
+	<property name="description_key" value="TwitchAction_SupplyArmor2Desc"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="spawn_armor1"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnArmor2']">
+	<property name="command" value="#armor"/>
+	<property name="title_key" value="TwitchAction_SupplyArmor3"/>
+	<property name="description_key" value="TwitchAction_SupplyArmor3Desc"/>
+	<property name="start_gamestage" value="50"/>
+	<property name="event_name" value="spawn_armor2"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnMods1']">
+	<property name="command" value="#mods"/>
+	<property name="title_key" value="TwitchAction_SupplyMods1"/>
+	<property name="description_key" value="TwitchAction_SupplyMods1Desc"/>
+	<property name="start_gamestage" value="6"/>
+	<property name="event_name" value="spawn_mods1"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnMods2']">
+	<property name="command" value="#mods"/>
+	<property name="title_key" value="TwitchAction_SupplyMods2"/>
+	<property name="description_key" value="TwitchAction_SupplyMods2Desc"/>
+	<property name="start_gamestage" value="16"/>
+	<property name="event_name" value="spawn_mods2"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnMods3']">
+	<property name="command" value="#mods"/>
+	<property name="title_key" value="TwitchAction_SupplyMods3"/>
+	<property name="description_key" value="TwitchAction_SupplyMods3Desc"/>
+	<property name="start_gamestage" value="56"/>
+	<property name="event_name" value="spawn_mods3"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnUtility1']">
+	<property name="command" value="#utility"/>
+	<property name="title_key" value="TwitchAction_SupplyUtility1"/>
+	<property name="description_key" value="TwitchAction_SupplyUtility1Desc"/>
+	<property name="start_gamestage" value="5"/>
+	<property name="event_name" value="spawn_utility1"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnUtility2']">
+	<property name="command" value="#utility"/>
+	<property name="title_key" value="TwitchAction_SupplyUtility2"/>
+	<property name="description_key" value="TwitchAction_SupplyUtility2Desc"/>
+	<property name="start_gamestage" value="53"/>
+	<property name="event_name" value="spawn_utility2"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="120"/></set>
+
+<set xpath="/twitch/action[@name='twitch_spawnTool1']">
+	<property name="command" value="#tool"/>
+	<property name="title_key" value="TwitchAction_SupplyTool1"/>
+	<property name="description_key" value="TwitchAction_SupplyTool1Desc"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="spawn_tool1"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnTool2']">
+	<property name="command" value="#tool"/>
+	<property name="title_key" value="TwitchAction_SupplyTool2"/>
+	<property name="description_key" value="TwitchAction_SupplyTool2Desc"/>
+	<property name="start_gamestage" value="50"/>
+	<property name="event_name" value="spawn_tool2"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnTool3']">
+	<property name="command" value="#tool"/>
+	<property name="title_key" value="TwitchAction_SupplyTool3"/>
+	<property name="description_key" value="TwitchAction_SupplyTool3Desc"/>
+	<property name="start_gamestage" value="90"/>
+	<property name="event_name" value="spawn_tool3"/>
+	<property name="default_cost" value="250"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnMedicine1']">
+	<property name="command" value="#meds"/>
+	<property name="title_key" value="TwitchAction_SupplyMedicine1"/>
+	<property name="description_key" value="TwitchAction_SupplyMedicine1Desc"/>
+	<property name="start_gamestage" value="5"/>
+	<property name="event_name" value="spawn_medicine1"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnMedicine2']">
+	<property name="command" value="#meds"/>
+	<property name="title_key" value="TwitchAction_SupplyMedicine2"/>
+	<property name="description_key" value="TwitchAction_SupplyMedicine2Desc"/>
+	<property name="start_gamestage" value="15"/>
+	<property name="event_name" value="spawn_medicine2"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnMedicine3']">
+	<property name="command" value="#meds"/>
+	<property name="title_key" value="TwitchAction_SupplyMedicine3"/>
+	<property name="description_key" value="TwitchAction_SupplyMedicine3Desc"/>
+	<property name="start_gamestage" value="55"/>
+	<property name="event_name" value="spawn_medicine3"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnFoodWater']">
+	<property name="command" value="#food"/>
+	<property name="title_key" value="TwitchAction_SupplyFoodWater1"/>
+	<property name="description_key" value="TwitchAction_SupplyFoodWater1Desc"/>
+	<property name="start_gamestage" value="6"/>
+	<property name="event_name" value="spawn_foodwater1"/>
+	<property name="default_cost" value="75"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnFoodWater2']">
+	<property name="command" value="#food"/>
+	<property name="title_key" value="TwitchAction_SupplyFoodWater2"/>
+	<property name="description_key" value="TwitchAction_SupplyFoodWater2Desc"/>
+	<property name="start_gamestage" value="16"/>
+	<property name="event_name" value="spawn_foodwater2"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnFoodWater3']">
+	<property name="command" value="#food"/>
+	<property name="title_key" value="TwitchAction_SupplyFoodWater3"/>
+	<property name="description_key" value="TwitchAction_SupplyFoodWater3Desc"/>
+	<property name="start_gamestage" value="56"/>
+	<property name="event_name" value="spawn_foodwater3"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnFoodWater4']">
+	<property name="command" value="#food"/>
+	<property name="title_key" value="TwitchAction_SupplyFoodWater4"/>
+	<property name="description_key" value="TwitchAction_SupplyFoodWater4Desc"/>
+	<property name="start_gamestage" value="96"/>
+	<property name="event_name" value="spawn_foodwater4"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnBooks1']">
+	<property name="command" value="#books"/>
+	<property name="title_key" value="TwitchAction_SupplyBooks1"/>
+	<property name="description_key" value="TwitchAction_SupplyBooks1Desc"/>
+	<property name="start_gamestage" value="15"/>
+	<property name="event_name" value="spawn_books1"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnBooks2']">
+	<property name="command" value="#books"/>
+	<property name="title_key" value="TwitchAction_SupplyBooks2"/>
+	<property name="description_key" value="TwitchAction_SupplyBooks2Desc"/>
+	<property name="start_gamestage" value="55"/>
+	<property name="event_name" value="spawn_books2"/>
+	<property name="default_cost" value="250"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnBooks3']">
+	<property name="command" value="#books"/>
+	<property name="title_key" value="TwitchAction_SupplyBooks3"/>
+	<property name="description_key" value="TwitchAction_SupplyBooks3Desc"/>
+	<property name="start_gamestage" value="95"/>
+	<property name="event_name" value="spawn_books3"/>
+	<property name="default_cost" value="300"/>
+	<property name="cooldown" value="600"/></set>
+
+<remove xpath="/twitch/action[@name='twitch_spawnBicycle']"/>
+<remove xpath="/twitch/action[@name='twitch_spawnMinibike']"/>
+<remove xpath="/twitch/action[@name='twitch_spawnMotorcycle']"/>
+<remove xpath="/twitch/action[@name='twitch_spawn4x4']"/>
+	
+<set xpath="/twitch/action[@name='twitch_spawnResource0']">
+	<property name="command" value="#resource"/>
+	<property name="title_key" value="TwitchAction_SupplyResource1"/>
+	<property name="description_key" value="TwitchAction_SupplyResource1Desc"/>
+	<property name="event_name" value="spawn_resource0"/>
+	<property name="default_cost" value="75"/>
+	<property name="cooldown" value="300"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnResource1']">
+	<property name="command" value="#resource"/>
+	<property name="title_key" value="TwitchAction_SupplyResource2"/>
+	<property name="description_key" value="TwitchAction_SupplyResource2Desc"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="spawn_resource1"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="300"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnResource2']">
+	<property name="command" value="#resource"/>
+	<property name="title_key" value="TwitchAction_SupplyResource3"/>
+	<property name="description_key" value="TwitchAction_SupplyResource3Desc"/>
+	<property name="start_gamestage" value="50"/>
+	<property name="event_name" value="spawn_resource2"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="300"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_spawnResource3']">
+	<property name="command" value="#resource"/>
+	<property name="title_key" value="TwitchAction_SupplyResource4"/>
+	<property name="description_key" value="TwitchAction_SupplyResource4Desc"/>
+	<property name="start_gamestage" value="90"/>
+	<property name="event_name" value="spawn_resource3"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="300"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_ElectricalCrate1']">
+	<property name="command" value="#electrical"/>
+	<property name="title_key" value="TwitchAction_SupplyElectrical1"/>
+	<property name="description_key" value="TwitchAction_SupplyElectrical1Desc"/>
+	<property name="start_gamestage" value="30"/>
+	<property name="event_name" value="spawn_electrical1"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_ElectricalCrate2']">
+	<property name="command" value="#electrical"/>
+	<property name="title_key" value="TwitchAction_SupplyElectrical2"/>
+	<property name="description_key" value="TwitchAction_SupplyElectrical2Desc"/>
+	<property name="start_gamestage" value="70"/>
+	<property name="event_name" value="spawn_electrical2"/>
+	<property name="default_cost" value="300"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_AmmoCrate0']">
+	<property name="command" value="#ammo"/>
+	<property name="title_key" value="TwitchAction_SupplyAmmo1"/>
+	<property name="description_key" value="TwitchAction_SupplyAmmo1Desc"/>
+	<property name="event_name" value="spawn_ammo1"/>
+	<property name="default_cost" value="75"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_AmmoCrate1']">
+	<property name="command" value="#ammo"/>
+	<property name="title_key" value="TwitchAction_SupplyAmmo2"/>
+	<property name="description_key" value="TwitchAction_SupplyAmmo2Desc"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="spawn_ammo2"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_AmmoCrate2']">
+	<property name="command" value="#ammo"/>
+	<property name="title_key" value="TwitchAction_SupplyAmmo3"/>
+	<property name="description_key" value="TwitchAction_SupplyAmmo3Desc"/>
+	<property name="start_gamestage" value="50"/>
+	<property name="event_name" value="spawn_ammo3"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_AmmoCrate3']">
+	<property name="command" value="#ammo"/>
+	<property name="title_key" value="TwitchAction_SupplyAmmo4"/>
+	<property name="description_key" value="TwitchAction_SupplyAmmo4Desc"/>
+	<property name="start_gamestage" value="90"/>
+	<property name="event_name" value="spawn_ammo4"/>
+	<property name="default_cost" value="175"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_SpecialAmmoCrate1']">
+	<property name="command" value="#special_ammo"/>
+	<property name="title_key" value="TwitchAction_SupplySpecialAmmo1"/>
+	<property name="description_key" value="TwitchAction_SupplySpecialAmmo1Desc"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="spawn_special_ammo1"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_SpecialAmmoCrate2']">
+	<property name="command" value="#special_ammo"/>
+	<property name="title_key" value="TwitchAction_SupplySpecialAmmo2"/>
+	<property name="description_key" value="TwitchAction_SupplySpecialAmmo2Desc"/>
+	<property name="start_gamestage" value="25"/>
+	<property name="event_name" value="spawn_special_ammo2"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Explosives1']">
+	<property name="command" value="#explosives"/>
+	<property name="title_key" value="TwitchAction_SupplyExplosives1"/>
+	<property name="description_key" value="TwitchAction_SupplyExplosives1Desc"/>
+	<property name="start_gamestage" value="8"/>
+	<property name="event_name" value="spawn_explosives1"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Explosives2']">
+	<property name="command" value="#explosives"/>
+	<property name="title_key" value="TwitchAction_SupplyExplosives2"/>
+	<property name="description_key" value="TwitchAction_SupplyExplosives2Desc"/>
+	<property name="start_gamestage" value="20"/>
+	<property name="event_name" value="spawn_explosives2"/>
+	<property name="default_cost" value="150"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Explosives3']">
+	<property name="command" value="#explosives"/>
+	<property name="title_key" value="TwitchAction_SupplyExplosives3"/>
+	<property name="description_key" value="TwitchAction_SupplyExplosives3Desc"/>
+	<property name="start_gamestage" value="60"/>
+	<property name="event_name" value="spawn_explosives3"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Explosives4']">
+	<property name="command" value="#explosives"/>
+	<property name="title_key" value="TwitchAction_SupplyExplosives4"/>
+	<property name="description_key" value="TwitchAction_SupplyExplosives4Desc"/>
+	<property name="start_gamestage" value="100"/>
+	<property name="event_name" value="spawn_explosives4"/>
+	<property name="default_cost" value="250"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Robo1']">
+	<property name="command" value="#turret"/>
+	<property name="title_key" value="TwitchAction_SupplyRobo1"/>
+	<property name="description_key" value="TwitchAction_SupplyRobo1Desc"/>
+	<property name="start_gamestage" value="12"/>
+	<property name="event_name" value="spawn_robo1"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Robo2']">
+	<property name="command" value="#turret"/>
+	<property name="title_key" value="TwitchAction_SupplyRobo2"/>
+	<property name="description_key" value="TwitchAction_SupplyRobo2Desc"/>
+	<property name="start_gamestage" value="52"/>
+	<property name="event_name" value="spawn_robo2"/>
+	<property name="default_cost" value="250"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Robo3']">
+	<property name="command" value="#turret"/>
+	<property name="title_key" value="TwitchAction_SupplyRobo3"/>
+	<property name="description_key" value="TwitchAction_SupplyRobo3Desc"/>
+	<property name="start_gamestage" value="92"/>
+	<property name="event_name" value="spawn_robo3"/>
+	<property name="default_cost" value="300"/>
+	<property name="cooldown" value="600"/></set>
+	
+<!-- Buffs/Debuffs -->
+	
+<set xpath="/twitch/action[@name='twitch_buffFast']">
+	<property name="command" value="#fast"/>
+	<property name="title_key" value="TwitchAction_BuffFast"/>
+	<property name="description_key" value="TwitchAction_BuffFastDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="event_name" value="buff_fast"/>
+	<property name="default_cost" value="50"/>
+	<property name="is_positive" value="true"/>
+	<property name="cooldown" value="90"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffJump']">
+	<property name="command" value="#rocket_boots"/>
+	<property name="title_key" value="TwitchAction_BuffJump"/>
+	<property name="description_key" value="TwitchAction_BuffJumpDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="event_name" value="buff_jump"/>
+	<property name="default_cost" value="50"/>
+	<property name="is_positive" value="true"/>
+	<property name="cooldown" value="90"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffLeech']">
+	<property name="command" value="#leech"/>
+	<property name="title_key" value="TwitchAction_BuffLeech"/>
+	<property name="description_key" value="TwitchAction_BuffLeechDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="start_gamestage" value="15"/>
+	<property name="event_name" value="buff_leech"/>
+	<property name="default_cost" value="75"/>
+	<property name="is_positive" value="true"/>
+	<property name="cooldown" value="360"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffBlur']">
+	<property name="command" value="#blur"/>
+	<property name="title_key" value="TwitchAction_BuffBlur"/>
+	<property name="description_key" value="TwitchAction_BuffBlurDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="event_name" value="buff_blur"/>
+	<property name="default_cost" value="50"/>
+	<property name="cooldown" value="360"/>
+	<property name="cooldown_blocked" value="true"/>
+	<cooldown_addition name="twitch_buffDistort" time="60"/>
+	<cooldown_addition name="twitch_buffGreyscale" time="60"/>
+	<cooldown_addition name="twitch_buffPainting" time="60"/>
+	<cooldown_addition name="twitch_buffHeadshotOnly" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffDistort']">
+	<property name="command" value="#distort"/>
+	<property name="title_key" value="TwitchAction_BuffDistort"/>
+	<property name="description_key" value="TwitchAction_BuffDistortDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="event_name" value="buff_distort"/>
+	<property name="default_cost" value="50"/>
+	<property name="cooldown" value="360"/>
+	<property name="cooldown_blocked" value="true"/>
+	<cooldown_addition name="twitch_buffBlur" time="60"/>
+	<cooldown_addition name="twitch_buffGreyscale" time="60"/>
+	<cooldown_addition name="twitch_buffPainting" time="60"/>
+	<cooldown_addition name="twitch_buffHeadshotOnly" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffGreyscale']">
+	<property name="command" value="#greyscale"/>
+	<property name="title_key" value="TwitchAction_BuffGreyscale"/>
+	<property name="description_key" value="TwitchAction_BuffGreyscaleDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="event_name" value="buff_greyscale"/>
+	<property name="default_cost" value="50"/>
+	<property name="cooldown" value="360"/>
+	<property name="cooldown_blocked" value="true"/>
+	<cooldown_addition name="twitch_buffDistort" time="60"/>
+	<cooldown_addition name="twitch_buffBlur" time="60"/>
+	<cooldown_addition name="twitch_buffPainting" time="60"/>
+	<cooldown_addition name="twitch_buffHeadshotOnly" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffSlow']">
+	<property name="command" value="#slow"/>
+	<property name="title_key" value="TwitchAction_BuffSlow"/>
+	<property name="description_key" value="TwitchAction_BuffSlowDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="event_name" value="buff_slow"/>
+	<property name="default_cost" value="50"/>
+	<property name="cooldown" value="90"/>
+	<property name="cooldown_blocked" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffHurt']">
+	<property name="command" value="#hurt"/>
+	<property name="title_key" value="TwitchAction_BuffHurt"/>
+	<property name="description_key" value="TwitchAction_BuffHurtDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="start_gamestage" value="8"/>
+	<property name="event_name" value="buff_hurt"/>
+	<!-- <property name="special_only" value="true"/> -->
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="300"/>
+	<property name="cooldown_blocked" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffBoostMelee']">
+	<property name="command" value="#boost_melee"/>
+	<property name="title_key" value="TwitchAction_BuffBoostMelee"/>
+	<property name="description_key" value="TwitchAction_BuffBoostMeleeDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="buff_strengthenmelee"/>
+	<property name="default_cost" value="100"/>
+	<property name="is_positive" value="true"/>
+	<property name="special_only" value="true"/>
+	<property name="cooldown" value="300"/>
+	<cooldown_addition name="twitch_buffBoostRanged" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffBoostRanged']">
+	<property name="command" value="#boost_range"/>
+	<property name="title_key" value="TwitchAction_BuffBoostRange"/>
+	<property name="description_key" value="TwitchAction_BuffBoostRangeDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="buff_strengthenranged"/>
+	<property name="default_cost" value="100"/>
+	<property name="is_positive" value="true"/>
+	<property name="special_only" value="true"/>
+	<property name="cooldown" value="300"/>	
+	<cooldown_addition name="twitch_buffBoostMelee" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffWeakenMelee']">
+	<property name="command" value="#weak_melee"/>
+	<property name="title_key" value="TwitchAction_BuffWeakenMelee"/>
+	<property name="description_key" value="TwitchAction_BuffWeakenMeleeDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="buff_weakenmelee"/>
+	<property name="default_cost" value="50"/>
+	<property name="cooldown" value="300"/>
+	<property name="cooldown_blocked" value="true"/>
+	<cooldown_addition name="twitch_buffAntiLeech" time="60"/>
+	<cooldown_addition name="twitch_buffWeakenRanged" time="60"/>
+	<cooldown_addition name="twitch_buffNoRanged" time="60"/>
+	<cooldown_addition name="twitch_buffHeadshotOnly" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffNoMelee']">
+	<property name="command" value="#no_melee"/>
+	<property name="title_key" value="TwitchAction_BuffNoMelee"/>
+	<property name="description_key" value="TwitchAction_BuffNoMeleeDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="start_gamestage" value="35"/>
+	<property name="event_name" value="buff_nomelee"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="300"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="replaces" value="#weak_melee"/>
+	<cooldown_addition name="twitch_buffAntiLeech" time="60"/>
+	<cooldown_addition name="twitch_buffWeakenRanged" time="60"/>
+	<cooldown_addition name="twitch_buffNoRanged" time="60"/>
+	<cooldown_addition name="twitch_buffHeadshotOnly" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffWeakenRanged']">
+	<property name="command" value="#weak_range"/>
+	<property name="title_key" value="TwitchAction_BuffWeakenRange"/>
+	<property name="description_key" value="TwitchAction_BuffWeakenRangeDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="buff_weakenranged"/>
+	<property name="default_cost" value="50"/>
+	<property name="cooldown" value="300"/>
+	<property name="cooldown_blocked" value="true"/>
+	<cooldown_addition name="twitch_buffAntiLeech" time="60"/>
+	<cooldown_addition name="twitch_buffWeakenMelee" time="60"/>
+	<cooldown_addition name="twitch_buffNoMelee" time="60"/>
+	<cooldown_addition name="twitch_buffHeadshotOnly" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffNoRanged']">
+	<property name="command" value="#no_range"/>
+	<property name="title_key" value="TwitchAction_BuffNoRange"/>
+	<property name="description_key" value="TwitchAction_BuffNoRangeDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="start_gamestage" value="35"/>
+	<property name="event_name" value="buff_noranged"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="300"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="replaces" value="#weak_range"/>
+	<cooldown_addition name="twitch_buffAntiLeech" time="60"/>
+	<cooldown_addition name="twitch_buffWeakenMelee" time="60"/>
+	<cooldown_addition name="twitch_buffNoMelee" time="60"/>
+	<cooldown_addition name="twitch_buffHeadshotOnly" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffAntiLeech']">
+	<property name="command" value="#antileech"/>
+	<property name="title_key" value="TwitchAction_BuffAntiLeech"/>
+	<property name="description_key" value="TwitchAction_BuffAntiLeechDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="start_gamestage" value="15"/>
+	<property name="event_name" value="buff_antileech"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="360"/>
+	<property name="cooldown_blocked" value="true"/>
+	<cooldown_addition name="twitch_buffWeakenRanged" time="60"/>
+	<cooldown_addition name="twitch_buffNoRanged" time="60"/>
+	<cooldown_addition name="twitch_buffWeakenMelee" time="60"/>
+	<cooldown_addition name="twitch_buffNoMelee" time="60"/>
+	<cooldown_addition name="twitch_buffHeadshotOnly" time="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffRegen']">
+	<property name="command" value="#regen"/>
+	<property name="title_key" value="TwitchAction_BuffRegen"/>
+	<property name="description_key" value="TwitchAction_BuffRegenDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="event_name" value="buff_regen"/>
+	<property name="default_cost" value="200"/>
+	<property name="special_only" value="true"/>
+	<property name="is_positive" value="true"/>
+	<property name="cooldown" value="160"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffEnergize']">
+	<property name="command" value="#energize"/>
+	<property name="title_key" value="TwitchAction_BuffEnergize"/>
+	<property name="description_key" value="TwitchAction_BuffEnergizeDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="event_name" value="buff_energize"/>
+	<property name="default_cost" value="100"/>
+	<property name="is_positive" value="true"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffShield']">
+	<property name="command" value="#shield"/>
+	<property name="title_key" value="TwitchAction_BuffShield"/>
+	<property name="description_key" value="TwitchAction_BuffShieldDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="start_gamestage" value="12"/>
+	<property name="event_name" value="buff_tough"/>
+	<property name="default_cost" value="100"/>
+	<property name="is_positive" value="true"/>
+	<property name="cooldown" value="90"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffKeepMoving']">
+	<property name="command" value="#keep_moving"/>
+	<property name="title_key" value="TwitchAction_BuffKeepMoving"/>
+	<property name="description_key" value="TwitchAction_BuffKeepMovingDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="start_gamestage" value="50"/>
+	<property name="event_name" value="buff_keepmoving"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="360"/>
+	<property name="cooldown_blocked" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffStayStill']">
+	<property name="command" value="#stay_still"/>
+	<property name="title_key" value="TwitchAction_BuffStayStill"/>
+	<property name="description_key" value="TwitchAction_BuffStayStillDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="start_gamestage" value="50"/>
+	<property name="event_name" value="buff_staystill"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="360"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="is_positive" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_buffHeadshotOnly']">
+	<property name="command" value="#headshot"/>
+	<property name="title_key" value="TwitchAction_BuffHeadshotOnly"/>
+	<property name="description_key" value="TwitchAction_BuffHeadshotOnlyDesc"/>
+	<property name="category" value="Buffs,Debuffs"/>
+	<property name="start_gamestage" value="65"/>
+	<property name="event_name" value="buff_headshotonly"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="300"/>
+	<property name="cooldown_blocked" value="true"/>
+	<cooldown_addition name="twitch_buffBlur" time="60"/>
+	<cooldown_addition name="twitch_buffDistort" time="60"/>
+	<cooldown_addition name="twitch_buffGreyscale" time="60"/>
+	<cooldown_addition name="twitch_buffPainting" time="60"/>
+	<cooldown_addition name="twitch_buffAntiLeech" time="60"/>
+	<cooldown_addition name="twitch_buffWeakenRanged" time="60"/>
+	<cooldown_addition name="twitch_buffWeakenMelee" time="60"/>
+	<cooldown_addition name="twitch_buffNoRanged" time="60"/>
+	<cooldown_addition name="twitch_buffNoMelee" time="60"/>
+	<cooldown_addition name="twitch_BigHead" time="90"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Ragdoll']">
+	<property name="command" value="#ragdoll"/>
+	<property name="title_key" value="TwitchAction_ActionRagdoll"/>
+	<property name="description_key" value="TwitchAction_ActionRagdollDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="15"/>
+	<property name="event_name" value="action_ragdoll"/>
+	<property name="default_cost" value="75"/>
+	<property name="is_positive" value="true"/>
+	<property name="cooldown" value="120"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_ShockNearby']">
+	<property name="command" value="#shock_near"/>
+	<property name="title_key" value="TwitchAction_ActionShockNearby"/>
+	<property name="description_key" value="TwitchAction_ActionShockNearbyDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="60"/>
+	<property name="event_name" value="action_shocknearby"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="240"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_BurnNearby']">
+	<property name="command" value="#burn_near"/>
+	<property name="title_key" value="TwitchAction_ActionBurnNearby"/>
+	<property name="description_key" value="TwitchAction_ActionBurnNearbyDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="60"/>
+	<property name="event_name" value="action_burnnearby"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="240"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Kaboom']">
+	<property name="command" value="#kaboom"/>
+	<property name="title_key" value="TwitchAction_ActionKaboom"/>
+	<property name="description_key" value="TwitchAction_ActionKaboomDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="90"/>
+	<property name="event_name" value="action_kaboom"/>
+	<property name="default_cost" value="200"/>
+	<property name="is_positive" value="true"/>
+	<property name="special_only" value="true"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Repair']">
+	<property name="command" value="#repair"/>
+	<property name="title_key" value="TwitchAction_ActionRepair"/>
+	<property name="description_key" value="TwitchAction_ActionRepairDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="55"/>
+	<property name="event_name" value="action_repair"/>
+	<property name="default_cost" value="125"/>
+	<property name="update_rate" value="15"/>
+	<property name="is_positive" value="true"/>
+	<property name="cooldown" value="600"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Scare1']">
+	<property name="command" value="#scare"/>
+	<property name="title_key" value="TwitchAction_ActionScare1"/>
+	<property name="description_key" value="TwitchAction_ActionScare1Desc"/>
+	<property name="category" value="Special"/>
+	<property name="event_name" value="action_scare1"/>
+	<property name="default_cost" value="15"/>
+	<property name="is_positive" value="false"/>
+	<property name="cooldown" value="180"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="delay_notify" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Scare2']">
+	<property name="command" value="#scare"/>
+	<property name="title_key" value="TwitchAction_ActionScare2"/>
+	<property name="description_key" value="TwitchAction_ActionScare2Desc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="15"/>
+	<property name="event_name" value="action_scare2"/>
+	<property name="default_cost" value="15"/>
+	<property name="is_positive" value="false"/>
+	<property name="cooldown" value="180"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="delay_notify" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Scare3']">
+	<property name="command" value="#scare"/>
+	<property name="title_key" value="TwitchAction_ActionScare3"/>
+	<property name="description_key" value="TwitchAction_ActionScare3Desc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="55"/>
+	<property name="event_name" value="action_scare3"/>
+	<property name="default_cost" value="15"/>
+	<property name="is_positive" value="false"/>
+	<property name="cooldown" value="180"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="delay_notify" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Degrade']">
+	<property name="command" value="#degrade"/>
+	<property name="title_key" value="TwitchAction_ActionDegrade"/>
+	<property name="description_key" value="TwitchAction_ActionDegradeDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="55"/>
+	<property name="event_name" value="action_degrade"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="600"/>
+	<property name="cooldown_blocked" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Enrage']">
+	<property name="command" value="#enrage"/>
+	<property name="title_key" value="TwitchAction_ActionEnrage"/>
+	<property name="description_key" value="TwitchAction_ActionEnrageDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="35"/>
+	<property name="event_name" value="action_enrage"/>
+	<property name="default_cost" value="125"/>
+	<property name="cooldown" value="300"/>
+	<property name="cooldown_blocked" value="true"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_PullZombies']">
+	<property name="command" value="#pull"/>
+	<property name="title_key" value="TwitchAction_ActionPull"/>
+	<property name="description_key" value="TwitchAction_ActionPullDesc"/>
+	<property name="category" value="Special"/>
+	<property name="event_name" value="action_pull"/>
+	<property name="default_cost" value="50"/>
+	<property name="is_positive" value="false"/>
+	<property name="special_requirement" value="HasSpawnedEntities"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="cooldown" value="60"/></set>
+	
+<set xpath="/twitch/action[@name='twitch_Spoil']">
+	<property name="command" value="#spoil"/>
+	<property name="title_key" value="TwitchAction_ActionSpoil"/>
+	<property name="description_key" value="TwitchAction_ActionSpoilDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="30"/>
+	<property name="event_name" value="action_spoil"/>
+	<property name="default_cost" value="300"/>
+	<property name="is_positive" value="false"/>
+	<property name="cooldown" value="600"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="special_only" value="true"/></set>
+
+<append xpath="/twitch">
+<!--
+<action name="twitch_screamer_zombie" extends="twitch_toughZombie">
+	<property name="command" value="#screamer"/>
+	<property name="title_key" value="TwitchAction_SpawnScreamer"/>
+	<property name="description_key" value="TwitchAction_SpawnScreamerDesc"/>
+	<property name="event_name" value="twitch_spawn_screamer"/>
+	<property name="enabled" value="true"/>
+	<property name="special_only" value="true"/></action>
+	
+<action name="twitch_screamer_zombie_feral" extends="twitch_toughFeralZombie">
+	<property name="command" value="#screamer"/>
+	<property name="title_key" value="TwitchAction_SpawnScreamerFeral"/>
+	<property name="description_key" value="TwitchAction_SpawnScreamerFeralDesc"/>
+	<property name="event_name" value="twitch_spawn_screamer_feral"/>
+	<property name="enabled" value="true"/>
+	<property name="special_only" value="true"/></action>
+	
+<action name="twitch_screamer_zombie_rad" extends="twitch_toughRadZombie">
+	<property name="command" value="#screamer"/>
+	<property name="title_key" value="TwitchAction_SpawnScreamerRad"/>
+	<property name="description_key" value="TwitchAction_SpawnScreamerRadDesc"/>
+	<property name="event_name" value="twitch_spawn_screamer_rad"/>
+	<property name="enabled" value="true"/>
+	<property name="special_only" value="true"/></action>
+-->
+	
+<action name="twitch_SupplyFuel" extends="twitch_spawnWeapon1">
+	<property name="command" value="#fuel"/>
+	<property name="title_key" value="TwitchAction_SupplyFuel"/>
+	<property name="description_key" value="TwitchAction_SupplyFuelDesc"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="spawn_fuel_crate"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="120"/></action>
+	
+<action name="twitch_buffHercules">
+	<property name="command" value="#hercules"/>
+	<property name="title_key" value="TwitchAction_BuffHercules"/>
+	<property name="description_key" value="TwitchAction_BuffHerculesDesc"/>
+	<property name="category" value="Buffs"/>
+	<property name="start_gamestage" value="5"/>
+	<property name="event_name" value="buff_hercules"/>
+	<property name="default_cost" value="200"/>
+	<property name="cooldown" value="360"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="is_positive" value="true"/>
+	<!--<property name="special_only" value="true"/>--></action>
+
+<action name="twitch_DeadWeight">
+	<property name="command" value="#dead_weight"/>
+	<property name="title_key" value="TwitchAction_ActionDeadWeight"/>
+	<property name="description_key" value="TwitchAction_ActionDeadWeightDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="5"/>
+	<property name="event_name" value="give_dead_weight"/>
+	<property name="default_cost" value="300"/>
+	<property name="is_positive" value="false"/>
+	<property name="cooldown" value="600"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="special_only" value="true"/></action>
+
+<action name="twitch_TotalRecall">
+	<property name="command" value="#total_recall"/>
+	<property name="title_key" value="TwitchAction_ActionTotalRecall"/>
+	<property name="description_key" value="TwitchAction_ActionTotalRecallDesc"/>
+	<property name="category" value="Special"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="event_name" value="action_total_recall"/>
+	<property name="default_cost" value="500"/>
+	<property name="is_positive" value="false"/>
+	<property name="cooldown" value="600"/>
+	<property name="cooldown_blocked" value="true"/>
+	<property name="special_only" value="true"/></action>
+	
+<action name="twitch_negative_jump_random" extends="twitch_Spoil">
+	<property name="command" value="#jump"/>
+	<property name="title_key" value="TwitchAction_ActionRandomJump"/>
+	<property name="description_key" value="TwitchAction_ActionRandomJumpDesc"/>
+	<property name="event_name" value="twitch_jump_random"/></action>
+	
+<action name="twitch_teleport1" extends="twitch_Spoil">
+	<property name="command" value="#teleport_50m"/>
+	<property name="title_key" value="TwitchAction_ActionTeleport50m"/>
+	<property name="description_key" value="TwitchAction_ActionTeleport50mDesc"/>
+	<property name="event_name" value="twitch_teleport_50m"/>
+	<property name="cooldown" value="300"/>
+	<property name="default_cost" value="100"/>
+	<cooldown_addition name="twitch_teleport2" time="300"/>
+	<cooldown_addition name="twitch_teleport3" time="300"/>
+	<cooldown_addition name="twitch_teleport4" time="300"/>
+	<cooldown_addition name="twitch_teleport5" time="300"/></action>
+	
+<action name="twitch_teleport2" extends="twitch_teleport1">
+	<property name="command" value="#teleport_250m"/>
+	<property name="title_key" value="TwitchAction_ActionTeleport250m"/>
+	<property name="description_key" value="TwitchAction_ActionTeleport250mDesc"/>
+	<property name="event_name" value="twitch_teleport_250m"/>
+	<property name="default_cost" value="250"/>
+	<cooldown_addition name="twitch_teleport1" time="300"/>
+	<cooldown_addition name="twitch_teleport3" time="300"/>
+	<cooldown_addition name="twitch_teleport4" time="300"/>
+	<cooldown_addition name="twitch_teleport5" time="300"/></action>
+	
+<action name="twitch_teleport3" extends="twitch_teleport1">
+	<property name="command" value="#teleport_500m"/>
+	<property name="title_key" value="TwitchAction_ActionTeleport500m"/>
+	<property name="description_key" value="TwitchAction_ActionTeleport500mDesc"/>
+	<property name="event_name" value="twitch_teleport_500m"/>
+	<property name="default_cost" value="500"/>
+	<cooldown_addition name="twitch_teleport1" time="300"/>
+	<cooldown_addition name="twitch_teleport2" time="300"/>
+	<cooldown_addition name="twitch_teleport4" time="300"/>
+	<cooldown_addition name="twitch_teleport5" time="300"/></action>
+	
+<action name="twitch_teleport4" extends="twitch_teleport1">
+	<property name="command" value="#teleport_1km"/>
+	<property name="title_key" value="TwitchAction_ActionTeleport1km"/>
+	<property name="description_key" value="TwitchAction_ActionTeleport1kmDesc"/>
+	<property name="event_name" value="twitch_teleport_1km"/>
+	<property name="default_cost" value="750"/>
+	<cooldown_addition name="twitch_teleport1" time="300"/>
+	<cooldown_addition name="twitch_teleport2" time="300"/>
+	<cooldown_addition name="twitch_teleport3" time="300"/>
+	<cooldown_addition name="twitch_teleport5" time="300"/></action>
+	
+<action name="twitch_teleport5" extends="twitch_teleport1">
+	<property name="command" value="#teleport_2km"/>
+	<property name="title_key" value="TwitchAction_ActionTeleport2km"/>
+	<property name="description_key" value="TwitchAction_ActionTeleport2kmDesc"/>
+	<property name="event_name" value="twitch_teleport_2km"/>
+	<property name="default_cost" value="1000"/>
+	<cooldown_addition name="twitch_teleport1" time="300"/>
+	<cooldown_addition name="twitch_teleport2" time="300"/>
+	<cooldown_addition name="twitch_teleport3" time="300"/>
+	<cooldown_addition name="twitch_teleport4" time="300"/></action>
+	
+<!-- Hordes -->
+	
+<action name="twitch_horde_crawlers" extends="twitch_normalZombie">
+	<property name="category" value="Hordes"/>
+	<property name="command" value="#snakes"/>
+	<property name="title_key" value="TwitchAction_SpawnCrawlers"/>
+	<property name="description_key" value="TwitchAction_SpawnCrawlersDesc"/>
+	<property name="event_name" value="spawn_horde_crawlers"/>
+	<property name="enabled" value="true"/>
+	<property name="special_only" value="true"/>
+	<property name="delay_notify" value="true"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="default_cost" value="100"/>
+	<property name="cooldown" value="120"/></action>
+	
+<action name="twitch_horde_nurses" extends="twitch_horde_crawlers">
+	<property name="category" value="Hordes"/>
+	<property name="command" value="#nurses"/>
+	<property name="title_key" value="TwitchAction_SpawnNurses"/>
+	<property name="description_key" value="TwitchAction_SpawnNursesDesc"/>
+	<property name="event_name" value="spawn_horde_nurses"/>
+	<property name="start_gamestage" value="15"/>
+	<property name="default_cost" value="200"/></action>
+	
+<action name="twitch_horde_snakes" extends="twitch_horde_crawlers">
+	<property name="category" value="Hordes"/>
+	<property name="command" value="#snakes"/>
+	<property name="title_key" value="TwitchAction_SpawnSnakes"/>
+	<property name="description_key" value="TwitchAction_SpawnSnakesDesc"/>
+	<property name="event_name" value="spawn_horde_snakes"/>
+	<property name="start_gamestage" value="15"/>
+	<property name="default_cost" value="250"/></action>
+	
+<action name="twitch_horde_birds" extends="twitch_horde_crawlers">
+	<property name="command" value="#vultures"/>
+	<property name="title_key" value="TwitchAction_SpawnBirds"/>
+	<property name="description_key" value="TwitchAction_SpawnBirdsDesc"/>
+	<property name="event_name" value="spawn_horde_birds"/>
+	<property name="start_gamestage" value="30"/>
+	<property name="default_cost" value="300"/></action>
+	
+<action name="twitch_horde_dogs" extends="twitch_horde_crawlers">
+	<property name="command" value="#dogs"/>
+	<property name="title_key" value="TwitchAction_SpawnHounds"/>
+	<property name="description_key" value="TwitchAction_SpawnHoundsDesc"/>
+	<property name="event_name" value="spawn_horde_dogs"/>
+	<property name="start_gamestage" value="50"/>
+	<property name="default_cost" value="500"/></action>
+	
+<action name="twitch_horde_bad_cops" extends="twitch_horde_crawlers">
+	<property name="command" value="#badcops"/>
+	<property name="title_key" value="TwitchAction_SpawnBadCops"/>
+	<property name="description_key" value="TwitchAction_SpawnBadCopsDesc"/>
+	<property name="event_name" value="spawn_horde_bad_cops"/>
+	<property name="start_gamestage" value="55"/>
+	<property name="default_cost" value="500"/>
+	<property name="cooldown" value="180"/></action>
+	
+<action name="twitch_horde_wanted" extends="twitch_horde_crawlers">
+	<property name="command" value="#wanted"/>
+	<property name="title_key" value="TwitchAction_SpawnBusted"/>
+	<property name="description_key" value="TwitchAction_SpawnBustedDesc"/>
+	<property name="event_name" value="spawn_horde_wanted"/>
+	<property name="start_gamestage" value="60"/>
+	<property name="default_cost" value="600"/>
+	<property name="cooldown" value="180"/></action>
+	
+<action name="twitch_horde_demo_squad" extends="twitch_horde_crawlers">
+	<property name="command" value="#demo_squad"/>
+	<property name="title_key" value="TwitchAction_SpawnDemoSquad"/>
+	<property name="description_key" value="TwitchAction_SpawnDemoSquadDesc"/>
+	<property name="event_name" value="spawn_horde_demo_squad"/>
+	<property name="start_gamestage" value="65"/>
+	<property name="default_cost" value="1000"/>
+	<property name="cooldown" value="180"/></action>
+	
+<action name="twitch_zombie_bears" extends="twitch_horde_crawlers">
+	<property name="category" value="Hordes"/>
+	<property name="command" value="#zbears"/>
+	<property name="title_key" value="TwitchAction_SpawnBearZombieHorde"/>
+	<property name="description_key" value="TwitchAction_SpawnBearZombieHordeDesc"/>
+	<property name="event_name" value="spawn_horde_zombie_bears"/>
+	<property name="start_gamestage" value="70"/>
+	<property name="default_cost" value="1500"/>
+	<property name="cooldown" value="600"/></action>
+	
+<!-- Vehicles -->
+	
+<action name="twitch_give_bicycle">
+	<property name="command" value="#bicycle"/>
+	<property name="title_key" value="TwitchAction_GiveBicycle"/>
+	<property name="description_key" value="TwitchAction_GiveBicycleDesc"/>
+	<property name="category" value="Vehicles"/>
+	<property name="event_name" value="give_bicycle"/>
+	<property name="is_positive" value="true"/>
+	<property name="special_only" value="true"/>
+	<property name="enabled" value="true"/>
+	<property name="cooldown" value="300"/>
+	<property name="start_gamestage" value="5"/>
+	<property name="default_cost" value="300"/></action>
+	
+<action name="twitch_give_minibike" extends="twitch_give_bicycle">
+	<property name="command" value="#minibike"/>
+	<property name="title_key" value="TwitchAction_GiveMinibike"/>
+	<property name="description_key" value="TwitchAction_GiveMinibikeDesc"/>
+	<property name="event_name" value="give_minibike"/>
+	<property name="start_gamestage" value="10"/>
+	<property name="default_cost" value="500"/></action>
+	
+<action name="twitch_give_motorcycle" extends="twitch_give_bicycle">
+	<property name="command" value="#motorcycle"/>
+	<property name="title_key" value="TwitchAction_GiveMotorcycle"/>
+	<property name="description_key" value="TwitchAction_GiveMotorcycleDesc"/>
+	<property name="event_name" value="give_motorcycle"/>
+	<property name="start_gamestage" value="15"/>
+	<property name="default_cost" value="750"/></action>
+	
+<action name="twitch_give_4x4" extends="twitch_give_bicycle">
+	<property name="command" value="#4x4"/>
+	<property name="title_key" value="TwitchAction_Give4x4Truck"/>
+	<property name="description_key" value="TwitchAction_Give4x4TruckDesc"/>
+	<property name="event_name" value="give_4x4"/>
+	<property name="start_gamestage" value="20"/>
+	<property name="default_cost" value="1000"/></action>
+	
+<action name="twitch_give_4x4_military" extends="twitch_give_bicycle">
+	<property name="command" value="#4x4_military"/>
+	<property name="title_key" value="TwitchAction_Give4x4Military"/>
+	<property name="description_key" value="TwitchAction_Give4x4MilitaryDesc"/>
+	<property name="event_name" value="give_4x4_military"/>
+	<property name="start_gamestage" value="30"/>
+	<property name="default_cost" value="1100"/></action>
+	
+<action name="twitch_give_sedan" extends="twitch_give_bicycle">
+	<property name="command" value="#sedan"/>
+	<property name="title_key" value="TwitchAction_GiveSedan"/>
+	<property name="description_key" value="TwitchAction_GiveSedanDesc"/>
+	<property name="event_name" value="give_sedan"/>
+	<property name="start_gamestage" value="35"/>
+	<property name="default_cost" value="1200"/></action>
+	
+<action name="twitch_give_buggy" extends="twitch_give_bicycle">
+	<property name="command" value="#buggy"/>
+	<property name="title_key" value="TwitchAction_GiveBuggy"/>
+	<property name="description_key" value="TwitchAction_GiveBuggyDesc"/>
+	<property name="event_name" value="give_buggy"/>
+	<property name="start_gamestage" value="25"/>
+	<property name="default_cost" value="1300"/></action>
+	
+<action name="twitch_give_suv" extends="twitch_give_bicycle">
+	<property name="command" value="#suv"/>
+	<property name="title_key" value="TwitchAction_GiveSUV"/>
+	<property name="description_key" value="TwitchAction_GiveSUVDesc"/>
+	<property name="event_name" value="give_suv"/>
+	<property name="start_gamestage" value="40"/>
+	<property name="default_cost" value="1400"/></action>
+	
+<action name="twitch_give_gyrocopter" extends="twitch_give_bicycle">
+	<property name="command" value="#gyrocopter"/>
+	<property name="title_key" value="TwitchAction_GiveGyrocopter"/>
+	<property name="description_key" value="TwitchAction_GiveGyrocopterDesc"/>
+	<property name="event_name" value="give_gyrocopter"/>
+	<property name="start_gamestage" value="45"/>
+	<property name="default_cost" value="1500"/></action>
+	
+<action name="twitch_give_helicopter" extends="twitch_give_bicycle">
+	<property name="command" value="#helicopter"/>
+	<property name="title_key" value="TwitchAction_GiveHelicopter"/>
+	<property name="description_key" value="TwitchAction_GiveHelicopterDesc"/>
+	<property name="event_name" value="give_helicopter"/>
+	<property name="start_gamestage" value="50"/>
+	<property name="default_cost" value="2000"/></action>
+
+</append>
+
+</Subquake>

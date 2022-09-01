@@ -1,0 +1,302 @@
+<Subquake>
+	
+<append xpath="/buffs">
+	
+<buff name="actionPerkLockPickingSuccess" hidden="true">
+	<stack_type value="ignore"/>
+	<duration value="1.01"/>
+	<effect_group name="Gain EXP">
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLockPicking" attribute="attIntellect" add_xp="25"/>
+	</effect_group></buff>
+	
+<buff name="actionPerkLockPickingFail" hidden="true">
+	<stack_type value="replace"/>
+	<duration value="1.01"/>
+	<effect_group name="Gain EXP">
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLockPicking" attribute="attIntellect" add_xp="5"/>
+	</effect_group></buff>
+	
+<buff name="actionPerkLockPickingAutoFail" hidden="true">
+	<stack_type value="replace"/>
+	<duration value="1.01"/>
+	<effect_group name="Gain EXP">
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLockPicking" attribute="attIntellect" add_xp="2"/>
+	</effect_group></buff>
+	
+<buff name="actionPerkLooting" hidden="true">
+	<stack_type value="ignore"/>
+	<duration value="1.01"/>
+	<effect_group name="Gain EXP">
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLooting" attribute="attPerception" add_xp="@xpFromLootingTemp"/>
+	</effect_group></buff>
+
+<buff name="actionPerkHealing" hidden="true">
+	<stack_type value="ignore"/>
+	<duration value="1.01"/>
+	<effect_group name="Perk Physician EXP Bonus">
+		<triggered_effect trigger="onSelfBuffStart" cvar=".perkPhysicianMultiplier" action="ModifyCVar" operation="set" value=".2"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".perkPhysicianMultiplier" action="ModifySDX,UndeadLegacy" operation="multiply" value="perkPhysician" value_type="Progression"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".perkPhysicianMultiplier" action="ModifyCVar" operation="add" value="1"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".treatmentEXP" action="ModifyCVar" operation="multiply" value="@.perkPhysicianMultiplier"/>
+		<triggered_effect trigger="onSelfBuffStart" action="GiveExp" exp="@.treatmentEXP"/>
+	</effect_group>
+	<effect_group name="Gain EXP">
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkHealing" attribute="attFortitude" add_xp="@.actionPerkHealingTempExp"/>
+	</effect_group></buff>
+
+<buff name="actionPerkTrading" hidden="true">
+	<stack_type value="ignore"/>
+	<duration value="1.01"/>
+	<effect_group name="Gain EXP">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="xpFromSellingTemp" operation="divide" value="20"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkTrading" attribute="attIntellect" add_xp="@xpFromSellingTemp"/>
+	</effect_group></buff>
+
+<buff name="actionPerkQuesting" hidden="true">
+	<stack_type value="ignore"/>
+	<duration value="1.01"/>
+	<effect_group name="Gain EXP">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="xpFromQuestTemp" operation="divide" value="20"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkQuesting" attribute="attIntellect" add_xp="@xpFromQuestTemp"/>
+	</effect_group></buff>
+	
+<buff name="actionSkillsMax" hidden="true"><stack_type value="replace"/><duration value="0.1"/><effect_group>
+	<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".actionPerkLevel" operation="set" value="100"/>
+	<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="actionSkillsModifyAll"/></effect_group></buff>
+	
+<buff name="actionSkills++" hidden="true"><stack_type value="replace"/><duration value="0.1"/><effect_group>
+	<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".actionPerkLevel" operation="set" value="10"/>
+	<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="actionSkillsModifyAll"/></effect_group></buff>
+	
+<buff name="actionSkills--" hidden="true"><stack_type value="replace"/><duration value="0.1"/><effect_group>
+	<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".actionPerkLevel" operation="set" value="-10"/>
+	<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="actionSkillsModifyAll"/></effect_group></buff>
+	
+<buff name="actionSkillsReset" hidden="true"><stack_type value="replace"/><duration value="0.1"/><effect_group>
+	<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".actionPerkLevel" operation="set" value="-100"/>
+	<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="actionSkillsModifyAll"/></effect_group></buff>
+	
+<buff name="onAttributeLevelChanged" hidden="true">
+	<stack_type value="replace"/>
+	<duration value="0.1"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attPerceptionExpBonus"	action="ModifyCVar"				operation="set" value=".05"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attPerceptionExpBonus"	action="ModifySDX,UndeadLegacy" operation="multiply" value="attPerception" value_type="Progression"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attPerceptionExpBonus"	action="ModifyCVar"				operation="add" value=".5"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attStrengthExpBonus"		action="ModifyCVar"				operation="set" value=".05"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attStrengthExpBonus"		action="ModifySDX,UndeadLegacy" operation="multiply" value="attStrength" value_type="Progression"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attStrengthExpBonus"		action="ModifyCVar"				operation="add" value=".5"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attAgilityExpBonus"		action="ModifyCVar"				operation="set" value=".05"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attAgilityExpBonus"		action="ModifySDX,UndeadLegacy" operation="multiply" value="attAgility" value_type="Progression"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attAgilityExpBonus"		action="ModifyCVar"				operation="add" value=".5"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attFortitudeExpBonus"	action="ModifyCVar"				operation="set"		 value=".05"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attFortitudeExpBonus"	action="ModifySDX,UndeadLegacy"	operation="multiply" value="attFortitude" value_type="Progression"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attFortitudeExpBonus"	action="ModifyCVar"				operation="add"		 value=".5"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attIntellectExpBonus"	action="ModifyCVar"				operation="set" value=".05"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attIntellectExpBonus"	action="ModifySDX,UndeadLegacy" operation="multiply" value="attIntellect" value_type="Progression"/>
+		<triggered_effect trigger="onSelfBuffStart" cvar=".attIntellectExpBonus"	action="ModifyCVar"				operation="add" value=".5"/>
+	</effect_group></buff>
+
+<buff name="respecAttributesAndPerks" hidden="true">
+	<stack_type value="replace"/>
+	<duration value="0.1"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="attPerception"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="attStrength"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="attFortitude"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="attAgility"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="attIntellect"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkDeadEye"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkArchery"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkJavelinMaster"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkPenetrator"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkAnimalTracker"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkTheHuntsman"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkLockPicking"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkLuckyLooter"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkTreasureHunter"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkMachineGunner"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkPummelPete"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkSkullCrusher"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkSexualTrex"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkHeavyArmor"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkPackMule"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkMiner69r"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkMotherLode"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkBoomstick"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkBrawler"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkPainTolerance"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkInfiltrator"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkWellInsulated"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkSlowMetabolism"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkHealingFactor"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkPhysician"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkGunslinger"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkDeepCuts"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkRunAndGun"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkFlurryOfBlows"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkRuleOneCardio"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkLightArmor"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkParkour"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkHiddenStrike"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkFromTheShadows"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkDemolitionsExpert"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkElectrocutioner"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkTurrets"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkBetterBarter"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkDaringAdventurer"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkCharismaticNature"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkSalvageOperations"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="perkLivingOffTheLand"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="ulmPerkSubmachineGuns"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="ulmPerkGiftOfLife"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifySDX,UndeadLegacy" operation="respec" progression="ulmPerkDroneSpecialist"/>
+		<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="onAttributeLevelChanged"/>
+	</effect_group></buff>
+	
+<buff name="actionSkillsModifyAll" hidden="true">
+	<stack_type value="replace"/>
+	<duration value="0.1"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSniperRifles"	add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkArchery"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSpears"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLockPicking"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLooting"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkButcher"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAssaultRifles"	add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkClubs"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSledgehammers"	add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAxes"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkShovels"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkMining"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkShotguns"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkBrawler"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkResistHeat"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkResistCold"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkResistPain"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkHealing"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkHandguns"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkBlades"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAthletics"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSneaking"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAssasin"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSubmachineGuns"	add_level="@.actionPerkLevel"/>
+	<!--<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkExplosives"		add_level="@.actionPerkLevel"/>-->
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkShockers"		add_level="@.actionPerkLevel"/>
+	<!--<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkTurrets"			add_level="@.actionPerkLevel"/>-->
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkTrading"			add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkQuesting"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSalvaging"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkStrength"		add_level="@.actionPerkLevel"/>
+		<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".actionPerkLevel" operation="set" value="1"/>
+	</effect_group></buff>
+	
+<buff name="actionSkillDeathPenalty" hidden="true"><stack_type value="replace"/><update_rate value=".1"/><duration value="20"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".actionPerkDeathTick" operation="set" value="0"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".actionPerkDeathTick" operation="add" value="1"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".actionPerkLevel" operation="set" value="0"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".actionPerkLevel" operation="set" value="-1">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<requirement name="CVarCompare" cvar=".actionPerkLevel" operation="Equals" value="-1"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSniperRifles"	add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="1"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkArchery"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="2"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSpears"			add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="3"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLockPicking"	add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="4"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLooting"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="5"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSalvaging"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="6"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkButcher"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAssaultRifles"	add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="8"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkClubs"			add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="9"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSledgehammers"	add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="10"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAxes"			add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="11"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkShovels"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="12"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkMining"			add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="13"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkShotguns"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="14"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkBrawler"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="15"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkResistHeat"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="16"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkResistCold"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="17"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkResistPain"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="18"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkHealing"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="19"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkHandguns"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="20"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkBlades"			add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="21"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAthletics"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="22"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSneaking"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="23"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAssasin"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="24"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSubmachineGuns"	add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="25"/></triggered_effect>
+	<!--<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkExplosives"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="26"/></triggered_effect>-->
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkShockers"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="27"/></triggered_effect>
+	<!--<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkTurrets"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="28"/></triggered_effect>-->
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkTrading"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="29"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkQuesting"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="30"/></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkStrength"		add_level="-1"><requirement name="CVarCompare" cvar=".actionPerkDeathTick" operation="Equals" value="31"/></triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".actionPerkLevel" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfBuffFinish" text_key="actionSkillDeathPenalty" action="ShowCustomTooltip,UndeadLegacy" icon="symbol_skull" sound="player_death_stinger" play_in_head="true"/>
+	</effect_group>
+</buff>
+	
+</append>
+	
+<append xpath="//buff[@name='buffPerkAbilityUpdate']">
+	<effect_group name="Action Skill Healing">
+		<triggered_effect trigger="onSelfBuffStack" cvar="actionPerkHealingMultiplier" action="ModifyCVar" operation="set" value=".005"/>
+		<triggered_effect trigger="onSelfBuffStack" cvar="actionPerkHealingMultiplier" action="ModifySDX,UndeadLegacy" operation="multiply" value="actionPerkHealing" value_type="Progression"/>
+		<triggered_effect trigger="onSelfBuffStack" cvar="actionPerkHealingMultiplier" action="ModifyCVar" operation="add" value="1"/>
+	</effect_group>
+</append>
+	
+<append xpath="//buff[@name='buffStatusCheck01']">
+    <effect_group name="Initialize Action Skills">
+		<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" buff="onAttributeLevelChanged"/>
+		<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".actionPerkLevel" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$actionPerkExpFactor" operation="set" value="1.02">
+			<requirement name="CVarCompare" operation="LT" value="1" cvar="$actionPerkExpFactor"/>
+		</triggered_effect>
+    </effect_group>
+</append>
+	
+<set xpath="/buffs/buff[@name='buffHealHealth']">
+	<stack_type value="ignore"/>
+	<update_rate value="1"/>
+	<display_value value=".healHealthAmountDisplay"/>
+	<effect_group>
+		<requirement name="CVarCompare" cvar=".NoHealingManager" operation="Equals" value="0"/>
+		<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GTE" value="0"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="add" value=".5"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="foodHealthAmount" operation="subtract" value=".5"/>
+	</effect_group>
+	
+	<effect_group>
+		<requirement name="CVarCompare" cvar=".NoHealingManager" operation="Equals" value="0"/>
+		<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="GT" value="0"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="add" value="@medRegHealthIncSpeed"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="subtract" value="@medRegHealthIncSpeed"/>
+	</effect_group>
+	
+	<effect_group name="display">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".healHealthAmountDisplay" operation="set" value="@medicalRegHealthAmount"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".healHealthAmountDisplay" operation="add" value="@foodHealthAmount"/>
+
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".healHealthAmountDisplay" operation="set" value="@medicalRegHealthAmount"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".healHealthAmountDisplay" operation="add" value="@foodHealthAmount"/>
+	</effect_group>
+
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffHealHealth">
+			<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="LTE" value="0"/>
+			<requirement name="CVarCompare" cvar="foodHealthAmount" operation="LTE" value="-.5"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="medRegHealthIncSpeed" operation="set" value="2"/>
+		<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="foodHealthAmount" operation="set" value="0"/>
+		<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="set" value="0"/>
+		<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".healHealthAmountDisplay" operation="set" value="0"/>
+	</effect_group>
+</set>
+    
+</Subquake>

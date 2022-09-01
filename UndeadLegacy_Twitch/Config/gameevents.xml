@@ -1,0 +1,497 @@
+﻿<Subquake>
+	
+<append xpath="/gameevents">
+
+<action_sequence name="twitch_teleport_50m">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="RandomTeleport">
+	<property name="phase" value="1"/><property name="min_distance" value="45"/><property name="max_distance" value="55"/></action>
+	<action class="Delay"><property name="time" value="3"/><property name="phase" value="2"/></action>
+	<property name="phase" value="2"/><action class="Teleport"><property name="is_offset" value="true"/>
+	<property name="target_position" value="0,5,0"/></action></action_sequence>
+	
+<action_sequence name="twitch_teleport_250m">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="RandomTeleport">
+	<property name="phase" value="1"/><property name="min_distance" value="225"/><property name="max_distance" value="275"/></action>
+	<action class="Delay"><property name="time" value="3"/><property name="phase" value="2"/></action>
+	<property name="phase" value="2"/><action class="Teleport"><property name="is_offset" value="true"/>
+	<property name="target_position" value="0,5,0"/></action></action_sequence>
+	
+<action_sequence name="twitch_teleport_500m">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="RandomTeleport">
+	<property name="phase" value="1"/><property name="min_distance" value="450"/><property name="max_distance" value="550"/></action>
+	<action class="Delay"><property name="time" value="3"/><property name="phase" value="2"/></action>
+	<property name="phase" value="2"/><action class="Teleport"><property name="is_offset" value="true"/>
+	<property name="target_position" value="0,5,0"/></action></action_sequence>
+	
+<action_sequence name="twitch_teleport_1km">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="RandomTeleport">
+	<property name="phase" value="1"/><property name="min_distance" value="900"/><property name="max_distance" value="1100"/></action>
+	<action class="Delay"><property name="time" value="4"/><property name="phase" value="2"/></action>
+	<property name="phase" value="2"/><action class="Teleport"><property name="is_offset" value="true"/>
+	<property name="target_position" value="0,5,0"/></action></action_sequence>
+	
+<action_sequence name="twitch_teleport_2km">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="RandomTeleport">
+	<property name="phase" value="1"/><property name="min_distance" value="1900"/><property name="max_distance" value="2100"/></action>
+	<action class="Delay"><property name="time" value="5"/><property name="phase" value="2"/></action>
+	<property name="phase" value="2"/><action class="Teleport"><property name="is_offset" value="true"/>
+	<property name="target_position" value="0,5,0"/></action></action_sequence>
+	
+<action_sequence name="twitch_jump_15">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="Teleport">
+	<property name="target_position" value="0,15,0"/><property name="is_offset" value="true"/></action></action_sequence>
+	
+<action_sequence name="twitch_jump_20">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="Teleport">
+	<property name="target_position" value="0,20,0"/><property name="is_offset" value="true"/></action></action_sequence>
+	
+<action_sequence name="twitch_jump_25">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="Teleport">
+	<property name="target_position" value="0,25,0"/><property name="is_offset" value="true"/></action></action_sequence>
+	
+<action_sequence name="twitch_jump_30">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="Teleport">
+	<property name="target_position" value="0,30,0"/><property name="is_offset" value="true"/></action></action_sequence>
+	
+<action_sequence name="twitch_jump_35">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="Teleport">
+	<property name="target_position" value="0,35,0"/><property name="is_offset" value="true"/></action></action_sequence>
+	
+<action_sequence name="twitch_jump_40">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="Teleport">
+	<property name="target_position" value="0,40,0"/><property name="is_offset" value="true"/></action></action_sequence>
+	
+<action_sequence name="twitch_jump_45">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="Teleport">
+	<property name="target_position" value="0,45,0"/><property name="is_offset" value="true"/></action></action_sequence>
+	
+<action_sequence name="twitch_jump_50">
+	<requirement class="InVehicle"><property name="invert" value="true"/></requirement><action class="Teleport">
+	<property name="target_position" value="0,50,0"/><property name="is_offset" value="true"/></action></action_sequence>
+	
+<action_sequence name="twitch_jump_random">
+	<action class="CallGameEvent">
+	<property name="game_events" value="twitch_jump_15,twitch_jump_20,twitch_jump_25,twitch_jump_30,twitch_jump_35,twitch_jump_40,twitch_jump_45,twitch_jump_50"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_bad_buff"/>
+		<property name="phase" value="1"/>
+		<property name="inside_head" value="true"/></action></action_sequence>
+	
+<action_sequence name="twitch_spawn_screamer">
+	<action class="SpawnEntity">
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="entity_names" value="zombieScreamer"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_bad_spawn"/>
+		<property name="phase" value="1"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="zombieferalalert"/>
+		<property name="phase" value="1"/></action></action_sequence>
+	
+<action_sequence name="twitch_spawn_screamer_feral">
+	<action class="SpawnEntity">
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="entity_names" value="zombieScreamerFeral"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_bad_spawn"/>
+		<property name="phase" value="1"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="zombieferalalert"/>
+		<property name="phase" value="1"/></action></action_sequence>
+	
+<action_sequence name="twitch_spawn_screamer_rad">
+	<action class="SpawnEntity">
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="entity_names" value="zombieScreamerRadiated"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_bad_spawn"/>
+		<property name="phase" value="1"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="zombieferalalert"/>
+		<property name="phase" value="1"/></action></action_sequence>
+	
+<action_sequence name="spawn_horde_crawlers">
+	<action class="SpawnEntity">
+		<property name="phase" value="1"/>
+		<property name="min_distance" value="2"/>
+		<property name="max_distance" value="4"/>
+		<property name="entity_names" value="zombieSteveCrawler"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="2"/>
+		<property name="min_time" value="2"/>
+		<property name="max_time" value="5"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="2"/>
+		<property name="min_distance" value="3"/>
+		<property name="max_distance" value="5"/>
+		<property name="entity_names" value="zombieSteveCrawler"/><property name="spawn_count" value="2"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="3"/>
+		<property name="min_time" value="2"/>
+		<property name="max_time" value="5"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="3"/>
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="6"/>
+		<property name="entity_names" value="zombieSteveCrawler"/><property name="spawn_count" value="2"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_bad_spawn"/>
+		<property name="phase" value="1"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="crawler_alert"/>
+		<property name="phase" value="1"/></action></action_sequence>
+	
+<action_sequence name="spawn_horde_nurses">
+	<action class="SpawnEntity">
+		<property name="phase" value="1"/>
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="spawn_count" value="2"/>
+		<property name="entity_names" value="zombieNurse"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="2"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="2"/>
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="spawn_count" value="3"/>
+		<property name="entity_names" value="zombieNurse"/></action>
+	<action class="PlaySound">
+		<property name="phase" value="1"/>
+		<property name="sound" value="twitch_bad_spawn"/></action>
+	<action class="PlaySound">
+		<property name="phase" value="1"/>
+		<property name="sound" value="crawler_alert"/></action></action_sequence>
+
+<action_sequence name="spawn_horde_snakes">
+	<action class="SpawnEntity">
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="spawn_count" value="6"/>
+		<property name="entity_names" value="animalSnake"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_bad_spawn"/>
+		<property name="phase" value="1"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="snakealert"/>
+		<property name="phase" value="1"/></action></action_sequence>
+
+<action_sequence name="spawn_horde_dogs">
+	<action class="SpawnEntity">
+		<property name="phase" value="1"/>
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="entity_names" value="animalZombieDog"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="2"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="2"/>
+		<property name="min_distance" value="6"/>
+		<property name="max_distance" value="10"/>
+		<property name="entity_names" value="animalZombieDog"/><property name="spawn_count" value="2"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="3"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="3"/>
+		<property name="min_distance" value="8"/>
+		<property name="max_distance" value="12"/>
+		<property name="entity_names" value="animalZombieDog"/><property name="spawn_count" value="2"/></action>
+	<action class="PlaySound">
+		<property name="phase" value="1"/>
+		<property name="sound" value="twitch_bad_spawn"/></action>
+	<action class="PlaySound">
+		<property name="phase" value="1"/>
+		<property name="sound" value="zombiedogalert"/></action></action_sequence>
+
+<action_sequence name="spawn_horde_bad_cops">
+	<action class="SpawnEntity">
+		<property name="phase" value="1"/>
+		<property name="min_distance" value="3"/>
+		<property name="max_distance" value="7"/>
+		<property name="entity_names" value="zombieFatCop"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="2"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="2"/>
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="entity_names" value="zombiePartyGirl"/><property name="spawn_count" value="3"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="2"/>
+		<property name="min_distance" value="5"/>
+		<property name="max_distance" value="9"/>
+		<property name="entity_names" value="zombiePartyGirlFeral"/><property name="spawn_count" value="2"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="3"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="3"/>
+		<property name="min_distance" value="6"/>
+		<property name="max_distance" value="10"/>
+		<property name="entity_names" value="zombieFatCopFeral"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="4"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="4"/>
+		<property name="min_distance" value="7"/>
+		<property name="max_distance" value="11"/>
+		<property name="entity_names" value="zombieFatCopRadiated"/></action>
+	<action class="PlaySound">
+		<property name="phase" value="1"/>
+		<property name="sound" value="twitch_bad_spawn"/></action>
+	<action class="PlaySound">
+		<property name="phase" value="1"/>
+		<property name="sound" value="hulkalert"/></action></action_sequence>
+
+<action_sequence name="spawn_horde_wanted">
+	<action class="SpawnEntity">
+		<property name="phase" value="1"/>
+		<property name="min_distance" value="3"/>
+		<property name="max_distance" value="6"/>
+		<property name="entity_names" value="zombieFatCop"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="2"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="2"/>
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="7"/>
+		<property name="entity_names" value="zombieSoldier"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="3"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="3"/>
+		<property name="min_distance" value="5"/>
+		<property name="max_distance" value="8"/>
+		<property name="entity_names" value="zombieSoldierFeral"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="3"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="4"/>
+		<property name="min_distance" value="6"/>
+		<property name="max_distance" value="9"/>
+		<property name="entity_names" value="zombieFatCopFeral"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="4"/>
+		<property name="min_distance" value="6"/>
+		<property name="max_distance" value="9"/>
+		<property name="entity_names" value="zombieDemolition"/><property name="spawn_count" value="2"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_bad_spawn"/>
+		<property name="phase" value="1"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="hulkalert"/>
+		<property name="phase" value="1"/></action></action_sequence>
+
+<action_sequence name="spawn_horde_demo_squad">
+	<action class="SpawnEntity">
+		<property name="phase" value="1"/>
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="entity_names" value="zombieDemolition"/><property name="spawn_count" value="2"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="2"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="2"/>
+		<property name="min_distance" value="5"/>
+		<property name="max_distance" value="9"/>
+		<property name="entity_names" value="zombieDemolition"/><property name="spawn_count" value="2"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="3"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="3"/>
+		<property name="min_distance" value="6"/>
+		<property name="max_distance" value="10"/>
+		<property name="entity_names" value="zombieDemolition"/><property name="spawn_count" value="2"/></action>
+	<action class="PlaySound">
+		<property name="phase" value="1"/>
+		<property name="sound" value="twitch_bad_spawn"/></action>
+	<action class="PlaySound">
+		<property name="phase" value="1"/>
+		<property name="sound" value="hulkalert"/></action></action_sequence>
+
+<action_sequence name="spawn_horde_birds">
+	<action class="SpawnEntity">
+		<property name="phase" value="1"/>
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="entity_names" value="animalZombieVulture"/><property name="spawn_count" value="2"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="2"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="2"/>
+		<property name="min_distance" value="5"/>
+		<property name="max_distance" value="9"/>
+		<property name="entity_names" value="animalZombieVulture"/><property name="spawn_count" value="2"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="3"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="3"/>
+		<property name="min_distance" value="6"/>
+		<property name="max_distance" value="10"/>
+		<property name="entity_names" value="animalZombieVultureRadiated"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_bad_spawn"/>
+		<property name="phase" value="1"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="zombiedogalert"/>
+		<property name="phase" value="1"/></action></action_sequence>
+
+<action_sequence name="spawn_horde_zombie_bears">
+	<action class="SpawnEntity">
+		<property name="phase" value="1"/>
+		<property name="min_distance" value="7"/>
+		<property name="max_distance" value="12"/>
+		<property name="entity_names" value="animalZombieBear"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="2"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="2"/>
+		<property name="min_distance" value="8"/>
+		<property name="max_distance" value="13"/>
+		<property name="entity_names" value="animalZombieBear"/></action>
+	<action class="RandomDelay">
+		<property name="phase" value="3"/>
+		<property name="min_time" value="3"/>
+		<property name="max_time" value="6"/></action>
+	<action class="SpawnEntity">
+		<property name="phase" value="3"/>
+		<property name="min_distance" value="9"/>
+		<property name="max_distance" value="14"/>
+		<property name="entity_names" value="animalZombieBear"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_bad_spawn"/>
+		<property name="phase" value="1"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="bearalert"/>
+		<property name="phase" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_bicycle">
+	<action class="AddItems">
+		<property name="added_items" value="vehicleBicyclePlaceable"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_minibike">
+	<action class="AddItems">
+		<property name="added_items" value="vehicleMinibikePlaceable"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_motorcycle">
+	<action class="AddItems">
+		<property name="added_items" value="vehicleMotorcyclePlaceable"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_buggy">
+	<action class="AddItems">
+		<property name="added_items" value="ulmVehicleDuneRunner"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_4x4">
+	<action class="AddItems">
+		<property name="added_items" value="vehicle4x4TruckPlaceable"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_4x4_military">
+	<action class="AddItems">
+		<property name="added_items" value="ulmVehicleHumveeDesert"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_sedan">
+	<action class="AddItems">
+		<property name="added_items" value="ulmVehicleSedan3Black"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_suv">
+	<action class="AddItems">
+		<property name="added_items" value="ulmVehicleSUV1Black"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_gyrocopter">
+	<action class="AddItems">
+		<property name="added_items" value="vehicleGyrocopterPlaceable"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_helicopter">
+	<action class="AddItems">
+		<property name="added_items" value="ulmVehicleHelicopterRaven"/>
+		<property name="added_item_counts" value="1"/></action></action_sequence>
+	
+<action_sequence name="give_dead_weight">
+	<action class="AddItems">
+		<property name="added_items" value="ulmResourceDeadWeight"/>
+		<property name="added_item_counts" value="40"/></action></action_sequence>
+	
+<action_sequence name="action_total_recall">
+	<action class="AddPartyToGroup">
+		<property name="phase" value="0"/>
+		<property name="group_name" value="party"/></action>
+	<action class="PlaySound">
+		<property name="phase" value="1"/>
+		<property name="sound" value="twitch_bad_buff"/>
+		<property name="inside_head" value="true"/>
+		<property name="target_group" value="party"/></action>
+	<action class="AddBuff">
+		<property name="phase" value="1"/>
+		<property name="buff_name" value="respecAttributesAndPerks"/>
+		<property name="target_group" value="party"/></action></action_sequence>
+	
+<action_sequence name="buff_hercules">
+	<action class="AddPartyToGroup">
+		<property name="phase" value="0"/>
+		<property name="group_name" value="party"/>
+		<property name="twitch_negative" value="false"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_good_buff"/>
+		<property name="phase" value="1"/>
+		<property name="inside_head" value="true"/>
+		<property name="target_group" value="party"/></action>
+	<action class="AddBuff">
+		<property name="phase" value="1"/>
+		<property name="buff_name" value="ulmBuffHercules"/>
+		<property name="target_group" value="party"/></action></action_sequence>
+	
+<action_sequence name="spawn_fuel_crate">
+	<action class="SpawnContainer">
+		<property name="entity_names" value="ulmTwitchSupplyFuel"/>
+		<property name="min_distance" value="4"/>
+		<property name="max_distance" value="8"/>
+		<property name="safe_spawn" value="true"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="twitch_good_spawn"/>
+		<property name="phase" value="1"/></action>
+	<action class="PlaySound">
+		<property name="sound" value="open_supply_crate"/>
+		<property name="phase" value="1"/></action></action_sequence>
+	
+</append>
+	
+</Subquake>
