@@ -1,0 +1,1049 @@
+<Subquake>
+	
+<!-- Additional Tags -->
+<append xpath="/items/item[@name='ammoRocketHE'						]/property[@name='Tags']/@value">,perkDemolitionsExpert</append>
+
+<!-- Salvage Tools -->
+<append xpath="/items/item[
+	    @name='meleeToolSalvageT1Wrench'
+	 or @name='meleeToolSalvageT2Ratchet'
+	 or @name='meleeToolSalvageT3ImpactDriver']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"			value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value=".1,.5"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value=".1,.5"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"		value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"			value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"		value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"		value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="2"			tags="secondary"/>
+		<passive_effect operation="base_set" name="MaxRange"			value="2.4"/>
+		<passive_effect operation="base_set" name="BlockRange"			value="3.5"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.7"			tags="ore,stone,wood"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.9"			tags="secureLoot,oreTitanium"/>
+		<passive_effect operation="base_set" name="HarvestCount"		value="1"			tags="salvageHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="1"			tags="ulmHarvestSalvage"/>
+	</effect_group></append>
+	
+<!-- Melee Weapons - Melee Blunt, Clubs -->
+<append xpath="/items/item[
+	    @name='meleeWpnClubT0WoodenClub'
+	 or @name='meleeWpnClubT1BaseballBat'
+	 or @name='meleeWpnClubT1CandyClub'
+	 or @name='meleeWpnClubT3SteelClub'
+	 
+	 or @name='ulmMeleeClubBone'
+	 or @name='ulmMeleeClubCricketBat'
+	 or @name='ulmMeleeClubRollingPin'
+	 or @name='ulmMeleeClubIron'
+	 or @name='ulmMeleeClubIronMorningStar'
+	 or @name='ulmMeleeClubTitanium'
+	 or @name='ulmMeleeTwoHandedPipe'
+	 or @name='ulmToolFryingPan'
+	 
+	 or @name='meleeWpnBatonT0PipeBaton'
+	 or @name='meleeWpnBatonT2StunBaton'
+	 
+	 or @name='ulmMeleeBatonPoliceBaton'
+	 or @name='ulmMeleeBatonPoliceBatonWithBlade'
+	 
+	 or @name='ulmToolHammerWood'
+	 or @name='meleeToolRepairT1ClawHammer']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"			value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"		value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"			value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"		value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"		value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="2"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.7"			tags="wood"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="ore"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="stone"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="metal"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.9"			tags="secureLoot"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="-.8"			tags="allHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="-.8"			tags="allToolsHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="-.8"			tags="oreWoodHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="1"			tags="ulmHarvestBlunt"/>
+	</effect_group></append>
+	
+<!-- Melee Weapons - Melee Blunt, Sledgehammers -->
+<append xpath="/items/item[
+		@name='meleeWpnSledgeT0StoneSledgehammer'
+	 or @name='meleeWpnSledgeT1IronSledgehammer'
+	 or @name='meleeWpnSledgeT3SteelSledgehammer'
+	 or @name='ulmMeleeSledgeScrapIron'
+	 or @name='ulmMeleeSledgeTitanium'
+	 or @name='ulmMeleeSledgeBrinxsFury']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"				value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"			value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"				value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"			value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"				value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"			value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"			value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_add" name="DismemberChance"			value=".1"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"		value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"		value="2"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="EntityDamage"			value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"				value="1"			tags="secondary"/>
+		<passive_effect operation="base_set" name="GrazeDamageMultiplier"	value=".1"			tags="secondary"/>
+		<passive_effect operation="base_add" name="DismemberChance"			value=".15"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="DamageModifier"			value="-.8"			tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"			value="-.9"			tags="secureLoot"/>
+		<passive_effect operation="base_add" name="HarvestCount"			value="-.8"			tags="allHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"			value="-.8"			tags="allToolsHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"			value="-.8"			tags="oreWoodHarvest"/>
+	</effect_group></append>
+	
+<!-- Melee Weapons - Melee Blunt, Sledgehammers -->
+<append xpath="/items/item[
+		@name='meleeWpnSpearT0StoneSpear'
+	 or @name='meleeWpnSpearT1IronSpear'
+	 or @name='meleeWpnSpearT3SteelSpear'
+	 or @name='ulmMeleeSpearWood'
+	 or @name='ulmMeleeSpearTitanium']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"			value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"		value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"			value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"		value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"		value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="2"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.9"			tags="secureLoot"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="ore"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="wood"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.9"			tags="stone"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.9"			tags="metal"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="-.75"		tags="allHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="-.75"		tags="allToolsHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="-.75"		tags="oreWoodHarvest"/>
+	</effect_group>
+	<effect_group name="Throw">
+		<passive_effect operation="perc_add" name="EntityDamage"		value="3"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="3"			tags="secondary"/>
+	</effect_group></append>
+
+<!-- Knives -->
+<append xpath="/items/item[
+		@name='meleeWpnBladeT0BoneKnife'
+	 or @name='meleeWpnBladeT1HuntingKnife'
+	 or @name='meleeWpnBladeT1CandyKnife'
+	 or @name='ulmMeleeBladeFoldingKnife'
+	 or @name='ulmMeleeBladeKnifeKunai'
+	 or @name='ulmMeleeBladeKnifeScrapIron'
+	 or @name='ulmMeleeBladeKnifeCombatIron'
+	 or @name='ulmMeleeBladeKnifeCombatSteel'
+	 or @name='ulmMeleeBladeKnifeCleaverRusty'
+	 or @name='ulmMeleeBladeKnifeCleaverIron']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"			value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"		value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"			value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"		value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"		value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="2"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="1"			tags="secondary"/>
+		<passive_effect operation="base_add" name="AttacksPerMinute"	value="-5"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="stone"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="metal"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="0.6"			tags="organic"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.9"			tags="secureLoot"/>
+		<passive_effect operation="base_set" name="HarvestCount"		value="1.0"			tags="butcherHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="1.0"			tags="ulmHarvestBlade"/>
+	</effect_group>
+	<effect_group name="Sneak Damage Bonus">
+		<requirement	operation="Equals"	 name="CVarCompare" cvar="_crouching"	value="1"/>
+		<requirement	operation="GT"		 name="CVarCompare" cvar="_notAlerted"	value="0"	target="other"/>
+		<passive_effect operation="base_add" name="DamageBonus"						value="4"/>
+		<passive_effect operation="perc_add" name="EntityDamage"					value="4"	tags="perkDeepCuts"/>
+		<display_value						 name="dEntityDamageSneak"				value="4"/>
+	</effect_group></append>
+
+<!-- Swords -->
+<append xpath="/items/item[
+		@name='meleeWpnBladeT3Machete'
+	 or @name='ulmMeleeBladeInferno'
+	 or @name='ulmMeleeBladeKatana'
+	 or @name='ulmMeleeBladeKatanaScrapIron'
+	 or @name='ulmMeleeBladeKatanaTitanium'
+	 or @name='ulmMeleeBladeKatanaThermal'
+	 or @name='ulmMeleeBladeMacheteIron'
+	 or @name='ulmMeleeBladeMacheteSteel'
+	 or @name='ulmMeleeBladeMacheteTitanium'
+	 or @name='ulmMeleeBladeSaw'
+	 or @name='ulmMeleeBladeRex'
+	 or @name='ulmMeleeBladeSwordIron'
+	 or @name='ulmMeleeBladeZweihander']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"			value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"		value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"			value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"		value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"		value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="2"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="1"			tags="secondary"/>
+		<passive_effect operation="base_add" name="AttacksPerMinute"	value="-5"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="stone"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.8"			tags="metal"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="0.6"			tags="organic"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.9"			tags="secureLoot"/>
+		<passive_effect operation="base_set" name="HarvestCount"		value="1.0"			tags="butcherHarvest"/>
+		<passive_effect operation="base_add" name="HarvestCount"		value="1.0"			tags="ulmHarvestBlade"/>
+	</effect_group>
+	<effect_group name="Sneak Damage Bonus">
+		<requirement	operation="Equals"	 name="CVarCompare" cvar="_crouching"	value="1"/>
+		<requirement	operation="GT"		 name="CVarCompare" cvar="_notAlerted"	value="0"	target="other"/>
+		<passive_effect operation="base_add" name="DamageBonus"						value="2"/>
+		<passive_effect operation="perc_add" name="EntityDamage"					value="2"	tags="perkDeepCuts"/>
+		<display_value						 name="dEntityDamageSneak"				value="2"/>
+	</effect_group></append>
+	
+<!-- Fist Weapons -->
+<append xpath="/items/item[
+		@name='meleeWpnKnucklesT0LeatherKnuckles'
+	 or @name='meleeWpnKnucklesT1IronKnuckles'
+	 or @name='meleeWpnKnucklesT3SteelKnuckles'
+	 or @name='ulmMeleeKnucklesBrassKnuckles'
+	 or @name='ulmMeleeKnucklesScrapKnuckles'
+	 or @name='ulmMeleeKnucklesTitaniumKnuckles']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"			value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"		value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"			value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"		value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"		value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="AttacksPerMinute"	value="100"/>
+		<passive_effect operation="base_set" name="MaxRange"			value="2"/>
+		<passive_effect operation="base_set" name="BlockRange"			value="3"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="2"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="1"			tags="secondary"/>
+		<passive_effect operation="base_add" name="AttacksPerMinute"	value="-.3"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.6"			tags="earth"/>
+		<passive_effect operation="base_add" name="DamageModifier"		value="-.6"			tags="stone"/>
+		<passive_effect operation="base_add" name="DamageModifier"		value="-.6"			tags="metal"/>
+		<passive_effect operation="perc_add" name="DamageModifier"		value="-.9"			tags="secureLoot"/>
+	</effect_group></append>
+	
+<!-- Melee Weapons - Melee General -->
+<append xpath="/items/item[
+		@name='meleeToolRepairT0StoneAxe' 
+	 or @name='meleeToolRepairT0TazasStoneAxe'
+	 or @name='ulmMeleeAxeCarpenters'
+	 
+	 or @name='ulmToolPickaxeStone'
+	 or @name='ulmToolPickaxeScrapIron'
+	 or @name='ulmToolPickaxeIceBreaker'
+	 or @name='ulmToolPickaxeTitanium'
+	 or @name='meleeToolPickT1IronPickaxe'
+	 or @name='meleeToolPickT2SteelPickaxe'
+	 
+	 or @name='ulmMeleePolearmPitchfork']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"			value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"		value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"			value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"		value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"		value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="2"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="1"			tags="secondary"/>
+	</effect_group></append>
+	
+<!-- Melee Weapons - Large Axes -->
+<append xpath="/items/item[
+		@name='ulmMeleeAxeScrapIron'
+	 or @name='meleeToolAxeT1IronFireaxe' 
+	 or @name='meleeToolAxeT2SteelAxe' 
+	 or @name='ulmMeleeAxeTitanium'
+	 or @name='ulmMeleeGreataxeScrapIron']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"			value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"		value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"			value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"		value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"		value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="2"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="1.25"		tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="1.25"		tags="secondary"/>
+	</effect_group></append>
+	
+<!-- Melee Weapons - Melee Shovels -->
+<append xpath="/items/item[
+		@name='ulmToolShovelScrapIron'
+	 or @name='meleeToolShovelT0StoneShovel'
+	 or @name='meleeToolShovelT1IronShovel'
+	 or @name='meleeToolShovelT2SteelShovel']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"			value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"			value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"		value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="StaminaLoss"			value="-.05,.05"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"		value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"		value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="1"			tags="primary"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"	value="2"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="EntityDamage"		value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"			value="1"			tags="secondary"/>
+		
+		<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar=".toolShovelMultiplier" operation="set" value="1"/>
+	</effect_group></append>
+	
+<!-- Melee Weapons - Augers, Drills, Jackhammers etc -->
+<append xpath="/items/item[
+		@name='meleeToolPickT3Auger' 
+	 or @name='meleeToolAxeT3Chainsaw' 
+	 or @name='ulmToolBerserkerDrill'
+	 or @name='ulmToolJackhammer']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"					value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"					value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DamageFalloffRange"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"					value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="RoundsPerMinute"				value="-.1,.1"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value="-.1,.1"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"				value="100"			tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"				value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"			value="1"/>
+		<passive_effect operation="base_set" name="SphereCastRadius"			value=".1"/>
+		<passive_effect	operation="base_set" name="IncrementalSpreadMultiplier"	value="1"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMin"		value="-.35"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMax"		value=".35"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMin"	value="-.35"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMax"	value=".35"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="BlockDamage"					value="1"			tags="secondary"/>
+		<passive_effect operation="perc_add" name="PlayerExpGain"				value="-.3"			tags="Harvesting"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"			tags="secureLoot"/>
+	</effect_group></append>
+	
+<!-- Bows and Crossbows -->
+<append xpath="/items/item[
+		@name='gunBowT0PrimitiveBow'
+	 or @name='gunBowT1WoodenBow'
+	 or @name='gunBowT3CompoundBow'
+	 or @name='gunBowT1IronCrossbow'
+	 or @name='gunBowT3CompoundCrossbow']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"					value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"					value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="ProjectileVelocity"			value=".0022,.2"	tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="perc_add" name="DegradationMax"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"					value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="DamageFalloffRange"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="ProjectileVelocity"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="ModPowerBonus"				value=".1"			tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"				value="100"			tags="EconomicValue"/>
+		<passive_effect operation="base_set" name="RoundsPerMinute"				value="75"/>
+		<passive_effect operation="base_set" name="MagazineSize"				value="1"/>
+		<passive_effect operation="base_set" name="BurstRoundCount"				value="1"/>
+		<passive_effect operation="base_set" name="MaxRange"					value="100"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierAiming"		value=".2"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierCrouching"	value=".8"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierWalking"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierRunning"		value="2.2"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMin"		value="2"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMax"		value="2"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMin"	value="-1"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMax"	value="1"/>
+		<passive_effect operation="base_set" name="IncrementalSpreadMultiplier"	value="2"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"			value="1"/>
+		<passive_effect operation="perc_set" name="DamageModifier"				value="0"			tags="earth,metal,cloth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"			tags="secureLoot"/>
+	</effect_group>
+	<effect_group name="Sneak Damage">
+		<requirement operation="Equals" name="CVarCompare"				value="1"	cvar="_crouching"/>
+		<requirement operation="GT"		name="CVarCompare"				value="0"	cvar="_notAlerted"	target="other"/>
+			<display_value				name="dEntityDamageSneak"		value="2"/>
+			<passive_effect operation="base_add" name="DamageBonus"		value="2"/>
+			<passive_effect operation="perc_add" name="EntityDamage"	value="2"/>
+	</effect_group>
+</append>
+	
+<!-- Pistols 9mm -->
+<append xpath="/items/item[
+	@name='gunHandgunT0PipePistol'
+ or @name='gunHandgunT1Pistol'
+ or @name='ulmGunKineticPistolMakarov'
+ or @name='ulmGunKineticPistolGlock'
+ or @name='ulmGunKineticPistolScrap1'
+ or @name='ulmGunKineticPistolScrap2'
+ or @name='ulmGunKineticRevolverBugert9mm']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"					value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value=".011,1"		tier="2,90"/>
+		<passive_effect operation="base_set" name="BlockDamage"					value="1,10"		tier="1,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="base_set" name="MaxRange"					value="45"/>
+		<passive_effect operation="base_set" name="DamageFalloffRange"			value="20"/>
+		<passive_effect operation="base_set" name="BurstRoundCount"				value="1"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"			value="1"/>
+		<passive_effect operation="base_set" name="WeaponHandling"				value=".9"/>
+		
+		<passive_effect operation="base_set" name="SpreadDegreesVertical"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadDegreesHorizontal"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierAiming"		value=".4"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierCrouching"	value=".8"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierWalking"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierRunning"		value="2.2"/>
+		<passive_effect operation="base_set" name="IncrementalSpreadMultiplier"	value="2.0"/>
+		
+		<passive_effect operation="base_set" name="KickDegreesVerticalMin"		value=".7"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMax"		value=".9"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMin"	value="-.25"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMax"	value=".25"/>
+		
+		<passive_effect operation="perc_add" name="DegradationMax"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="DamageFalloffRange"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="MagazineSize"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="RoundsPerMinute"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value="-.05,.05"/>
+		
+		<passive_effect operation="perc_add" name="ModPowerBonus"				value=".1"		tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"				value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="5"		tags="glass"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="2"		tags="wood"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="secureLoot"/>
+	</effect_group></append>
+
+<!-- Pistols .44 Cal -->
+<append xpath="/items/item[
+	@name='gunHandgunT3DesertVulture'
+ or @name='gunHandgunT2Magnum44'
+ or @name='ulmGunKineticPistolDesertEagle'
+ or @name='ulmGunKineticPistolColt'
+ or @name='ulmGunKineticRevolverBugert38Cal']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"					value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value=".011,1"		tier="2,90"/>
+		<passive_effect operation="base_set" name="BlockDamage"					value="2,20"		tier="1,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="base_set" name="MaxRange"					value="55"/>
+		<passive_effect operation="base_set" name="DamageFalloffRange"			value="30"/>
+		<passive_effect operation="base_set" name="BurstRoundCount"				value="1"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"			value="1"/>
+		<passive_effect operation="base_set" name="WeaponHandling"				value=".6"/>
+		
+		<passive_effect operation="base_set" name="SpreadDegreesVertical"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadDegreesHorizontal"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierAiming"		value=".35"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierCrouching"	value=".8"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierWalking"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierRunning"		value="2.2"/>
+		<passive_effect operation="base_set" name="IncrementalSpreadMultiplier"	value="3.2"/>
+		
+		<passive_effect operation="base_set" name="KickDegreesVerticalMin"		value="3.5"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMax"		value="5"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMin"	value="-.3"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMax"	value=".15"/>
+		
+		<passive_effect operation="perc_add" name="DegradationMax"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="DamageFalloffRange"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="MagazineSize"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="RoundsPerMinute"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value="-.05,.05"/>
+		
+		<passive_effect operation="perc_add" name="ModPowerBonus"				value=".1"		tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"				value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="5"		tags="glass"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="2"		tags="wood"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="secureLoot"/>
+	</effect_group></append>
+	
+<!-- Shotguns -->
+<append xpath="/items/item[
+	@name='gunShotgunT0PipeShotgun'
+ or @name='gunShotgunT1DoubleBarrel'
+ or @name='gunShotgunT2PumpShotgun'
+ or @name='gunShotgunT3AutoShotgun'
+ or @name='ulmGunKineticShotgunScrap'
+ or @name='ulmGunKineticShotgunEnforcer'
+ or @name='ulmGunKineticShotgunPeacekeeper'
+ or @name='ulmGunKineticShotgunPumpBM4']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"					value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"					value=".011,1"		tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="base_set" name="MaxRange"					value="20"/>
+		<passive_effect operation="base_set" name="DamageFalloffRange"			value="10"/>
+		<passive_effect operation="base_set" name="BurstRoundCount"				value="1"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"			value="1"/>
+		<passive_effect operation="base_set" name="WeaponHandling"				value="1.7"/>
+		
+		<passive_effect operation="base_set" name="SpreadDegreesVertical"		value="4.5"/>
+		<passive_effect operation="base_set" name="SpreadDegreesHorizontal"		value="4.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierAiming"		value=".35"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierCrouching"	value=".8"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierWalking"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierRunning"		value="2.2"/>
+		<passive_effect operation="base_set" name="IncrementalSpreadMultiplier"	value="2"/>
+		
+		<passive_effect operation="base_set" name="KickDegreesVerticalMin"		value=".5"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMax"		value="1"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMin"	value="-.5"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMax"	value=".5"/>
+		
+		<passive_effect operation="perc_add" name="DegradationMax"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"					value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="DamageFalloffRange"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="RoundsPerMinute"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value="-.05,.05"/>
+		
+		<passive_effect operation="perc_add" name="ModPowerBonus"				value=".1"		tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"				value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="5"		tags="glass"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="2"		tags="wood"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="secureLoot"/>
+		<display_value						 name="dStatStunEffect"				value="4"/>
+	</effect_group></append>
+	
+<!-- Sub-machine Guns -->
+<append xpath="/items/item[
+	@name='gunHandgunT3SMG5'
+ or @name='ulmGunKineticMicroSmg'
+ or @name='ulmGunKineticUMP'
+ or @name='ulmGunKineticR90']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"					value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value=".011,1"		tier="2,90"/>
+		<passive_effect operation="base_set" name="BlockDamage"					value="1,10"		tier="1,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="base_set" name="MaxRange"					value="65"/>
+		<passive_effect operation="base_set" name="DamageFalloffRange"			value="30"/>
+		<passive_effect operation="base_set" name="BurstRoundCount"				value="1000"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"			value="1"/>
+		<passive_effect operation="base_set" name="WeaponHandling"				value="0.8"/>
+		
+		<passive_effect operation="base_set" name="SpreadDegreesVertical"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadDegreesHorizontal"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierAiming"		value=".35"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierCrouching"	value=".8"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierWalking"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierRunning"		value="2.2"/>
+		<passive_effect operation="base_set" name="IncrementalSpreadMultiplier"	value="1.6"/>
+		
+		<passive_effect operation="base_set" name="KickDegreesVerticalMin"		value=".5"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMax"		value="1"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMin"	value="-.5"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMax"	value=".5"/>
+		
+		<passive_effect operation="perc_add" name="DegradationMax"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="DamageFalloffRange"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="RoundsPerMinute"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value="-.05,.05"/>
+		
+		<passive_effect operation="perc_add" name="ModPowerBonus"				value=".1"		tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"				value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="5"		tags="glass"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="2"		tags="wood"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="secureLoot"/>
+	</effect_group></append>
+	
+<!-- Assault Rifles / Machine Guns -->
+<append xpath="/items/item[
+	@name='gunMGT0PipeMachineGun'
+ or @name='gunMGT1AK47'
+ or @name='gunMGT2TacticalAR'
+ or @name='gunMGT3M60'
+ or @name='ulmGunKineticAssaultRifleAug1'
+ or @name='ulmGunKineticAssaultRifleFamas1'
+ or @name='ulmGunKineticMinigun']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"					value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value=".011,1"		tier="2,90"/>
+		<passive_effect operation="base_set" name="BlockDamage"					value="2,20"		tier="1,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="base_set" name="MaxRange"					value="90"/>
+		<passive_effect operation="base_set" name="DamageFalloffRange"			value="50"/>
+		<passive_effect operation="base_set" name="BurstRoundCount"				value="1000"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"			value="1"/>
+		<passive_effect operation="base_set" name="WeaponHandling"				value=".7"/>
+		
+		<passive_effect operation="base_set" name="SpreadDegreesVertical"		value="3"/>
+		<passive_effect operation="base_set" name="SpreadDegreesHorizontal"		value="3"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierAiming"		value=".4"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierCrouching"	value=".8"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierWalking"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierRunning"		value="2.2"/>
+		<passive_effect operation="base_set" name="IncrementalSpreadMultiplier"	value="2"/>
+		
+		<passive_effect operation="base_set" name="KickDegreesVerticalMin"		value="-.5"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMax"		value="1"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMin"	value="-1"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMax"	value="1"/>
+		
+		<passive_effect operation="perc_add" name="DegradationMax"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="DamageFalloffRange"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="MagazineSize"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="RoundsPerMinute"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value="-.05,.05"/>
+		
+		<passive_effect operation="perc_add" name="ModPowerBonus"				value=".1"		tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"				value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="5"		tags="glass"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="2"		tags="wood"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="secureLoot"/>
+	</effect_group></append>
+	
+<!-- Sniper Rifles -->
+<append xpath="/items/item[
+	@name='gunRifleT0PipeRifle'
+ or @name='gunRifleT1HuntingRifle'
+ or @name='gunRifleT2LeverActionRifle'
+ or @name='gunRifleT3SniperRifle'
+ or @name='ulmGunKineticSniperRifleM1A']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"					value="1"			tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="2"			tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="3"			tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="4"			tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="5"			tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value=".011,1"		tier="2,90"/>
+		<passive_effect operation="base_set" name="BlockDamage"					value="5,25"		tier="1,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value=".011,1"		tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="base_set" name="MaxRange"					value="150"/>
+		<passive_effect operation="base_set" name="DamageFalloffRange"			value="75"/>
+		<passive_effect operation="base_set" name="BurstRoundCount"				value="1"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"			value="1"/>
+		<passive_effect operation="base_set" name="WeaponHandling"				value=".7"/>
+		
+		<passive_effect operation="base_set" name="SpreadDegreesVertical"		value="6"/>
+		<passive_effect operation="base_set" name="SpreadDegreesHorizontal"		value="6"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierAiming"		value=".07"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierCrouching"	value=".5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierWalking"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierRunning"		value="2"/>
+		<passive_effect operation="base_set" name="IncrementalSpreadMultiplier" value="20"/>
+		
+		<passive_effect operation="base_set" name="KickDegreesVerticalMin"		value="1.5"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMax"		value="3"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMin"	value="-.25"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMax"	value=".25"/>
+		
+		<passive_effect operation="perc_add" name="DegradationMax"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="DamageFalloffRange"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="RoundsPerMinute"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value="-.05,.05"/>
+		
+		<passive_effect operation="perc_add" name="ModPowerBonus"				value=".1"		tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"				value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="earth"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="5"		tags="glass"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="2"		tags="wood"/>
+		<passive_effect operation="perc_add" name="DamageModifier"				value="-.9"		tags="secureLoot"/>
+	</effect_group></append>
+	
+<!-- Rocket Launchers -->
+<append xpath="/items/item[
+	@name='gunExplosivesT3RocketLauncher'
+ or @name='ulmGunKineticRocketLauncherAT4'
+ or @name='ulmGunKineticRocketLauncherM202']">
+	<effect_group name="Tier Bonus">
+		<passive_effect operation="base_set" name="ModSlots"					value="1"		tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="2"		tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="3"		tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="4"		tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"					value="5"		tier="81,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value=".011,1"	tier="2,90"/>
+		<passive_effect operation="perc_add" name="BlockDamage"					value=".011,1"	tier="2,90"/>
+		<passive_effect operation="perc_add" name="DegradationMax"				value=".011,1"	tier="2,90"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect operation="base_set" name="MaxRange"					value="100"/>
+		<passive_effect operation="base_set" name="DamageFalloffRange"			value="70"/>
+		<passive_effect operation="base_set" name="BurstRoundCount"				value="1"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"			value="1"/>
+		<passive_effect operation="base_set" name="WeaponHandling"				value=".4"/>
+		
+		<passive_effect operation="base_set" name="SpreadDegreesVertical"		value="7"/>
+		<passive_effect operation="base_set" name="SpreadDegreesHorizontal"		value="7"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierAiming"		value=".15"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierCrouching"	value=".8"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierWalking"		value="1.5"/>
+		<passive_effect operation="base_set" name="SpreadMultiplierRunning"		value="2"/>
+		<passive_effect operation="base_set" name="IncrementalSpreadMultiplier"	value="2.2"/>
+		
+		<passive_effect operation="base_set" name="KickDegreesVerticalMin"		value="10"/>
+		<passive_effect operation="base_set" name="KickDegreesVerticalMax"		value="10"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMin"	value="-.5"/>
+		<passive_effect operation="base_set" name="KickDegreesHorizontalMax"	value=".5"/>
+		
+		<passive_effect operation="perc_add" name="DegradationMax"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="EntityDamage"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="BlockDamage"					value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="DamageFalloffRange"			value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="RoundsPerMinute"				value="-.05,.05"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value="-.05,.05"/>
+	
+		<passive_effect operation="perc_add" name="ModPowerBonus"				value=".10"		tags="EntityDamage,BlockDamage"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"				value="100"		tags="EconomicValue"/>
+	</effect_group></append>
+	
+<!-- Melee Weapons - Stun Baton Effect -->
+<append xpath="/items/item[
+		@name='meleeWpnBatonT2StunBaton'
+	 or @name='ulmMeleeSledgeBrinxsFury']">
+	<effect_group name="Stun Baton Damage Buff">
+		<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="40"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0"/>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="Ragdoll" target="other" duration="2.5" force="350">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="!HasBuff" buff="buffDrugNerdTats"/>
+				<requirement name="!EntityTagCompare" target="other" tags="trader"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="2.5" force="350">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="!HasBuff" buff="buffDrugNerdTats"/>
+				<requirement name="!EntityTagCompare" target="other" tags="trader"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="Ragdoll" target="otherAOE" range="1.1" target_tags="zombie,animal" duration="2.5" force="350">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="HasBuff" buff="buffDrugNerdTats"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="otherAOE" range="1.1" target_tags="zombie,animal" duration="2.5" force="350">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="HasBuff" buff="buffDrugNerdTats"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffShocked"/>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffShocked"/>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="otherAOE" range="1.1" target_tags="zombie,animal" buff="buffShocked">
+				<requirement name="HasBuff" buff="buffDrugNerdTats"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="otherAOE" range="1.3" target_tags="zombie,animal" buff="buffShocked">
+				<requirement name="HasBuff" buff="buffDrugNerdTats"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="RemovePart" part="Sparks"/>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="RemovePart" part="Sparks"/>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="0"/>
+	</effect_group>
+	<effect_group name="Increase Stun Baton Damage charges">
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="1">
+			<requirement name="IsAlive" target="other"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="2">
+			<requirement name="IsAlive" target="other"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="4">
+			<requirement name="ProgressionLevel" progression_name="perkTechJunkie6BatonCharge" operation="Equals" value="1"/>
+			<requirement name="IsAlive" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="4">
+			<requirement name="ProgressionLevel" progression_name="perkTechJunkie6BatonCharge" operation="Equals" value="1"/>
+			<requirement name="IsAlive" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LT" value="40"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LT" value="40"/>
+		</triggered_effect>
+		<!-- the attack that applies the last +1 charge can not immediately trigger the effect -->
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="40">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="40">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit1">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit2">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="1"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit3">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="2"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit4">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="3"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit5">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/></triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit1">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit2">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="1"/></triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit3">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="2"/></triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit4">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="3"/></triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit5">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/></triggered_effect>
+	</effect_group>
+</append>
+	
+<!-- V E H I C L E   S T A T S -->
+	
+<!-- Helicopter DH-800  -->
+<append xpath="/items/item[starts-with(@name, 'ulmVehicleHelicopterDH')]">
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="10000"/>
+		<passive_effect name="VehicleCargoCapacity" operation="base_set" value="3500"/></effect_group></append>
+	
+<!-- Sports Car Old Coupe -->
+<append xpath="/items/item[starts-with(@name, 'ulmVehicleCoupe1')]">
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="5000"/>
+		<passive_effect name="VehicleCargoCapacity" operation="base_set" value="700"/></effect_group></append>
+	
+<!-- Military Truck -->
+<append xpath="/items/item[starts-with(@name, 'ulmVehicleMilitaryTruck')]">
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="16000"/>
+		<passive_effect name="VehicleCargoCapacity" operation="base_set" value="10000"/></effect_group></append>
+	
+<!-- Military Hummer -->
+<append xpath="/items/item[@name='ulmVehicleHumveeSnow'
+						or @name='ulmVehicleHumveeDesert'
+						or @name='ulmVehicleHumveeJungle'
+						or @name='ulmVehicleHumveeBurnt']">
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="9000"/>
+		<passive_effect name="VehicleCargoCapacity" operation="base_set" value="1600"/></effect_group></append>
+	
+<!-- Military Hummer Cargo -->
+<append xpath="/items/item[@name='ulmVehicleHumveeSnowCargo'
+						or @name='ulmVehicleHumveeDesertCargo'
+						or @name='ulmVehicleHumveeJungleCargo'
+						or @name='ulmVehicleHumveeBurntCargo']">
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="9000"/>
+		<passive_effect name="VehicleCargoCapacity" operation="base_set" value="1800"/></effect_group></append>
+		
+<!-- Sedan Modern Cheap -->
+<append xpath="/items/item[starts-with(@name, 'ulmVehicleSedan2')]">
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="5000"/>
+		<passive_effect name="VehicleCargoCapacity" operation="base_set" value="1100"/></effect_group></append>
+	
+<!-- Sedan Classic -->
+<append xpath="/items/item[starts-with(@name, 'ulmVehicleSedan3')]">
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="5000"/>
+		<passive_effect name="VehicleCargoCapacity" operation="base_set" value="1200"/></effect_group></append>
+	
+<append xpath="/items/item[starts-with(@name, 'ulmVehicleMuscle1')]">
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+		<passive_effect name="VehicleCargoCapacity" operation="base_set" value="1400"/></effect_group></append>
+	
+<append xpath="/items/item[starts-with(@name, 'ulmVehicleMinivan1')]">
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="5500"/>
+		<passive_effect name="VehicleCargoCapacity" operation="base_set" value="2500"/></effect_group></append>
+	
+<append xpath="/items/item[starts-with(@name, 'ulmVehicleMotorcycle2')]">
+	<effect_group tiered="false">
+		<passive_effect operation="base_set" name="ModSlots"				value="6"/>
+		<passive_effect operation="base_set" name="VehicleCargoCapacity"	value="500"/>
+		<passive_effect operation="base_set" name="DegradationMax"			value="4000"/>
+		<passive_effect operation="base_add" name="ModPowerBonus"			value="100" tags="EconomicValue"/></effect_group></append>
+
+	
+</Subquake>

@@ -1,0 +1,404 @@
+<Subquake>
+	
+<set xpath="//block[@name='forge']/@name">ulmStationFurnace_1</set>
+
+<!--
+<set xpath="//block[@name='cntCollapsedWorkbench']/@name">ulmGrowingContainerCollapsedWorkbench</set>
+<set xpath="//block[@name='cntCollapsedChemistryStation']/@name">ulmGrowingContainerCollapsedChemistryStation</set>
+<set xpath="//block[@name='workbench']/@name">ulmGrowingWorkbench</set>
+<set xpath="//block[@name='chemistryStation']/@name">ulmGrowingChemistryStation</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntToolsAndForgeRandomLootHelper']">
+	<block name="cntShippingCrateWorkingStiffs" prob=".7"/>
+	<block name="cntGarageStorage" prob="1"/>
+	<block name="cntCollapsedGeneratorbank" prob=".7"/>
+	<block name="ulmStationFurnace_1" prob="1"/>
+	<block name="cntCollapsedForge" prob="1"/>
+</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntForgeBustedRandomLootHelper']">
+	<block name="ulmStationFurnace_1" prob=".2"/>
+	<block name="ulmStationFurnace_2" prob=".05"/>
+	<block name="cntCollapsedForge" prob="1"/>
+</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntWorkstationsRandomLootHelper']">
+	<block name="ulmStationFurnace_1" prob="1"/>
+	<block name="ulmStationFurnace_2" prob=".05"/>
+	<block name="workbench" prob="1"/>
+	<block name="ulmStationChemistry_1" prob=".5"/>
+	<block name="cementMixer" prob=".5"/>
+	<block name="ulmStationArtisan_1" prob=".2"/>
+	<block name="ulmStationDisassembly_1" prob=".2"/>
+	<block name="ulmStationTailor_1" prob=".2"/>
+	<block name="ulmStationMechanic_1" prob=".2"/>
+	<block name="ulmStationBallistics_1" prob=".12"/>
+	<block name="ulmStationBallistics_2" prob=".08"/>
+</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntWorkstationsBustedRandomLootHelper']">
+	<block name="ulmStationFurnace_1" prob=".1"/>
+	<block name="ulmStationFurnace_2" prob=".05"/>
+	<block name="cementMixer" prob=".1"/>
+	<block name="ulmStationWorkbench_1" prob=".1"/>
+	<block name="ulmStationChemistry_1" prob=".1"/>
+	<block name="ulmStationArtisan_1" prob=".1"/>
+	<block name="ulmStationDisassembly_1" prob=".1"/>
+	<block name="ulmStationTailor_1" prob=".1"/>
+	<block name="ulmStationMechanic_1" prob=".1"/>
+	<block name="ulmStationBallistics_1" prob=".065"/>
+	<block name="ulmStationBallistics_2" prob=".035"/>
+	
+	<block name="cntCollapsedForge" prob="1"/>
+	<block name="cntCollapsedCementMixer" prob="1"/>
+	<block name="ulmContainerWorkbenchCollapsed" prob="1"/>
+	<block name="ulmContainerStationChemistryCollapsed" prob="1"/>
+</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntChemistryStationBustedRandomLootHelper']">
+	<block name="ulmStationChemistry_1" prob=".2"/>
+	<block name="ulmStationWorkbench_1" prob=".05"/>
+	<block name="ulmStationArtisan_1" prob=".05"/>
+	<block name="ulmStationDisassembly_1" prob=".05"/>
+	<block name="ulmStationTailor_1" prob=".05"/>
+	<block name="ulmStationMechanic_1" prob=".05"/>
+	<block name="ulmStationBallistics_1" prob=".03"/>
+	<block name="ulmStationBallistics_2" prob=".02"/>
+	<block name="ulmContainerWorkbenchCollapsed" prob="1"/>
+	<block name="ulmContainerStationChemistryCollapsed" prob="1"/>
+</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntWorkbenchBustedRandomLootHelper']">
+	<block name="ulmStationWorkbench_1" prob=".2"/>
+	<block name="ulmStationChemistry_1" prob=".05"/>
+	<block name="ulmStationArtisan_1" prob=".05"/>
+	<block name="ulmStationDisassembly_1" prob=".05"/>
+	<block name="ulmStationTailor_1" prob=".05"/>
+	<block name="ulmStationMechanic_1" prob=".05"/>
+	<block name="ulmStationBallistics_1" prob=".03"/>
+	<block name="ulmStationBallistics_2" prob=".02"/>
+	<block name="ulmContainerWorkbenchCollapsed" prob="1"/>
+	<block name="ulmContainerStationChemistryCollapsed" prob="1"/>
+</set>
+-->
+
+<set xpath="/blockplaceholders/placeholder[@name='cntGasPumpRandomLootHelper']">
+	<block name="cntGasPumpEmpty" prob=".4"/>
+	<block name="cntGasPumpFull" prob=".6"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntWorkstationsBustedRandomLootHelper']">
+	<block name="ulmStationFurnace_1" prob=".1"/>
+	<block name="cntCollapsedForge" prob="1"/>
+	<block name="ulmStationWorkbench_1" prob=".1"/>
+	<block name="cntCollapsedWorkbench" prob="1"/>
+	<block name="cementMixer" prob=".05"/>
+	<block name="cntCollapsedCementMixer" prob=".6"/>
+	<block name="chemistryStation" prob=".05"/>
+	<block name="cntCollapsedChemistryStation" prob=".6"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntForgeBustedRandomLootHelper']">
+	<block name="ulmStationFurnace_1" prob=".1"/>
+	<block name="cntCollapsedForge" prob="1"/>
+	</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntWorkbenchBustedRandomLootHelper']">
+	<block name="ulmStationWorkbench_1" prob=".1"/>
+	<block name="cntCollapsedWorkbench" prob="1"/>
+	</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntCementMixerBustedRandomLootHelper']">
+	<block name="cementMixer" prob=".1"/>
+	<block name="cntCollapsedCementMixer" prob="1"/>
+	</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntChemistryStationBustedRandomLootHelper']">
+	<block name="chemistryStation" prob=".1"/>
+	<block name="cntCollapsedChemistryStation" prob="1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortRandomLootHelper']">
+	<block name="cntFileCabinetShortOpen" prob=".7"/>
+	<block name="cntFileCabinetShortClosed" prob=".2"/>
+	<block name="cntFileCabinetShortSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallRandomLootHelper']">
+	<block name="cntFileCabinetTallOpen" prob=".7"/>
+	<block name="cntFileCabinetTallClosed" prob=".2"/>
+	<block name="cntFileCabinetTallSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntLockersShortRandomLootHelper']">
+	<block name="cntLockersShortOpen" prob=".7"/>
+	<block name="cntLockersShortClosed" prob=".2"/>
+	<block name="cntLockersShortSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallRandomLootHelper']">
+	<block name="cntLockersTallOpen" prob=".7"/>
+	<block name="cntLockersTallClosed" prob=".2"/>
+	<block name="cntLockersTallSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallDoubleRandomLootHelper']">
+	<block name="cntLockersTallDoubleOpen" prob=".7"/>
+	<block name="cntLockersTallDoubleClosed" prob=".2"/>
+	<block name="cntLockersTallDoubleSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixRandomLootHelper']">
+	<block name="cntLockersTallMixOpen" prob=".7"/>
+	<block name="cntLockersTallMixClosed" prob=".2"/>
+	<block name="cntLockersTallMixSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixLinkRandomLootHelper']">
+	<block name="cntLockersTallMixLinkOpen" prob=".7"/>
+	<block name="cntLockersTallMixLinkClosed" prob=".2"/>
+	<block name="cntLockersTallMixLinkSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelper']">
+	<block name="cntToolBoxOpen" prob=".7"/>
+	<block name="cntToolBoxClosed" prob=".2"/>
+	<block name="cntToolBoxSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntToolBoxOffsetRandomLootHelper']">
+	<block name="cntToolBoxOffsetOpen" prob=".7"/>
+	<block name="cntToolBoxOffsetClosed" prob=".2"/>
+	<block name="cntToolBoxOffsetSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelper']">
+	<block name="cntRollingToolBoxOpen" prob=".7"/>
+	<block name="cntRollingToolBoxClosed" prob=".2"/>
+	<block name="cntRollingToolBoxSecure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntWoodDesk01RandomLootHelper']">
+	<block name="cntWoodDesk01Open" prob=".7"/>
+	<block name="cntWoodDesk01Closed" prob=".2"/>
+	<block name="cntWoodDesk01Secure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntMetalDesk02RandomLootHelper']">
+	<block name="cntMetalDesk02Open" prob=".7"/>
+	<block name="cntMetalDesk02Closed" prob=".2"/>
+	<block name="cntMetalDesk02Secure" prob=".1"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntCashRegisterRandomLootHelper']">
+	<block name="air" prob=".05"/>
+	<block name="cntCashRegisterEmpty" prob=".7"/>
+	<block name="cntCashRegister" prob=".2"/>
+	<block name="cntCashRegisterSecure" prob=".1"/>
+	</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='carsRandomHelper']">
+	<block name="ulmVehicleMinivan1VariantHelper"/>
+	<block name="ulmVehicleMinivan1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleMuscle1VariantHelper"/>
+	<block name="ulmVehicleMuscle1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSedan1VariantHelper"/>
+	<block name="ulmVehicleSedan1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSedan2VariantHelper"/>
+	<block name="ulmVehicleSedan2SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSedan3VariantHelper"/>
+	<block name="ulmVehicleSedan3SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSUV1VariantHelper"/>
+	<block name="ulmVehicleSUV1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleCoupe1VariantHelper"/>
+	<block name="ulmVehicleCoupe1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicle4x4TruckVariantHelper"/>
+	<block name="ulmVehicle4x4TruckSecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleAmbulance1VariantHelper" prob="0.2"/>
+	</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntCar03SedanDamage0RandomHelper']">
+	<block name="ulmVehicleSedan1RepairableVariantHelper"/>
+	<block name="air" prob="1"/>
+	</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntCar03SedanDamage1RandomHelper']">
+	<block name="ulmVehicleSedan1DamagedVariantHelper"/>
+	<block name="air" prob="1"/>
+	</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntCar03SedanDamage2RandomHelper']">
+	<block name="ulmVehicleSedan1WreckedVariantHelper"/>
+	<block name="air" prob="1"/>
+	<block name="ulmVehicleSedan2WreckedVariantHelper"/>
+	<block name="air" prob="1"/>
+	<block name="ulmVehicleSedan3WreckedVariantHelper"/>
+	<block name="air" prob="1"/>
+	<block name="ulmVehicleSUV1WreckedVariantHelper"/>
+	<block name="air" prob="1"/>
+	<block name="ulmVehicleCoupe1WreckedVariantHelper"/>
+	<block name="air" prob="1"/>
+	<block name="ulmVehicle4x4TruckWreckedVariantHelper"/>
+	</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='carWrecksRandomHelper']">
+	<block name="ulmVehicleMinivan1WreckedVariantHelper"/>
+	<block name="ulmVehicleMuscle1WreckedVariantHelper"/>
+	<block name="ulmVehicleSedan1WreckedVariantHelper"/>
+	<block name="ulmVehicleSedan2WreckedVariantHelper"/>
+	<block name="ulmVehicleSedan3WreckedVariantHelper"/>
+	<block name="ulmVehicleSUV1WreckedVariantHelper"/>
+	<block name="ulmVehicleCoupe1WreckedVariantHelper"/>
+	<block name="ulmVehicle4x4TruckWreckedVariantHelper"/>
+	<block name="ulmVehiclePoliceCruiserWreckedVariantHelper"/>
+	<block name="ulmVehicleSUV1PoliceWreckedVariantHelper"/>
+	<block name="ulmVehicleSUV1SecurityWreckedVariantHelper"/>
+	<block name="ulmVehicleAmbulance1VariantHelper" prob="0.75"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cars3WideRandomHelper']">
+	<block name="ulmVehicleSedan1WideVariantHelper"/>
+	<block name="ulmVehicleSedan1SecureWideVariantHelper" prob="0.2"/>
+	</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntAmbulanceTruck01RandomLootHelper']">
+	<block name="air" prob=".7"/>
+	<block name="ulmVehicleAmbulance1VariantHelper" prob=".3"/>
+	</set>
+
+<append xpath="/blockplaceholders">
+	
+<placeholder name="ulmStationChemistryRandomHelper">
+	<block name="ulmStationChemistry_1" prob="1"/>
+	<block name="ulmStationWorkbench_1" prob=".1"/>
+	<block name="ulmStationArtisan_1" prob=".1"/>
+	<block name="ulmStationArtisan_2" prob=".01"/>
+	<block name="ulmStationDisassembly_1" prob=".1"/>
+	<block name="ulmStationTailor_1" prob=".1"/>
+	<block name="ulmStationMechanic_1" prob=".1"/>
+	<block name="ulmStationMechanic_2" prob=".01"/>
+	<block name="ulmStationBallistics_1" prob=".07"/>
+	<block name="ulmStationBallistics_2" prob=".01"/></placeholder>
+	
+<placeholder name="ulmStationWorkbenchRandomHelper">
+	<block name="ulmStationWorkbench_1" prob="1"/>
+	<block name="ulmStationChemistry_1" prob=".1"/>
+	<block name="ulmStationArtisan_1" prob=".1"/>
+	<block name="ulmStationArtisan_2" prob=".02"/>
+	<block name="ulmStationDisassembly_1" prob=".1"/>
+	<block name="ulmStationTailor_1" prob=".1"/>
+	<block name="ulmStationMechanic_1" prob=".1"/>
+	<block name="ulmStationMechanic_2" prob=".01"/>
+	<block name="ulmStationBallistics_1" prob=".07"/>
+	<block name="ulmStationBallistics_2" prob=".01"/></placeholder>
+	
+<placeholder name="ulmBoulder3x2x3RandomHelper">
+	<block name="rockResource"/>
+	<block name="rockResource02"/></placeholder>
+
+<placeholder name="ulmContainerCar3x3x7RandomHelper">
+	<block name="cntArmyTruckClosed"/>
+	<block name="cntAmbulanceTruck01"/>
+	<block name="cntServiceTruckMoPower"/>
+	<block name="cntServiceTruckWorkingStiffTools"/></placeholder>
+
+<placeholder name="ulmContainerCar3x3x9RandomHelper">
+	<block name="cntBusCity"/></placeholder>
+
+<placeholder name="ulmVehicleBikesARandomHelper">
+	<block name="ulmVehicleMotorcycleAVariantHelper" prob="0.125"/>
+	<block name="ulmVehicleMotorcycle2AVariantHelper" prob="0.125"/>
+	<block name="ulmVehicleMinibikeAVariantHelper" prob="0.45"/>
+	<block name="ulmVehicleBicycleAVariantHelper" prob="1"/></placeholder>
+
+<placeholder name="ulmVehicleBikesBRandomHelper">
+	<block name="ulmVehicleMotorcycleBVariantHelper" prob="0.125"/>
+	<block name="ulmVehicleMotorcycle2BVariantHelper" prob="0.125"/>
+	<block name="ulmVehicleMinibikeBVariantHelper" prob="0.45"/>
+	<block name="ulmVehicleBicycleBVariantHelper" prob="1"/></placeholder>
+
+<placeholder name="ulmVehicleBikesCRandomHelper">
+	<block name="ulmVehicleMotorcycleCVariantHelper" prob="0.125"/>
+	<block name="ulmVehicleMotorcycle2CVariantHelper" prob="0.125"/>
+	<block name="ulmVehicleMinibikeCVariantHelper" prob="0.45"/>
+	<block name="ulmVehicleBicycleCVariantHelper" prob="1"/></placeholder>
+
+<placeholder name="ulmVehicleHumveeRandomHelper">
+	<block name="ulmVehicleHumveeSecureVariantHelper" prob="0.25"/>
+	<block name="ulmVehicleHumveeVariantHelper" prob="1"/></placeholder>
+
+<placeholder name="ulmVehicleAmbulance1RandomHelper">
+<!--<block name="cntAmbulanceTruck01" prob="0.5"/>-->
+	<block name="ulmVehicleAmbulance1VariantHelper" prob="1"/></placeholder>
+
+<placeholder name="ulmVehiclePoliceCruiserRandomHelper">
+	<block name="ulmVehiclePoliceCruiserVariantHelper" prob="1"/></placeholder>
+
+<placeholder name="ulmVehicleMilitaryTruckRandomHelper">
+	<block name="ulmVehicleMilitaryTruckVariantHelper" prob="1"/>
+	<block name="ulmVehicleMilitaryTruckSecureVariantHelper" prob="0.25"/></placeholder>
+
+<placeholder name="ulmContainerCar3x4x7RandomHelper">
+	<block name="cntBusSchoolShort"/>
+	<block name="cntBusShuttle"/>
+	<block name="ulmVehicleAmbulance1VariantHelper"/></placeholder>
+
+<placeholder name="ulmContainerCar3x4x12RandomHelper">
+	<block name="cntBusSchool"/>
+	<block name="ulmVehicleAmbulance1VariantHelper"/></placeholder>
+
+<placeholder name="ulmContainerATMStandingRandomHelper">
+<!--<block name="cntATMSecure"/>-->
+	<block name="ulmContainerATM1Secure"/>
+	<block name="ulmContainerATM2Secure"/></placeholder>
+
+<placeholder name="ulmContainerATMTerminalRandomHelper">
+	<block name="ulmContainerATM3Secure"/>
+	<block name="ulmContainerATM4Secure"/></placeholder>
+
+<placeholder name="ulmContainerATMOnWallRandomHelper">
+	<block name="ulmContainerATM5Secure"/>
+	<block name="ulmContainerATM6Secure"/></placeholder>
+
+<placeholder name="ulmContainerATMInWallRandomHelper">
+	<block name="ulmContainerATM7Secure"/>
+	<block name="ulmContainerATM8Secure"/>
+	<block name="ulmContainerATM9Secure"/></placeholder>
+
+<placeholder name="terrOreStoneTitaniumRandom">
+	<block name="terrOreTitanium" prob=".4"/>
+	<block name="terrStone" prob="1"/>
+</placeholder>
+	
+<placeholder name="ulmVehiclesGenericRandomHelper">
+	<block name="ulmVehicleMinivan1VariantHelper"/>
+	<block name="ulmVehicleMinivan1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleMuscle1VariantHelper"/>
+	<block name="ulmVehicleMuscle1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSedan1VariantHelper"/>
+	<block name="ulmVehicleSedan1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSedan2VariantHelper"/>
+	<block name="ulmVehicleSedan2SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSedan3VariantHelper"/>
+	<block name="ulmVehicleSedan3SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSUV1VariantHelper"/>
+	<block name="ulmVehicleSUV1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleCoupe1VariantHelper"/>
+	<block name="ulmVehicleCoupe1SecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicle4x4TruckVariantHelper"/>
+	<block name="ulmVehicle4x4TruckSecureVariantHelper" prob="0.2"/>
+	</placeholder>
+	
+<placeholder name="ulmVehiclesEmergencyRandomHelper">
+	<block name="ulmVehiclePoliceCruiserVariantHelper"/>
+	<block name="ulmVehiclePoliceCruiserSecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSUV1PoliceVariantHelper"/>
+	<block name="ulmVehicleSUV1PoliceSecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleSUV1SecurityVariantHelper"/>
+	<block name="ulmVehicleSUV1SecuritySecureVariantHelper" prob="0.2"/>
+	<block name="ulmVehicleAmbulance1VariantHelper"/>
+	</placeholder>
+
+</append>
+	
+</Subquake>

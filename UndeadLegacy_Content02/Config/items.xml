@@ -1,0 +1,1025 @@
+<Subquake>
+	
+<!-- ARMOR AND CLOTHING MODULE -->
+
+<append xpath="//item[@name='apparelPlantFiberMaster'		        ]"><property name="CarryWeight" value="1.00"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelPlantFiberPants'		        ]"><property name="CarryWeight" value="0.75"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelPlantFiberShirt'		        ]"><property name="CarryWeight" value="0.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelPlantFiberHood'		            ]"><property name="CarryWeight" value="0.15"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelPlantFiberShoes'		        ]"><property name="CarryWeight" value="0.50"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelPlantFiberGloves'		        ]"><property name="CarryWeight" value="0.35"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelPlantFiberHat'		            ]"><property name="CarryWeight" value="0.15"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelGhillieSuitHood'		        ]"><property name="CarryWeight" value="0.50"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelGhillieSuitPants'		        ]"><property name="CarryWeight" value="0.75"/><property name="Stacknumber" value="1"/><property name="dNoiseMultiplier" value="-.05"/></append>
+<append xpath="//item[@name='apparelGhillieSuitJacket'		        ]"><property name="CarryWeight" value="1.25"/><property name="Stacknumber" value="1"/><property name="dNoiseMultiplier" value="-.05"/></append>
+<append xpath="//item[@name='apparelHazmatMaster'		            ]"><property name="CarryWeight" value="1.00"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelHazmatBoots'		            ]"><property name="CarryWeight" value="1.20"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelHazmatPants'		            ]"><property name="CarryWeight" value="1.20"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelHazmatJacket'		            ]"><property name="CarryWeight" value="1.00"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelHazmatGloves'		            ]"><property name="CarryWeight" value="0.80"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelHazmatMask'		                ]"><property name="CarryWeight" value="0.80"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelCowboyHat'		                ]"><property name="CarryWeight" value="0.30"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelBallCap'		                ]"><property name="CarryWeight" value="0.20"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelSkullCap'		                ]"><property name="CarryWeight" value="0.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelPressboyCap'		            ]"><property name="CarryWeight" value="0.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelGasMask'		                ]"><property name="CarryWeight" value="0.75"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelShades'		                    ]"><property name="CarryWeight" value="0.05"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelAviatorGoggles'		            ]"><property name="CarryWeight" value="0.10"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelSkiGoggles'		                ]"><property name="CarryWeight" value="0.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelNerdGlasses'		            ]"><property name="CarryWeight" value="0.05"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelNightvisionGoggles'		        ]"><property name="CarryWeight" value="0.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelCigar'		                    ]"><property name="CarryWeight" value="0.05"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelCigarette'		                ]"><property name="CarryWeight" value="0.01"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelFacialPiercings'		        ]"><property name="CarryWeight" value="0.02"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelBandana'		                ]"><property name="CarryWeight" value="0.10"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelDenimPants'		                ]"><property name="CarryWeight" value="0.80"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelDenimShortsPants'		        ]"><property name="CarryWeight" value="0.50"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelArmyPants'		                ]"><property name="CarryWeight" value="0.75"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelOveralls'		                ]"><property name="CarryWeight" value="1.00"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelSkirt'		                    ]"><property name="CarryWeight" value="0.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelGothPants'		                ]"><property name="CarryWeight" value="0.75"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelWornBoots'		                ]"><property name="CarryWeight" value="0.75"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelRunningShoesRegular'		    ]"><property name="CarryWeight" value="0.50"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelRunningShoesHP'		            ]"><property name="CarryWeight" value="0.45"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelCowboyBoots'		            ]"><property name="CarryWeight" value="0.90"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelGothBoots'		                ]"><property name="CarryWeight" value="0.80"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelLongShirt'		                ]"><property name="CarryWeight" value="0.40"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelArmyShirt'		                ]"><property name="CarryWeight" value="0.35"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelSweatshirt'		                ]"><property name="CarryWeight" value="0.40"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelFlannelShirt'		            ]"><property name="CarryWeight" value="0.90"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelTShirtPlain'		            ]"><property name="CarryWeight" value="0.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelTShirtZU'		                ]"><property name="CarryWeight" value="0.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelTankTop'		                ]"><property name="CarryWeight" value="0.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelHoodySweatshirt'		        ]"><property name="CarryWeight" value="0.50"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelCoatLeatherPoncho'		        ]"><property name="CarryWeight" value="0.75"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelCoatLeatherDuster'		        ]"><property name="CarryWeight" value="1.25"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelCoatPufferCoat'		            ]"><property name="CarryWeight" value="1.50"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelCoatJacketGeneric'		        ]"><property name="CarryWeight" value="0.90"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelCoatJacketLetterZU'		        ]"><property name="CarryWeight" value="0.90"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelSuitPants'		                ]"><property name="CarryWeight" value="0.80"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelSuitJacket'		                ]"><property name="CarryWeight" value="1.50"/><property name="Stacknumber" value="1"/></append>
+<append xpath="//item[@name='apparelSuitDressShoes'		            ]"><property name="CarryWeight" value="0.75"/><property name="Stacknumber" value="1"/></append>
+	
+<append xpath="/items/item[starts-with(@name, 'apparel')]/property[@name='Group']/@value">,Apparel</append>
+<append xpath="/items/item[@name='apparelCowboyBoots']"><property name="Group" value="Clothing,Apparel,Items"/></append>
+<append xpath="/items/item[@name='apparelRunningShoesRegular']"><property name="Group" value="Clothing,Apparel,Items"/></append>
+<append xpath="/items/item[@name='apparelSuitDressShoes']"><property name="Group" value="Clothing,Apparel,Items"/></append>
+
+
+
+<!-- =Cloth= -->
+	
+<set xpath="/items/item[@name='armorClothMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="DisplayType" value="armorLight"/>
+	<property name="Group" value="LightArmor,Clothing,Items"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="RepairTools" value="resourceCloth"/>
+	<property name="MaintenanceGroup" value="MG_ArmorCloth"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="HoldType" value="45"/><property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="DescriptionKey" value="armorClothGroupDesc"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="RepairExpMultiplier" value="10"/>
+	<property name="EconomicValue" value="75"/><property name="CarryWeight" value="1.00"/>
+	<property name="ShowQuality" value="true"/></set>
+
+<set xpath="/items/item[@name='armorClothHat']">
+	<property name="Extends" value="armorClothMaster"/>
+	<property name="Tags" value="head,armor,armorHead,lightArmor,padded,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="CarryWeight" value="0.15"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="armor_cloth_hood"/>
+		<property name="Overlay0" value="armor_cloth_hood"/>
+		<property name="Layer" value="2"/>
+		<property name="Mask0" value="Head" param1="inner"/>
+		<property name="Mask1" value="Head" param1="outer"/></property></set>
+
+<set xpath="/items/item[@name='armorSantaHat']">
+	<property name="Extends" value="armorClothMaster" param1="DescriptionKey"/>
+	<property name="Tags" value="head,armor,armorHead,lightArmor,padded,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="DisplayType" value="armorLightTempResist"/>
+	<property name="CarryWeight" value="0.25"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="gear_santa_hat"/>
+		<property name="Overlay0" value="gear_santa_hat"/>
+		<property name="Layer" value="2"/>
+		<property name="Mask0" value="Head" param1="outer"/>
+		<property name="ShowAltHair" value="true"/></property>
+	<effect_group>
+		<passive_effect operation="base_add" name="HypothermalResist" value="20,25" tier="1,90"/><!-- HEAT RESIST -->
+	</effect_group></set>
+
+<set xpath="/items/item[@name='armorClothJacket']">
+	<property name="Extends" value="armorClothMaster"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest,lightArmor,padded,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="CarryWeight" value="0.75"/>
+	<property class="UMA">
+		<property name="UISlot" value="ChestArmor"/>
+		<property name="Mesh" value="armor_cloth_chest"/>
+		<property name="Overlay0" value="armor_cloth_chest"/>
+		<property name="Layer" value="2"/></property></set>
+
+<set xpath="/items/item[@name='armorClothGloves']">
+	<property name="Extends" value="armorClothMaster"/>
+	<property name="Tags" value="upperbody,hands,armor,armorHands,lightArmor,padded,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Hands"/>
+	<property name="CarryWeight" value="0.30"/>
+	<property class="UMA">
+		<property name="UISlot" value="Gloves"/>
+		<property name="Mesh" value="armor_cloth_hands"/>
+		<property name="Overlay0" value="armor_cloth_hands"/>
+		<property name="Layer" value="3"/></property></set>
+
+<set xpath="/items/item[@name='armorClothPants']">
+	<property name="Extends" value="armorClothMaster"/>
+	<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightArmor,padded,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Legs"/>
+	<property name="CarryWeight" value="0.75"/>
+	<property class="UMA">
+		<property name="UISlot" value="LegArmor"/>
+		<property name="Mesh" value="armor_cloth_legs"/>
+		<property name="Overlay0" value="armor_cloth_legs"/>
+		<property name="Layer" value="3"/></property></set>
+
+<set xpath="/items/item[@name='armorClothBoots']">
+	<property name="Extends" value="armorClothMaster"/>
+	<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightArmor,padded,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Feet"/>
+	<property name="CarryWeight" value="0.35"/>
+	<property class="UMA">
+		<property name="UISlot" value="Footwear"/>
+		<property name="Mesh" value="armor_cloth_feet"/>
+		<property name="Overlay0" value="armor_cloth_feet"/>
+		<property name="Layer" value="0"/></property></set>
+	
+<append xpath="/items/item[
+		@name='armorSantaHat'
+	 or @name='armorClothHat'
+	 or @name='armorClothJacket'
+	 or @name='armorClothGloves'
+	 or @name='armorClothPants'
+	 or @name='armorClothBoots']">
+	<effect_group>
+		<passive_effect operation="base_set" name="DegradationMax"			value="60,180"			tier="1,90"/>
+		<passive_effect operation="base_add" name="PhysicalDamageResist"	value="4,7"				tier="1,90"/>
+		<passive_effect operation="base_add" name="ElementalDamageResist"	value="4,7"				tier="1,90"		tags="heat,electrical"/>
+		<passive_effect operation="base_add" name="BuffResistance"			value="0.04,0.06"		tier="1,90"		tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="1"				tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="2"				tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="3"				tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="4"				tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="5"				tier="81,90"/>
+		<!-- Fixed -->
+		<passive_effect operation="base_add" name="ModPowerBonus"			value="100"								tags="EconomicValue"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"		value="1"/>
+		<display_value						 name="dStaminaChangeOT"		value="0"/>
+	</effect_group></append>
+
+
+
+<!-- =Leather= -->
+
+<set xpath="/items/item[@name='armorLeatherMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="LightArmor,MediumArmor,Clothing,Items"/>
+	<property name="DisplayType" value="armorLight"/>
+	<property name="DescriptionKey" value="armorLeatherGroupDesc"/>
+	<property name="RepairTools" value="resourceLeather"/>
+	<property name="MaintenanceGroup" value="MG_ArmorLeather"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="HoldType" value="20"/><property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="RepairExpMultiplier" value="10"/>
+	<property name="Material" value="matLeather"/><property name="Weight" value="50"/>
+	<property name="EconomicValue" value="250"/><property name="CarryWeight" value="1.00"/>
+	<property name="ShowQuality" value="true"/></set>
+
+<set xpath="/items/item[@name='armorLeatherHood']">
+	<property name="Extends" value="armorLeatherMaster"/>
+	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="UnlockedBy" value="armorLeatherHelmetBlueprint"/>
+	<property name="CarryWeight" value="0.25"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="armor_leather_hood"/>
+		<property name="Overlay0" value="armor_leather_hood"/>
+		<property name="Layer" value="2"/>
+		<property name="Mask0" value="Head" param1="inner"/>
+		<property name="Mask1" value="Head" param1="outer"/></property></set>
+
+<set xpath="/items/item[@name='armorLeatherChest']">
+	<property name="Extends" value="armorLeatherMaster"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="UnlockedBy" value="armorLeatherChestBlueprint"/>
+	<property name="CarryWeight" value="1.20"/>
+	<property class="UMA">
+		<property name="UISlot" value="ChestArmor"/>
+		<property name="Mesh" value="armor_leather_chest"/>
+		<property name="Overlay0" value="armor_leather_chest"/>
+		<property name="Layer" value="2"/></property></set>
+
+<set xpath="/items/item[@name='armorLeatherGloves']"><!-- item name directly referenced in the code -->
+	<property name="Extends" value="armorLeatherMaster"/>
+	<property name="Tags" value="upperbody,hands,armor,armorHands,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Hands"/>
+	<property name="UnlockedBy" value="armorLeatherGlovesBlueprint"/>
+	<property name="CarryWeight" value="0.50"/>
+	<property class="UMA">
+		<property name="UISlot" value="Gloves"/>
+		<property name="Mesh" value="armor_leather_gloves"/>
+		<property name="Overlay0" value="armor_leather_gloves"/>
+		<property name="Layer" value="3"/></property></set>
+
+<set xpath="/items/item[@name='armorLeatherPants']">
+	<property name="Extends" value="armorLeatherMaster"/>
+	<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Legs"/>
+	<property name="UnlockedBy" value="armorLeatherLegsBlueprint"/>
+	<property name="CarryWeight" value="0.80"/>
+	<property class="UMA">
+		<property name="UISlot" value="LegArmor"/>
+		<property name="Mesh" value="armor_leather_pants"/>
+		<property name="Overlay0" value="armor_leather_pants"/>
+		<property name="Layer" value="3"/></property></set>
+
+<set xpath="/items/item[@name='armorLeatherBoots']">
+	<property name="Extends" value="armorLeatherMaster"/>
+	<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Feet"/>
+	<property name="UnlockedBy" value="armorLeatherBootsBlueprint"/>
+	<property name="CarryWeight" value="0.90"/>
+	<property class="UMA">
+		<property name="UISlot" value="Footwear"/>
+		<property name="Mesh" value="armor_leather_feet"/>
+		<property name="Overlay0" value="armor_leather_boots"/>
+		<property name="Layer" value="0"/></property></set>
+
+<set xpath="/items/item[@name='armorMiningHelmet']">
+	<property name="Group" value="LightArmor,MediumArmor,Clothing,Items"/>
+	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="DisplayType" value="armorLight"/>
+	<property name="CustomIcon" value="ulmArmorMiningHelmet"/>
+	<property name="Waterproof" value=".15"/>
+	<!-- <property name="Class" value="ItemClassToggle"/> -->
+	<property name="Encumbrance" value=".01"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="LightValue" value=".7"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="RepairExpMultiplier" value="10"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="Material" value="Mplastics"/><property name="Weight" value="10"/>
+	<property name="EconomicValue" value="500"/><property name="CarryWeight" value="1.00"/>
+	<property name="UnlockedBy" value="perkArtOfMiningLantern,armorMiningHelmetBlueprint"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="MaintenanceGroup" value="MG_ArmorScrap"/>
+	<property class="UMA">
+		<property name="Mesh" value="gear_mining_helmet"/>
+		<property name="Overlay0" value="gear_mining_helmet"/>
+		<property name="Layer" value="2"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="ShowAltHair" value="true"/></property></set>
+
+<set xpath="/items/item[@name='armorFootballHelmet']">
+	<property name="Group" value="LightArmor,MediumArmor,Clothing,Items"/>
+	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="DescriptionKey" value="armorFootballHelmetDesc"/>
+	<property name="DisplayType" value="armorLight"/>
+	<property name="Waterproof" value=".15"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="RepairExpMultiplier" value="10"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="Material" value="Mplastics"/><property name="Weight" value="10"/>
+	<property name="EconomicValue" value="400"/><property name="CarryWeight" value="1.00"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="MaintenanceGroup" value="MG_ArmorScrap"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="gear_football_helmet"/>
+		<property name="Overlay0" value="gear_football_helmet"/>
+		<property name="Mask0" value="Head" param1="inner"/>
+		<property name="ShowAltHair" value="false"/>
+		<property name="Layer" value="2"/></property></set>
+
+<append xpath="/items/item[
+		@name='armorLeatherHood'
+	 or @name='armorLeatherChest'
+	 or @name='armorLeatherGloves'
+	 or @name='armorLeatherPants'
+	 or @name='armorLeatherBoots'
+	 or @name='armorMiningHelmet'
+	 or @name='armorFootballHelmet']">
+	<property name="dNoiseMultiplier" value=".1"/>
+	<effect_group>
+		<passive_effect operation="base_set" name="DegradationMax"			value="90,270"			tier="1,90"/>
+		<passive_effect operation="base_add" name="PhysicalDamageResist"	value="5,8"				tier="1,90"/>
+		<passive_effect operation="base_add" name="ElementalDamageResist"	value="5,8"				tier="1,90"		tags="heat,electrical"/>
+		<passive_effect operation="base_add" name="BuffResistance"			value=".045,.065"		tier="1,90"		tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="1"				tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="2"				tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="3"				tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="4"				tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="5"				tier="81,90"/>
+		<!-- Fixed -->
+		<passive_effect operation="base_add" name="ModPowerBonus"			value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.0281"	tags="walking"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.0562"	tags="running"/>
+		<passive_effect operation="perc_add" name="Mobility"				value="-.04"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"		value="1"/>
+		<passive_effect operation="perc_add" name="NoiseMultiplier"			value=".1"/>
+		<display_value						 name="dStaminaChangeOT"		value="-.562"/>
+	</effect_group></append>
+
+<!-- =Military= -->
+
+<set xpath="/items/item[@name='armorMilitaryMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="DisplayType" value="armorLight"/>
+	<property name="Group" value="LightArmor,MediumArmor,Clothing,Items"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="MaintenanceGroup" value="MG_ArmorMilitary"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="HoldType" value="45"/><property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="DescriptionKey" value="armorMilitaryGroupDesc"/>
+	<property name="RepairExpMultiplier" value="12"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Material" value="MarmorMilitarySet"/><property name="Weight" value="1"/>
+	<property name="EconomicValue" value="500"/><property name="CarryWeight" value="1.00"/></set>
+
+<set xpath="/items/item[@name='armorMilitaryHelmet']">
+	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="UnlockedBy" value="armorMilitaryHelmetBlueprint"/>
+	<property name="CarryWeight" value="0.80"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="gear_kevlar_helmet"/>
+		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="ShowAltHair" value="true"/>
+		<property name="Layer" value="2"/></property></set>
+
+<set xpath="/items/item[@name='armorMilitaryVest']">
+	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="UnlockedBy" value="armorMilitaryChestBlueprint"/>
+	<property name="CarryWeight" value="1.50"/>
+	<property class="UMA">
+		<property name="UISlot" value="ChestArmor"/>
+		<property name="Mesh" value="armor_kevlar_vest"/>
+		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Layer" value="2"/></property></set>
+
+<set xpath="/items/item[@name='armorMilitaryGloves']">
+	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="Tags" value="upperbody,hands,armor,armorHands,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Hands"/>
+	<property name="UnlockedBy" value="armorMilitaryGlovesBlueprint"/>
+	<property name="CarryWeight" value="0.60"/>
+	<property class="UMA">
+		<property name="UISlot" value="Gloves"/>
+		<property name="Mesh" value="armor_kevlar_gloves"/>
+		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Layer" value="0"/></property></set>
+
+<set xpath="/items/item[@name='armorMilitaryLegs']">
+	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Legs"/>
+	<property name="UnlockedBy" value="armorMilitaryLegsBlueprint"/>
+	<property name="CarryWeight" value="0.90"/>
+	<property class="UMA">
+		<property name="UISlot" value="LegArmor"/>
+		<property name="Mesh" value="armor_kevlar_legarmor"/>
+		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Layer" value="3"/></property></set>
+
+<set xpath="/items/item[@name='armorMilitaryBoots']">
+	<property name="Extends" value="armorMilitaryMaster" param1="CustomIcon"/>
+	<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightArmor,lightArmorPenalty,lightArmorDeg,canHaveCosmetic"/>
+	<property name="EquipSlot" value="Feet"/>
+	<property name="UnlockedBy" value="armorMilitaryBootsBlueprint"/>
+	<property name="CarryWeight" value="1.20"/>
+	<property class="UMA">
+		<property name="UISlot" value="Footwear"/>
+		<property name="Mesh" value="armor_kevlar_boots"/>
+		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Layer" value="0"/></property></set>
+
+<set xpath="/items/item[@name='armorFootballHelmetZU']">
+	<property name="Extends" value="armorFootballHelmet"/>
+	<property name="CustomIcon" value="armorFootballHelmet"/><property name="CustomIconTint" value="107,12,12"/>
+	<property class="UMA">
+		<property name="Overlay0Tint" value="107,12,12"/>
+	</property></set>
+
+<append xpath="/items/item[
+		@name='armorMilitaryHelmet'
+	 or @name='armorMilitaryVest'
+	 or @name='armorMilitaryGloves'
+	 or @name='armorMilitaryLegs'
+	 or @name='armorMilitaryBoots'
+	 or @name='armorFootballHelmetZU']">
+	<property name="dNoiseMultiplier" value=".1"/>
+	<effect_group>
+		<passive_effect operation="base_set" name="DegradationMax"			value="120,360"			tier="1,90"/>
+		<passive_effect operation="base_add" name="PhysicalDamageResist"	value="6.5,10"			tier="1,90"/>
+		<passive_effect operation="base_add" name="ElementalDamageResist"	value="6.5,10"			tier="1,90"		tags="heat,electrical"/>
+		<passive_effect operation="base_add" name="BuffResistance"			value=".05,.065"		tier="1,90"		tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="1"				tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="2"				tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="3"				tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="4"				tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="5"				tier="81,90"/>
+		<!-- Fixed -->
+		<passive_effect operation="base_add" name="ModPowerBonus"			value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.0281"	tags="walking"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.0562"	tags="running"/>
+		<passive_effect operation="perc_add" name="Mobility"				value="-.04"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"		value="1"/>
+		<passive_effect operation="perc_add" name="NoiseMultiplier"			value=".1"/>
+		<display_value						 name="dStaminaChangeOT"		value="-.562"/>
+	</effect_group></append>
+
+<set xpath="/items/item[@name='armorMilitaryStealthBoots']">
+	<property name="Extends" value="armorMilitaryBoots" param1="DescriptionKey,dNoiseMultiplier"/>
+	<property name="CustomIcon" value="armorMilitaryBoots"/>
+	<property name="UnlockedBy" value="perkUrbanCombatLanding"/>
+	<property name="DisplayType" value="armorLightStealth"/>
+	<effect_group>
+		<passive_effect operation="base_set" name="DegradationMax"			value="120,360"			tier="1,90"/>
+		<passive_effect operation="base_add" name="PhysicalDamageResist"	value="6.5,10"			tier="1,90"/>
+		<passive_effect operation="base_add" name="ElementalDamageResist"	value="6.5,10"			tier="1,90"		tags="heat,electrical"/>
+		<passive_effect operation="base_add" name="BuffResistance"			value=".05,.065"		tier="1,90"		tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="1"				tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="2"				tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="3"				tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="4"				tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="5"				tier="81,90"/>
+		<!-- Fixed -->
+		<passive_effect operation="base_add" name="ModPowerBonus"			value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="Mobility"				value="-.04"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"		value="1"/>
+	</effect_group></set>
+
+
+
+<!-- =Scrap= -->
+
+<set xpath="/items/item[@name='armorScrapMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="HeavyArmor,MediumArmor,Clothing,Items"/>
+	<property name="DisplayType" value="armorHeavy"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="MaintenanceGroup" value="MG_ArmorScrap"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="DescriptionKey" value="armorHeavyGroupDesc"/>
+	<property name="RepairExpMultiplier" value="10"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Material" value="matIron"/><property name="Weight" value="200"/>
+	<property name="EconomicValue" value="250"/><property name="CarryWeight" value="1.00"/></set>
+
+<set xpath="/items/item[@name='armorScrapHelmet']">
+	<property name="Extends" value="armorScrapMaster"/>
+	<property name="Tags" value="head,armor,armorHead,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="CarryWeight" value="1.50"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="armor_scrapmetal_helmet"/>
+		<property name="Overlay0" value="armor_scrapmetal_helmet"/>
+		<property name="Layer" value="middle"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/></property></set>
+
+<set xpath="/items/item[@name='armorScrapChest']">
+	<property name="Extends" value="armorScrapMaster"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="CarryWeight" value="3.00"/>
+	<property class="UMA">
+		<property name="UISlot" value="ChestArmor"/>
+		<property name="Mesh" value="armor_scrap_metal_chest"/>
+		<property name="Overlay0" value="scrap_metal_armor"/>
+		<property name="Layer" value="2"/></property></set>
+
+<set xpath="/items/item[@name='armorScrapGloves']">
+	<property name="Extends" value="armorScrapMaster"/>
+	<property name="Tags" value="upperbody,hands,armor,armorHands,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Hands"/>
+	<property name="CarryWeight" value="1.00"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_scrap_metal_hands"/>
+		<property name="Overlay0" value="scrap_metal_armor"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="Gloves"/></property></set>
+
+<set xpath="/items/item[@name='armorScrapLegs']">
+	<property name="Extends" value="armorScrapMaster"/>
+	<property name="Tags" value="lowerbody,legs,armor,armorLegs,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Legs"/>
+	<property name="CarryWeight" value="3.00"/>
+	<property class="UMA">
+		<property name="UISlot" value="LegArmor"/>
+		<property name="Mesh" value="armor_scrap_metal_legs"/>
+		<property name="Overlay0" value="scrap_metal_armor"/>
+		<property name="Layer" value="3"/></property></set>
+
+<set xpath="/items/item[@name='armorScrapBoots']">
+	<property name="Extends" value="armorScrapMaster"/>
+	<property name="Tags" value="lowerbody,feet,armor,armorFeet,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Feet"/>
+	<property name="CarryWeight" value="2.50"/>
+	<property class="UMA">
+		<property name="UISlot" value="Footwear"/>
+		<property name="Mesh" value="armor_scrap_metal_feet"/>
+		<property name="Overlay0" value="armor_scrap_metal_feet"/>
+		<property name="Layer" value="0"/></property></set>
+
+<append xpath="/items/item[
+		@name='armorScrapHelmet'
+	 or @name='armorScrapChest'
+	 or @name='armorScrapGloves'
+	 or @name='armorScrapLegs'
+	 or @name='armorScrapBoots']">
+	<property name="dNoiseMultiplier" value=".2"/>
+	<effect_group>
+		<passive_effect operation="base_set" name="DegradationMax"			value="150,450"			tier="1,90"/>
+		<passive_effect operation="base_add" name="PhysicalDamageResist"	value="7,11"			tier="1,90"/>
+		<passive_effect operation="base_add" name="ElementalDamageResist"	value="7,11"			tier="1,90"		tags="heat,electrical"/>
+		<passive_effect operation="base_add" name="BuffResistance"			value=".055,.07"		tier="1,90"		tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="1"				tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="2"				tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="3"				tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="4"				tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="5"				tier="81,90"/>
+		<!-- Fixed -->
+		<passive_effect operation="base_add" name="ModPowerBonus"			value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.045"	tags="walking"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.09"	tags="running"/>
+		<passive_effect operation="perc_add" name="Mobility"				value="-.06"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"		value="1"/>
+		<passive_effect operation="perc_add" name="NoiseMultiplier"			value=".2"/>
+		<display_value						 name="dStaminaChangeOT"		value="-.9"/>
+	</effect_group></append>
+
+
+
+<!-- =Iron= (formerly Bandit Armor) -->
+
+<set xpath="/items/item[@name='armorIronMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="HeavyArmor,Clothing,Items"/>
+	<property name="DisplayType" value="armorHeavy"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="DescriptionKey" value="armorHeavyGroupDesc"/>
+	<property name="RepairExpMultiplier" value="10"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Material" value="matIron"/><property name="Weight" value="400"/>
+	<property name="EconomicValue" value="500"/><property name="CarryWeight" value="2.00"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="MaintenanceGroup" value="MG_ArmorIron"/>
+	<property name="ShowQuality" value="true"/></set>
+
+<set xpath="/items/item[@name='armorIronHelmet']">
+	<property name="Extends" value="armorIronMaster"/>
+	<property name="Tags" value="head,armor,armorHead,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="UnlockedBy" value="armorIronHelmetBlueprint"/>
+	<property name="CarryWeight" value="3.00"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="armor_heavy_bandit_gasmask"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="middle"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/></property></set>
+
+<set xpath="/items/item[@name='armorIronChest']">
+	<property name="Extends" value="armorIronMaster"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="UnlockedBy" value="armorIronChestBlueprint"/>
+	<property name="CarryWeight" value="5.00"/>
+	<property class="UMA">
+		<property name="UISlot" value="ChestArmor"/>
+		<property name="Mesh" value="male_armor_heavy_bandit_chest"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="2"/></property></set>
+
+<set xpath="/items/item[@name='armorIronGloves']">
+	<property name="Extends" value="armorIronMaster"/>
+	<property name="Tags" value="upperbody,hands,armor,armorHands,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Hands"/>
+	<property name="UnlockedBy" value="armorIronGlovesBlueprint"/>
+	<property name="CarryWeight" value="2.00"/>
+	<property class="UMA">
+		<property name="UISlot" value="Gloves"/>
+		<property name="Mesh" value="armor_heavy_bandit_gloves"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="0"/></property></set>
+
+<set xpath="/items/item[@name='armorIronLegs']">
+	<property name="Extends" value="armorIronMaster"/>
+	<property name="Tags" value="lowerbody,legs,armor,armorLegs,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Legs"/>
+	<property name="UnlockedBy" value="armorIronLegsBlueprint"/>
+	<property name="CarryWeight" value="5.00"/>
+	<property class="UMA">
+		<property name="UISlot" value="LegArmor"/>
+		<property name="Mesh" value="armor_heavy_bandit_legarmor"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="3"/></property></set>
+
+<set xpath="/items/item[@name='armorIronBoots']">
+	<property name="Extends" value="armorIronMaster"/>
+	<property name="Tags" value="lowerbody,feet,armor,armorFeet,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Feet"/>
+	<property name="UnlockedBy" value="armorIronBootsBlueprint"/>
+	<property name="CarryWeight" value="4.00"/>
+	<property class="UMA">
+		<property name="UISlot" value="Footwear"/>
+		<property name="Mesh" value="armor_heavy_bandit_feet"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="0"/></property></set>
+
+<set xpath="/items/item[@name='armorFirefightersHelmet']">
+	<property name="Extends" value="armorMiningHelmet"/>
+	<property name="Group" value="HeavyArmor,MediumArmor,Clothing,Items"/>
+	<property name="Tags" value="head,armor,armorHead,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="CustomIcon" value="ulmArmorFirefightersHelmet"/>
+	<property name="UMA.Overlay0Tint" value="172,33,50"/>
+	<property name="DisplayType" value="armorHeavyHeatResist"/>
+	<property name="Waterproof" value=".15"/>
+	<property name="Degradation" value="250" param1="true"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="Encumbrance" value=".01"/>
+	<property name="HoldType" value="45"/><property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="UnlockedBy" value="perkFiremansAlmanacEquipment"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="LightValue" value=".7"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Material" value="matIron"/><property name="Weight" value="60"/>
+	<property name="EconomicValue" value="1200"/><property name="CarryWeight" value="1.00"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="MaintenanceGroup" value="MG_ArmorIron"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="gear_mining_helmet"/>
+		<property name="Overlay0" value="gear_mining_helmet"/>
+		<property name="Layer" value="2"/>
+		<property name="ShowAltHair" value="true"/></property>
+	<effect_group name="unique effect:">
+		<passive_effect name="HealthLoss" operation="perc_add" value="-.05">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacEquipment" operation="Equals" value="1"/>
+		</passive_effect>
+		<passive_effect operation="base_add" name="HyperthermalResist"		value="10,20"			tier="1,90"/></effect_group></set>
+	
+<append xpath="/items/item[
+		@name='armorIronHelmet'
+	 or @name='armorIronChest'
+	 or @name='armorIronGloves'
+	 or @name='armorIronLegs'
+	 or @name='armorIronBoots'
+	 or @name='armorIronHelmet'
+	 or @name='armorFirefightersHelmet']">
+	<property name="dNoiseMultiplier" value=".2"/>
+	<effect_group>
+		<passive_effect operation="base_set" name="DegradationMax"			value="180,540"			tier="1,90"/>
+		<passive_effect operation="base_add" name="PhysicalDamageResist"	value="9,13"			tier="1,90"/>
+		<passive_effect operation="base_add" name="ElementalDamageResist"	value="9,13"			tier="1,90"		tags="heat,electrical"/>
+		<passive_effect operation="base_add" name="BuffResistance"			value=".055,.07"		tier="1,90"		tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="1"				tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="2"				tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="3"				tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="4"				tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="5"				tier="81,90"/>
+		<!-- Fixed -->
+		<passive_effect operation="base_add" name="ModPowerBonus"			value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.045"	tags="walking"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.09"	tags="running"/>
+		<passive_effect operation="perc_add" name="Mobility"				value="-.06"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"		value="1"/>
+		<passive_effect operation="perc_add" name="NoiseMultiplier"			value=".2"/>
+		<display_value						 name="dStaminaChangeOT"		value="-.9"/>
+	</effect_group></append>
+
+<!-- =Steel= (formerly Iron Armor) -->
+
+<set xpath="/items/item[@name='armorSteelMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="HeavyArmor,Clothing,Items"/>
+	<property name="DisplayType" value="armorHeavy"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="MaintenanceGroup" value="MG_ArmorSteel"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="HoldType" value="45"/><property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="DescriptionKey" value="armorSteelGroupDesc"/>
+	<property name="RepairExpMultiplier" value="10"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Material" value="matSteel"/><property name="Weight" value="50"/>
+	<property name="EconomicValue" value="1000"/><property name="CarryWeight" value="2.00"/></set>
+
+<set xpath="/items/item[@name='armorSteelHelmet']">
+	<property name="Extends" value="armorSteelMaster"/>
+	<property name="Tags" value="head,armor,armorHead,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="UnlockedBy" value="armorSteelHelmetBlueprint"/>
+	<property name="CarryWeight" value="2.00"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="armor_iron_helmet"/>
+		<property name="Overlay0" value="armor_iron_helmet"/>
+		<property name="Layer" value="middle"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/></property></set>
+	
+<set xpath="/items/item[@name='armorSteelChest']"><!-- item name directly referenced in the code -->
+	<property name="Extends" value="armorSteelMaster"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="UnlockedBy" value="armorSteelChestBlueprint"/>
+	<property name="CarryWeight" value="4.00"/>
+	<property class="UMA">
+		<property name="UISlot" value="ChestArmor"/>
+		<property name="Mesh" value="armor_iron_chest"/>
+		<property name="Overlay0" value="armor_iron_chest"/>
+		<property name="Layer" value="2"/></property></set>
+
+<set xpath="/items/item[@name='armorSteelGloves']">
+	<property name="Extends" value="armorSteelMaster"/>
+	<property name="Tags" value="upperbody,hands,armor,armorHands,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Hands"/>
+	<property name="UnlockedBy" value="armorSteelGlovesBlueprint"/>
+	<property name="CarryWeight" value="1.50"/>
+	<property class="UMA">
+		<property name="UISlot" value="Gloves"/>
+		<property name="Mesh" value="armor_iron_gloves"/>
+		<property name="Overlay0" value="armor_iron_gloves"/>
+		<property name="Layer" value="0"/></property></set>
+	
+<set xpath="/items/item[@name='armorSteelLegs']"><!-- item name directly referenced in the code -->
+	<property name="Extends" value="armorSteelMaster" param1="CustomIcon"/>
+	<property name="Tags" value="lowerbody,legs,armor,armorLegs,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Legs"/>
+	<property name="UnlockedBy" value="armorSteelLegsBlueprint"/>
+	<property name="CarryWeight" value="4.00"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_iron_pants"/>
+		<property name="Overlay0" value="armor_iron_pants"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="LegArmor"/></property></set>
+
+<set xpath="/items/item[@name='armorSteelBoots']">
+	<property name="Extends" value="armorSteelMaster" param1="CustomIcon"/>
+	<property name="Tags" value="lowerbody,feet,armor,armorFeet,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Feet"/>
+	<property name="UnlockedBy" value="armorSteelBootsBlueprint"/>
+	<property name="CarryWeight" value="3.00"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_iron_boots"/>
+		<property name="Overlay0" value="armor_iron_boots"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="Footwear"/></property></set>
+
+<set xpath="/items/item[@name='armorSwatHelmet']">
+	<property name="Group" value="HeavyArmor,Clothing,Items"/>
+	<property name="Tags" value="head,armor,armorHead,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="DisplayType" value="armorHeavy"/>
+	<property name="DescriptionKey" value="armorHeavyGroupDesc"/>
+	<property name="HoldType" value="45"/><property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="Waterproof" value=".15"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="RepairExpMultiplier" value="10"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="Material" value="matSteel"/><property name="Weight" value="60"/>
+	<property name="EconomicValue" value="1000"/><property name="CarryWeight" value="1.00"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="MaintenanceGroup" value="MG_ArmorSteel"/>
+	<property class="UMA">
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mesh" value="gear_swat_helmet"/>
+		<property name="Overlay0" value="gear_swat_helmet"/>
+		<property name="ShowAltHair" value="true"/>
+		<property name="Layer" value="2"/></property></set>
+
+<append xpath="/items/item[
+		@name='armorSteelHelmet'
+	 or @name='armorSteelChest'
+	 or @name='armorSteelGloves'
+	 or @name='armorSteelLegs'
+	 or @name='armorSteelBoots'
+	 or @name='armorSwatHelmet']">
+	<property name="dNoiseMultiplier" value=".2"/>
+	<effect_group>
+		<passive_effect operation="base_set" name="DegradationMax"			value="210,630"			tier="1,90"/>
+		<passive_effect operation="base_add" name="PhysicalDamageResist"	value="11,15"			tier="1,90"/>
+		<passive_effect operation="base_add" name="ElementalDamageResist"	value="11,15"			tier="1,90"		tags="heat,electrical"/>
+		<passive_effect operation="base_add" name="BuffResistance"			value=".06,.075"		tier="1,90"		tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="1"				tier="1,20"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="2"				tier="21,40"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="3"				tier="41,60"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="4"				tier="61,80"/>
+		<passive_effect operation="base_set" name="ModSlots"				value="5"				tier="81,90"/>
+		<!-- Fixed -->
+		<passive_effect operation="base_add" name="ModPowerBonus"			value="100"		tags="EconomicValue"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.045"	tags="walking"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT"			value="-.09"	tags="running"/>
+		<passive_effect operation="perc_add" name="Mobility"				value="-.06"/>
+		<passive_effect operation="base_set" name="DegradationPerUse"		value="1"/>
+		<passive_effect operation="perc_add" name="NoiseMultiplier"			value=".2"/>
+		<display_value						 name="dStaminaChangeOT"		value="-.9"/>
+	</effect_group></append>
+
+<append xpath="/items/item[
+   @name='foodBaconAndEggsSchematic'
+or @name='foodBakedPotatoSchematic'
+or @name='foodBoiledMeatSchematic'
+or @name='foodCanShamSchematic'
+or @name='foodCornBreadSchematic'
+or @name='foodCornOnTheCobSchematic'
+or @name='foodGrilledMeatSchematic'
+or @name='foodSteakAndPotatoSchematic'
+or @name='foodBlueberryPieSchematic'
+or @name='foodMeatStewSchematic'
+or @name='foodVegetableStewSchematic'
+or @name='foodPumpkinPieSchematic'
+or @name='foodPumpkinCheesecakeSchematic'
+or @name='foodPumpkinBreadSchematic'
+or @name='foodShamChowderSchematic'
+or @name='foodHoboStewSchematic'
+or @name='foodFishTacosSchematic'
+or @name='foodChiliDogSchematic'
+or @name='foodGumboStewSchematic'
+or @name='foodShepardsPieSchematic'
+or @name='foodSpaghettiSchematic'
+or @name='foodTunaFishGravyToastSchematic'
+or @name='drinkYuccaJuiceSmoothieSchematic'
+or @name='drinkJarRedTeaSchematic'
+or @name='drinkJarGoldenRodTeaSchematic'
+or @name='drinkJarCoffeeSchematic'
+or @name='drinkJarBeerSchematic'
+or @name='drinkJarGrandpasMoonshineSchematic'
+or @name='drinkJarGrandpasAwesomeSauceSchematic'
+or @name='drinkJarGrandpasLearningElixirSchematic'
+or @name='plantedAloe1Schematic'
+or @name='plantedChrysanthemum1Schematic'
+or @name='plantedGoldenrod1Schematic'
+or @name='plantedYucca1Schematic'
+or @name='plantedBlueberry1Schematic'
+or @name='plantedCoffee1Schematic'
+or @name='plantedCorn1Schematic'
+or @name='plantedCotton1Schematic'
+or @name='plantedMushroom1Schematic'
+or @name='plantedPotato1Schematic'
+or @name='plantedHop1Schematic'
+or @name='plantedPumpkin1Schematic'
+or @name='plantedGraceCorn1Schematic']"><property name="Group" value="Recipes,Schematics,BPFood,Books,Items"/></append>
+    
+<append xpath="/items/item[
+   @name='meleeWpnClubT1BaseballBatSchematic'
+or @name='meleeWpnSledgeT1IronSledgehammerSchematic'
+or @name='meleeWpnSpearT1IronSpearSchematic'
+or @name='meleeWpnBladeT1HuntingKnifeSchematic'
+or @name='meleeWpnBatonT2StunBatonSchematic'
+or @name='meleeToolRepairT3NailgunSchematic'
+or @name='meleeWpnBladeT3MacheteSchematic'
+or @name='meleeToolSalvageT1WrenchSchematic'
+or @name='meleeWpnSledgeT3SteelSledgehammerSchematic'
+or @name='meleeToolPickT3AugerSchematic'
+or @name='meleeToolAxeT3ChainsawSchematic']"><property name="Group" value="Schematics,BPMelee,Books,Items"/></append>
+
+<append xpath="/items/item[
+   @name='gunShotgunT1DoubleBarrelSchematic'
+or @name='gunRifleT1HuntingRifleSchematic'
+or @name='gunExplosivesT3RocketLauncherSchematic'
+or @name='gunMGT1AK47Schematic'
+or @name='gunMGT2TacticalARSchematic'
+or @name='gunBowT1WoodenBowSchematic'
+or @name='gunBowT1IronCrossbowSchematic'
+or @name='gunHandgunT1PistolSchematic']"><property name="Group" value="Schematics,BPGuns,Books,Items"/></append>
+
+<append xpath="/items/item[
+   @name='thrownGrenadeContactSchematic'
+or @name='thrownGrenadeSchematic'
+or @name='thrownAmmoPipeBombSchematic'
+or @name='thrownDynamiteSchematic']"><property name="Group" value="Schematics,BPExplosives,Books,Items"/></append>
+
+<append xpath="/items/item[
+   @name='toolAnvilSchematic'
+or @name='toolBellowsSchematic'
+or @name='toolForgeCrucibleSchematic'
+or @name='generatorbankSchematic'
+or @name='switchSchematic'
+or @name='spotlightPlayerSchematic'
+or @name='speakerSchematic'
+or @name='pressureplateSchematic'
+or @name='dartTrapSchematic'
+or @name='electrictimerrelaySchematic'
+or @name='motionsensorSchematic'
+or @name='electricfencepostSchematic'
+or @name='bladeTrapSchematic'
+or @name='batterybankSchematic'
+or @name='gunBotT1JunkSledgeSchematic'
+or @name='gunBotT2JunkTurretSchematic'
+or @name='gunBotT3JunkDroneSchematic'
+or @name='shotgunTurretSchematic'
+or @name='autoTurretSchematic'
+or @name='vehicleBicycleChassisSchematic'
+or @name='vehicleBicycleHandlebarsSchematic'
+or @name='vehicleMinibikeChassisSchematic'
+or @name='vehicleMinibikeHandlebarsSchematic'
+or @name='vehicleMotorcycleChassisSchematic'
+or @name='vehicleMotorcycleHandlebarsSchematic'
+or @name='vehicle4x4TruckChassisSchematic'
+or @name='vehicle4x4TruckAccessoriesSchematic'
+or @name='vehicleGyroCopterChassisSchematic'
+or @name='vehicleGyroCopterAccessoriesSchematic']"><property name="Group" value="Schematics,BPScience,Books,Items"/></append>
+
+<append xpath="/items/item[
+   @name='ammoGasCanSchematic'
+or @name='drugHerbalAntibioticsSchematic'
+or @name='drugAntibioticsSchematic'
+or @name='medicalFirstAidKitSchematic'
+or @name='medicalFirstAidBandageSchematic'
+or @name='medicalPlasterCastSchematic'
+or @name='resourceMilitaryFiberSchematic'
+or @name='resourceOilSchematic']"><property name="Group" value="Recipes,Schematics,BPScience,Books,Items"/></append>
+
+<append xpath="/items/item[
+   @name='workbenchSchematic'
+or @name='cementMixerSchematic'
+or @name='chemistryStationSchematic']"><property name="Group" value="Schematics,BPWorkstations,Books,Items"/></append>
+
+<set xpath="/items/item[
+   @name='bookFiremansAlmanacHeat'
+or @name='bookNightStalkerStealthDamage'
+or @name='bookLuckyLooterDukes'
+or @name='bookEnforcerDamage'
+or @name='bookBatterUpBigHits'
+or @name='bookGreatHeistSafes'
+or @name='bookWasteTreasuresHoney'
+or @name='bookNeedleAndThreadWinterWear'
+or @name='bookHuntingJournalBears'
+or @name='bookArtOfMiningLuckyStrike'
+or @name='bookRangersArrowRecovery'
+or @name='bookPistolPeteTakeAim'
+or @name='bookShotgunMessiahDamage'
+or @name='bookSniperDamage'
+or @name='bookAutoWeaponsDamage'
+or @name='bookUrbanCombatLanding'
+or @name='bookTechJunkie1Damage'
+or @name='bookBarBrawling1BasicMoves'
+or @name='bookSpearHunter1Damage']/property[@name='Group']/@value">Books,BooksOnly,Items</set>
+
+</Subquake>

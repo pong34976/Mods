@@ -1,0 +1,84 @@
+<Subquake>
+	
+<set xpath="/materials/material[@id='MtreeWoodSmall']/property[@name='damage_category']/@value">tree</set>
+<set xpath="/materials/material[@id='MtreeWoodLarge']/property[@name='damage_category']/@value">tree</set>
+<set xpath="/materials/material[@id='MtreeWoodMedium']/property[@name='damage_category']/@value">tree</set>
+<set xpath="/materials/material[@id='MtreeWoodFull']/property[@name='damage_category']/@value">tree</set>
+	
+<!--<set xpath="/materials/material[@id='Mgravel']/property[@name='damage_category']/@value">ore</set>-->
+<set xpath="/materials/material[@id='MoreStone']/property[@name='damage_category']/@value">ore</set>
+<set xpath="/materials/material[@id='MoreMetal']/property[@name='damage_category']/@value">ore</set>
+	
+<set xpath="/materials/material[@id='MoreStone']/property[@name='MaxDamage']/@value">500</set>
+<set xpath="/materials/material[@id='Mbrick']/property[@name='MaxDamage']/@value">1500</set>
+
+<append xpath="/materials">
+	
+<material id="matWoodLogSpike">
+	<property name="damage_category" value="wood"/>
+	<property name="surface_category" value="wood"/>
+	<property name="forge_category" value="wood"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="wood"/>
+	<property name="stability_glue" value="0"/>
+	<property name="Mass" type="int" value="5"/>
+	<property name="MaxDamage" value="225"/>
+	<property name="Experience" value="2"/></material>
+
+<material id="matSecureLoot">
+	<property name="damage_category" value="secureLoot"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="iron"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="300"/>
+	<property name="Mass" type="int" value="20"/>
+	<property name="explosionresistance" value="1.4"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="Experience" value="2"/></material>
+
+<material id="matIronDoorWithGlass">
+	<property name="Experience" value="2"/>
+	<property name="stepsound" value="metal"/>
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="glass"/>
+	<property name="forge_category" value="metal"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stability_glue" value="300"/>
+	<property name="Mass" type="int" value="20"/>
+	<property name="MaxDamage" value="15"/>
+	<property name="Experience" value="2"/></material>
+
+<material id="matAsphalt">
+	<property name="damage_category" value="asphalt"/>
+	<property name="surface_category" value="stone"/>
+	<property name="forge_category" value="stone"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="stone"/>
+	<property name="stability_glue" value="120"/>
+	<property name="Mass" type="int" value="10"/>
+	<property name="explosionresistance" value="1.1"/>
+	<property name="MaxDamage" value="2500"/>
+	<property name="Experience" value="4"/></material>
+
+<material id="matPartsSMG">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="ulmResourcePartsSMG"/>
+	<property name="Experience" value="6"/></material>
+    
+<material id="matTitaniumOre">
+	<property name="stepsound" value="metal"/>
+	<property name="damage_category" value="titanium"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="titanium"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stability_glue" value="300"/>
+	<property name="Mass" type="int" value="20"/>
+	<property name="explosionresistance" value="1.5"/>
+	<property name="MaxDamage" value="1000"/>
+	<property name="Experience" value="30"/></material>
+	
+</append>
+	
+</Subquake>

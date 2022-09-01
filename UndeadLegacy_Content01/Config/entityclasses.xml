@@ -1,0 +1,311 @@
+<Subquake>
+
+<set xpath="//entity_class[@name='playerMale']//property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">ulmContainerBagStarter</set>
+<set xpath="//entity_class[@name='playerMale']//property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">ulmContainerBagStarter</set>
+<set xpath="//entity_class[@name='playerMale']//property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">ulmContainerBagStarter</set>
+
+<append xpath="//entity_class[@name='playerMale']//triggered_effect[@trigger='onSelfRespawn']/@buff">,actionSkillDeathPenalty</append>
+    
+<!--
+<set xpath="//entity_class[@name='zombieTemplateMale']/property[@name='LootDropProb']/@value">0.1</set>
+<set xpath="//entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">0.1</set>
+<set xpath="//entity_class[@name='zombieWightRadiated']/property[@name='LootDropProb']/@value">0.1</set>
+<set xpath="//entity_class[@name='zombieBoeFeral']/property[@name='LootDropProb']/@value">0.1</set>
+<set xpath="//entity_class[@name='zombieBoeRadiated']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieFemaleFatFeral']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieFemaleFatRadiated']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieJoeFeral']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieJoeRadiated']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieJanitorFeral']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieJanitorRadiated']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieMoeFeral']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieMoeRadiated']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieArleneFeral']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieArleneRadiated']/property[@name='LootDropProb']/@value">0.1</set>    
+<set xpath="//entity_class[@name='zombieLabFeral']/property[@name='LootDropProb']/@value">0.1</set>   
+<set xpath="//entity_class[@name='zombieLabRadiated']/property[@name='LootDropProb']/@value">0.1</set>   
+<set xpath="//entity_class[@name='zombieScreamerFeral']/property[@name='LootDropProb']/@value">0.1</set>  
+<set xpath="//entity_class[@name='zombieScreamerRadiated']/property[@name='LootDropProb']/@value">0.1</set>  
+<set xpath="//entity_class[@name='zombieDarleneFeral']/property[@name='LootDropProb']/@value">0.1</set>  
+<set xpath="//entity_class[@name='zombieDarleneRadiated']/property[@name='LootDropProb']/@value">0.1</set>  
+<set xpath="//entity_class[@name='zombieMarleneFeral']/property[@name='LootDropProb']/@value">0.1</set>  
+<set xpath="//entity_class[@name='zombieMarleneRadiated']/property[@name='LootDropProb']/@value">0.1</set>  
+<set xpath="//entity_class[@name='zombieYoFeral']/property[@name='LootDropProb']/@value">0.1</set>  
+<set xpath="//entity_class[@name='zombieYoRadiated']/property[@name='LootDropProb']/@value">0.1</set>  
+<set xpath="//entity_class[@name='zombieSteveFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieSteveRadiated']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieSteveCrawlerFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieBusinessManFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieSnowFeral']/property[@name='LootDropProb']/@value">0.1</set>  
+<set xpath="//entity_class[@name='zombieSpiderFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieSpiderRadiated']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieNurseFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieFatHawaiian']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieFatCopFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieFatCopRadiated']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieUtilityWorkerFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieSoldierFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieSoldierRadiated']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieSkateboarderFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieSkateboarderRadiated']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieCheerleaderFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieCheerleaderRadiated']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieOldTimerFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieOldTimerRadiated']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieBikerFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieBikerRadiated']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieFarmerFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieStripperFeral']/property[@name='LootDropProb']/@value">0.1</set> 
+<set xpath="//entity_class[@name='zombieDemolition']/property[@name='LootDropProb']/@value">0.3</set>-->
+
+<set xpath="//entity_class[@name='EntityLootContainerRegular']/property[@name='Mesh']/@value">#Mods/UndeadLegacy/Resources/Subquake_Loot.ulm?Subquake_LootT1.prefab</set>
+<set xpath="//entity_class[@name='EntityLootContainerStrong']/property[@name='Mesh']/@value">#Mods/UndeadLegacy/Resources/Subquake_Loot.ulm?Subquake_LootT2.prefab</set>
+<set xpath="//entity_class[@name='EntityLootContainerBoss']/property[@name='Mesh']/@value">#Mods/UndeadLegacy/Resources/Subquake_Loot.ulm?Subquake_LootT3.prefab</set>
+<set xpath="//entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">7200</set>
+<set xpath="//entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">7200</set>
+<set xpath="//entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">7200</set>
+
+<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawler'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">100</set><!-- 80 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral'		]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 152 -->
+<set xpath="/entity_classes/entity_class[@name='zombieScreamer'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">150</set><!-- 75 -->
+<set xpath="/entity_classes/entity_class[@name='zombieScreamerFeral'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 142 -->
+<set xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">450</set><!-- 270 -->
+<set xpath="/entity_classes/entity_class[@name='zombieArlene'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">150</set><!-- 125 -->
+<set xpath="/entity_classes/entity_class[@name='zombieArleneFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">250</set><!-- 237 -->
+<set xpath="/entity_classes/entity_class[@name='zombieArleneRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">500</set><!-- 451 -->
+<set xpath="/entity_classes/entity_class[@name='zombieLab'						]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">150</set><!-- 125 -->
+<set xpath="/entity_classes/entity_class[@name='zombieLabFeral'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">250</set><!-- 237 -->
+<set xpath="/entity_classes/entity_class[@name='zombieLabRadiated'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">500</set><!-- 451 -->
+<set xpath="/entity_classes/entity_class[@name='zombieDarlene'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">150</set><!-- 125 -->
+<set xpath="/entity_classes/entity_class[@name='zombieDarleneFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">250</set><!-- 237 -->
+<set xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">500</set><!-- 451 -->
+<set xpath="/entity_classes/entity_class[@name='zombieMarlene'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">150</set><!-- 125 -->
+<set xpath="/entity_classes/entity_class[@name='zombieMarleneFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">250</set><!-- 237 -->
+<set xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">500</set><!-- 451 -->
+<set xpath="/entity_classes/entity_class[@name='zombieNurse'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">150</set><!-- 125 -->
+<set xpath="/entity_classes/entity_class[@name='zombieNurseFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">250</set><!-- 237 -->
+<set xpath="/entity_classes/entity_class[@name='zombiePartyGirl'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">150</set><!-- 125 -->
+<set xpath="/entity_classes/entity_class[@name='zombiePartyGirlFeral'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">250</set><!-- 237 -->
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieBoe'						]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieBoeFeral'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieBoeRadiated'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">600</set><!-- 541 -->
+<set xpath="/entity_classes/entity_class[@name='zombieJoe'						]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieJoeFeral'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieJoeRadiated'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">600</set><!-- 541 -->
+<set xpath="/entity_classes/entity_class[@name='zombieJanitor'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieJanitorFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieJanitorRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">600</set><!-- 541 -->
+<set xpath="/entity_classes/entity_class[@name='zombieYo'						]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieYoFeral'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieYoRadiated'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">600</set><!-- 541 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteve'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteveFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteveRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">600</set><!-- 541 -->
+<set xpath="/entity_classes/entity_class[@name='zombieBusinessMan'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSpider'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSpiderFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">600</set><!-- 541 -->
+<set xpath="/entity_classes/entity_class[@name='zombieBurnt'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorker'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral'		]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSoldier'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">250</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSoldierFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">350</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">700</set><!-- 541 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSkateboarder'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral'		]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderRadiated'		]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">600</set><!-- 541 -->
+<set xpath="/entity_classes/entity_class[@name='zombieMoe'						]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set><!-- 250 -->
+<set xpath="/entity_classes/entity_class[@name='zombieMoeFeral'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">525</set><!-- 475 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieMoeRadiated'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1000</set><!-- 902 541 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCop'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">350</set><!-- 250 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">700</set><!-- 475 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1250</set><!-- 902 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFemaleFat'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">350</set><!-- 300 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">700</set><!-- 570 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated'		]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1250</set><!-- 902 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">400</set><!-- 300 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">800</set><!-- 570 -->
+<set xpath="/entity_classes/entity_class[@name='zombieBiker'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">350</set><!-- 280 -->
+<set xpath="/entity_classes/entity_class[@name='zombieBikerFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">700</set><!-- 532 -->
+<set xpath="/entity_classes/entity_class[@name='zombieBikerRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1250</set><!-- 1010 -->
+<set xpath="/entity_classes/entity_class[@name='zombieLumberjack'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">350</set><!-- 300 -->
+<set xpath="/entity_classes/entity_class[@name='zombieLumberjackFeral'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">650</set><!-- 570 -->
+<set xpath="/entity_classes/entity_class[@name='zombieWightFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">500</set><!-- 427 -->
+<set xpath="/entity_classes/entity_class[@name='zombieWightRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1000</set><!-- 811 -->
+<set xpath="/entity_classes/entity_class[@name='zombieDemolition'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">2000</set><!-- 1000 -->
+	
+<set xpath="/entity_classes/entity_class[@name='zombieMutated'					]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">500</set><!-- 150 -->
+<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral'				]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">750</set><!-- 285 -->
+<set xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated'			]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1500</set><!-- 541 -->
+
+<append xpath="/entity_classes">
+    
+<entity_class name="ulmVehicleDuneRunner">
+	<property name="Tags" value="vehicle"/>
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_DuneRunner.prefab"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="vehiclePlayer6x20"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="100"/>
+	<property name="Explosion.EntityDamage" value="100"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="symbol_steering_wheel"/>
+    <property name="Consumables" value="ulmAmmoFuelGasoline,ulmAmmoFuelGasolineBarrel"/>
+	<property name="NavObject" value="car"/></entity_class>
+
+<entity_class name="ulmVehicleHumvee" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x20"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Humvee.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleCoupe1" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x14"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Coupe_A.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleMinivan1" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x20"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Minivan_1.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleMuscle1" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x14"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Muscle_1.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleSedan2" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x18"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Sedan_2.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleSedan2Police" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x16"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Sedan_2_Police.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleSedan2Taxi" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x16"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Sedan_2_Taxi.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleSedan3" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x20"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Sedan_3.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleHelicopterDH" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x20"/>
+	<property name="Class" value="EntityVGyroCopter"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Dekohawk.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleHelicopterRaven" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x12"/>
+	<property name="Class" value="EntityVGyroCopter"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Raven.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleMineCart" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x6"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Minecart.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleMiningDumpTruck" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x27"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_MiningDumpTruck.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleMilitaryTruck" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x27"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_MilitaryTruck.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmTwitchSupplyFuel" extends="twitch_crate_template"> 
+	<property name="Mesh" value="#Entities/LootContainers?crate_store_PassNGasPrefab.prefab"/>
+	<property name="LootListOnDeath" value="twitch_fuel1"/>
+</entity_class>
+
+<entity_class name="ulmVehiclePoliceCruiser" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x14"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_PoliceCruiser.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleAmbulance1" extends="ulmVehicleDuneRunner">
+	<property name="LootListAlive" value="vehiclePlayer6x14"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Ambulance_1.prefab"/>
+	</entity_class>
+
+<entity_class name="ulmVehicleMotorcycle2">
+	<property name="Tags" value="vehicle"/>
+	<property name="Class" value="EntityMotorcycle"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles.ulm?Subquake_Motorcycle2.prefab"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="vehiclePlayer6x10"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="4"/>
+	<property name="Explosion.RadiusEntities" value="4"/>
+	<property name="Explosion.BlockDamage" value="50"/>
+	<property name="Explosion.EntityDamage" value="50"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
+	<property name="NavObject" value="motorcycle"/>
+    <property name="Consumables" value="ulmAmmoFuelGasoline,ulmAmmoFuelGasolineBarrel"/></entity_class>
+
+<entity_class name="npcTraderEllen" extends="npcTraderTemplate">
+	<property name="Tags" value="entity,npc,human,trader"/>
+	<property name="ModelType" value="ULM_Npc,UndeadLegacy"/>
+	<property name="NavObject" value="ulmQuestTrader"/>
+	<property name="NPCID" value="npcTraderEllen"/>
+	<property name="Mesh" value="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Subquake_Ellen.prefab"/>
+	<property name="RootObjectName" value="Reference"/>
+	<property name="HeadRotationType" value="yAxisUp"/>
+	<property name="DanceType" value="2"/>
+	<property name="LookAtAngle" value="70"/></entity_class>
+
+<entity_class name="npcTraderMaxton" extends="npcTraderEllen">
+	<property name="NavObject" value="ulmVendor"/>
+	<property name="NPCID" value="npcTraderMaxton"/>
+	<property name="Mesh" value="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Subquake_Maxton.prefab"/>
+	<property name="RootObjectName" value="Reference"/>
+	<property name="HeadRotationType" value="yAxisUp"/></entity_class>
+
+<entity_class name="npcTraderEthan" extends="npcTraderMaxton">
+	<property name="NPCID" value="npcTraderEthan"/>
+	<property name="Mesh" value="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Subquake_Ethan.prefab"/>
+	<property name="RootObjectName" value="root"/>
+	<property name="HeadRotationType" value="yAxisBack"/></entity_class>
+
+<entity_class name="npcTraderLogan" extends="npcTraderEthan">
+	<property name="NPCID" value="npcTraderLogan"/>
+	<property name="Mesh" value="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Subquake_SoldierMarine1.prefab"/></entity_class>
+
+<entity_class name="npcTraderRaiden" extends="npcTraderEthan">
+	<property name="NPCID" value="npcTraderRaiden"/>
+	<property name="Mesh" value="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Subquake_SoldierMarine2.prefab"/></entity_class>
+
+<entity_class name="npcTraderHagen" extends="npcTraderEthan">
+	<property name="NPCID" value="npcTraderHagen"/>
+	<property name="Mesh" value="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Subquake_MilitarySoldierVeteran2.prefab"/></entity_class>
+
+<entity_class name="npcTraderRyan" extends="npcTraderEthan">
+	<property name="NPCID" value="npcTraderRyan"/>
+	<property name="Mesh" value="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Subquake_MilitaryRecruit.prefab"/></entity_class>
+
+</append>
+    
+</Subquake>

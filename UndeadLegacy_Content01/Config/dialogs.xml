@@ -1,0 +1,35 @@
+<Subquake>
+	
+<append xpath="/dialogs">
+
+	<dialog id="ulmVendor" startstatementid="start">
+		<!-- Statements -->
+		<statement id="start" text="dialog_trader_statement_start">
+			<response_entry id="shop"/>
+			<response_entry id="admin"/>
+			<response_entry id="done"/>
+		</statement>
+		
+		<!-- Responses -->
+		<response id="shop" text="dialog_trader_response_shop">
+			<action type="Trader" id="trade"/>
+		</response>
+		<statement id="admin" text="dialog_trader_statement_admin">
+			<response_entry id="restock"/>
+			<response_entry id="nevermind"/>
+		</statement>
+		<response id="admin" text="dialog_trader_response_admin" nextstatementid="admin">
+			<requirement type="Admin" requirementtype="Hide"/>
+		</response>
+		<response id="restock" text="dialog_trader_response_restock">
+			<action type="Trader" id="restock"/>
+		</response>
+		
+		<response id="done" text="dialog_trader_response_nevermind"/>
+		<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+		
+	</dialog>
+	
+</append>
+	
+</Subquake>

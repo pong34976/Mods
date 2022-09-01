@@ -1,0 +1,18 @@
+<Subquake>
+	
+<set xpath="/gameevents/action_sequence[@name='game_first_spawn']">
+	<property name="allow_user_trigger" value="false"/>
+	<property name="action_type" value="Game"/>
+		
+	<action class="Delay">
+		<property name="time" value="4.5"/>
+	</action>
+
+	<action class="AddBuff">
+		<property name="phase" value="1"/>
+		<property name="buff_name" value="ulmBuffOnFirstSpawn"/>
+	</action>
+
+</set>
+	
+</Subquake>

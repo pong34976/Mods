@@ -1,0 +1,238 @@
+<Subquake>
+
+<set xpath="//crafting_category_list[@display_type='']">
+<!--<crafting_category icon="symbol_all"					display_name="groupAll"					name=""/>-->
+	<crafting_category icon="symbol_backpack"				display_name="lblCategoryBasics"		name="Basics"/>
+	<crafting_category icon="symbol_box"					display_name="groupStorage"				name="Storage"/>
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstations"		name="Workstations"/></set>
+
+<set xpath="//crafting_category_list[@display_type='campfire']">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="symbol_food"					display_name="lblCategoryFood"			name="Food"/>
+	<crafting_category icon="symbol_drink"					display_name="groupDrinks"				name="Drinks"/>
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstationTools"	name="WorkstationTools"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/></set>
+    
+<append xpath="//crafting_category_display">
+
+<crafting_category_list display_type="ulmStationWorkbench_1">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+<!--<crafting_category icon="symbol_structural"				display_name="groupBlocks"				name="!Storage,!Workstations,!Traps,!Electrical,!Collectors,!Doors,Blocks"/>-->
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstations"		name="Workstations"/>
+	<crafting_category icon="symbol_box"					display_name="groupStorage"				name="Storage"/>
+	<crafting_category icon="ui_game_symbol_chair"			display_name="groupFurniture"			name="!Storage,Furniture,RoadProps,Signs"/>
+	<crafting_category icon="symbol_electrical"				display_name="groupElectrical"			name="Electrical"/>
+	<crafting_category icon="symbol_pump"					display_name="groupCollectors"			name="Collectors"/>
+	<crafting_category icon="ui_game_symbol_door"			display_name="groupDoors"				name="Doors"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+<!--<crafting_category icon="ui_game_symbol_knife"			display_name="groupWeaponsTools"		name="Weapons/Tools"/>-->
+	<crafting_category icon="ui_game_symbol_assemble"		display_name="groupMods"				name="Mods"/>
+<!--<crafting_category icon="ui_game_symbol_tool"			display_name="lblCategoryToolsTraps"	name="Tools/Traps"/>-->
+<!--<crafting_category icon="ui_game_symbol_science"		display_name="lblCategoryScience"		name="Science"/>-->
+<!--<crafting_category icon="ui_game_symbol_shirt"			display_name="lblCategoryClothing"		name="Clothing"/>-->
+<!--<crafting_category icon="ui_game_symbol_fork"			display_name="lblCategoryFoodCooking"	name="Food/Cooking"/>-->
+<!--<crafting_category icon="ui_game_symbol_4x4"			display_name="lblCategoryVehicles"		name="Vehicles"/>--></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationWorkbench_2">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstations"		name="Workstations"/>
+	<crafting_category icon="symbol_box"					display_name="groupStorage"				name="Storage"/>
+	<crafting_category icon="ui_game_symbol_chair"			display_name="groupFurniture"			name="!Storage,Furniture,RoadProps,Signs"/>
+	<crafting_category icon="symbol_electrical"				display_name="groupElectrical"			name="Electrical"/>
+	<crafting_category icon="symbol_pump"					display_name="groupCollectors"			name="Collectors"/>
+	<crafting_category icon="ui_game_symbol_door"			display_name="groupDoors"				name="Doors"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="ui_game_symbol_knife"			display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	<crafting_category icon="ui_game_symbol_assemble"		display_name="groupMods"				name="Mods"/></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationWorkbench_3">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstations"		name="Workstations"/>
+	<crafting_category icon="symbol_box"					display_name="groupStorage"				name="Storage"/>
+	<crafting_category icon="ui_game_symbol_chair"			display_name="groupFurniture"			name="!Storage,Furniture,RoadProps,Signs"/>
+	<crafting_category icon="symbol_electrical"				display_name="groupElectrical"			name="Electrical"/>
+	<crafting_category icon="symbol_pump"					display_name="groupCollectors"			name="Collectors"/>
+	<crafting_category icon="ui_game_symbol_door"			display_name="groupDoors"				name="Doors"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="ui_game_symbol_knife"			display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	<crafting_category icon="ui_game_symbol_assemble"		display_name="groupMods"				name="Mods"/></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationChemistry_1">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="symbol_consumables"			display_name="groupConsumables"			name="Consumables"/></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationTailor_1">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+    <crafting_category icon="symbol_bed"					display_name="groupFurniture"			name="Blocks"/>
+	<crafting_category icon="ui_game_symbol_resource"		display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="ui_game_symbol_shirt"			display_name="groupClothing"			name="Apparel"/>
+	<crafting_category icon="symbol_armor_medium"			display_name="groupLightArmor"			name="LightArmor"/>
+<!--<crafting_category icon="symbol_armor_light"			display_name="groupLightArmor"			name="LightArmor"/>-->
+<!--<crafting_category icon="symbol_armor_medium"			display_name="groupMediumArmor"			name="MediumArmor"/>-->
+	<crafting_category icon="symbol_armor_heavy"			display_name="groupHeavyArmor"			name="HeavyArmor"/>
+	<crafting_category icon="ui_game_symbol_assemble"		display_name="groupMods"				name="Mods"/>
+<!--<crafting_category icon="symbol_cosmetic"				display_name="groupDyes"				name="DyeMods"/>--></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationArtisan_1">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="symbol_structural"				display_name="groupBasicBlocks"			name="!Crops,!Workstations,!Decor,Blocks"/>
+	<crafting_category icon="ui_game_symbol_chair"			display_name="groupDecor"				name="Decor"/>
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstations"		name="Workstations"/>
+	<crafting_category icon="ui_game_symbol_crops"			display_name="groupCrops"				name="Crops"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="symbol_weapons_and_tools"		display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	</crafting_category_list>
+
+<crafting_category_list display_type="ulmStationArtisan_2">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="symbol_structural"				display_name="groupBasicBlocks"			name="!Crops,!Workstations,!Decor,Blocks"/>
+	<crafting_category icon="ui_game_symbol_chair"			display_name="groupDecor"				name="Decor"/>
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstations"		name="Workstations"/>
+	<crafting_category icon="ui_game_symbol_crops"			display_name="groupCrops"				name="Crops"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="symbol_weapons_and_tools"		display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	</crafting_category_list>
+
+<crafting_category_list display_type="ulmStationBallistics_1">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="symbol_machine_gun"			display_name="groupWeapons"				name="Weapons/Tools"/>
+	<crafting_category icon="symbol_grenade"				display_name="groupExplosives"			name="CFExplosives"/>
+	<crafting_category icon="symbol_ammo"					display_name="groupAmmoStandard"		name="CFAmmoStandard"/>
+	<crafting_category icon="symbol_arrows"					display_name="groupAmmoPrimitive"		name="CFAmmoPrimitive"/>
+	<crafting_category icon="symbol_turret"					display_name="groupAmmoPortableTurret"	name="CFAmmoTurret"/>
+	<crafting_category icon="symbol_traps"					display_name="groupTraps"				name="Traps"/>
+	<crafting_category icon="ui_game_symbol_assemble"		display_name="groupMods"				name="Mods"/>
+	</crafting_category_list>
+
+<crafting_category_list display_type="ulmStationBallistics_2">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="symbol_machine_gun"			display_name="groupWeapons"				name="Weapons/Tools"/>
+	<crafting_category icon="symbol_grenade"				display_name="groupExplosives"			name="CFExplosives"/>
+	<crafting_category icon="symbol_ammo"					display_name="groupAmmoStandard"		name="CFAmmoStandard"/>
+	<crafting_category icon="symbol_arrows"					display_name="groupAmmoPrimitive"		name="CFAmmoPrimitive"/>
+	<crafting_category icon="symbol_turret"					display_name="groupAmmoPortableTurret"	name="CFAmmoTurret"/>
+	<crafting_category icon="symbol_traps"					display_name="groupTraps"				name="Traps"/>
+	<crafting_category icon="ui_game_symbol_assemble"		display_name="groupMods"				name="Mods"/>
+	</crafting_category_list>
+
+<crafting_category_list display_type="ulmStationDisassembly_1">
+	<crafting_category icon="symbol_recycle"				display_name="ulmStationDisassembly_1"	name="*"/></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationEvent_1">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationMortarAndPestle_1">
+	<crafting_category icon="symbol_mortar_and_pestle"		display_name="groupAll"					name="*"/></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationMechanic_1">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="ui_game_symbol_assemble"		display_name="groupMods"				name="Mods"/>
+	<crafting_category icon="ui_game_symbol_motorcycle"		display_name="groupVehicles"			name="Vehicles"/></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationMechanic_2">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="ui_game_symbol_assemble"		display_name="groupMods"				name="Mods"/>
+	<crafting_category icon="ui_game_symbol_4x4"			display_name="groupVehicles"			name="Vehicles"/></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationForge_1">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+    <crafting_category icon="symbol_structural"				display_name="groupBlocks"				name="Blocks"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="symbol_weapons_and_tools"		display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	<crafting_category icon="symbol_ammo"					display_name="groupAmmo"				name="Ammo"/></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationForge_2">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+    <crafting_category icon="symbol_structural"				display_name="groupBlocks"				name="Blocks"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="symbol_weapons_and_tools"		display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	<crafting_category icon="symbol_ammo"					display_name="groupAmmo"				name="Ammo"/></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationFurnace_1">
+	<crafting_category icon="ui_game_symbol_forge"			display_name="groupAll"					name=""/>
+<!--<crafting_category icon="ui_game_symbol_resource"		display_name="lblCategoryResources"		name="Resources"/>
+	<crafting_category icon="ui_game_symbol_map_house"		display_name="lblCategoryBuilding"		name="Building"/>
+	<crafting_category icon="ui_game_symbol_knife"			display_name="lblCategoryAmmoWeapons"	name="Ammo/Weapons"/>
+	<crafting_category icon="ui_game_symbol_tool"			display_name="lblCategoryToolsTraps"	name="Tools/Traps"/>--></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationFurnace_2">
+	<crafting_category icon="ui_game_symbol_forge"			display_name="groupAll"					name="*"/></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationCarpenter_1">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+    <crafting_category icon="symbol_structural"				display_name="groupBasicBlocks"			name="!Storage,!Furniture,Blocks"/>
+<!--<crafting_category icon="ui_game_symbol_chair"			display_name="groupFurniture"			name="!Storage,Furniture"/>-->
+	<crafting_category icon="symbol_box"					display_name="groupStorage"				name="Storage"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="symbol_weapons_and_tools"		display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	<crafting_category icon="symbol_ammo"					display_name="groupAmmo"				name="Ammo"/></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationCarpenter_2">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+    <crafting_category icon="symbol_structural"				display_name="groupBasicBlocks"			name="!Storage,!Furniture,Blocks"/>
+<!--<crafting_category icon="ui_game_symbol_chair"			display_name="groupFurniture"			name="!Storage,Furniture"/>-->
+	<crafting_category icon="symbol_box"					display_name="groupStorage"				name="Storage"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="symbol_weapons_and_tools"		display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	<crafting_category icon="symbol_ammo"					display_name="groupAmmo"				name="Ammo"/></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationCarpenter_3">
+	<crafting_category icon="symbol_all"					display_name="groupAll"					name="*"/>
+    <crafting_category icon="symbol_structural"				display_name="groupBasicBlocks"			name="!Storage,!Furniture,Blocks"/>
+	<crafting_category icon="ui_game_symbol_chair"			display_name="groupFurniture"			name="!Storage,Furniture"/>
+	<crafting_category icon="symbol_box"					display_name="groupStorage"				name="Storage"/>
+	<crafting_category icon="ui_game_symbol_misc_crafting"	display_name="groupResources"			name="Resources"/>
+	<crafting_category icon="symbol_weapons_and_tools"		display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	<crafting_category icon="symbol_ammo"					display_name="groupAmmo"				name="Ammo"/></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationResearch_1">
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstations"		name="BPWorkstations"/>
+	<crafting_category icon="symbol_food"					display_name="uiFoodAndDrinks"			name="BPFood"/>
+	<crafting_category icon="symbol_melee_tools"			display_name="uiWeaponsMeleeAndTools"	name="BPMelee"/>
+	<crafting_category icon="symbol_pistol"					display_name="uiWeaponsRanged"			name="BPGuns"/>
+	<crafting_category icon="symbol_grenade"				display_name="uiExplosivesAndMines"		name="BPExplosives"/>
+	<crafting_category icon="symbol_armor_heavy"			display_name="uiArmor"					name="BPArmor"/>
+    <crafting_category icon="ui_game_symbol_science"		display_name="lblCategoryScience"		name="BPScience"/></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationResearch_2">
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstations"		name="BPWorkstations"/>
+	<crafting_category icon="symbol_food"					display_name="uiFoodAndDrinks"			name="BPFood"/>
+	<crafting_category icon="symbol_melee_tools"			display_name="uiWeaponsMeleeAndTools"	name="BPMelee"/>
+	<crafting_category icon="symbol_pistol"					display_name="uiWeaponsRanged"			name="BPGuns"/>
+	<crafting_category icon="symbol_grenade"				display_name="uiExplosivesAndMines"		name="BPExplosives"/>
+	<crafting_category icon="symbol_armor_heavy"			display_name="uiArmor"					name="BPArmor"/>
+    <crafting_category icon="ui_game_symbol_science"		display_name="lblCategoryScience"		name="BPScience"/></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationResearch_3">
+<!--<crafting_category icon="symbol_science"				display_name="uiAllResearch"			name="*"/>-->
+<!--<crafting_category icon="symbol_ammo"					display_name="uiAmmunition"				name="BPAmmo"/>-->
+<!--<crafting_category icon="symbol_science"				display_name="uiMiscellaneous"			name="BPMisc"/>-->
+	<crafting_category icon="symbol_vice"					display_name="groupWorkstations"		name="BPWorkstations"/>
+	<crafting_category icon="symbol_food"					display_name="uiFoodAndDrinks"			name="BPFood"/>
+	<crafting_category icon="symbol_melee_tools"			display_name="uiWeaponsMeleeAndTools"	name="BPMelee"/>
+	<crafting_category icon="symbol_pistol"					display_name="uiWeaponsRanged"			name="BPGuns"/>
+	<crafting_category icon="symbol_grenade"				display_name="uiExplosivesAndMines"		name="BPExplosives"/>
+	<crafting_category icon="symbol_armor_heavy"			display_name="uiArmor"					name="BPArmor"/>
+    <crafting_category icon="ui_game_symbol_science"		display_name="lblCategoryScience"		name="BPScience"/></crafting_category_list>
+	
+</append>
+
+<set xpath="/ui_display_info/trader_category_display">
+	<trader_category icon="ui_game_symbol_chair"			display_name="groupDecorMisc"			name="Decor/Miscellaneous"/>
+	<trader_category icon="ui_game_symbol_science"			display_name="groupScience"				name="Science"/>
+	<trader_category icon="ui_game_symbol_map_house"		display_name="groupBuilding"			name="Blocks"/>
+	<trader_category icon="ui_game_symbol_resource"			display_name="groupResources"			name="Resources"/>
+<!--<trader_category icon="ui_game_symbol_knife"			display_name="groupAmmoWeapons"			name="Ammo/Weapons"/>-->
+	<trader_category icon="symbol_ammo"						display_name="groupAmmoAndExplosives"	name="Ammo"/>
+	<trader_category icon="symbol_weapons_and_tools"		display_name="groupWeaponsTools"		name="Weapons/Tools"/>
+	<trader_category icon="ui_game_symbol_assemble"			display_name="groupMods"				name="Mods"/>
+	<trader_category icon="ui_game_symbol_book"				display_name="groupBooksAndSchematics"	name="Books"/>
+	<trader_category icon="symbol_armor_medium"				display_name="groupClothingAndArmor"	name="Clothing"/>
+	<trader_category icon="symbol_consumables"				display_name="groupConsumables"			name="Consumables"/>
+	<trader_category icon="symbol_car"						display_name="groupVehicles"			name="Vehicles"/>
+	</set>
+    
+</Subquake>

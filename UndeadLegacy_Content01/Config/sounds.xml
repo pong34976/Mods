@@ -1,0 +1,1603 @@
+<Subquake>
+	
+<remove xpath="/Sounds/SoundDataNode[starts-with(@name, 'bullethit')]/AudioClip"/>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitcloth']">
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitCloth1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitCloth2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitCloth3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitCloth4"/></append>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitearth']">
+	<AudioClip ClipName="Sounds/ImpactSurface/metalhitearth1"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/metalhitearth2"/>
+	<AudioClip ClipName="Sounds/ImpactSurface/metalhitearth3"/></append>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitglass']">
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitGlass1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitGlass2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitGlass3"/></append>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitmetal']">
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitMetal1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitMetal2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitMetal3"/></append>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitorganic']">
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitFlesh1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitFlesh2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitFlesh3"/></append>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitplant']">
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitPlant1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitPlant2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitPlant3"/></append>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitsnow']">
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitSnow1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitSnow2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitSnow3"/></append>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitstone']">
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitRock1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitRock2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitRock3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitRock4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitRock5"/></append>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitwater']">
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWater1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWater2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWater3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWater4"/></append>
+<append xpath="/Sounds/SoundDataNode[@name='bullethitwood']">
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWoodB1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWoodB2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWoodB3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWoodB4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWoodB5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_BulletHitWoodB6"/></append>
+	
+<set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start' or @name='chainsaw_fire_start']/Noise[@heat_map_strength='1.0']">0.1</set>
+<set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start' or @name='chainsaw_fire_start']/Noise[@heat_map_time='90']">45</set>
+
+<append xpath="//Sounds">
+	
+<SoundDataNode name="ulmHeatMapSound"><AudioSource name="Sounds/AudioSource_Interact"/><Noise ID="4" noise="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/><LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="3.193"/></SoundDataNode>
+
+<SoundDataNode name="ulmDoor01Open"><AudioSource name="Sounds/AudioSource_UseAction"/><Noise ID="3" noise="30" time="3" heat_map_strength="0.1" heat_map_time="30"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Door_01_Open"/><LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmDoor01Close"><AudioSource name="Sounds/AudioSource_UseAction"/><Noise ID="3" noise="30" time="3" heat_map_strength="0.1" heat_map_time="30"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Door_01_Close"/><LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmDoor02Open"><AudioSource name="Sounds/AudioSource_UseAction"/><Noise ID="3" noise="30" time="3" heat_map_strength="0.1" heat_map_time="30"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Door_02_Open"/><LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmDoor02Close"><AudioSource name="Sounds/AudioSource_UseAction"/><Noise ID="3" noise="30" time="3" heat_map_strength="0.1" heat_map_time="30"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Door_02_Close"/><LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmLaserPistol_Fire"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Laser_01"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly1" AltSound="true"/>	
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPlasmaFire07"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_SciFi_07"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly1" AltSound="true"/>	
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPlasmaFire13"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_SciFi_13"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly1" AltSound="true"/>	
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmLaserPistol_Reload"><AudioSource name="Sounds/AudioSource_Reloads"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Reload_Laser_01"/><LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="silence"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="1" noise="7" time="2" muffled_when_crouched=".5"/>
+	<MaxVoices value="2"/><MaxRepeatRate value=".01"/></SoundDataNode>
+	
+<SoundDataNode name="ulmMinigunFireStart"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="4" noise="60" time="2" heat_map_strength="0.65" heat_map_time="90"/>
+	<Sequence/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Minigun_Rotation_Start"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Minigun_Loop" Loop="true"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Minigun_Rotation_Finish"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="3"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmMinigunFire"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="54" time="2" muffled_when_crouched="0.8" heat_map_strength="0.65" heat_map_time="90"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Minigun"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="500"/>  <MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmMinigunFireEnd"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="54" time="2" muffled_when_crouched="0.8" heat_map_strength="0.65" heat_map_time="90"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Minigun_Rotation_Finish"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="10"/>  <MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmElevatorButton"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Caatalyst_ElevatorBeep3"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+	
+<SoundDataNode name="ulmTerminalButton"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_UseTerminal01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+	
+<SoundDataNode name="ulmTerminalRestricted"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_UserTerminalError01b"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+	
+<SoundDataNode name="ulmIngredientHasRecipe"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#../../Mods/UndeadLegacy/Resources/Subquake_Sounds.ulm?Select03"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+	
+<SoundDataNode name="ulmIngredientWithoutRecipe"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#../../Mods/UndeadLegacy/Resources/Subquake_Sounds.ulm?Denied01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmHelicopter_Start"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Helicopter_Start"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmHelicopter_Shutdown"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Helicopter_Shutdown"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmHelicopter01_Idle"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Helicopter_02_idle" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmHelicopter01_Loop"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Helicopter_02_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmHelicopter01b_Loop"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Helicopter_02_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmHelicopter02_Loop"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Helicopter_03_On" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmHelicopter02b_Loop"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Helicopter_03_On" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmHorn04"><AudioSource name="Sounds/AudioSource_SmallHorn"/><Noise ID="4" noise="60" time="1" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_CarHorn_04b"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="3"/><MaxEntities name="6"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmHorn05"><AudioSource name="Sounds/AudioSource_SmallHorn"/><Noise ID="4" noise="60" time="1" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_CarHorn_05b"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="3"/><MaxEntities name="6"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmEngine09_Idle"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_09_idle" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmEngine01_Accel"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="30" time="2" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_01_accel"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine01_On"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_01_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine02_Accel"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="30" time="2" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_02_accel"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine02_On"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_02_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine03_Accel"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="30" time="2" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_03_accel4"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine03_On"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_03_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine04_Accel"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="30" time="2" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_04_accel"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine04_On"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_04_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine05_Accel"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="30" time="2" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_05_accel"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine05_On"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_05_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine06_Accel"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="30" time="2" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_06_accel"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine06_On"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_06_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine08_Accel"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="30" time="2" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_08_accel"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine07_Accel"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="30" time="2" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_07_accel"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine07_On"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_07_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+    
+<SoundDataNode name="ulmEngine08_On"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Engine_08_on" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+	
+<!-- 
+	startup
+	idle
+	low_on
+	low_off
+	med_on
+	med_off
+	high_on
+	high_off
+	maxRPM
+-->
+	
+<SoundDataNode name="ulmEngineV8Classic_Startup"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_I6German_Startup"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="ulmEngineV8Classic_Idle"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_V6Japanese_Idle" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmEngineV8Classic_Med"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_V8AmericanClassic_MedOn" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+<SoundDataNode name="ulmEngineV8Classic_High"><AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_V8AmericanClassic_HighOn" Loop="true"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/></SoundDataNode>
+
+	
+<SoundDataNode name="ulmPistolFire01"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_01"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly1" AltSound="true"/>	
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire02"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_02"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire03"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_03"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire04"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_04"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire05"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_05"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire06"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_06"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire07"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_07"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire08"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_08"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire09"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_09"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly1" AltSound="true"/>	
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/44magnum_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire10"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_10"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire11"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_11"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire12"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_12"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire13"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_13"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire14"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_14"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire15"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_15a"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_15b"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_15c"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_15d"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmPistolFire16"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_16a"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Pistol_16b"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/pistol_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmMachineGunFire02"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_MachineGun_02"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmMachineGunFire04"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_MachineGun_04"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmMachineGunFire05"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_MachineGun_05"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+ <SoundDataNode name="ulmGunShootRifle01"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Rifle_01"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+   
+ <SoundDataNode name="ulmGunShootRifle02"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Rifle_02"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+   
+ <SoundDataNode name="ulmGunShootRifle03"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="62" time="2" muffled_when_crouched="0.8" heat_map_strength="0.75" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_Rifle_03"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/hunting_rifle_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="30"/><MaxVoicesPerEntity value="30"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmGunShootShotgunBM4"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="81" time="2" muffled_when_crouched="0.8" heat_map_strength="1.0" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4_01"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4_02"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4_03"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4_04"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4_05"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/shotgun_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/shotgun_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/shotgun_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="20"/><MaxVoicesPerEntity value="6"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="ulmGunShootShotgunBM4Silenced"><AudioSource name="Sounds/AudioSource_WeaponFire"/><NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/><Noise ID="0" noise="38" time="2" muffled_when_crouched="0.8" heat_map_strength="0.8" heat_map_time="180"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4E_01"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4E_02"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4E_03"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4E_04"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Subquake_Gun_Fire_BM4E_05"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/shotgun_fire_silly1" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/shotgun_fire_silly2" AltSound="true"/>
+    <AudioClip ClipName="Sounds/Twitch/Silly/shotgun_fire_silly3" AltSound="true"/><LocalCrouchVolumeScale value="1"/><CrouchNoiseScale value="1"/><NoiseScale value="1"/><MaxVoices value="20"/><MaxVoicesPerEntity value="6"/><MaxRepeatRate value="0.001"/></SoundDataNode>
+
+<SoundDataNode name="fakeEngine10"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="10" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine20"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="20" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine30"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine40"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="40" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine50"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="50" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine60"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="60" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine70"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="70" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine80"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="80" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine90"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="90" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine100"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="100" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine110"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="110" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine120"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="120" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+<SoundDataNode name="fakeEngine130"><AudioSource name="Sounds/AudioSource_Vehicle"/><Noise ID="3" noise="130" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/><MaxVoices value="2"/><MaxRepeatRate value="0.01"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><AudioClip ClipName="Sounds/Misc/silencefiller"/></SoundDataNode>
+		
+<!-- NPC Olivia -->
+	
+<SoundDataNode name="ulm_npc_olivia_likeannouncespecial03"> <AudioSource name="Sounds/AudioSource_VO_Announce"/><!-- Announcement -->
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="5.36"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likebuyrareitem_"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Buy Rare Item -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_5"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likefirstgreet"><AudioSource name="Sounds/AudioSource_VO"/><!-- First Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Greetings_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hello"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Welcome"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likegreeting"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Like You Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Greetings_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hello"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Welcome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Do_You_Want_From_Me"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likegreetaft"><AudioSource name="Sounds/AudioSource_VO"/><!-- Afternoon Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Greetings_Afternoon"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Greetings_Welcome"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likegreetbloodmoon"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Blood Moon Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Can_I_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Can_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Can_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_You_Shouldnt_Be_Here_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_You_Shouldnt_Be_Here_2"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likegreeteve"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Evening Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Good_Evening"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hello"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likegreetmorn"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Morning Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Good_Morning"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hello"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Do_You_Want_From_Me"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likegreetnightfall"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Night Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Good_To_See_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hello"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Whats_Up"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Do_You_Want_From_Me"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likehealplayer"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Heal Player -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Can_I_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Can_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Can_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Do_You_Want_From_Me"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likeidle"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Idle -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_You_Dont_Look_So_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_You_Shouldnt_Be_Here_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_You_Shouldnt_Be_Here_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_What_Are_You_Looking_For_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likequestaccepted"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Accepted -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Alright_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Awesome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_As_You_Wish"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likequestcomplete"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Complete -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Awesome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Great_Job"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Okay_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Perfect"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Fascinating"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likequestdeclined"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Declined -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Understand"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_If_You_Wish"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_No_Pressure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_No_Problem"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Okay_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Take_Your_Time"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Understood"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Very_Well"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likequestincomplete"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest In Progress -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_No_Way"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Cant_Do_That"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Cant_Do_That"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_You_Better_Watch_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_You_Shouldnt_Do_That_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Halt"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Stop_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Youre_Looking_A_Little_Weak_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likequestoffer"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Offer -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Could_Use_Some_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Need_That"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Wouldnt_Go_There"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Please_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Please_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_I_Believe_In_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Go_For_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Oh_Really_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Oh_Really_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Okay_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_No_Pressure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Take_Your_Time"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Youre_Looking_A_Little_Weak_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likerumorberzerkerbills"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random Rumor -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_5"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likerumorevil"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random Rumor -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_5"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likerumorfates"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random Rumor -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_5"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likerumorford"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random Rumor -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_5"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likerumorjohnnytown"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random Rumor -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_5"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likerumormotivation"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random Rumor Motivation -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Hmmm_5"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likesaleaccepted"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Trade Accepted -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Alright_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Awesome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_As_You_Wish"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_See_You_Soon"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_olivia_likesaledeclined"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Trade Declined -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Alright_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_As_You_Wish"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Bye_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Bye_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Farewell"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Goodbye"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Lets_Not_Waste_Anymore_Time_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Lets_Not_Waste_Anymore_Time_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_No_Pressure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_No_Problem"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Oh_Really_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Oh_Really_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Okay_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Take_Care"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Take_Your_Time"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Understood"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_See_You_Soon"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Olivia_Very_Well"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<!-- NPC Erik -->
+	
+<SoundDataNode name="ulm_npc_erik_likeannouncespecial03"> <AudioSource name="Sounds/AudioSource_VO_Announce"/><!-- Announcement -->
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="5.36"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likebuyrareitem_"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Buy Rare Item -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likefirstgreet"> <AudioSource name="Sounds/AudioSource_VO"/><!-- First Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Hello_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Hello_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_May_I_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_May_I_Serve_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Yes_Question"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_You_Dont_Look_So_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Lets_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_State_Your_Business"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Whats_Up"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Would_You_Like_To_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_What_Do_You_Want_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_What_Do_You_Need"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_What_Do_You_Have_To_Offer_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_What_Can_I_Do_For_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_What_Are_You_Looking_For_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_What_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Want_To_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likegreeting"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Like You Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Good_To_See_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Greetings_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Yes_Question"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_You_Dont_Look_So_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Lets_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Welcome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Welcome_Friend"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likegreetaft"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Afternoon Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Good_Afternoon"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Yes_Question"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_You_Dont_Look_So_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Lets_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likegreetbloodmoon"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Blood Moon Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Good_Night"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Yes_Question"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_You_Dont_Look_So_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Lets_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likegreeteve"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Evening Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Good_Evening"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Yes_Question"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_You_Dont_Look_So_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Lets_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likegreetmorn"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Morning Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Good_Morning"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Yes_Question"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_You_Dont_Look_So_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Lets_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likegreetnightfall"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Night Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Good_Night"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Can_I_Help_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_How_Is_It_Going_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_You_Dont_Look_So_Good"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Lets_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likeidle"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Idle -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likesaleaccepted"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Trade Accepted -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Alright_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Awesome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Certainly"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Done"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Good_Luck"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Goodbye"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Its_Done"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Yes_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_My_Pleasure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_No_Problem"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Of_Course"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Okay_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Perfect"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Right_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Sure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Take_Care"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Take_Your_Time"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Understood"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Very_Well"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likesaledeclined"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Trade Declined -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Alright_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Are_You_Finished"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_As_You_Wish"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Carry_On"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Farewell"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Farewell_My_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Fine"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Good_Luck"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Goodbye"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_I_Understand"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_If_You_Wish"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Its_Done"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Yes_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_My_Pleasure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_No_Pressure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_No_Problem"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Of_Course"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Oh"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Okay_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Really_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Really_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Really_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Right_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_See_You_Later"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_See_You_Soon"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Sure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Take_Care"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Take_Your_Time"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Understood"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Very_Well"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Whatever_You_Like"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_Whatever"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Erik_What_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likehealplayer"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Heal Player -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+	
+<SoundDataNode name="ulm_npc_erik_likequestaccepted"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Accepted -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likequestcomplete"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Complete -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likequestdeclined"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Declined -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likequestincomplete"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest In Progress -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likequestoffer"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Offer -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likerumorberzerkerbills"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likerumorevil"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likerumorfates"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likerumorford"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likerumorjohnnytown"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_erik_likerumormotivation"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<!-- NPC Arthur -->
+	
+<SoundDataNode name="ulm_npc_arthur_likeannouncespecial03"> <AudioSource name="Sounds/AudioSource_VO_Announce"/><!-- Announcement -->
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="5.36"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likebuyrareitem_"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Buy Rare Item -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likefirstgreet"> <AudioSource name="Sounds/AudioSource_VO"/><!-- First Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Do_You_Want_Something_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Good_Day_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_7"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hello_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Are_You_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Offer_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Want_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Is_It_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Is_It_2"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likegreeting"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Like You Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Do_You_Want_Something_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Good_Day_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_7"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hello_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Are_You_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_1_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_Friend_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Offer_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Want_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Would_You_Like_To_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likegreetaft"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Afternoon Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Do_You_Want_Something_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Good_Afternoon_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_7"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hello_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Are_You_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_1_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_Friend_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Offer_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Want_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Would_You_Like_To_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likegreetbloodmoon"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Blood Moon Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Do_You_Want_Something_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_7"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hello_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Are_You_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_1_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_Friend_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Offer_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Want_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Would_You_Like_To_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likegreeteve"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Evening Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Do_You_Want_Something_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Good_Evening_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_7"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hello_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Are_You_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_1_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_Friend_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Offer_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Want_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Would_You_Like_To_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likegreetmorn"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Morning Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Do_You_Want_Something_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Good_Morning_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_7"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hello_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Are_You_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_1_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_Friend_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Offer_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Want_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Would_You_Like_To_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likegreetnightfall"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Night Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Do_You_Want_Something_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Greetings_7"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hey_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hello_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Are_You_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_How_Can_I_Help_You_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_1_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Welcome_Friend_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Offer_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_What_Do_You_Want_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Would_You_Like_To_Trade"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likeidle"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Idle -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likesaleaccepted"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Trade Accepted -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Alright_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Alright_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Alright_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Awesome_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Awesome_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Carry_On_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Certainly_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Farewell_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Good_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Good_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Good_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Good_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_If_You_Wish_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_If_You_Wish_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Of_Course_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Okay_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Okay_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Perfect_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Perfect_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Perfect_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Perfect_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Perfect_5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Perfect_6"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_See_You_Later_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_See_You_Later_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_See_You_Later_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Take_Care_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Very_Well_2"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likesaledeclined"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Trade Declined -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Alright_1"/>
+<!--<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Alright_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Alright_3"/>-->
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Are_You_Finished"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Bye_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Carry_On_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Certainly_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Farewell_4"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Goodbye_6"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_If_You_Wish_1"/>
+<!--<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_If_You_Wish_4"/>-->
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Of_Course_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Okay_1"/>
+<!--<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Okay_3"/>-->
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_See_You_Later_1"/>
+<!--<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_See_You_Later_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_See_You_Later_4"/>-->
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Take_Care_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Arthur_Very_Well_2"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likehealplayer"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Heal Player -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+	
+<SoundDataNode name="ulm_npc_arthur_likequestaccepted"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Accepted -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likequestcomplete"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Complete -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likequestdeclined"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Declined -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likequestincomplete"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest In Progress -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likequestoffer"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Offer -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likerumorberzerkerbills"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likerumorevil"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likerumorfates"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likerumorford"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likerumorjohnnytown"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_arthur_likerumormotivation"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<!-- NPC Ryan -->
+	
+<SoundDataNode name="ulm_npc_ryan_likeannouncespecial03"> <AudioSource name="Sounds/AudioSource_VO_Announce"/><!-- Announcement -->
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="5.36"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likebuyrareitem_"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Buy Rare Item -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likefirstgreet"> <AudioSource name="Sounds/AudioSource_VO"/><!-- First Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Can_I_Help_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Can_I_Help_You_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Do_You_Want_Something_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_Day_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hello_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Spare_Some_Change"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Want_To_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Are_You_Doing_Here_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Can_I_Do_For_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Have_To_Offer"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Want_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Going_On"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Would_You_Like_To_Trade_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likegreeting"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Like You Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Do_You_Want_Something_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_Day_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_To_See_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hello_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Are_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Pleasure_To_Meet_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Spare_Some_Change"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Want_To_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome_Friend_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Can_I_Do_For_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Have_To_Offer"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Want_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Going_On"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Up"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Would_You_Like_To_Trade_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likegreetaft"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Afternoon Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Do_You_Want_Something_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_Afternoon"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_To_See_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hello_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Are_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Pleasure_To_Meet_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Spare_Some_Change"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Want_To_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome_Friend_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Can_I_Do_For_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Have_To_Offer"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Want_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Going_On"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Up"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Would_You_Like_To_Trade_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likegreetbloodmoon"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Blood Moon Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Do_You_Want_Something_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_To_See_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hello_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Are_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Pleasure_To_Meet_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Spare_Some_Change"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Want_To_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome_Friend_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Can_I_Do_For_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Have_To_Offer"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Want_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Going_On"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Up"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Would_You_Like_To_Trade_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likegreeteve"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Evening Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Do_You_Want_Something_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Evening"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_Evening"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_To_See_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hello_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Are_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Pleasure_To_Meet_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Spare_Some_Change"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Want_To_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome_Friend_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Can_I_Do_For_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Have_To_Offer"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Want_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Going_On"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Up"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Would_You_Like_To_Trade_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likegreetmorn"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Morning Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Do_You_Want_Something_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_Morning"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_To_See_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hello_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Are_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Morning_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Pleasure_To_Meet_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Spare_Some_Change"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Want_To_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome_Friend_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Can_I_Do_For_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Have_To_Offer"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Want_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Going_On"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Up"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Would_You_Like_To_Trade_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likegreetnightfall"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Night Greeting -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Do_You_Want_Something_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_To_See_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Greetings_Friend"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hey"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hello_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Hi_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Are_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Can_I_Help"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_How_Is_It_Going_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Yes_2_Q"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Lets_Trade_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Pleasure_To_Meet_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Spare_Some_Change"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Want_To_Trade"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Welcome_Friend_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Are_You_Looking_For_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Can_I_Do_For_You"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Have_To_Offer"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Need_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Do_You_Want_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Is_It"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Going_On"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whats_Up"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Would_You_Like_To_Trade_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likeidle"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Idle -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likesaleaccepted"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Trade Accepted -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Alright"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Are_You_Finished_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Bye_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Farewell"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Fascinating_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_Luck"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Goodbye_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Interesting_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Youre_Funny_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Youre_Welcome_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_My_Pleasure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_No_Problem"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Of_Course"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Perfect_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Right_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_See_You_Soon_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Sure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Take_Care"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Thats_Very_Nice_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_This_Is_Great_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_With_Pleasure_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likesaledeclined"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Trade Declined -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Alright"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Are_You_Finished_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Bye_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Damn_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Did_You_Hear_Something"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Did_You_Hear_That"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Farewell"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Fascinating_3"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Finally_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Fine_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Good_Luck"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Goodbye_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_I_Understand"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_If_You_Wish"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Interesting_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Youre_Funny_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Youre_Welcome_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Leave_Me_Alone_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Lets_Not_Waste_Anymore_Time_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_My_Pleasure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_No_Pressure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_No_Problem"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Of_Course"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Oh_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Okay_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Right_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Say_No_More"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_See_You_Later_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_See_You_Soon_2"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Sure"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Take_Care"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Take_Your_Time"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Understood"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Very_Well"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_What_Are_You_Doing_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whatever_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_Whatever_You_Like_1"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_Entities.ulm?Ryan_With_Pleasure_1"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likehealplayer"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Heal Player -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+	
+<SoundDataNode name="ulm_npc_ryan_likequestaccepted"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Accepted -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likequestcomplete"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Complete -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likequestdeclined"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Declined -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likequestincomplete"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest In Progress -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likequestoffer"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Quest Offer -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likerumorberzerkerbills"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likerumorevil"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likerumorfates"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likerumorford"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likerumorjohnnytown"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="ulm_npc_ryan_likerumormotivation"> <AudioSource name="Sounds/AudioSource_VO"/><!-- Random -->
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#Mods/UndeadLegacy/Resources/Subquake_SFX.ulm?Silence"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+</append>
+    
+</Subquake>

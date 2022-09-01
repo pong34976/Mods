@@ -1,0 +1,1151 @@
+<!--
+
+Changes to:
+	Terrain Blocks
+	Master Blocks
+	Shape Blocks
+Adds:
+	Shape Blocks
+
+-->
+
+<Subquake>
+	
+<set xpath="/blocks/block[@name='terrStone']">
+	<property name="TerrainIndex" value="1"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="1"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="100,100,100"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="NoScrapping" value="true"/>
+	<property name="LPHardnessScale" value="2"/>
+	<property name="Material" value="matStone"/>
+	<property name="CarryWeight" value=".5"/> <!-- vanilla xp: 55x2=110 -->
+	<drop event="Harvest" name="ulmResourceOreStone" count="5" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='terrainFiller']">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="403"/>
+	<property name="Material" value="Mdirt"/><property name="CarryWeight" value=".5"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="CanMobsSpawnOn" value="true"/></set>
+	
+<set xpath="/blocks/block[@name='terrBedrock']">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="1"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="CustomIcon" value="terrStone"/>
+	<property name="Material" value="Mbedrock"/><property name="CarryWeight" value=".1"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='terrDirt']">
+	<property name="TerrainIndex" value="9"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="2"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="20,50,21"/>
+	<property name="LPHardnessScale" value="2"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="Mdirt"/>
+	<property name="EconomicValue" value="5"/><property name="SellableToTrader" value="false"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems"><property name="resourceClayLump" value="5"/></property>
+	<drop event="Harvest" name="resourceClayLump"	count="5" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall"    name="terrDirt"			count="1" prob=".25" stick_chance="1"/>
+	<drop event="Fall"    name="resourceClayLump"	count="5" prob=".15" stick_chance="0"/></set>
+
+<set xpath="/blocks/block[@name='terrForestGround']">
+	<property name="TerrainIndex" value="2"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="195,570,570,570,570,570"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="35,80,45"/>
+	<property name="LPHardnessScale" value="2"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="MforestGround"/><property name="NoScrapping" value="true"/>
+	<property name="EconomicValue" value="5"/><property name="SellableToTrader" value="false"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems"><property name="resourceClayLump" value="5"/></property>
+	<drop event="Harvest" name="resourceClayLump"		count="5" tag="oreWoodHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers"	count="2"/>
+	<drop event="Fall"    name="terrForestGround"		count="1" prob=".25" stick_chance="1"/>
+	<drop event="Fall"    name="resourceClayLump"		count="5" prob=".15" stick_chance="0"/></set>
+
+<set xpath="/blocks/block[@name='terrBurntForestGround']">
+	<property name="TerrainIndex" value="10"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="288,570,570,570,570,570"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="55,55,50"/>
+	<property name="LPHardnessScale" value="2"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="MforestGround"/><property name="NoScrapping" value="true"/>
+	<property name="EconomicValue" value="5"/><property name="SellableToTrader" value="false"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems"><property name="resourceClayLump" value="5"/></property>
+	<drop event="Harvest" name="resourceClayLump"		count="5" tag="oreWoodHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers"	count="1" prob=".25"/>
+	<drop event="Fall"	  name="terrBurntForestGround"	count="1" prob=".25" stick_chance="1"/>
+	<drop event="Fall"    name="resourceClayLump"		count="5" prob="0.15" stick_chance="0"/></set>
+
+<set xpath="/blocks/block[@name='terrDesertGround']">
+	<property name="TerrainIndex" value="7"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="185,184,184,184,184,184"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="255,221,153"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="MDesertGround"/><property name="NoScrapping" value="true"/>
+	<property name="EconomicValue" value="5"/><property name="SellableToTrader" value="false"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems"><property name="resourceCrushedSand" value="5"/></property>
+	<drop event="Harvest" name="resourceCrushedSand"	count="2,10" tag="oreWoodHarvest"/>
+	<drop event="Fall"    name="resourceCrushedSand"	count="2" prob=".5" stick_chance="0"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='terrSand']">
+	<property name="Extends" value="terrDesertGround" param1="Material"/>
+	<property name="Texture" value="185"/>
+	<property name="Map.Color" value="167,136,107"/>
+	<property name="Material" value="Msand"/></set>
+	
+<set xpath="/blocks/block[@name='terrSandStone']">
+	<property name="TerrainIndex" value="1"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="185,184,184,184,184,184"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="107,78,57"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="NoScrapping" value="true"/>
+	<property name="LPHardnessScale" value="2"/>
+	<property name="Material" value="MoreStone"/><property name="Weight" value="125"/>
+	<property name="CarryWeight" value=".5"/>
+	<drop event="Harvest" name="resourceCrushedSand"	count="1,4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceOreStone"	count="3,5" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='terrSnow']">
+	<property name="TerrainIndex" value="0"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="6,569,569,569,569,569"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="230,230,255"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="matSnow"/><property name="NoScrapping" value="true"/>
+	<property name="EconomicValue" value="5"/><property name="SellableToTrader" value="false"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems"><property name="resourceSnowBall" value="10"/></property>
+	<drop event="Harvest" name="resourceSnowBall" count="5" tag="oreWoodHarvest"/>
+	<drop event="Fall" name="terrSnow" count="1" prob="0.25" stick_chance="1"/>
+	<drop event="Fall" name="resourceSnowBall" count="5" prob="0.187" stick_chance="0"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='terrDestroyedStone']">
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="438"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="152,149,63"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="Material" value="Mrubble"/><property name="Weight" value="90"/><property name="NoScrapping" value="true"/>
+	<property name="EconomicValue" value="2"/><property name="SellableToTrader" value="false"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems"><property name="ulmResourceOreStone" value="5"/></property>
+	<drop event="Harvest" name="resourceCrushedSand" count="1,2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceRockSmall"	 count="2,12" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='terrDestroyedWoodDebris']">
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="Extends" value="terrDestroyedStone" param1="Harvest"/>
+	<property name="Texture" value="438"/>
+	<property name="CustomIcon" value="terrDestroyedStone"/>
+	<property name="Material" value="Mwood_regular"/>
+	<property name="MaxDamage" value="30"/>
+	<property name="ImposterExclude" value="true"/>
+	<drop event="Harvest" name="resourceCrushedSand" count="0" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceRockSmall" count="0" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapWood" count="1" tag="oreWoodHarvest"/>
+	<property name="Map.Color" value="110,95,49"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/></set>
+
+<set xpath="/blocks/block[@name='terrGravel']">
+	<property name="TerrainIndex" value="5"/>
+	<property name="Tags" value="terrGravel"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="11"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="158,139,124"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="Mgravel"/><property name="NoScrapping" value="true"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value=".5"/>
+	<drop event="Harvest" name="resourceCrushedSand" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceRockSmall" count="5" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceCrushedSand" count="3" prob=".15" stick_chance="0"/>
+	<drop event="Fall" name="resourceRockSmall" count="5" prob=".16" stick_chance="0"/></set>
+	
+<set xpath="/blocks/block[@name='terrAsphalt']">
+	<property name="TerrainIndex" value="4"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrainHardened"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="10"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="204,177,131"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="MaxDamage" value="1500"/>
+	<property name="Material" value="matAsphalt"/><property name="NoScrapping" value="true"/>
+	<property name="EconomicValue" value="3"/><property name="CarryWeight" value=".5"/>
+	<property class="RepairItems"><property name="resourceConcreteMix" value="1"/></property>
+	<drop event="Harvest" name="resourceRockSmall" count="15" tag="oreWoodHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob=".7" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='terrConcrete']">
+	<property name="TerrainIndex" value="6"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="Shape" value="Terrain"/><property name="Texture" value="8"/>
+	<property name="Mesh" value="terrain"/><property name="Map.Color" value="204,177,131"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="DisplayType" value="blockTerrainHardened"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Material" value="Mconcrete"/><property name="MaxDamage" value="1500"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value=".1"/>
+	<property class="RepairItems"><property name="resourceConcreteMix" value="5"/></property>
+	<drop event="Harvest" name="resourceRockSmall" count="27" tag="oreWoodHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='terrOreIron']">
+	<property name="Tags" value="ore,deepOre"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="33"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="120,70,0"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="MoreMetal"/><property name="CarryWeight" value=".5"/>
+	<drop event="Fall"    name="ulmResourceOreIron"				count="5"	prob=".4"	stick_chance="0"/>
+	<drop event="Harvest" name="ulmResourceOreStone"			count="0"	prob="0"	tag="oreWoodHarvest"/>	
+	<drop event="Harvest" name="resourceRockSmall"				count="0"	prob="0"	tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceOreIron"				count="5"				tag="oreWoodHarvest"/>	
+	<drop event="Harvest" name="ulmResourceOreCopper"			count="1"	prob=".1"	tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget"			count="1"	prob=".01"	tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget"				count="1"	prob=".007" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceRawDiamond"				count="1"	prob=".005" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='terrOreLead']">
+	<property name="Tags" value="ore,deepOre"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="316"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="70,110,120"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="MoreMetal"/><property name="CarryWeight" value=".5"/>
+	<drop event="Fall"    name="ulmResourceOreLead"				count="5"	prob=".4"	stick_chance="0"/>
+	<drop event="Harvest" name="ulmResourceOreStone"			count="0"	prob="0"	tag="oreWoodHarvest"/>	
+	<drop event="Harvest" name="resourceRockSmall"				count="0"	prob="0"	tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceOreLead"				count="5"				tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceOreZinc"				count="1"	prob=".1"	tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget"			count="1"	prob=".01"	tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget"				count="1"	prob=".007" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceRawDiamond"				count="1"	prob=".005" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='terrOreCoal']">
+	<property name="Tags" value="ore,deepOre,coalBurnedDmg"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="34"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="0,0,0"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="MoreStone"/><property name="CarryWeight" value=".5"/>
+	<drop event="Fall"    name="resourceCoal"					count="5"	prob=".4"	stick_chance="0"/>
+	<drop event="Harvest" name="ulmResourceOreStone"			count="0"	prob="0"	tag="oreWoodHarvest"/>	
+	<drop event="Harvest" name="resourceRockSmall"				count="0"	prob="0"	tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceCoal"					count="5"				tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceRawDiamond"				count="1"	prob=".005" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget"			count="1"	prob=".01"	tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget"				count="1"	prob=".007" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='terrOrePotassiumNitrate']">
+	<property name="Tags" value="ore,deepOre"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="300"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="255,255,255"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="MoreStone"/><property name="CarryWeight" value="0.5"/>
+	<drop event="Fall"    name="ulmResourceOrePotassiumNitrate" count="5"	prob=".4"	stick_chance="0"/>
+	<drop event="Harvest" name="ulmResourceOrePotassiumNitrate" count="5"				tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceOreSulfur"			count="2,3"				tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceRawDiamond"				count="1"	prob=".005"	tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget"			count="1"	prob=".01"	tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget"				count="1"	prob=".007"	tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='terrOreOilDeposit']">
+	<property name="Tags" value="ore,deepOre"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="440"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="230,180,120"/>
+	<property name="LPHardnessScale" value="2"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="MoreStone"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<drop event="Fall" name="resourceOilShale" count="5" prob="0.4" stick_chance="0"/>
+	<drop event="Harvest" name="resourceOilShale" count="5" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+<!--
+<insertAfter xpath="/blocks/block[@name='terrOreOilDeposit']">
+<block name="terrOreSulfurDeposit">
+	<property name="Material" value="MoreStone"/>
+	<property name="Tags" value="ore,deepOre"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="300"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="LPHardnessScale" value="2"/>
+	<property name="Map.Color" value="110,95,49"/>
+	<drop event="Harvest" name="ulmResourceOreSulfur" count="2" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceOilShale" count="50" prob="0.4" stick_chance="0"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+</block>
+<block name="terrOreSulfurDeposit">
+	<property name="Extends" value="woodCNRRamp"/>
+	<property name="Texture" value="552"/>
+	<property name="DisplayInfo" value="Name"/><property name="ActivationDistance" value="50"/>
+</block>
+</insertAfter>
+-->
+	
+<set xpath="/blocks/block[@name='terrStoneHelper']">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="Extends" value="terrStone" param1="DescriptionKey"/>
+	<property name="CustomIcon" value="terrStone"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="CustomIconTint" value="00a0a0"/>
+	<property name="DisplayInfo" value="Name"/></set>
+	
+<set xpath="/blocks/block[@name='terrWaterPOI']">
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="Class" value="Liquidv2"/>
+	<property name="Material" value="Mwater"/><property name="CarryWeight" value="0.1"/>
+	<property name="Shape" value="Water"/><property name="Model" value="water_full"/><property name="Texture" value="223"/>
+	<property name="Mesh" value="water"/>
+	<property name="Count" value="8"/>
+	<property name="Map.Color" value="20,20,120"/>
+	<property name="Map.Color" value="119,136,204"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/></set>
+
+<set xpath="/blocks/block[@name='gravelWedge']">
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="Material" value="Mgravel"/><property name="CarryWeight" value="0.5"/>
+	<property name="Shape" value="New"/><property name="Model" value="wedge60"/><property name="Texture" value="11"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<drop event="Harvest" name="resourceCrushedSand" count="1,2" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceRockSmall" count="2,7" tag="allHarvest"/>
+	<drop event="Fall" name="terrGravel" count="1" prob=".7" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='stalactite01']">
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="Shape" value="Ext3dModel"/><property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee"/>
+	<property name="Model" value="OutdoorDecor/stalactite01" param1="main_mesh"/>
+	<property name="Material" value="MoreStone"/><property name="CarryWeight" value="0.5"/>
+	<drop event="Fall" name="ulmResourceOrePotassiumNitrate" count="2" prob=".4" stick_chance="0"/>
+	<drop event="Harvest" name="ulmResourceOrePotassiumNitrate" count="2" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='rockResource']">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Resources/rock_resourcePrefab"/>
+	<property name="StabilitySupport" value="false"/><property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="DisplayType" value="blockHardenedMulti"/><property name="MultiBlockDim" value="3,2,3"/>
+	<property name="ImposterDontBlock" value="true"/><property name="Map.Color" value="120,120,120"/>
+	<property name="IsDistantDecoration" value="false"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="BigDecorationRadius" value="3"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="DowngradeBlock" value="rockResourceBroke1"/>
+	<property name="Material" value="Mboulder"/><property name="CarryWeight" value="1"/>
+	<property class="RepairItems">
+		<property name="ulmResourceOreStone" value="10"/></property>
+	<drop event="Fall"    name="ulmResourceOreStone"			count="4"	prob=".25"	tag="oreWoodHarvest"/>
+	<drop event="Fall"    name="resourceRockSmall"				count="2,3" prob=".25"	stick_chance="0"/>
+	<drop event="Fall"    name="terrDestroyedStone"				count="1"	prob=".1"	stick_chance="0.5"/>
+	<drop event="Harvest" name="ulmResourceOreStone"			count="5"				tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceRockSmall"				count="2,3"				tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='woodShapes']">
+	<property name="Tags" value="wood"/>
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="DescriptionKey" value="woodGroupDesc"/><property name="Texture" value="241"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="Material" value="matWood"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.3"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="stoneShapes"/>
+		<property name="Item" value="ulmResourceOreStone"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="ulmResourcePlank" value="4"/></property>
+	<drop event="Harvest" name="ulmResourcePlank" count="0,2" tag="allHarvest"/>
+	<drop event="Destroy" name="ulmResourceScrapPlank" count="1,2"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1,2"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/></set>
+
+<set xpath="/blocks/block[@name='brickShapes']">
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="DescriptionKey" value="brickGroupDesc"/><property name="Texture" value="7"/>
+	<property name="Material" value="matBrick"/><property name="Weight" value="70"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="rConcreteShapes"/>
+		<property name="Item" value="resourceConcreteMix"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="ulmResourceBrick" value="5"/></property>
+	<drop event="Harvest" name="resourceRockSmall" count="16" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='cobblestoneShapes']">
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="DescriptionKey" value="cobblestoneGroupDesc"/><property name="Texture" value="328"/>
+	<property name="Material" value="matCobblestone"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickShapes"/>
+		<property name="Item" value="ulmResourceBrick"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="ulmResourceOreStone" value="5"/></property>
+	<drop event="Harvest" name="ulmResourceOreStone" count="1,2" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceRockSmall" count="1,5" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='awningShapes']">
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="DescriptionKey" value="awningGroupDesc"/><property name="Texture" value="14"/>
+	<property name="FallDamage" value=".5"/>
+	<property name="Material" value="matClothStable"/>
+	<property name="EconomicValue" value="25"/><property name="CarryWeight" value="0.3"/>
+	<property class="RepairItems"><property name="resourceCloth" value="5"/></property>
+	<drop event="Harvest" name="resourceCloth" count="2" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceCloth" count="1"/>
+	<drop event="Fall" name="resourceCloth" count="1" prob="0.3" stick_chance="0"/></set>
+
+<set xpath="/blocks/block[@name='corrugatedMetalShapes']">
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="DescriptionKey" value="scrapIronGroupDesc"/><property name="Texture" value="194"/>
+	<property name="Material" value="matIronMedium"/><property name="Weight" value="100"/>
+	<property name="EconomicValue" value="6"/><property name="CarryWeight" value="0.45"/>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="ironShapes"/>
+		<property name="Item" value="resourceForgedIron"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/></property>
+	<drop event="Harvest" name="resourceScrapIron" count="10" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.6" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='frameShapes']">
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="Tags" value="wood"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/><property name="Texture" value="65"/>
+	<property name="Material" value="matWoodFrames"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.25"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="woodShapes"/>
+		<property name="Item" value="ulmResourcePlank"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="ulmResourcePlank" value="5"/></property>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="1,2" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapWood" count="1,2" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+		
+<set xpath="/blocks/block[@name='concreteShapes']">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="DescriptionKey" value="concreteGroupDesc"/><property name="Texture" value="8"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="matConcrete"/>
+	<property name="EconomicValue" value="3"/><property name="CarryWeight" value="0.5"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="steelShapes"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="5"/></property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='steelShapes']">
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="DescriptionKey" value="steelBlockGroupDesc"/><property name="Texture" value="356"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="Material" value="matSteel"/>
+	<property name="EconomicValue" value="160"/><property name="CarryWeight" value="0.5"/>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="titaniumShapes"/>
+		<property name="Item" value="ulmResourceForgedTitanium"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="5"/></property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+
+<insertAfter xpath="/blocks/block[@name='frameShapes']">
+
+<block name="stoneShapes" shapes="All">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="Material" value="matStoneShapes"/><property name="Texture" value="226"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickShapes"/>
+		<property name="Item" value="ulmResourceBrick"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="ulmResourceOreStone" value="5"/></property>
+	<drop event="Harvest" name="ulmResourceOreStone" count="1,3" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceRockSmall" count="1,3" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></block>
+
+<block name="scrapIronShapes" shapes="All">
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="Material" value="matScrapIronShapes"/><property name="Texture" value="384"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="ironShapes"/>
+		<property name="Item" value="resourceForgedIron"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="25"/></property>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/></block>
+
+<block name="ironShapes" shapes="All">
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="Material" value="matIronShapes"/><property name="Texture" value="352"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="rConcreteShapes"/>
+		<property name="Item" value="resourceConcreteMix"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="5"/></property>
+	<drop event="Harvest" name="resourceScrapIron" count="25,50" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/></block>
+
+<block name="rConcreteShapes" shapes="All">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="DescriptionKey" value="concreteGroupDesc"/><property name="Texture" value="315"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="matConcrete"/>
+	<property name="EconomicValue" value="3"/><property name="CarryWeight" value="0.5"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="steelShapes"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="5"/></property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></block>
+	
+<block name="titaniumShapes" shapes="All">
+	<property name="Group" value="Building,Structural,Shapes,Blocks"/>
+	<property name="DescriptionKey" value="concreteGroupDesc"/><property name="Texture" value="191"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="matTitanium"/><property name="Weight" value="1000"/>
+	<property name="EconomicValue" value="3"/><property name="CarryWeight" value="0.5"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property class="RepairItems">
+		<property name="ulmResourceForgedTitanium" value="5"/></property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></block>
+
+</insertAfter>
+	
+<set xpath="/blocks/block[@name='woodWeakNoUpgradeMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="wood"/>
+	<property name="Group" value="Blocks"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Texture" value="241"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<property name="Material" value="Mwood_weak"/><property name="Weight" value="20"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.25"/>
+	<property class="RepairItems"><property name="ulmResourcePlank" value="3"/></property>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.3" stick_chance="1"/>
+	<drop event="Destroy" name="ulmResourceScrapPlank" count="1"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1"/></set>
+
+<set xpath="/blocks/block[@name='woodFrameMaster']">
+	<property name="Group" value="Blocks,Construction,Frames"/>
+	<property name="Extends" value="woodWeakNoUpgradeMaster"/>
+	<property name="MaxDamage" value="50"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Frame"/>
+	<property name="Texture" value="381"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Collide" value="movement,melee,rocket"/>
+	<property name="CanPickup" value="true" param1="woodFrameBlockVariantHelper"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="woodMaster"/>
+		<property name="Item" value="ulmResourcePlank"/>
+		<property name="ItemCount" value="4"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="ulmResourcePlank" value="2"/></property>
+	<drop event="Destroy" name="ulmResourceScrapPlank" count="1"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1"/></set>
+	
+<set xpath="/blocks/block[@name='woodMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Extends" value="woodNoUpgradeMaster"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="cobblestoneMaster"/>
+		<property name="Item" value="ulmResourceOreStone"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/></set>
+
+<set xpath="/blocks/block[@name='woodNoUpgradeMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Blocks"/>
+	<property name="Tags" value="wood"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Material" value="Mwood_regular"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.25"/>
+	<property name="Texture" value="241"/>
+	<property class="RepairItems"><property name="ulmResourcePlank" value="3"/></property>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="1" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapWood" count="1" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='rWoodMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Blocks"/>
+	<property name="DescriptionKey" value="rWoodGroupDesc"/>
+	<property name="Material" value="MwoodReinforced"/>
+	<property name="Tags" value="wood"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="Texture" value="379"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.25"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="cobblestoneMaster"/>
+		<property name="Item" value="ulmResourceOreStone"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems"><property name="ulmResourcePlank" value="3"/></property>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="1" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapWood" count="1" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='scrapIronNoUpgradeMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Building,Blocks"/>
+	<property name="Texture" value="307"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="EconomicValue" value="20"/><property name="CarryWeight" value="0.5"/>
+	<property name="DescriptionKey" value="scrapIronGroupDesc"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="30"/></property>
+	<drop event="Harvest" name="resourceScrapIron" count="17" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='rScrapIronMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Building,Blocks"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="Texture" value="352"/>
+	<property name="DescriptionKey" value="rScrapIronGroupDesc"/>
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="EconomicValue" value="40"/><property name="CarryWeight" value="0.5"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="rConcreteShapes:cube"/>
+		<property name="Item" value="resourceConcreteMix"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="30"/></property>
+	<drop event="Harvest" name="resourceScrapIron" count="17" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='concreteNoUpgradeMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Structural,Blocks"/>
+	<property name="DescriptionKey" value="concreteNoUpgradeGroupDesc"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Mconcrete"/>
+	<property name="Texture" value="8"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="5"/></property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+
+<set xpath="/blocks/block[@name='concreteMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Extends" value="concreteNoUpgradeMaster"/>
+	<property name="DescriptionKey" value="concreteGroupDesc"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="steelShapes:cube"/>
+		<property name="Item" value="resourceForgedIron"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/></set>
+
+<set xpath="/blocks/block[@name='stoneNoUpgradeMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Building,Blocks"/>
+	<property name="Material" value="Mstone"/><property name="CarryWeight" value="0.5"/>
+	<property name="Texture" value="8"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EconomicValue" value="5"/>
+	<drop event="Harvest" name="resourceRockSmall" count="16" tag="allHarvest"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='cobblestoneMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Building,Structural,Blocks"/>
+	<property name="Texture" value="328"/>
+	<property name="DescriptionKey" value="cobblestoneGroupDesc"/>
+	<property name="Material" value="matCobblestone"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="rConcreteShapes:cube"/>
+		<property name="Item" value="resourceConcreteMix"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="ulmResourceOreStone" value="5"/></property>
+	<drop event="Harvest" name="resourceRockSmall"  count="6" tag="allHarvest"/>
+	<drop event="Fall"    name="terrDestroyedStone" count="1" prob=".7" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='brickNoUpgradeMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Building,Blocks"/>
+	<property name="DescriptionKey" value="brickGroupDesc"/>
+	<property name="Texture" value="7"/>
+	<property name="Material" value="Mbrick"/><property name="Weight" value="70"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems"><property name="ulmResourceBrick" value="2"/></property>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Harvest" name="ulmResourceBrick" count="1" tag="allHarvest"/>
+	<drop event="Destroy" name="ulmResourceBrick" count="1"/></set>
+	
+<set xpath="/blocks/block[@name='brickMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Building,Blocks"/>
+	<property name="Extends" value="brickNoUpgradeMaster"/>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="rConcreteShapes:cube"/>
+		<property name="Item" value="resourceConcreteMix"/>
+		<property name="ItemCount" value="2"/>
+		<property name="UpgradeHitCount" value="4"/></property></set>
+
+<set xpath="/blocks/block[@name='corrugatedMetalNoUpgradeMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Building,Structural,Blocks"/>
+	<property name="DescriptionKey" value="scrapIronGroupDesc"/>
+	<property name="Texture" value="194"/>
+	<property name="Material" value="matIron"/><property name="Weight" value="100"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="2"/></property>
+	<drop event="Harvest" name="resourceScrapIron" count="10" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.6" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='corrugatedMetalMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Building,Structural,Blocks"/>
+	<property name="Extends" value="corrugatedMetalNoUpgradeMaster" param1="RepairItems"/>
+	<property name="DescriptionKey" value="scrapFrameGroupDesc"/>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+	<property name="EconomicValue" value="4"/><property name="CarryWeight" value="0.5"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="ironShapes:cube"/>
+		<property name="Item" value="resourceForgedIron"/>
+		<property name="ItemCount" value="5"/>
+		<property name="UpgradeHitCount" value="4"/></property>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="20"/></property></set>
+	
+<set xpath="/blocks/block[@name='awningMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="wood"/>
+	<property name="Group" value="Building,Blocks"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Shape" value="New"/><property name="Model" value="Cube"/><property name="Texture" value="14"/>
+	<property name="DescriptionKey" value="awningGroupDesc"/>
+	<property name="FallDamage" value=".5"/>
+	<property name="Material" value="MclothStable"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.1"/>
+	<property class="RepairItems"><property name="resourceCloth" value="8"/><property name="ulmResourceBranch" value="2"/></property>
+	<drop event="Fall" name="resourceCloth" count="1" prob="0.3" stick_chance="0"/>
+	<drop event="Harvest" name="ulmResourceScrapWood" count="1" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceCloth" count="2" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceCloth" count="1"/></set>
+	
+<set xpath="/blocks/block[@name='glassBulletproofMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Windows,Structural,Blocks"/>
+	<property name="Shape" value="New"/><property name="Model" value="cube_glass"/><property name="Texture" value="333"/>
+	<property name="Mesh" value="transparent"/><property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LightOpacity" value="2"/>
+	<property name="DescriptionKey" value="bulletproofGlassGroupDesc"/>
+	<property name="Material" value="MglassBulletproof"/>
+	<property name="EconomicValue" value="150"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems">
+		<property name="glassBulletproofBlockVariantHelper" value="1"/></property>
+	<drop event="Harvest" name="resourceBrokenGlass" count="21" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='cropsGrowingMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Crops,Vegetation,Outdoor,Blocks"/>
+	<property name="Class" value="ULM_PlantGrowing,UndeadLegacy"/>
+	<property name="ShowTimeLeft" value="true" param1="uiTimedProcessGrowing"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Shape" value="BillboardPlant"/><property name="Mesh" value="grass"/><property name="Texture" value="378"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="VehicleHitScale" value=".1"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="PlantGrowing.Next" value="cropsHarvestableMaster"/>
+	<property name="PlantGrowing.GrowthRate" value="121.0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="DescriptionKey" value="plantedCropsGroupDesc"/>
+	<property name="Material" value="Mplants"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.1"/>
+	<property name="PickupJournalEntry" value="farmingTip"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='cropsHarvestableMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Crops,Vegetation,Outdoor,Blocks"/>
+	<property name="Class" value="ULM_PlantHarvestable,UndeadLegacy"/>
+	<property name="DisplayInfo" value="Description"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Material" value="Mplants"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Texture" value="395"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="PlantGrowing.IgnoreRestrictions" value="true"/>
+	<property name="EconomicValue" value="2"/><property name="CarryWeight" value="0.1"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='treeGrassMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Foliage,Vegetation,Outdoor,Blocks"/>
+	<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Class" value="Deadgrass"/>
+	<property name="Shape" value="Grass"/><property name="Mesh" value="grass"/><property name="Texture" value="350,368,369,370,350,368"/>
+	<property name="ImposterDontBlock" value="true"/><property name="Collide" value="melee"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="Material" value="Mtallgrass"/>
+	<property name="CarryWeight" value="0.25"/>
+	<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='treeMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="wood"/>
+	<property name="Group" value="Trees,Vegetation,Outdoor,Blocks"/>
+	<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Class" value="ModelTree"/>
+	<property name="Shape" value="DistantDecoTree"/><property name="Model" value="#Entities/Trees?MountainPine40mPrefab.prefab"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Texture" value="116"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="CanPlayersSpawnOn" value="false"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDistantDecoration" value="true"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="BlockTag" value="TreeTrunk"/>
+	<property name="IsPlant" value="true"/>
+	<property name="ParticleOnDeath" value="treeGib_burnt"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="Material" value="MtreeWoodSmall"/><property name="CarryWeight" value="0.1"/>
+	<drop event="Harvest" name="ulmResourceHoney" prob=".05" count="1,2" tag="WasteTreasuresHoneyHarvest"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='treeMasterGrowing']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Extends" value="treeMaster"/>
+	<property name="DescriptionKey" value="devOnlyGroupDesc"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="BigDecorationRadius" value="4"/>
+	<property name="PlantGrowing.Next" value="treePlantedMountainPine19m"/>
+	<property name="PlantGrowing.GrowthRate" value="63"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="EconomicValue" value="2"/></set>
+
+<set xpath="/blocks/block[@name='decoEntityWoodMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Furniture,Decor,Blocks"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Misc/block_missingPrefab"/>
+	<property name="Texture" value="282"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="EconomicValue" value="5"/><property name="CarryWeight" value="0.25"/>
+	<property class="RepairItems"><property name="ulmResourcePlank" value="3"/></property>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.3" stick_chance="1"/>
+	<drop event="Destroy" name="ulmResourceScrapPlank" count="1,2"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1"/></set>
+	
+<set xpath="/blocks/block[@name='decoEntityMetalMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Decor,Blocks"/>
+	<property name="Class" value="ULM_Decor,UndeadLegacy"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Misc/block_missingPrefab"/>
+	<property name="Texture" value="282"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="EconomicValue" value="5"/><property name="CarryWeight" value="0.5"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="20"/></property>
+	<drop event="Harvest" name="resourceScrapIron" count="10" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='decoEntityPolymerMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Decor,Blocks"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Misc/block_missingPrefab"/>
+	<property name="Texture" value="282"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<property name="Material" value="Mplastics"/>
+	<property name="EconomicValue" value="5"/><property name="CarryWeight" value="0.25"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="3"/></property>
+	<drop event="Fall" name="resourceScrapPolymers" count="3" prob="0.3" stick_chance="0"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='decoEntityClothMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Decor,Blocks"/>
+	<property name="Class" value="ULM_Decor,UndeadLegacy"/>
+	<property name="Material" value="matCloth"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Misc/block_missingPrefab"/>
+	<property name="Texture" value="282"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="CarryWeight" value="0.25"/>
+	<drop event="Destroy" count="0"/></set>
+	
+<set xpath="/blocks/block[@name='decoEntityGlassMaster']">
+	<property name="CreativeMode" value="None"/>
+	<property name="Group" value="Decor,Blocks"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Misc/block_missingPrefab"/>
+	<property name="Texture" value="282"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+	<property name="EconomicValue" value="5"/><property name="CarryWeight" value="0.5"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+	<drop event="Fall" count="0" prob="0"/></set>
+
+<insertAfter xpath="/blocks/block[@name='terrOreStoneOilRandom']">
+
+<block name="terrOreTitanium">
+	<property name="CustomIcon" value="terrStone"/>
+	<property name="CustomIconTint" value="0094ff"/>
+	<property name="Tags" value="oreTitanium,deepOre"/>
+	<property name="Group" value="Terrain,Blocks,Outdoor"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="ImposterExclude" value="true"/><property name="Map.Color" value="255,255,255"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="Material" value="matTitaniumOre"/><property name="CarryWeight" value=".5"/>
+	<property name="DisplayInfo" value="Name"/>
+	
+	<property name="Shape" value="Terrain"/><property name="Mesh" value="terrain"/><property name="Texture" value="316"/>
+	<!--
+	<property name="Shape" value="New"/>
+	<property name="Model" value="broken_girder_beam"/>
+	<property name="Texture" value="446"/>
+	-->
+	<!--
+	<property name="MaxDamage" value="1000"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Mods/UndeadLegacy/Resources/Subquake_Resources.ulm?Subquake_OreTitanium.prefab"/>
+	<property name="MeshDamage" value="
+		Mesh/DMG0, 1000,
+		Mesh/DMG1, 750,
+		Mesh/DMG2, 500,
+		Mesh/DMG3, 250
+		"/>
+	-->
+	<drop event="Fall"    name="ulmResourceOreTitanium"			count="5"	prob=".4"	stick_chance="0"/>
+	<drop event="Harvest" name="ulmResourceOreTitanium"			count="5"				tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceOreCopper"			count="1"	prob=".1"	tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceOreZinc"				count="1"	prob=".1"	tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget"			count="1"	prob=".01"	tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget"				count="1"	prob=".007" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceRawDiamond"				count="1"	prob=".005" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Destroy" count="0"/></block>
+	
+<block name="terrOreStoneTitaniumRandom">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="terrOreStoneIronRandom" param1="DescriptionKey"/>
+	<property name="CustomIconTint" value="0094ff"/></block>
+	
+</insertAfter>
+	
+<insertAfter xpath="/blocks/block[@name='oreShaleBoulder']">
+
+<block name="oreTitaniumBoulder">
+	<property name="Extends" value="oreBoulderMaster"/>
+	<property name="Tags" value="oreTitanium,surfaceOre,coalBurnedDmg"/>
+	<property name="Material" value="matTitaniumOre"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Model" value="#Mods/UndeadLegacy/Resources/Subquake_Resources.ulm?Subquake_BoulderTitanium.prefab"/>
+	<property name="Map.Color" value="255,255,255"/>
+	<drop event="Harvest" name="ulmResourceOreStone"			count="0"	prob="0"	tag="oreWoodHarvest"/>	
+	<drop event="Harvest" name="resourceRockSmall"				count="0"	prob="0"	tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceOreTitanium"			count="5"				tag="oreWoodHarvest"/>	
+	<drop event="Harvest" name="ulmResourceOreCopper"			count="1"	prob=".1"	tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="ulmResourceOreZinc"				count="1"	prob=".1"	tag="oreWoodHarvest"/></block>
+	
+</insertAfter>
+	
+</Subquake>

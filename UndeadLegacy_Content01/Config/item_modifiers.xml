@@ -1,0 +1,472 @@
+<Subquake>
+    
+<remove xpath="/item_modifiers/item_modifier[starts-with(@name, 'modDye')]/property[@name='CustomIconTint']"/>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeRed']/property[@name='CustomIcon']/@value">ulmResourceDyeRed</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeRed']/property[@name='Weight']/@value">10</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeGreen']/property[@name='CustomIcon']/@value">ulmResourceDyeGreen</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeGreen']/property[@name='Weight']/@value">10</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeBlack']/property[@name='CustomIcon']/@value">ulmResourceDyeBlack</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeBlack']/property[@name='Weight']/@value">10</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeBlue']/property[@name='CustomIcon']/@value">ulmResourceDyeBlue</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeBlue']/property[@name='Weight']/@value">10</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeBrown']/property[@name='CustomIcon']/@value">ulmResourceDyeBrown</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeBrown']/property[@name='Weight']/@value">10</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyePink']/property[@name='CustomIcon']/@value">ulmResourceDyePink</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyePink']/property[@name='Weight']/@value">10</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyePurple']/property[@name='CustomIcon']/@value">ulmResourceDyePurple</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyePurple']/property[@name='Weight']/@value">10</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeYellow']/property[@name='CustomIcon']/@value">ulmResourceDyeYellow</set>
+<set xpath="/item_modifiers/item_modifier[@name='modDyeYellow']/property[@name='Weight']/@value">10</set>
+
+<append xpath="/item_modifiers/item_modifier[@name='modDyeRed']"><property name="Group" value="Mods,DyeMods"/><property name="EconomicValue" value="25"/></append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeGreen']"><property name="Group" value="Mods,DyeMods"/><property name="EconomicValue" value="25"/></append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeBlack']"><property name="Group" value="Mods,DyeMods"/><property name="EconomicValue" value="25"/></append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeBlue']"><property name="Group" value="Mods,DyeMods"/><property name="EconomicValue" value="25"/></append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeBrown']"><property name="Group" value="Mods,DyeMods"/><property name="EconomicValue" value="25"/></append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyePink']"><property name="Group" value="Mods,DyeMods"/><property name="EconomicValue" value="25"/></append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyePurple']"><property name="Group" value="Mods,DyeMods"/><property name="EconomicValue" value="25"/></append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeYellow']"><property name="Group" value="Mods,DyeMods"/><property name="EconomicValue" value="25"/></append>
+	
+<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']/@blocked_tags">,noReflex</append>
+<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']/@blocked_tags">,noBurningShaft</append>
+
+<setattribute xpath="/item_modifiers/item_modifier[@name='modDyeWhite']" name="installable_tags">canHaveCosmetic</setattribute>
+<setattribute xpath="/item_modifiers/item_modifier[@name='modDyeRed']" name="installable_tags">canHaveCosmetic</setattribute>
+<setattribute xpath="/item_modifiers/item_modifier[@name='modDyeGreen']" name="installable_tags">canHaveCosmetic</setattribute>
+<setattribute xpath="/item_modifiers/item_modifier[@name='modDyeBlack']" name="installable_tags">canHaveCosmetic</setattribute>
+<setattribute xpath="/item_modifiers/item_modifier[@name='modDyeBlue']" name="installable_tags">canHaveCosmetic</setattribute>
+<setattribute xpath="/item_modifiers/item_modifier[@name='modDyeBrown']" name="installable_tags">canHaveCosmetic</setattribute>
+<setattribute xpath="/item_modifiers/item_modifier[@name='modDyePink']" name="installable_tags">canHaveCosmetic</setattribute>
+<setattribute xpath="/item_modifiers/item_modifier[@name='modDyePurple']" name="installable_tags">canHaveCosmetic</setattribute>
+<setattribute xpath="/item_modifiers/item_modifier[@name='modDyeYellow']" name="installable_tags">canHaveCosmetic</setattribute>
+
+<set xpath="/item_modifiers/item_modifier[@name='modGunBowPolymerString']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modGunBowPolymerStringSchematic"/>
+	<property name="DisplayType" value="ulmModPolymerString"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="0.5"/>
+	<property name="dProjectileVelocity" value=".05,.25"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="ProjectileVelocity"			value=".05,.25"		tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modGunBowArrowRest']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modGunBowArrowRestSchematic"/>
+	<property name="DisplayType" value="ulmModBowArrowRest"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="0.5"/>
+	<property name="dWeaponAccuracy" value="0.05,.25"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="SpreadMultiplierAiming"		value="-0.05,-.25"	tier="1,90"/>
+		<passive_effect operation="perc_add" name="SpreadMultiplierHip"			value="-0.05,-.25"	tier="1,90"/>
+	</effect_group></set>
+	
+<set xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modGunMuzzleBrakeSchematic"/>
+	<property name="DisplayType" value="ulmModMuzzleBrake"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="0.25"/>
+	<property name="dGunRecoil" value="-.05,-.3"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="KickDegreesVerticalMin"		value="-.05,-.3"	tier="1,90"/>
+		<passive_effect operation="perc_add" name="KickDegreesVerticalMax"		value="-.05,-.3"	tier="1,90"/>
+		<passive_effect operation="perc_add" name="KickDegreesHorizontalMin"	value="-.02,-.2"	tier="1,90"/>
+		<passive_effect operation="perc_add" name="KickDegreesHorizontalMax"	value="-.02,-.2"	tier="1,90"/>
+		<passive_effect operation="perc_add" name="WeaponHandling"				value=".01,.1"		tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modGunMeleeTheHunter']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modGunMeleeTheHunterSchematic"/>
+	<property name="DisplayType" value="ulmModTheHunter"/>
+	<property name="MaintenanceGroup" value="MG_HunterMod"/>
+	<property name="CarryWeight" value="1"/>
+	<property name="dEntityDamage" value=".05,.4"/>
+	<effect_group>
+		<requirement name="EntityTagCompare" target="other" tags="animal"/>
+		<passive_effect operation="perc_add" name="EntityDamage" value=".05,.4" tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modMeleeTemperedBlade']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modMeleeTemperedBladeSchematic"/>
+	<property name="DisplayType" value="ulmModTemperedBlade"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="1"/>
+	<property name="dBlockDamage" value=".05,.15"/>
+	<property name="dDegradationPerUse" value="-0.05,-.2"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="BlockDamage" value=".05,.15" tier="1,90"/>
+		<passive_effect operation="perc_add" name="DegradationPerUse" value="-0.05,-.2" tier="1,90" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modMeleeFiremansAxeMod']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="perkFiremansAlmanacAxes"/>
+	<property name="DisplayType" value="ulmModFiremansAxe"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="0.5"/>
+	<property name="dBlockDamage" value=".05,.3"/>
+	<property name="dEntityDamage" value="-.05,-.3"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="BlockDamage" value=".05,.3" tier="1,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage" value="-.05,-.3" tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modMeleeGraveDigger']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modMeleeGraveDiggerSchematic"/>
+	<property name="DisplayType" value="ulmModGraveDigger"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="dDamageModifier" value=".05,.3"/>
+	<property name="CarryWeight" value="1"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="DamageModifier" value=".05,.3" tier="1,90" tags="earth"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modMeleeBunkerBuster']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modMeleeBunkerBusterSchematic"/>
+	<property name="DisplayType" value="ulmModBunkerBuster"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="1"/>
+	<property name="dDamageModifier" value=".05,.3"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="DamageModifier" value=".05,.3" tier="1,90" tags="stone"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modMeleeIronBreaker']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modMeleeIronBreakerSchematic"/>
+	<property name="DisplayType" value="ulmModIronBreaker"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="0.75"/>
+	<property name="dDamageModifier" value=".05,.3"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="DamageModifier" value=".05,.3" tier="1,90" tags="metal"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modMeleeWoodSplitter']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modMeleeWoodSplitterSchematic"/>
+	<property name="DisplayType" value="ulmModWoodSplitter"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="0.5"/>
+	<property name="dDamageModifier" value=".05,.3"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="DamageModifier" value=".05,.3" tier="1,90" tags="wood"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modMeleeDiamondTip']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="perkArtOfMiningDiamondTools"/>
+	<property name="DisplayType" value="ulmModDiamondTip"/>
+	<property name="MaintenanceGroup" value="MG_DiamondTip"/>
+	<property name="dDegradationPerUse" value="-.1,-.6"/>
+	<property name="CarryWeight" value="0.4"/>
+	<effect_group>
+		<passive_effect name="DegradationPerUse" operation="perc_add" value="-.1,-.6" tier="1,90" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modMeleeStructuralBrace']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modMeleeStructuralBraceSchematic"/>
+	<property name="DisplayType" value="ulmModDiamondTip"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="0.35"/>
+	<property name="dDegradationPerUse" value="-.05,-.3"/>
+	<effect_group>
+		<passive_effect name="DegradationPerUse" operation="perc_add" value="-.05,-.3" tier="1,90" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin"/>
+	</effect_group></set>
+	
+<set xpath="/item_modifiers/item_modifier[@name='modGunRetractingStock']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modGunRetractingStockSchematic"/>
+	<property name="DisplayType" value="ulmModRetractingStock"/>
+	<property name="MaintenanceGroup" value="MG_BunkerBuster"/>
+	<property name="CarryWeight" value="0.35"/>
+	<property name="dSpreadMultiplierHip" value=".05,.2"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="SpreadMultiplierHip" value="-.05,-.2" tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modGunMagazineExtenderSchematic"/>
+	<property name="DisplayType" value="ulmModMagazineExtender"/>
+	<property name="MaintenanceGroup" value="MG_MagazineExtender"/>
+	<property name="CarryWeight" value="0.25"/>
+	<property name="dMagazineSize" value=".25,.5"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="MagazineSize" value=".3,.6" tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modGunDrumMagazineExtender']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="perkAutoWeaponsDrumMag"/>
+	<property name="DisplayType" value="ulmModMagazineExtender"/>
+	<property name="MaintenanceGroup" value="MG_DrumMagazine"/>
+	<property name="CarryWeight" value="1"/>
+	<property name="dMagazineSize" value=".8,1.2"/>
+	<property name="dReloadSpeed" value=".2,.3"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="MagazineSize" value=".8,1.2" tier="1,90"/>
+		<passive_effect operation="perc_add" name="ReloadSpeedMultiplier" value="-.2,-.3" tier="1,90"/>
+	</effect_group></set>
+	
+<set xpath="/item_modifiers/item_modifier[@name='modGunMeleeBlessedMetal']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modGunMeleeBlessedMetalSchematic"/>
+	<property name="DisplayType" value="ulmModExoticMetal"/>
+	<property name="Material" value="matMisc"/>
+	<property name="CarryWeight" value="1"/>
+	<property name="MaintenanceGroup" value="MG_BlessedMetal"/>
+	<property name="dEntityDamage" value=".05,.25"/>
+	<effect_group>
+		<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".05,.25" tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modArmorMuffledConnectors']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="Material" value="Msteel"/>
+	<property name="UnlockedBy" value="modArmorMuffledConnectorsSchematic"/>
+	<property name="DisplayType" value="modNoiseReduction"/>
+	<property name="MaintenanceGroup" value="MG_ArmorModT1"/>
+	<property name="CarryWeight" value="0.25"/>
+	<property name="dNoiseMultiplier" value="-.01,-.06"/>
+	<effect_group>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value="-.01,-.06" tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modArmorAdvancedMuffledConnectors']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="Material" value="Msteel"/>
+	<property name="UnlockedBy" value="modArmorAdvancedMuffledConnectorsSchematic"/>
+	<property name="DisplayType" value="modNoiseReduction"/>
+	<property name="MaintenanceGroup" value="MG_ArmorModT2"/>
+	<property name="CarryWeight" value="0.4"/>
+	<property name="dNoiseMultiplier" value="-.06,-.1"/>
+	<effect_group>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value="-.06,-.1" tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingBasic']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modArmorPlatingBasicSchematic"/>
+	<property name="DisplayType" value="modArmor"/>
+	<property name="MaintenanceGroup" value="MG_ArmorModT1"/>
+	<property name="CarryWeight" value="0.5"/>
+	<effect_group>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="0.5,1" tier="1,90"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingReinforced']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+	<property name="UnlockedBy" value="modArmorPlatingReinforcedSchematic"/>
+	<property name="DisplayType" value="modArmor"/>
+	<property name="MaintenanceGroup" value="MG_ArmorModT2"/>
+	<property name="CarryWeight" value="1"/>
+	<effect_group>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="1.5,2" tier="1,90"/>
+	</effect_group></set>
+	
+
+<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modArmorImprovedFittingsSchematic"/>
+	<property name="DisplayType" value="modArmorMobility"/>
+	<property name="MaintenanceGroup" value="MG_ArmorModT1"/>
+	<property name="CarryWeight" value="0.5"/>
+	<property name="dStaminaChangeOT" value=".012,.028"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="Mobility"		value=".01,.015"	tier="1,90"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT" value=".005,.014"	tier="1,90" tags="walking"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT" value=".012,.028"	tier="1,90" tags="running"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modArmorCustomizedFittingsSchematic"/>
+	<property name="DisplayType" value="modArmorMobility"/>
+	<property name="MaintenanceGroup" value="MG_ArmorModT2"/>
+	<property name="CarryWeight" value="1"/>
+	<property name="dStaminaChangeOT" value=".028,.0562"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="Mobility"		value=".015,.03"	tier="1,90"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT" value=".014,.021"	tier="1,90"	tags="walking"/>
+		<passive_effect operation="perc_add" name="StaminaChangeOT" value=".028,.0562"	tier="1,90"	tags="running"/>
+	</effect_group></set>
+	
+<set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLiner']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modArmorInsulatedLinerSchematic"/>
+	<property name="DisplayType" value="modTempResist"/>
+	<property name="MaintenanceGroup" value="MG_ArmorModT1"/>
+	<property name="CarryWeight" value="0.5"/>
+	<effect_group>
+		<passive_effect operation="base_add" name="HypothermalResist"		value="2,6"	tier="1,90"/>
+		<passive_effect operation="base_add" name="ElementalDamageResist"	value="1"	tags="heat,electrical"/>
+	</effect_group></set>
+
+<set xpath="/item_modifiers/item_modifier[@name='modArmorCoolingMesh']">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="UnlockedBy" value="modArmorCoolingMeshSchematic"/>
+	<property name="DisplayType" value="modTempResist"/>
+	<property name="MaintenanceGroup" value="MG_ArmorModT1"/>
+	<property name="CarryWeight" value="0.5"/>
+	<effect_group>
+		<passive_effect operation="base_add" name="HyperthermalResist"		value="2,6"	tier="1,90"/>
+		<passive_effect operation="base_add" name="ElementalDamageResist"	value="1"	tags="heat,electrical"/>
+	</effect_group></set>
+	
+<append xpath="/item_modifiers">
+
+<item_modifier name="ulmModArmorEllianniaLocket" installable_tags="armorChest" modifier_tags="trinket" type="attachment">
+	<property name="DisplayType" value="modTrinket"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Material" value="matSilver"/><property name="Weight" value="10"/>
+    <property name="EconomicValue" value="2000"/><property name="CarryWeight" value="0.1"/>
+	<property name="MaintenanceGroup" value="MG_RareNecklace"/>
+	<effect_group>
+		<passive_effect name="AttributeLevel" operation="base_add" value="1" tags="attFortitude"/>
+		<passive_effect name="LootGamestage" operation="base_add" value=".1,9" tier="1,90"/>
+		<passive_effect name="LootGamestage" operation="base_add" value=".1,1"/>
+	</effect_group>
+</item_modifier>
+<!--
+<item_modifier name="ulmModVehicleSUVWheel" installable_tags="vehicle" blocked_tags="dye" type="attachment">
+	<property name="CustomIcon" value="missingIcon"/>
+	<property name="Stacknumber" value="1"/>
+	<item_property_overrides name="*">
+		<property name="VehicleWheels" value="#Mods/UndeadLegacy/Resources/Subquake_Vehicles01.ulm?Wheel_SUV_Desert"/>
+	</item_property_overrides>
+</item_modifier>
+-->    
+
+<item_modifier name="ulmModOffhandTorch" installable_tags="offhand" modifier_tags="offhand" blocked_tags="noMods" type="attachment">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="missingIcon"/>
+	<property name="UnlockedBy" value="perkBatterUpMetalChain"/>
+	<property name="Stacknumber" value="1"/><property name="Group" value="Mods"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<effect_group tiered="false">
+		<requirement name="IsFPV"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Offhand" prefab="#Mods/UndeadLegacy/Resources/Subquake_Items.ulm?Subquake_OffhandTorchFPV" parentTransform="Propjoint" localPos="0.3,0.05,0.20" localRot="-59.855,-88.468,-15.647"/><!-- Down|Up,Right|Left,Back|Front-->	
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!IsFPV"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Offhand" prefab="#Mods/UndeadLegacy/Resources/Subquake_Items.ulm?Subquake_OffhandTorch" parentTransform="LeftHand" localPos="0,0,0" localRot="-30.532,-11.318,170"/><!-- XX|XX,Up|Down,Front|Back-->
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Offhand"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="ulmModOffhandFlashlight" installable_tags="offhandAttachments" modifier_tags="offhand" blocked_tags="noMods" type="attachment">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="missingIcon"/>
+	<property name="UnlockedBy" value="perkBatterUpMetalChain"/>
+	<property name="Stacknumber" value="1"/><property name="Group" value="Mods"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<effect_group tiered="false">
+		<requirement name="IsFPV"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Offhand" parentTransform="CameraNode" prefab="#Mods/UndeadLegacy/Resources/Subquake_Items.ulm?Subquake_OffhandFlashlightFPV"/>
+		<triggered_effect trigger="onReloadStop" action="AddPart" part="Offhand" parentTransform="CameraNode" prefab="#Mods/UndeadLegacy/Resources/Subquake_Items.ulm?Subquake_OffhandFlashlightFPV"/>
+		<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="CameraNode" transform_path="FlashlightLightSource"/>
+		<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="CameraNode" transform_path="FlashlightLightSource"/>
+		<!-- <triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" transform_path="#LeftHand" active="false"/> Doesn't work
+		<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="false" parent_transform="#LeftArm" transform_path="LeftForeArm"/> -->
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!IsFPV"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Offhand" parentTransform="LeftHand" prefab="#Mods/UndeadLegacy/Resources/Subquake_Items.ulm?Subquake_OffhandFlashlight"/>
+		<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="LeftHand" transform_path="FlashlightLightSource"/>
+		<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="LeftHand" transform_path="FlashlightLightSource"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onReloadStart" action="RemovePart" part="Offhand"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Offhand"/>
+	</effect_group>
+</item_modifier>
+    
+<item_modifier name="ulmModVehicleShockAbsorbers" installable_tags="vehicle" blocked_tags="dye,bicycle" modifier_tags="suspension" type="attachment">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="DisplayType" value="modVehicleCargo"/>
+	<property name="Material" value="matSteel"/><property name="Weight" value="50"/>
+    <property name="EconomicValue" value="1000"/><property name="CarryWeight" value="20"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="UnlockedBy" value="ulmModVehicleShockAbsorbersBlueprint"/>
+	<property name="MaintenanceGroup" value="MG_Steel"/>
+	<effect_group>
+		<passive_effect name="VehicleCargoCapacity" operation="base_add" value="100,200" tier="1,90"/>
+	</effect_group></item_modifier>
+    
+<item_modifier name="ulmModChainsawChainTitanium" installable_tags="chainsaw" blocked_tags="dye" modifier_tags="chain" type="attachment">
+	<property name="Extends" value="modGeneralMaster"/>
+	<property name="Material" value="matTitanium"/><property name="Weight" value="50"/>
+    <property name="EconomicValue" value="1000"/><property name="CarryWeight" value="5"/>
+	<property name="MaintenanceGroup" value="MG_Titanium"/>
+	<property name="UnlockedBy" value="ulmModChainsawChainTitaniumBlueprint"/>
+	<property name="DisplayType" value="modChainsawChain"/>
+	<property name="dDamage" value=".011,1"/>
+	<effect_group>
+		<passive_effect operation="perc_add" name="BlockDamage" value=".011,1" tier="1,90"/>
+		<passive_effect operation="perc_add" name="EntityDamage" value=".011,1" tier="1,90"/>
+	</effect_group></item_modifier>
+	
+</append>
+    
+<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']"><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+	<item_property_overrides name="ulmGunKineticPistolDesertEagle"		><property name="Sound_start" value="sniperrifle_s_fire"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticPistolColt"				><property name="Sound_start" value="sniperrifle_s_fire"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticShotgunPumpBM4"			><property name="Sound_start" value="ulmGunShootShotgunBM4Silenced"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticShotgunScrap"			><property name="Sound_start" value="pump_shotgun_s_fire"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticShotgunPeacekeeper"		><property name="Sound_start" value="pump_shotgun_s_fire"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticShotgunEnforcer"		><property name="Sound_start" value="pump_shotgun_s_fire"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticMicroSmg"				><property name="Sound_start" value="ak47_s_fire"/><property name="Sound_end" value="silencefiller"/><property name="Sound_loop" value="ak47_s_fire"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticUMP"					><property name="Sound_start" value="ak47_s_fire"/><property name="Sound_end" value="silencefiller"/><property name="Sound_loop" value="ak47_s_fire"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticR90"					><property name="Sound_start" value="ak47_s_fire"/><property name="Sound_end" value="silencefiller"/><property name="Sound_loop" value="ak47_s_fire"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticAssaultRifleAug1"		><property name="Sound_start" value="ak47_s_fire"/><property name="Sound_end" value="silencefiller"/><property name="Sound_loop" value="ak47_s_fire"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticAssaultRifleFamas1"		><property name="Sound_start" value="ak47_s_fire"/><property name="Sound_end" value="silencefiller"/><property name="Sound_loop" value="ak47_s_fire"/></item_property_overrides>
+</append>
+    
+<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']"><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+	<item_property_overrides name="ulmGunKineticPistolMakarov"			><property name="ScopeCameraOffset" value="-0.000395,-0.00241,-0.18"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticPistolGlock"			><property name="ScopeCameraOffset" value="-0.00042,-0.03339,-0.18"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticPistolScrap1"			><property name="ScopeCameraOffset" value="-0.00042,-0.0285,-.08"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticPistolScrap2"			><property name="ScopeCameraOffset" value="-0.00042,-0.0285,-.08"/></item_property_overrides>
+	
+	<item_property_overrides name="ulmGunKineticPistolColt"				><property name="ScopeCameraOffset" value="0,-0.0299,0"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticPistolDesertEagle"		><property name="ScopeCameraOffset" value="0,-0.0353,0"/></item_property_overrides>
+	
+	<item_property_overrides name="ulmGunKineticRevolverBugert9mm"		><property name="ScopeCameraOffset" value="0,0.01485,0"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticRevolverBugert38Cal"	><property name="ScopeCameraOffset" value="0,0.01485,0"/></item_property_overrides>
+	
+	<item_property_overrides name="ulmGunKineticSniperRifleM1A"			><property name="ScopeCameraOffset" value="-0.00005,-.023,-.15"/></item_property_overrides>
+	
+	<item_property_overrides name="ulmGunKineticShotgunPeacekeeper"		><property name="ScopeCameraOffset" value="0,-.027,0"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticShotgunEnforcer"		><property name="ScopeCameraOffset" value="0,-.027,0"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticShotgunPumpBM4"			><property name="ScopeCameraOffset" value="0,-.0422,-.01"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticShotgunScrap"			><property name="ScopeCameraOffset" value="0,-.0458,0.05"/></item_property_overrides>
+	
+	<item_property_overrides name="ulmGunKineticUMP"					><property name="ScopeCameraOffset" value="0,-.0182,-.05"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticMicroSmg"				><property name="ScopeCameraOffset" value="0,-.0519,0"/></item_property_overrides>
+	<item_property_overrides name="ulmGunKineticR90"					><property name="ScopeCameraOffset" value="0,-.0122,.05"/></item_property_overrides>
+	
+	<item_property_overrides name="ulmGunKineticAssaultRifleFamas1"		><property name="ScopeCameraOffset" value="0,-0.1056,-.05"/></item_property_overrides>
+	<!--
+	<item_property_overrides name="ulmGunPulseLaserPistolBlack"			><property name="ScopeCameraOffset" value="0,-0.032,0"/></item_property_overrides>
+	<item_property_overrides name="ulmGunPlasmaSubMachineGun"			><property name="ScopeCameraOffset" value="0,-0.073,0"/></item_property_overrides>
+	-->
+</append>
+	
+<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+	<property name="EconomicValue" value="400"/>	
+</append>
+    
+</Subquake>

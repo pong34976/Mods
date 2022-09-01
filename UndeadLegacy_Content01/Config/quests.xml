@@ -1,0 +1,273 @@
+<Subquake>
+	
+<remove xpath="/quests/quest[@id='quest_tier5complete']/reward[@id='groupQuestT3LegendaryFirearms']"/>
+
+<append xpath="/quests">
+
+<quest id="ulmQuestTreasureElliannia">
+	<property name="name_key" value="ulmQuestTreasureElliannia"/>
+	<property name="subtitle_key" value="ulmQuestTreasureElliannia"/>
+	<property name="description_key" value="ulmQuestTreasureEllianniaOffer"/>
+	<property name="offer_key" value="ulmQuestTreasureEllianniaOffer"/>
+	<property name="difficulty" value="medium"/>
+	<property name="icon" value="ui_game_symbol_map"/>
+	<property name="category_key" value="treasure"/>
+	<property name="repeatable" value="true"/>
+	<property name="shareable" value="false"/>
+	<objective type="TreasureChest">
+		<property name="block" value="ulmContainerStashElliannia"/>
+		<property name="alt_block" value="ulmContainerStashEllianniaInsecure"/>
+		<property name="distance" value="500-1250"/>
+		<property name="default_radius" value="9"/>
+		<property name="nav_object" value="treasure"/>
+		<property name="direct_nav_object" value="treasure_direct"/>
+		<property name="blocks_per_reduction" value="10"/>
+		<property name="radius_reduction_sound" value="ui_radius_shrink"/></objective></quest>
+
+<quest id="ulmQuestIntroduction1">
+	<property name="group_name_key" value="ulmQuestIntroduction"/>
+	<property name="offer_key" value="ulmQuestIntroductionOffer"/>
+	
+	<property name="name_key" value="ulmQuestIntroduction1"/>
+	<property name="subtitle_key" value="ulmQuestIntroduction1Subtitle"/>
+	<property name="description_key" value="ulmQuestIntroduction1Desc"/>
+	<property name="difficulty" value="veryeasy"/>
+	<property name="icon" value="symbol_schematic"/>
+	<property name="category_key" value="quest"/>
+	<property name="shareable" value="false"/>
+	
+	<action type="TrackQuest"/>
+	
+	<objective type="BlockPlace" id="ulmContainerBagStarter" value="1" phase="1"/>
+	
+	<reward type="Exp" value="50"/>
+	<reward type="Quest" id="ulmQuestIntroduction2"/>
+</quest>
+	
+<quest id="ulmQuestIntroduction2">
+	<property name="group_name_key" value="ulmQuestIntroduction"/>
+	<property name="offer_key" value="ulmQuestIntroductionOffer"/>
+	
+	<property name="name_key" value="ulmQuestIntroduction2"/>
+	<property name="subtitle_key" value="ulmQuestIntroduction2Subtitle"/>
+	<property name="description_key" value="ulmQuestIntroduction2Desc"/>
+	<property name="difficulty" value="veryeasy"/>
+	<property name="icon" value="symbol_bag"/>
+	<property name="category_key" value="quest"/>
+	<property name="shareable" value="false"/>
+	
+	<action type="TrackQuest"/>
+	
+	<objective type="ULM_OpenWindow,UndeadLegacy" value="quest_" id="journal" phase="1"/> <!-- value is prefix for id localization -->
+
+	<reward type="Exp" value="50"/>
+	<reward type="Quest" id="ulmQuestIntroduction3"/>
+</quest>
+	
+<quest id="ulmQuestIntroduction3">
+	<property name="group_name_key" value="ulmQuestIntroduction"/>
+	<property name="offer_key" value="ulmQuestIntroductionOffer"/>
+	
+	<property name="name_key" value="ulmQuestIntroduction3"/>
+	<property name="subtitle_key" value="ulmQuestIntroduction3Subtitle"/>
+	<property name="description_key" value="ulmQuestIntroduction3Desc"/>
+	<property name="difficulty" value="veryeasy"/>
+	<property name="icon" value="symbol_axe"/>
+	<property name="category_key" value="quest"/>
+	<property name="shareable" value="false"/>
+	
+	<action type="TrackQuest"/>
+
+	<objective type="FetchKeep" id="ulmResourceBranch" value="12" phase="1">
+		<modifier type="TrackBlocks">
+			<property name="block_index_name" value="quest_wood"/>
+			<property name="nav_object" value="quest_resource"/>
+			<property name="track_distance" value="20"/>
+		</modifier>
+	</objective>
+	<objective type="FetchKeep" id="resourceRockSmall" value="8" phase="1">
+		<modifier type="TrackBlocks">
+			<property name="block_index_name" value="quest_stone"/>
+			<property name="nav_object" value="quest_resource"/>
+			<property name="track_distance" value="20"/>
+		</modifier>
+	</objective>
+	<objective type="FetchKeep" id="ulmResourceRope" value="4" phase="1"/>
+	
+	<objective type="Craft">
+		<property name="phase" value="2"/>
+		<property name="item" value="meleeToolRepairT0StoneAxe"/>
+		<property name="count" value="1"/>
+	</objective>
+	
+	<objective type="Craft">
+		<property name="phase" value="3"/>
+		<property name="item" value="ulmToolPickaxeStone"/>
+		<property name="count" value="1"/>
+	</objective>
+	
+	<reward type="Exp" value="50"/>
+	<reward type="Quest" id="ulmQuestIntroduction4"/>
+</quest>
+	
+<quest id="ulmQuestIntroduction4">
+	<property name="group_name_key" value="ulmQuestIntroduction"/>
+	<property name="offer_key" value="ulmQuestIntroductionOffer"/>
+	
+	<property name="name_key" value="ulmQuestIntroduction4"/>
+	<property name="subtitle_key" value="ulmQuestIntroduction4Subtitle"/>
+	<property name="description_key" value="ulmQuestIntroduction4Desc"/>
+	<property name="difficulty" value="veryeasy"/>
+	<property name="icon" value="symbol_spear"/>
+	<property name="category_key" value="quest"/>
+	<property name="shareable" value="false"/>
+	
+	<action type="TrackQuest"/>
+
+	<objective type="FetchKeep" id="ulmResourceBranch" value="10" phase="1">
+		<modifier type="TrackBlocks">
+			<property name="block_index_name" value="quest_wood"/>
+			<property name="nav_object" value="quest_resource"/>
+			<property name="track_distance" value="20"/>
+		</modifier>
+	</objective>
+	
+	<objective type="Craft">
+		<property name="phase" value="2"/>
+		<property name="item" value="ulmMeleeSpearWood"/>
+		<property name="count" value="1"/>
+	</objective>
+	
+	<reward type="Exp" value="50"/>
+	<reward type="Quest" id="ulmQuestIntroduction5"/>
+</quest>
+	
+<quest id="ulmQuestIntroduction5">
+	<property name="group_name_key" value="ulmQuestIntroduction"/>
+	<property name="offer_key" value="ulmQuestIntroductionOffer"/>
+	
+	<property name="name_key" value="ulmQuestIntroduction5"/>
+	<property name="subtitle_key" value="ulmQuestIntroduction5Subtitle"/>
+	<property name="description_key" value="ulmQuestIntroduction5Desc"/>
+	<property name="difficulty" value="veryeasy"/>
+	<property name="icon" value="symbol_axe"/>
+	<property name="category_key" value="quest"/>
+	<property name="shareable" value="false"/>
+	
+	<action type="TrackQuest"/>
+
+	<objective type="FetchKeep" id="ulmResourceBranch" value="16" phase="1">
+		<modifier type="TrackBlocks">
+			<property name="block_index_name" value="quest_wood"/>
+			<property name="nav_object" value="quest_resource"/>
+			<property name="track_distance" value="20"/>
+		</modifier>
+	</objective>
+	<objective type="FetchKeep" id="ulmResourceLumber" value="5" phase="1"/>
+	<objective type="FetchKeep" id="ulmResourceResin" value="5" phase="1"/>
+	<objective type="FetchKeep" id="resourceScrapIron" value="30" phase="1"/>
+	
+	<objective type="Craft">
+		<property name="phase" value="2"/>
+		<property name="item" value="ulmDecoLogTable"/>
+		<property name="count" value="1"/>
+	</objective>
+	<objective type="Craft">
+		<property name="phase" value="3"/>
+		<property name="item" value="ulmStationCarpenter_1"/>
+		<property name="count" value="1"/>
+	</objective>
+	
+	<objective type="BlockPlace" id="ulmStationCarpenter_1" value="1" phase="4"/>
+	
+	<reward type="Exp" value="50"/>
+	<reward type="Quest" id="ulmQuestIntroduction6"/>
+</quest>
+	
+<quest id="ulmQuestIntroduction6">
+	<property name="group_name_key" value="ulmQuestIntroduction"/>
+	<property name="offer_key" value="ulmQuestIntroductionOffer"/>
+	
+	<property name="name_key" value="ulmQuestIntroduction6"/>
+	<property name="subtitle_key" value="ulmQuestIntroduction6Subtitle"/>
+	<property name="description_key" value="ulmQuestIntroduction6Desc"/>
+	<property name="difficulty" value="veryeasy"/>
+	<property name="icon" value="symbol_archery"/>
+	<property name="category_key" value="quest"/>
+	<property name="shareable" value="false"/>
+	
+	<action type="TrackQuest"/>
+
+	<objective type="FetchKeep" id="resourceRockSmall" value="1" phase="1">
+		<modifier type="TrackBlocks">
+			<property name="block_index_name" value="quest_stone"/>
+			<property name="nav_object" value="quest_resource"/>
+			<property name="track_distance" value="20"/>
+		</modifier>
+	</objective>
+	<objective type="FetchKeep" id="ulmResourceBranch" value="13" phase="1">
+		<modifier type="TrackBlocks">
+			<property name="block_index_name" value="quest_wood"/>
+			<property name="nav_object" value="quest_resource"/>
+			<property name="track_distance" value="20"/>
+		</modifier>
+	</objective>
+	<objective type="FetchKeep" id="resourceFeather" value="1" phase="1">
+		<modifier type="TrackBlocks">
+			<property name="block_index_name" value="quest_feather"/>
+			<property name="nav_object" value="quest_resource"/>
+			<property name="track_distance" value="20"/>
+		</modifier>
+	</objective>
+	<objective type="FetchKeep" id="resourceYuccaFibers" value="30" phase="1"/>
+	<objective type="FetchKeep" id="ulmResourceResin" value="8" phase="1"/>
+	
+	<objective type="FetchKeep" id="ulmResourceBowstring" value="1" phase="2"/>
+	<objective type="FetchKeep" id="gunBowT0PrimitiveBow" value="1" phase="3"/>
+	<objective type="FetchKeep" id="ammoArrowStone" value="1" phase="3"/>
+
+	<reward type="Exp" value="50"/>
+	<reward type="Quest" id="quest_whiteRiverCitizen1">
+		<property name="chainquest" value="false"/>
+	</reward>
+	<reward type="SkillPoints" value="4" chainreward="true"/>
+</quest>
+
+<quest id="ulmTestQuest">
+	<property name="name_key" value="Turn In Quest"/>
+	<property name="subtitle_key" value="Talk to Trader"/>
+	<property name="description_key" value=""/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="challenge"/>
+	<property name="offer_key" value="Test Turn in"/>
+	<property name="difficulty" value="hard"/>
+	<property name="difficulty_tier" value="5"/>
+	<property name="completiontype" value="TurnIn"/>
+	<property name="statement_key" value="Those cheerleader zombies need to be stopped."/>
+	<property name="response_key" value="I could look into the zombie cheerleaders."/>
+	<property name="completion_key" value="WELL I'LL BE DANGED. YOU REALLY MANAGED TO PULL THROUGH IN A PINCH. I NEVER THOUGHT I'D SEE THIS PISTOL AGAIN. GOOD WORK, SON. HERE'S WHAT I OWE YA."/>
+
+	<objective type="InteractWithNPC">
+		<property name="phase" value="1"/>
+	</objective>
+	<reward type="Exp" value="10"/>
+		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="5"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="5"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="5"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="5"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="5"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="5"/>
+	<!--
+		<reward type="LootItem" id="ulmGroupQuestTestLoot" ischosen="true" value="6"/>
+		<reward type="LootItem" id="ulmGroupQuestTestLoot" ischosen="true" value="6"/>
+		<reward type="LootItem" id="ulmGroupQuestTestLoot" ischosen="true" value="6"/>
+		<reward type="LootItem" id="ulmGroupQuestTestLoot" ischosen="true" value="6"/>
+		<reward type="LootItem" id="ulmGroupQuestTestLoot" ischosen="true" value="6"/>
+		<reward type="LootItem" id="ulmGroupQuestTestLoot" ischosen="true" value="6"/>
+	-->
+</quest>
+
+</append>
+	
+</Subquake>

@@ -1,0 +1,18 @@
+<Subquake>
+	
+	
+<append xpath="/windows">
+
+<window name="windowCraftingFurnace" depth="2" size="0,0" panel="Left">
+	<rect pos="360,-383">
+		<sectionHeaderSmall pos="14,-14" width="178" text_key="uiCraftingTools"/>
+		<grid depth="1" name="inventory" pos="12,-45" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" 
+			required_tools="ulmToolMoldIngot,toolBellows" required_tools_only="true">
+			<ulmStack90 controller="ULM_ItemStackRequired,UndeadLegacy" name="0"/>
+		</grid>
+	</rect>
+</window>
+	
+</append>
+	
+</Subquake>

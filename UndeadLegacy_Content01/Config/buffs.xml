@@ -1,0 +1,220 @@
+<Subquake>
+	
+<set xpath="/buffs/buff[@name='buffDrunkGrandpasAwesomeSauce']/effect_group/passive_effect[@name='BarteringBuying']/@value">.1</set>
+<set xpath="/buffs/buff[@name='buffDrunkGrandpasAwesomeSauce']/effect_group/passive_effect[@name='BarteringSelling']/@value">.1</set>
+   
+<setattribute xpath="/buffs/buff[@name='zombieBuffStatusCheck01']" name="hidden">true</setattribute>
+
+<!-- Removes Stamina Recovery delay after performing a power attack -->
+<set xpath="/buffs/buff[@name='buffPowerAttackStaminaStunt']">
+	<stack_type value="replace"/>
+	<duration value="0"/>
+	<update_rate value=".2"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="set" value=".4"/>
+		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="set" value=".4"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="StatComparePercCurrentToModMax" stat="Stamina" operation="LT" value=".8"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="add" value=".4"/>
+		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="add" value=".4"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="StatComparePercCurrentToModMax" stat="Stamina" operation="LT" value=".6"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="add" value=".4"/>
+		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="add" value=".4"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="StatComparePercCurrentToModMax" stat="Stamina" operation="LT" value=".4"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="add" value=".4"/>
+		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="add" value=".4"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="StatComparePercCurrentToModMax" stat="Stamina" operation="LT" value=".2"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="add" value=".4"/>
+		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="add" value=".4"/>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$PowerAttackStaminaStun" operation="subtract" value=".2"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPowerAttackStaminaStunt">
+			<requirement name="CVarCompare" cvar="$PowerAttackStaminaStun" operation="LTE" value="0"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="1"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="1" tags="running"/>
+	</effect_group></set>
+
+<append xpath="/buffs">
+	
+<buff name="ulmBuffOnFirstSpawn" hidden="true">
+	<stack_type value="replace"/>
+	<duration value="0.1"/>
+	<effect_group>
+
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="survivalTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="firstAidTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="infectionTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="waterTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="foodPoisoningTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="meleeWeaponStatsTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="rangedWeaponStatsTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="armorStatsTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="stealthTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="criticalHitsTip"/>
+		
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="tutorialTipQuest02"/>
+		
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="pickUpStorageTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="pickUpStationsTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="pickUpDecorationsTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="pickUpLightsTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="scavengeHingesTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="scavengeResinTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="scavengeNailsTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="scavengeWaterTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="scavengeFuelTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="scavengeTitaniumTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="researchSystemTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="lockInventorySlotsTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="searchInventoryTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="pinRecipeTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="vehicleEncumbranceTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="abandonedVehicleRepairTip"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_AddQuickJournalEntry,UndeadLegacy" journal="vehicleFeatureToggleTip"/>
+		
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_CheckStarterQuest,UndeadLegacy" starter_quest="ulmQuestIntroduction1" starter_tip="journalTutorialQuest" alt_quest="quest_whiteRiverCitizen1" alt_tip="journalTutorialQuestSkipped" skill_points="4"/>
+	</effect_group></buff>
+    
+<buff name="ulmBuffImpactParticleLaser" name_key="buffIsOnFireName" description_key="buffIsOnFireDesc" tooltip_key="buffIsOnFireTooltip" icon="ui_game_symbol_fire" icon_color="255,0,0" icon_blink="true">
+	<damage_type value="Heat"/>
+	<stack_type value="replace"/>
+	<duration value="0.1"/>
+	<effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="AttachCustomParticleEffectToEntity,UndeadLegacy" particle="#Mods/UndeadLegacy/Resources/Subquake_VFX.ulm?Subquake_ImpactLaserBlue" local_offset="0,-.2,0" parent_transform="Hips"/>
+        <triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="Subquake_ImpactLaserBlue"/>
+        <triggered_effect trigger="onSelfBuffStack" action="AttachCustomParticleEffectToEntity,UndeadLegacy" particle="#Mods/UndeadLegacy/Resources/Subquake_VFX.ulm?Subquake_ImpactLaserBlue" local_offset="0,-.2,0" parent_transform="Hips"/>
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="Subquake_ImpactLaserBlue"/>
+        <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="Subquake_ImpactLaserBlue"/>
+	</effect_group></buff>
+    
+<buff name="ulmBuffImpactParticlePlasma" name_key="buffIsOnFireName" description_key="buffIsOnFireDesc" tooltip_key="buffIsOnFireTooltip" icon="ui_game_symbol_fire" icon_color="255,0,0" icon_blink="true">
+	<damage_type value="Heat"/>
+	<stack_type value="replace"/>
+	<duration value="0.1"/>
+	<effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="AttachCustomParticleEffectToEntity,UndeadLegacy" particle="#Mods/UndeadLegacy/Resources/Subquake_VFX.ulm?Subquake_ImpactPlasmaYellow" local_offset="0,-.2,0" parent_transform="Hips"/>
+        <triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="Subquake_ImpactPlasmaYellow"/>
+        <triggered_effect trigger="onSelfBuffStack" action="AttachCustomParticleEffectToEntity,UndeadLegacy" particle="#Mods/UndeadLegacy/Resources/Subquake_VFX.ulm?Subquake_ImpactPlasmaYellow" local_offset="0,-.2,0" parent_transform="Hips"/>
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="Subquake_ImpactPlasmaYellow"/>
+        <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="Subquake_ImpactPlasmaYellow"/>
+	</effect_group></buff>
+
+<buff name="ulmBuffPowerAttack" hidden="true">
+	<stack_type value="replace"/>
+	<duration value="0.1"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="player1painlg">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="80"/>
+			<requirement name="IsMale"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="player2painlg">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="80"/>
+			<requirement name="IsMale" invert="true"/>
+		</triggered_effect>
+	</effect_group></buff>
+	
+<buff name="ulmBuffWorkstationT2" name_key="uiNull" icon="symbol_vice" hidden="true">
+	<stack_type value="replace"/>
+	<effect_group>
+		<passive_effect name="CraftingTime" operation="perc_subtract" value=".15"/>
+		<passive_effect name="CraftingTier" operation="base_add" value="1" tags="ulmWorkstationT2"/>
+	</effect_group></buff>
+
+<buff name="ulmBuffWorkstationT3" name_key="uiNull" icon="symbol_vice" hidden="true">
+	<stack_type value="replace"/>
+	<effect_group>
+		<passive_effect name="CraftingTime" operation="perc_subtract" value=".30"/>
+		<passive_effect name="CraftingTier" operation="base_add" value="2" tags="ulmWorkstationT3"/>
+	</effect_group></buff>
+	
+<buff name="ulmBuffHoldHeavyWeapon" name_key="ulmBuffHoldHeavyWeapon" description_key="ulmBuffHoldHeavyWeaponDesc" icon="symbol_heavy_weapon" icon_color="255,106,0">
+	<stack_type value="replace"/>
+	<effect_group>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value=".25"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value=".25"/>
+		<passive_effect name="JumpStrength" operation="perc_subtract" value=".25"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="!HoldingItemHasTags" tags="heavyWeapon"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="ulmBuffHoldHeavyWeapon"/>
+	</effect_group></buff>
+	
+<buff name="ulmBuffHoldMovementSpeed10" name_key="ulmBuffHoldMovementSpeed10" description_key="ulmBuffHoldMovementSpeed10Desc" icon="ui_game_symbol_trex" icon_color="0,255,0">
+	<stack_type value="replace"/>
+	<effect_group>
+		<passive_effect name="WalkSpeed" operation="perc_add" value=".1"/>
+		<passive_effect name="RunSpeed" operation="perc_add" value=".1"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="!HoldingItemHasTags" tags="movementSpeed10"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="ulmBuffHoldMovementSpeed10"/>
+	</effect_group></buff>
+	
+<buff name="ulmBuffHercules" name_key="ulmBuffHercules" description_key="ulmBuffHerculesDesc" icon="ui_game_symbol_muscle">
+	<stack_type value="replace"/><duration value="0"/>
+	<display_value value=".ulmBuffHerculesDisplay"/><display_value_format value="time"/>
+	<effect_group>
+		<passive_effect name="StatWeightMax" operation="base_add" value="200"/>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$ulmBuffHerculesDuration" operation="set" value="903"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ulmBuffHerculesDuration" operation="subtract" value="@$MetabolismDuration"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ulmBuffHerculesDisplay" operation="set" value="@$ulmBuffHerculesDuration"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ulmBuffHerculesDisplay" operation="divide" value="@$MetabolismDuration"/>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="ulmBuffHercules">
+			<requirement name="CVarCompare" cvar="$ulmBuffHerculesDuration" operation="LTE" value="0"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".ulmBuffHerculesDisplay" operation="set" value="0"/>
+		<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$ulmBuffHerculesDuration" operation="set" value="0"/>
+        <triggered_effect trigger="onSelfBuffRemove" action="ULM_RecalculatePlayerWeight,UndeadLegacy" target="self"/>
+	</effect_group></buff>
+	
+</append>
+	
+<append xpath="//buff[@name='buffStatusCheck01']">
+    <effect_group name="Tier 2">
+		<requirement name="TriggerHasTags" tags="ulmStationCarpenter_2"/>
+		<triggered_effect trigger="ULM_onSelfOpenWindow" action="AddBuff" buff="ulmBuffWorkstationT2"/>
+    </effect_group>
+    <effect_group name="Tier 3">
+		<requirement name="TriggerHasTags" tags="ulmStationCarpenter_3"/>
+		<triggered_effect trigger="ULM_onSelfOpenWindow" action="AddBuff" buff="ulmBuffWorkstationT3"/>
+    </effect_group>
+    <effect_group name="All">
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="ulmBuffWorkstationT2,ulmBuffWorkstationT3"/>
+		<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="ulmBuffWorkstationT2,ulmBuffWorkstationT3"/>
+		<triggered_effect trigger="ULM_onSelfCloseWindow" action="RemoveBuff" buff="ulmBuffWorkstationT2,ulmBuffWorkstationT3"/>
+    </effect_group>
+    <effect_group name="Heavy Weapon Equipped">
+		<requirement name="HoldingItemHasTags" tags="heavyWeapon"/>
+		<requirement name="!HasBuff" buff="ulmBuffHoldHeavyWeapon"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="ulmBuffHoldHeavyWeapon"/>
+    </effect_group>
+    <effect_group name="Movement Speed Bonus 10 Percent">
+		<requirement name="HoldingItemHasTags" tags="movementSpeed10"/>
+		<requirement name="!HasBuff" buff="ulmBuffHoldMovementSpeed10"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="ulmBuffHoldMovementSpeed10"/>
+    </effect_group>
+</append>
+	
+<append xpath="//buff[@name='buffDrugJailBreakers']">
+	<effect_group>
+		<passive_effect operation="base_add" name="LockPickTier" value="75"/>
+		<passive_effect operation="perc_add" name="LockPickDurability" value="2"/>
+	</effect_group>
+</append>
+    
+</Subquake>

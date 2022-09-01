@@ -1,0 +1,2367 @@
+<Subquake>
+
+<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@class='seat0']">
+	<property name="class" value="ULM_Seat,UndeadLegacy"/><property name="transform" value="Origin"/>
+	<property name="IKFootLPos" value="-.30,.38,.3"/>	<property name="driver" value="true"/>
+	<property name="IKFootRPos" value=".30,.38,.3"/>
+	<property name="IKFootLRot" value="-30,-15,0"/>
+	<property name="IKFootRRot" value="-30,15,0"/>
+	<property name="position" value="0,0.05,.25"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+	<property name="rotation" value="-25,0,0"/>
+	<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+</set>
+  
+<append xpath="/vehicles">
+    
+	<vehicle name="ulmVehicleDuneRunner">
+		<property name="velocityMax" value="15,17.778"/><!-- Speed/Turbo -->
+		<property name="cameraDistance" value="5.5,7"/>
+		<property name="cameraTurnRate" value=".2,.35"/>
+		<property name="motorTorqueMinQ" value="4500"/>
+		<property name="motorTorqueMaxQ" value="7000"/>
+		<property name="brakeTorque" value="8000"/>
+		<property name="upAngleMax" value="80"/>
+		<property name="upForce" value="1"/>
+		<property name="steerRate" value="130"/>
+		<property name="steerAngleMax" value="40"/>
+		<property name="steerCenteringRate" value="90"/>
+		<property name="tiltUpForce" value="0"/>
+		<property name="tiltAngleMax" value="80"/>
+		<property name="tiltThreshold" value="3"/>
+		<property name="tiltDampening" value=".22"/>
+		<property name="tiltDampenThreshold" value="8"/>
+		<property name="unstickForce" value="1"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property name="hornSound" value="ulmHorn05"/>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="60"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".5"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".15"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="5000"/>
+			<property name="gear1" value="800,3500, -1400,1000,0,		800,3250,1500,	0,0,0,0,0,0,0,fakeEngine130"/>
+			<property name="gear2" value="800,3000, -1000,1000,2000,	400,2800,1600,	0,0,0,0,0,0,0,fakeEngine130"/>
+			<property name="gear3" value="800,2500, -1000,1000,2000,	300,2400,1700,	0,0,0,0,0,0,0,fakeEngine130"/>
+			<property name="gear4" value="800,2500, -1000,1000,2000,	200,9999,9999,	0,0,0,0,0,0,0,fakeEngine130"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Motorbike/minibike_shutoff_"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<!-- Position Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<!-- Rotation Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKHandRPosition" value=".18,.01,.05"/>
+			<property name="IKHandRRotation" value="60,45,-30"/>
+			<property name="IKHandLPosition" value="-.175,.04,.05"/>
+			<property name="IKHandLRotation" value="60,-45,30"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.1,.05,-.05"/>		<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".1,.05,-.05"/>
+			<property name="IKFootLRot" value="-65,0,0"/>
+			<property name="IKFootRRot" value="-65,0,0"/>
+			<property name="position" value="-.25,.0,.07"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-30,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>	
+	</vehicle>
+
+	<vehicle name="ulmVehicleHumvee">
+		<property name="velocityMax" value="13.334,15"/>
+		<property name="cameraDistance" value="5.5,7"/>
+		<property name="cameraTurnRate" value=".2,.35"/>
+		<property name="motorTorqueMinQ" value="8000"/>
+		<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="brakeTorque" value="8000"/>
+		<property name="upAngleMax" value="80"/>
+		<property name="upForce" value="1"/>
+		<property name="steerRate" value="130"/>
+		<property name="steerCenteringRate" value="90"/>
+		<property name="tiltAngleMax" value="80"/>
+		<property name="tiltThreshold" value="3"/>
+		<property name="tiltDampening" value=".22"/>
+		<property name="tiltDampenThreshold" value="8"/>
+		<property name="tiltUpForce" value="0"/>
+		<property name="unstickForce" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="hornSound" value="ulmHorn05"/>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="140"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".3"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="7000"/>
+			<property name="gear1" value="500,2300, -1400,800,0,	800,2200,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,2200, -1000,800,2000,	400,2100,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2100, -1000,800,2000,	300,2000,1200,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear4" value="500,2000, -1000,800,2000,	200,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandLPosition" value="-.2,.09,-.03"/><!-- Right (-) Left (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandLRotation" value="45,-60,0"/>
+			<property name="IKHandRPosition" value=".154,.0656,.0265"/>
+			<property name="IKHandRRotation" value="27.55,13.433,-29.88"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.05,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".05,0,0"/>
+			<property name="IKFootLRot" value="-45,0,0"/>
+			<property name="IKFootRRot" value="-45,0,0"/>
+			<property name="position" value="-.6,.3,.9"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.05,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".05,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".6,.3,.9"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.05,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".05,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="-.6,.3,-.1"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat3">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet4"/>
+			<property name="IKFootLPos" value="-.05,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".05,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".6,.3,-.1"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="variantHelper">
+			<property name="class" value="ULM_VariantHelper,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame_Snow"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+	</vehicle>
+	
+	<vehicle name="ulmVehicleMinivan1">
+		<property name="cameraDistance" value="5.5,7"/>		<property name="velocityMax" value="13.889,15.278"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="ulmHorn05"/>
+		<property name="tiltUpForce" value="0"/>			<property name="motorTorqueMinQ" value="8000"/>
+		<property name="tiltAngleMax" value="80"/>			<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="8000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="80"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerAngleMax" value="40"/>
+		<property name="upForce" value="1"/>				<property name="steerCenteringRate" value="90"/>
+		<property name="unstickForce" value="1"/>			<property name="steerRate" value="130"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="80"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".45"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".15"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="5000"/>
+			<property name="gear1" value="500,3500, -1400,800,0,	800,3200,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,3000, -1000,800,2000, 400,2800,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2500, -1000,800,2000, 300,2300,1200,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear4" value="500,2200, -1000,800,2000, 200,9999,9999,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandRPosition" value="0.1933035,0.05439626,-0.01226482"/>
+			<property name="IKHandRRotation" value="71,36.4,-52.4"/>
+			<property name="IKHandLPosition" value="-0.2011,0.0574,-0.01245"/>
+			<property name="IKHandLRotation" value="73.91,0,72"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.1,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".1,0,0"/>
+			<property name="IKFootLRot" value="-80,0,0"/>
+			<property name="IKFootRRot" value="-80,0,0"/>
+			<property name="position" value="-.5,0.4,1.62"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.1,0,0"/>			<property name="IKHandLPos" value="-.18,.3,-.7"/><!-- -Left|Right+,-Down|Up+,-Front|Back+ -->
+			<property name="IKFootRPos" value=".1,0,0"/>			<property name="IKHandRPos" value=".18,.3,-.7"/>
+			<property name="IKFootLRot" value="-80,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-80,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".5,0.4,1.58"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="variantHelper">
+			<property name="class" value="VPULM_VariantMaterialChanger,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/></property>
+	</vehicle>
+	
+	<vehicle name="ulmVehicleMuscle1">
+		<property name="cameraDistance" value="5.5,7"/>		<property name="velocityMax" value="16.667,19.444"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="ulmHorn05"/>
+		<property name="tiltUpForce" value="0"/>			<property name="motorTorqueMinQ" value="8000"/>
+		<property name="tiltAngleMax" value="80"/>			<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="8000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="80"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerAngleMax" value="40"/>
+		<property name="upForce" value="1"/>				<property name="steerCenteringRate" value="90"/>
+		<property name="unstickForce" value="1"/>			<property name="steerRate" value="130"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="70"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".4"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="4000"/>
+									<!-- Min,Max, Decel,DownShift,DownShiftTo, Accel,UpShift,UpShiftTo -->
+			<property name="gear1" value="500,3500, -1400,800,0,	800,3000,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,3000, -1000,800,2000, 400,2800,1100,	0,0,0,0,0,0,0,fakeEngine110"/>
+			<property name="gear3" value="500,2500, -1000,800,2000, 300,2300,1200,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="gear4" value="500,2200, -1000,800,2000, 200,9999,9999,	0,0,0,0,0,0,0,fakeEngine130"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandRPosition" value="0.17,0.035,-0.012"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRRotation" value="50,17,-52"/><!-- Palm up (-) Palm down (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKHandLPosition" value="-0.18,0.04,-0.012"/>
+			<property name="IKHandLRotation" value="56,0,72"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.1,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".1,0,0"/>
+			<property name="IKFootLRot" value="-80,0,0"/>
+			<property name="IKFootRRot" value="-80,0,0"/>
+			<property name="position" value="-.44,-.05,.76"/>
+			<property name="rotation" value="-40,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.1,0,0"/>			<property name="IKHandLPos" value="-.17,.25,-.55"/><!-- -Left|Right+,-Down|Up+,-Closer|Away+ -->
+			<property name="IKFootRPos" value=".1,0,0"/>			<property name="IKHandRPos" value=".22,.25,-.55"/>
+			<property name="IKFootLRot" value="-80,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-80,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".52,-.05,.76"/>
+			<property name="rotation" value="-40,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.15,0,.2"/>			<property name="IKHandLPos" value="-.22,.4,-.25"/>
+			<property name="IKFootRPos" value=".15,0,.2"/>			<property name="IKHandRPos" value=".22,.4,-.25"/>
+			<property name="IKFootLRot" value="-50,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-50,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="0,-.05,.06"/>
+			<property name="rotation" value="-40,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="variantHelper">
+			<property name="class" value="ULM_VariantHelper,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame_White"/></property>
+	</vehicle>
+	
+	<vehicle name="ulmVehicleSedan3">
+		<property name="cameraDistance" value="5.5,7"/>		<property name="velocityMax" value="15.278,16.667"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="ulmHorn05"/>
+		<property name="tiltUpForce" value="0"/>			<property name="motorTorqueMinQ" value="8000"/>
+		<property name="tiltAngleMax" value="80"/>			<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="8000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="80"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerAngleMax" value="40"/>
+		<property name="upForce" value="1"/>				<property name="steerCenteringRate" value="90"/>
+		<property name="unstickForce" value="1"/>			<property name="steerRate" value="130"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="65"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".65"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="7000"/>
+			<property name="gear1" value="500,3500, -1400,800,0,	700,3300,1000,	0,0,0,0,0,0,0,fakeEngine90"/>
+			<property name="gear2" value="500,3000, -1000,800,2000, 400,2800,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2500, -1000,800,2000, 300,2300,1200,	0,0,0,0,0,0,0,fakeEngine110"/>
+			<property name="gear4" value="500,2200, -1000,800,2000, 200,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandRPosition" value=".2,.14,.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRRotation" value="60,45,-30"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKHandLPosition" value="-.2,.14,-.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandLRotation" value="60,-45,30"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.1,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".1,0,0"/>
+			<property name="IKFootLRot" value="-80,0,0"/>
+			<property name="IKFootRRot" value="-80,0,0"/>
+			<property name="position" value="-.44,-.05,.76"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.1,0,0"/>			<property name="IKHandLPos" value="-.3,-.5,-.35"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="IKFootRPos" value=".1,0,0"/>			<property name="IKHandRPos" value=".3,-.5,-.35"/>
+			<property name="IKFootLRot" value="-80,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-80,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".44,-.05,.76"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-50,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-50,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="-.44,.05,-.45"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat3">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet4"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-50,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-50,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".44,.05,-.45"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="variantHelper">
+			<property name="class" value="ULM_VariantHelper,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame_White"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleCoupe1">
+		<property name="cameraDistance" value="5.5,7"/>		<property name="velocityMax" value="17.223,19.445"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="ulmHorn05"/>
+		<property name="tiltUpForce" value="0"/>			<property name="motorTorqueMinQ" value="8000"/>
+		<property name="tiltAngleMax" value="80"/>			<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="8000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="80"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerAngleMax" value="40"/>
+		<property name="upForce" value="1"/>				<property name="steerCenteringRate" value="90"/>
+		<property name="unstickForce" value="1"/>			<property name="steerRate" value="130"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="60"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".7"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="6000"/>
+									<!-- Min,Max, Decel,DownShift,DownShiftTo, Accel,UpShift,UpShiftTo -->
+			<property name="gear1" value="500,3100, -1400,800,0,	700,3000,1000,	0,0,0,0,0,0,0,fakeEngine70"/>
+			<property name="gear2" value="500,3000, -1000,800,2000,	250,2750,1100,	0,0,0,0,0,0,0,fakeEngine80"/>
+			<property name="gear3" value="500,2500, -1000,800,2000,	150,2250,1200,	0,0,0,0,0,0,0,fakeEngine90"/>
+			<property name="gear4" value="500,2200, -1000,800,2000,	100,9999,9999,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandRPosition" value=".2,.04,.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRRotation" value="60,45,-30"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKHandLPosition" value="-.2,.06,-.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandLRotation" value="60,-45,30"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.10,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".10,0,0"/>
+			<property name="IKFootLRot" value="-80,0,0"/>
+			<property name="IKFootRRot" value="-80,0,0"/>
+			<property name="position" value="-.4,0,.35"/>
+			<property name="rotation" value="-45,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.10,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".10,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-80,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-80,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".4,0,.35"/>
+			<property name="rotation" value="-45,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="variantHelper">
+			<property name="class" value="ULM_VariantHelper,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame_White"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleSedan2">
+		<property name="cameraDistance" value="5.5,7"/>		<property name="velocityMax" value="15,16.389"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="ulmHorn05"/>
+		<property name="tiltUpForce" value="0"/>			<property name="motorTorqueMinQ" value="8000"/>
+		<property name="tiltAngleMax" value="80"/>			<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="8000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="80"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerAngleMax" value="40"/>
+		<property name="upForce" value="1"/>				<property name="steerCenteringRate" value="90"/>
+		<property name="unstickForce" value="1"/>			<property name="steerRate" value="130"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="60"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".6"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="7000"/>
+			<property name="gear1" value="500,3000, -1400,800,0,	700,2800,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,3000, -1000,800,2000, 250,2800,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2500, -1000,800,2000, 150,2300,1200,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear4" value="500,2200, -1000,800,2000, 100,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandRPosition" value=".2,.04,.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRRotation" value="60,45,-30"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKHandLPosition" value="-.2,.06,-.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandLRotation" value="60,-45,30"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.10,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".10,0,0"/>
+			<property name="IKFootLRot" value="-80,0,0"/>
+			<property name="IKFootRRot" value="-80,0,0"/>
+			<property name="position" value="-.4,.1,.86"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".4,.1,.86"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="-.4,.1,-.25"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat3">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet4"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".4,.1,-.25"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="variantHelper">
+			<property name="class" value="ULM_VariantHelper,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame_White"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleSedan2Police">
+		<property name="cameraDistance" value="5.5,7"/>		<property name="velocityMax" value="15,17"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="ulmHorn05"/>
+		<property name="tiltUpForce" value="0"/>			<property name="motorTorqueMinQ" value="8000"/>
+		<property name="tiltAngleMax" value="80"/>			<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="8000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="80"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerAngleMax" value="40"/>
+		<property name="upForce" value="1"/>				<property name="steerCenteringRate" value="90"/>
+		<property name="unstickForce" value="1"/>			<property name="steerRate" value="130"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="60"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".6"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="7000"/>
+			<property name="gear1" value="500,3000, -1400,800,0,	700,2800,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,3000, -1000,800,2000, 250,2800,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2500, -1000,800,2000, 150,2300,1200,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear4" value="500,2200, -1000,800,2000, 100,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandRPosition" value=".2,.04,.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRRotation" value="60,45,-30"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKHandLPosition" value="-.2,.06,-.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandLRotation" value="60,-45,30"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.10,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".10,0,0"/>
+			<property name="IKFootLRot" value="-80,0,0"/>
+			<property name="IKFootRRot" value="-80,0,0"/>
+			<property name="position" value="-.4,.1,.86"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".4,.1,.86"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="-.4,.1,-.25"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat3">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet4"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".4,.1,-.25"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="toplight">
+			<property name="class" value="ULM_TopLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/toplight"/></property>
+		<property class="siren">
+			<property name="class" value="ULM_Siren,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/siren"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleSedan2Taxi">
+		<property name="cameraDistance" value="5.5,7"/>		<property name="velocityMax" value="15,17"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="ulmHorn05"/>
+		<property name="tiltUpForce" value="0"/>			<property name="motorTorqueMinQ" value="8000"/>
+		<property name="tiltAngleMax" value="80"/>			<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="8000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="80"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerAngleMax" value="40"/>
+		<property name="upForce" value="1"/>				<property name="steerCenteringRate" value="90"/>
+		<property name="unstickForce" value="1"/>			<property name="steerRate" value="130"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="60"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".6"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="7000"/>
+			<property name="gear1" value="500,3000, -1400,800,0,	700,2800,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,3000, -1000,800,2000, 250,2800,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2500, -1000,800,2000, 150,2300,1200,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear4" value="500,2200, -1000,800,2000, 100,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandRPosition" value=".2,.04,.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRRotation" value="60,45,-30"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKHandLPosition" value="-.2,.06,-.04"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandLRotation" value="60,-45,30"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.10,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".10,0,0"/>
+			<property name="IKFootLRot" value="-80,0,0"/>
+			<property name="IKFootRRot" value="-80,0,0"/>
+			<property name="position" value="-.4,.1,.86"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".4,.1,.86"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="-.4,.1,-.25"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat3">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet4"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".4,.1,-.25"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="toplight">
+			<property name="class" value="ULM_TopLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/toplight"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleHelicopterDH">
+		<property name="velocityMax" value="21,21"/>
+		<property name="cameraDistance" value="10,10"/>
+		<property name="cameraTurnRate" value=".2,.35"/>
+		<property name="motorTorqueMinQ" value="100"/>
+		<property name="motorTorqueMaxQ" value="1000"/>
+		<property name="brakeTorque" value="100"/>
+		<property name="steerRate" value="130"/>
+		<property name="steerCenteringRate" value="90"/>
+		<property name="tiltAngleMax" value="8"/>
+		<property name="tiltThreshold" value="2"/>
+		<property name="tiltDampening" value=".01"/>
+		<property name="tiltDampenThreshold" value="0"/>
+		<property name="tiltUpForce" value="1"/>
+		<property name="upAngleMax" value="60"/>
+		<property name="upForce" value=".4"/>
+		<property name="unstickForce" value="2"/>	
+		<property name="airDrag_velScale_angVelScale" value=".997,.97"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.5,.9,1"/>
+		<property name="waterLift_y_depth_force" value="1,.5,.1"/>
+		<property name="hornSound" value="vehicle/minibike/minibike_horn"/>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="800"/></property>
+		<property class="engine">
+			<property name="class" value="Engine"/>
+			<property name="slot_type" value="engine"/>
+			<property name="foodDrain" value=".00001,.00001"/>
+			<property name="fuelKmPerL" value=".05"/>
+			<property name="gear1" value="500,2500, -1400,800,0, 1500,9999,9999,,,
+								0, .5,  .45, .1,  -9, .1, .1, ulmHelicopter01_Loop,
+								-.1, .1,  .65, .7,  0, 9, .1, ulmHelicopter01b_Loop"/>
+			<property name="sound_start" value="ulmHelicopter_Start"/>
+			<property name="sound_shut_off" value="ulmHelicopter_Shutdown"/>
+			<property name="sound_no_fuel_shut_off" value="ulmHelicopter_Shutdown"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="0"/>
+			<property name="IKHandLPosition" value="0,0,.1"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="IKHandLRotation" value="30,0,90"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKHandRPosition" value="0,0,0"/>
+			<property name="IKHandRRotation" value="30,0,-90"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.07,-.08,-.115"/>	<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".08,-.08,-.115"/>
+			<property name="IKFootLRot" value="-75,0,0"/>
+			<property name="IKFootRRot" value="-75,0,0"/>
+			<property name="position" value="-.5,.6,5.15"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-38,0,0"/>
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.08,-.08,-.115"/>	<property name="IKHandLPos" value="-.1,.3,-.15"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="IKFootRPos" value=".07,-.08,-.115"/>	<property name="IKHandRPos" value=".1,.3,-.15"/>
+			<property name="IKFootLRot" value="-75,0,0"/>			<property name="IKHandLRot" value="0,0,45"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKFootRRot" value="-75,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".5,.6,5.15"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-38,0,0"/>
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value=".08,.05,0"/>			<property name="IKHandLPos" value=".1,.3,-.15"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="IKFootRPos" value="-.08,.05,0"/>		<property name="IKHandRPos" value="-.1,.3,-.15"/>
+			<property name="IKFootLRot" value="-15,180,0"/>			<property name="IKHandLRot" value="0,180,45"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKFootRRot" value="-15,180,0"/>			<property name="IKHandRRot" value="0,180,-45"/>
+			<property name="position" value="-.3,.68,2.56"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-45,180,0"/>	
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="seat3">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet4"/>
+			<property name="IKFootLPos" value=".08,.05,0"/>			<property name="IKHandLPos" value=".1,.3,-.15"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="IKFootRPos" value="-.08,.05,0"/>		<property name="IKHandRPos" value="-.1,.3,-.15"/>
+			<property name="IKFootLRot" value="-15,180,0"/>			<property name="IKHandLRot" value="0,180,45"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKFootRRot" value="-15,180,0"/>			<property name="IKHandRRot" value="0,180,-45"/>
+			<property name="position" value=".3,.68,2.56"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-45,180,0"/>	
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="seat4">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet5"/>
+			<property name="IKFootLPos" value="-.08,.05,0"/>		<property name="IKHandLPos" value="-.2,.35,-.2"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="IKFootRPos" value=".08,.05,0"/>			<property name="IKHandRPos" value=".2,.35,-.2"/>
+			<property name="IKFootLRot" value="-15,0,0"/>			<property name="IKHandLRot" value="0,0,45"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKFootRRot" value="-15,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="-.5,.68,1.3"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-45,0,0"/>	
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="seat5">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet6"/>
+			<property name="IKFootLPos" value="-.08,.05,0"/>		<property name="IKHandLPos" value="-.2,.35,-.2"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="IKFootRPos" value=".08,.05,0"/>			<property name="IKHandRPos" value=".2,.35,-.2"/>
+			<property name="IKFootLRot" value="-15,0,0"/>			<property name="IKHandLRot" value="0,0,45"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKFootRRot" value="-15,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".5,.68,1.3"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-45,0,0"/>	
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="seat6">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet7"/>
+			<property name="IKFootLPos" value="-.08,.05,0"/>		<property name="IKHandLPos" value="-.2,.35,-.2"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="IKFootRPos" value=".08,.05,0"/>			<property name="IKHandRPos" value=".2,.35,-.2"/>
+			<property name="IKFootLRot" value="-15,0,0"/>			<property name="IKHandLRot" value="0,0,45"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKFootRRot" value="-15,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="0,.68,1.3"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-45,0,0"/>	
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="motor0">
+			<property name="engine" value="engine"/>
+			<property name="engineOffPer" value=".02"/>
+			<property name="rpmAccel_min_max" value="0.01,.2"/>
+			<property name="rpmMax" value="8"/>
+			<property name="rpmDrag" value=".993"/>
+			<property name="trigger" value="relative"/> 
+			<property name="type" value="spin"/> 
+			<property name="transform" value="Origin/PropellerJointTop"/>
+			<property name="axis" value="1"/></property>
+		<property class="motor1">
+			<property name="engine" value="engine"/>
+			<property name="turbo" value="1.35"/>
+			<property name="rpmAccel_min_max" value="0.01,.1"/>
+			<property name="rpmMax" value="8"/>
+			<property name="rpmDrag" value=".993"/>
+			<property name="trigger" value="relative"/>
+			<property name="type" value="spin"/>
+			<property name="transform" value="Origin/PropellerJointBack"/>
+			<property name="axis" value="2"/></property>
+		<property class="force0">
+			<property name="trigger" value="motor0"/>
+			<property name="type" value="relative"/>
+			<property name="force" value="0, .195, 0"/>
+			<property name="ceiling" value="200, 280"/></property>
+		<property class="force1">
+			<property name="trigger" value="motor1"/>
+			<property name="type" value="relative"/>
+			<property name="force" value="0, 0,.0"/></property>
+		<property class="force2">
+			<property name="trigger" value="inputForward"/>
+			<property name="type" value="relative"/>
+			<property name="force" value="0, 0.03,0 "/></property>
+		<property class="force3">
+			<property name="trigger" value="inputStrafe"/>
+			<property name="type" value="relativeTorque"/>
+			<property name="force" value="0, .02, 0"/></property>
+		<property class="force4">
+			<property name="trigger" value="inputUp"/>
+			<property name="type" value="relativeTorque"/>
+			<property name="force" value="-.01, 0, 0"/></property>
+		<property class="force5">
+			<property name="trigger" value="inputDown"/>
+			<property name="type" value="relativeTorque"/>
+			<property name="force" value=".01, 0, 0"/></property>
+		<property class="wheel0"><property name="torqueScale_motor_brake" value="1,1"/></property>
+		<property class="wheel1"><property name="torqueScale_motor_brake" value="1,1"/></property>
+		<property class="wheel2"><property name="torqueScale_motor_brake" value="1,1"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".9"/></property>
+		<property class="toplight">
+			<property name="class" value="ULM_TopLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/toplight"/></property>
+		<property class="variantHelper">
+			<property name="class" value="ULM_VariantHelper,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame_01"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleHelicopterRaven">
+		<property name="velocityMax" value="23,23"/>
+		<property name="cameraDistance" value="10,10"/>
+		<property name="cameraTurnRate" value=".2,.35"/>
+		<property name="motorTorqueMinQ" value="100"/>
+		<property name="motorTorqueMaxQ" value="1000"/>
+		<property name="brakeTorque" value="100"/>
+		<property name="steerRate" value="130"/>
+		<property name="steerCenteringRate" value="90"/>
+		<property name="tiltAngleMax" value="8"/>
+		<property name="tiltThreshold" value="2"/>
+		<property name="tiltDampening" value=".01"/>
+		<property name="tiltDampenThreshold" value="0"/>
+		<property name="tiltUpForce" value="1"/>
+		<property name="upAngleMax" value="60"/>
+		<property name="upForce" value=".4"/>
+		<property name="unstickForce" value="2"/>
+		<property name="airDrag_velScale_angVelScale" value=".997,.97"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.5,.9,1"/>
+		<property name="waterLift_y_depth_force" value="1,.5,.1"/>
+		<property name="hornSound" value="vehicle/minibike/minibike_horn"/>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="240"/></property>
+		<property class="engine">
+			<property name="class" value="Engine"/>
+			<property name="slot_type" value="engine"/>
+			<property name="fuelKmPerL" value=".14"/>
+			<property name="gear1" value="
+					500,2500, -1400,800,0, 1500,9999,9999,,,
+					0, .5,  .45, .1,  -9, .1, .1, ulmHelicopter02_Loop,
+					-.1, .1,  .65, .7,  0, 9, .1, ulmHelicopter02b_Loop"/>
+			<!--<property name="gear1" value="500,2500, -1400,800,0, 1500,9999,9999,,,
+								0, .5,  .45, .1,  -9, .1, .1, ulmHelicopter02_Loop,
+								-.1, .1,  .65, .7,  0, 9, .1, ulmHelicopter02_Loop"/>-->
+			<property name="sound_start" value="ulmHelicopter_Start"/>
+			<property name="sound_shut_off" value="ulmHelicopter_Shutdown"/>
+			<property name="sound_no_fuel_shut_off" value="ulmHelicopter_Shutdown"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="0"/>
+			<!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandLPosition" value="0,0,0"/>
+			<property name="IKHandRPosition" value="0,0,-.1"/>
+			<!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) Wrist Rot -->
+			<property name="IKHandLRotation" value="90,0,90"/>
+			<property name="IKHandRRotation" value="90,0,-90"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.07,-.08,-.115"/>	<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".08,-.08,-.115"/>
+			<property name="IKFootLRot" value="-75,0,0"/>
+			<property name="IKFootRRot" value="-75,0,0"/>
+			<property name="position" value="-.44,.7,.85"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-38,0,0"/>
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.08,-.08,-.115"/>	<property name="IKHandLPos" value="-.1,.2,-.2"/>
+			<property name="IKFootRPos" value=".07,-.08,-.115"/>	<property name="IKHandRPos" value=".1,.2,-.2"/>
+			<property name="IKFootLRot" value="-75,0,0"/>			<property name="IKHandLRot" value="0,0,45"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKFootRRot" value="-75,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".44,.7,.85"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-38,0,0"/>
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.08,.04,.015"/>		<property name="IKHandLPos" value="-.15,.45,-.2"/>
+			<property name="IKFootRPos" value=".08,.04,.015"/>		<property name="IKHandRPos" value=".15,.45,-.2"/>
+			<property name="IKFootLRot" value="-10,0,0"/>			<property name="IKHandLRot" value="0,0,45"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKFootRRot" value="-10,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="-.43,.72,-.05"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="rotation" value="-45,0,0"/>
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="seat3">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet4"/>
+			<property name="IKFootLPos" value="-.08,.04,.015"/>		<property name="IKHandLPos" value="-.15,.45,-.2"/>
+			<property name="IKFootRPos" value=".08,.04,.015"/>		<property name="IKHandRPos" value=".15,.45,-.2"/>
+			<property name="IKFootLRot" value="-10,0,0"/>			<property name="IKHandLRot" value="0,0,45"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKFootRRot" value="-10,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".43,.72,-.05"/><!-- -Left|Right+,-Front|Back+,-Down|Up+ -->
+			<property name="rotation" value="-45,0,0"/>
+			<property name="exit" value="-2.0,0,2.9 ~ 2.0,0,2.9 ~ 0,0,-2.4 ~ 0,0,2.4 ~ 0,2,0"/></property>
+		<property class="motor0">
+			<property name="engine" value="engine"/>
+			<property name="engineOffPer" value=".02"/>
+			<property name="rpmAccel_min_max" value="0.01,.2"/>
+			<property name="rpmMax" value="8"/>
+			<property name="rpmDrag" value=".993"/>
+			<property name="trigger" value="relative"/> 
+			<property name="type" value="spin"/> 
+			<property name="transform" value="Origin/PropellerJointTop"/>
+			<property name="axis" value="1"/></property>
+		<property class="motor1">
+			<property name="engine" value="engine"/>
+			<property name="turbo" value="1.35"/>
+			<property name="rpmAccel_min_max" value="0.01,.1"/>
+			<property name="rpmMax" value="8"/>
+			<property name="rpmDrag" value=".993"/>
+			<property name="trigger" value="relative"/>
+			<property name="type" value="spin"/>
+			<property name="transform" value="Origin/PropellerJointBack"/>
+			<property name="axis" value="2"/></property>
+		<property class="force0">
+			<property name="trigger" value="motor0"/>
+			<property name="type" value="relative"/>
+			<property name="force" value="0, .195, 0"/>
+			<property name="ceiling" value="200, 280"/></property>
+		<property class="force1">
+			<property name="trigger" value="motor1"/>
+			<property name="type" value="relative"/>
+			<property name="force" value="0, 0,.0"/></property>
+		<property class="force2">
+			<property name="trigger" value="inputForward"/>
+			<property name="type" value="relative"/>
+			<property name="force" value="0, 0.03,0 "/></property>
+		<property class="force3">
+			<property name="trigger" value="inputStrafe"/>
+			<property name="type" value="relativeTorque"/>
+			<property name="force" value="0, .02, 0"/></property>
+		<property class="force4">
+			<property name="trigger" value="inputUp"/>
+			<property name="type" value="relativeTorque"/>
+			<property name="force" value="-.01, 0, 0"/></property>
+		<property class="force5">
+			<property name="trigger" value="inputDown"/>
+			<property name="type" value="relativeTorque"/>
+			<property name="force" value=".01, 0, 0"/></property>
+		<property class="wheel0"><property name="torqueScale_motor_brake" value="1,1"/></property>
+		<property class="wheel1"><property name="torqueScale_motor_brake" value="1,1"/></property>
+		<property class="wheel2"><property name="torqueScale_motor_brake" value="1,1"/></property>
+		<property class="wheel3"><property name="torqueScale_motor_brake" value="1,1"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".9"/></property>
+		<property class="toplight">
+			<property name="class" value="ULM_TopLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/toplight"/></property>
+		<property class="variantHelper">
+			<property name="class" value="ULM_VariantHelper,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame_Woodland"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleMineCart">
+		<property name="velocityMax" value="8.334,9.7223"/>
+		<property name="cameraDistance" value="5.5,7"/>
+		<property name="cameraTurnRate" value=".2,.35"/>
+		<property name="motorTorqueMinQ" value="8000"/>
+		<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="brakeTorque" value="8000"/>
+		<property name="upAngleMax" value="80"/>
+		<property name="upForce" value="1"/>
+		<property name="steerRate" value="130"/>
+		<property name="steerCenteringRate" value="90"/>
+		<property name="tiltAngleMax" value="80"/>
+		<property name="tiltThreshold" value="3"/>
+		<property name="tiltDampening" value=".22"/>
+		<property name="tiltDampenThreshold" value="8"/>
+		<property name="tiltUpForce" value="0"/>
+		<property name="unstickForce" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="hornSound" value="ulmHorn05"/>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="90"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".3"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="7000"/>
+			<property name="gear1" value="500,2000, -1400,800,0,	800,1900,1000,	0,0,0,0,0,0,0,fakeEngine20"/>
+			<property name="gear2" value="500,2000, -1000,800,2000, 400,1900,1100,	0,0,0,0,0,0,0,fakeEngine30"/>
+			<property name="gear3" value="500,2000, -1000,800,2000, 300,1900,1200,	0,0,0,0,0,0,0,fakeEngine40"/>
+			<property name="gear4" value="500,2000, -1000,800,2000, 200,9999,9999,	0,0,0,0,0,0,0,fakeEngine50"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandLPosition" value="-.2,.08,-.06"/><!-- Right (-) Left (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRPosition" value=".2,.05,-.1"/>
+			<property name="IKHandLRotation" value="80,-90,0"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) Wrist Rot -->
+			<property name="IKHandRRotation" value="27.55,13.433,-29.88"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.05,.03,-.07"/>		<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".05,.03,-.07"/>
+			<property name="IKFootLRot" value="-45,0,0"/>
+			<property name="IKFootRRot" value="-45,0,0"/>
+			<property name="position" value="-.45,.45,1.2"/>
+			<property name="rotation" value="-15,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.05,.1,-.1"/>		<property name="IKHandLPos" value="-.3,-.1,-.2"/>
+			<property name="IKFootRPos" value=".05,.1,-.1"/>		<property name="IKHandRPos" value=".3,-.1,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="45,-30,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="45,30,-45"/>
+			<property name="position" value=".45,.66,1.5"/>
+			<property name="rotation" value="-40,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel0"/>
+			<property name="tireTransform" value="Origin/Wheel0/Wheel"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel1"/>
+			<property name="tireTransform" value="Origin/Wheel1/Wheel"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel2"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel3"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="toplight">
+			<property name="class" value="ULM_TopLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/toplight"/>
+			<property name="bright" value=".75"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleMiningDumpTruck">
+		<property name="velocityMax" value="8,9"/>
+		<property name="cameraDistance" value="12,14"/>
+		<property name="cameraTurnRate" value=".2,.35"/>
+		<property name="motorTorqueMinQ" value="32000"/>
+		<property name="motorTorqueMaxQ" value="32000"/>
+		<property name="brakeTorque" value="32000"/>
+		<property name="upAngleMax" value="80"/>
+		<property name="upForce" value="1"/>
+		<property name="steerRate" value="130"/>
+		<property name="steerCenteringRate" value="90"/>
+		<property name="tiltAngleMax" value="80"/>
+		<property name="tiltThreshold" value="3"/>
+		<property name="tiltDampening" value=".22"/>
+		<property name="tiltDampenThreshold" value="8"/>
+		<property name="tiltUpForce" value="0"/>
+		<property name="unstickForce" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="hornSound" value="ulmHorn05"/>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="800"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".05"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".3"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="7000"/>
+			<property name="gear1" value="500,2500, -1400,800,0,	700,2200,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,2500, -1000,800,2000, 250,2200,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2500, -1000,800,2000, 150,2200,1200,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear4" value="500,2500, -1000,800,2000, 100,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandLPosition" value="-.2,.08,-.06"/><!-- Right (-) Left (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRPosition" value=".2,.05,-.1"/>
+			<property name="IKHandLRotation" value="80,-90,0"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) Wrist Rot -->
+			<property name="IKHandRRotation" value="27.55,13.433,-29.88"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.05,.03,-.07"/>		<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".05,.03,-.07"/>
+			<property name="IKFootLRot" value="-45,0,0"/>
+			<property name="IKFootRRot" value="-45,0,0"/>
+			<property name="position" value="-2.48,3.45,3.36"/>		<!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-15,0,0"/>
+			<property name="exit" value="-3.6,0,0 ~ 3.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.05,.1,-.1"/>		<property name="IKHandLPos" value="-.3,-.1,-.2"/>
+			<property name="IKFootRPos" value=".05,.1,-.1"/>		<property name="IKHandRPos" value=".3,-.1,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="45,-30,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="45,30,-45"/>
+			<property name="position" value="-1.8,3.65,3.66"/>
+			<property name="rotation" value="-40,0,0"/>
+			<property name="exit" value="3.6,0,0 ~ -3.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel0"/>
+			<property name="tireTransform" value="Origin/Wheel0/Wheel"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel1"/>
+			<property name="tireTransform" value="Origin/Wheel1/Wheel"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel2"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel3"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleMilitaryTruck">
+		<property name="velocityMax" value="8,11"/>
+		<property name="cameraDistance" value="8,10"/>
+		<property name="cameraTurnRate" value=".2,.35"/>
+		<property name="motorTorqueMinQ" value="8000"/>
+		<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="brakeTorque" value="8000"/>
+		<property name="upAngleMax" value="80"/>
+		<property name="upForce" value="1"/>
+		<property name="steerRate" value="130"/>
+		<property name="steerCenteringRate" value="90"/>
+		<property name="tiltAngleMax" value="80"/>
+		<property name="tiltThreshold" value="3"/>
+		<property name="tiltDampening" value=".22"/>
+		<property name="tiltDampenThreshold" value="8"/>
+		<property name="tiltUpForce" value="0"/>
+		<property name="unstickForce" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="hornSound" value="ulmHorn05"/>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="200"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".2"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="5000"/>
+			<property name="gear1" value="500,3500, -1400,800,0,	700,3000,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,3000, -1000,800,2000,	250,2800,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2500, -1000,800,2000,	150,2300,1200,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear4" value="500,2250, -1000,800,2000,	100,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandLPosition" value="-.2,.08,-.06"/><!-- Right (-) Left (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRPosition" value=".2,.05,-.1"/>
+			<property name="IKHandLRotation" value="80,-90,0"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) Wrist Rot -->
+			<property name="IKHandRRotation" value="27.55,13.433,-29.88"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.05,.03,-.07"/>		<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".05,.03,-.07"/>
+			<property name="IKFootLRot" value="-45,0,0"/>
+			<property name="IKFootRRot" value="-45,0,0"/>
+			<property name="position" value="-.75,1.45,1.95"/>	<!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-25,0,0"/>
+			<property name="exit" value="-2,0,0 ~ 2,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.05,.03,-.07"/>		<property name="IKHandLPos" value="-.3,-.1,-.2"/>
+			<property name="IKFootRPos" value=".05,.03,-.07"/>		<property name="IKHandRPos" value=".3,-.1,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="45,-30,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="45,30,-45"/>
+			<property name="position" value=".75,1.45,1.95"/>
+			<property name="rotation" value="-25,0,0"/>
+			<property name="exit" value="2,0,0 ~ -2,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.05,.03,-.07"/>		<property name="IKHandLPos" value="-.3,-.1,-.2"/>
+			<property name="IKFootRPos" value=".05,.03,-.07"/>		<property name="IKHandRPos" value=".3,-.1,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="45,-30,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="45,30,-45"/>
+			<property name="position" value="0,1.45,1.95"/>
+			<property name="rotation" value="-25,0,0"/>
+			<property name="exit" value="2,0,0 ~ -2,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel0"/>
+			<property name="tireTransform" value="Origin/Wheel0/Wheel"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel1"/>
+			<property name="tireTransform" value="Origin/Wheel1/Wheel"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel2"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel3"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel4">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel4"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel5">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel5"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="toplight">
+			<property name="class" value="ULM_TopLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/toplight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="variantHelper">
+			<property name="class" value="ULM_VariantHelper,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame_DesertTarp1"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehiclePoliceCruiser">
+		<property name="cameraDistance" value="5.5,7"/>		<property name="velocityMax" value="15,17.778"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="ulmHorn05"/>
+		<property name="tiltUpForce" value="0"/>			<property name="motorTorqueMinQ" value="8000"/>
+		<property name="tiltAngleMax" value="80"/>			<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="8000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="80"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerAngleMax" value="40"/>
+		<property name="upForce" value="1"/>				<property name="steerCenteringRate" value="90"/>
+		<property name="unstickForce" value="1"/>			<property name="steerRate" value="130"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="65"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".4"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="7000"/>
+			<property name="gear1" value="500,3500, -1400,800,0,	700,2200,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,3000, -1000,800,2000, 250,2200,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2500, -1000,800,2000, 150,2200,1200,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear4" value="500,2200, -1000,800,2000, 100,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandRPosition" value=".2,.2,0"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandRRotation" value="78,69,-19"/><!-- Palm out (-) Palm in (+), Thumbs Down (-) Thumbs Up (+),(-)(+) -->
+			<property name="IKHandLPosition" value="-.21,.2,.017"/><!-- Left (-) Right (+), Front (-) Back (+), Down (-) Up (+) -->
+			<property name="IKHandLRotation" value="81,0,72"/></property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.10,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".10,0,0"/>
+			<property name="IKFootLRot" value="-80,0,0"/>
+			<property name="IKFootRRot" value="-80,0,0"/>
+			<property name="position" value="-.45,-0.05,.76"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-40,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".45,-0.05,.76"/>
+			<property name="rotation" value="-40,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat2">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.3,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="60,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="60,0,-45"/>
+			<property name="position" value="-.45,0,-.1"/>
+			<property name="rotation" value="-40,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat3">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet4"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.2,.3,-.2"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".3,.3,-.2"/>
+			<property name="IKFootLRot" value="-45,0,0"/>			<property name="IKHandLRot" value="60,0,45"/>
+			<property name="IKFootRRot" value="-45,0,0"/>			<property name="IKHandRRot" value="60,0,-45"/>
+			<property name="position" value=".45,0,-.1"/>
+			<property name="rotation" value="-40,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="toplight">
+			<property name="class" value="ULM_TopLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/toplight"/></property>
+		<property class="siren">
+			<property name="class" value="ULM_Siren,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/siren"/></property>
+		<property class="light_animator">
+			<property name="class" value="ULM_LightAnimator,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame"/></property>
+	</vehicle>
+
+	<vehicle name="ulmVehicleAmbulance1">
+		<property name="cameraDistance" value="5.5,7"/>		<property name="velocityMax" value="13.334,14.445"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="ulmHorn05"/>
+		<property name="tiltUpForce" value="0"/>			<property name="motorTorqueMinQ" value="8000"/>
+		<property name="tiltAngleMax" value="80"/>			<property name="motorTorqueMaxQ" value="8000"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="8000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="80"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerAngleMax" value="40"/>
+		<property name="upForce" value="1"/>				<property name="steerCenteringRate" value="90"/>
+		<property name="unstickForce" value="1"/>			<property name="steerRate" value="130"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.8,.9,.1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="parent_part" value="engine"/>
+			<property name="capacity" value="160"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>	<property name="fuelKmPerL" value=".25"/>
+			<property name="slot_type" value="engine"/>							<property name="engineVolume" value=".2"/>
+			<property name="engineTorque" value="Physics/Wheel2"/>				<property name="engineMaxRPM" value="5000"/>
+			<property name="gear1" value="500,3500, -1400,800,0,	800,3400,1000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,3000, -1000,800,2000, 400,2800,1100,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,2500, -1000,800,2000, 300,2200,1200,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear4" value="500,2000, -1000,800,2000, 200,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="ulmEngineV8Classic_Startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="parent_part" value="chassis"/>
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="transform" value="Origin/steering"/>
+			<property name="steerMaxAngle" value="60"/>
+			<property name="IKHandRPosition" value=".25,.05,-.08"/>
+			<property name="IKHandRRotation" value="70,0,-87"/>
+			<property name="IKHandLPosition" value="-0.25,.05,-0.08"/>
+			<property name="IKHandLRotation" value="70,0,84"/></property>
+		<property class="seat0"><!-- 0 Driver -->
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.1,0,0"/>			<property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".1,0,0"/>
+			<property name="IKFootLRot" value="-80,0,0"/>
+			<property name="IKFootRRot" value="-80,0,0"/>
+			<property name="position" value="-.5,.38,1.5"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat1"><!-- 1 Gurney -->
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.12,0,0"/>			<property name="IKHandLPos" value="-.6,1.7,0.05"/><!-- -Left|Right+,-Back|Front+,-Down|Up+ -->
+			<property name="IKFootRPos" value=".12,0,0"/>			<property name="IKHandRPos" value=".6,1.7,0.05"/>
+			<property name="IKFootLRot" value="0,0,0"/>				<property name="IKHandLRot" value="60,0,0"/>
+			<property name="IKFootRRot" value="0,0,0"/>				<property name="IKHandRRot" value="60,0,0"/>
+			<property name="position" value="-.2,1.5,-2.2"/>
+			<property name="rotation" value="-110,180,0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/></property>
+		<property class="seat2"><!-- 2 Passenger Front Cabin -->
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet3"/>
+			<property name="IKFootLPos" value="-.1,0,0"/>			<property name="IKHandLPos" value="-.18,.5,-0.4"/>
+			<property name="IKFootRPos" value=".1,0,0"/>			<property name="IKHandRPos" value=".18,.5,-0.4"/>
+			<property name="IKFootLRot" value="-80,0,0"/>			<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="-80,0,0"/>			<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value=".5,0.38,1.5"/>
+			<property name="rotation" value="-35,0,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat3"><!-- 3 Passenger opposite to driver -->
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet4"/>
+			<property name="IKFootLPos" value="-.15,.04,0"/>		<property name="IKHandLPos" value="-.225,.52,-0.12"/>
+			<property name="IKFootRPos" value=".15,.04,0"/>			<property name="IKHandRPos" value=".25,.52,-0.12"/>
+			<property name="IKFootLRot" value="0,0,0"/>				<property name="IKHandLRot" value="0,0,45"/>
+			<property name="IKFootRRot" value="0,0,0"/>				<property name="IKHandRRot" value="0,0,-45"/>
+			<property name="position" value="-.25,.4,-.6"/>
+			<property name="rotation" value="-35,180,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat4"><!-- 4 Passenger couch 1 -->
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet5"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.3,.5,-0.12"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.5,-0.12"/>
+			<property name="IKFootLRot" value="0,0,0"/>				<property name="IKHandLRot" value="60,0,30"/>
+			<property name="IKFootRRot" value="0,0,0"/>				<property name="IKHandRRot" value="60,0,-30"/>
+			<property name="position" value=".4,.4,-.75"/>
+			<property name="rotation" value="-15,-90,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat5"><!-- 5 Passenger couch 2 -->
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet6"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.3,.5,-0.12"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".2,.5,-0.12"/>
+			<property name="IKFootLRot" value="0,0,0"/>				<property name="IKHandLRot" value="60,0,30"/>
+			<property name="IKFootRRot" value="0,0,0"/>				<property name="IKHandRRot" value="60,0,-30"/>
+			<property name="position" value=".4,.4,-1.25"/>
+			<property name="rotation" value="-15,-90,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="seat6"><!-- 6 Passenger couch 3 -->
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet7"/>
+			<property name="IKFootLPos" value="-.15,0,0"/>			<property name="IKHandLPos" value="-.3,.5,-0.12"/>
+			<property name="IKFootRPos" value=".15,0,0"/>			<property name="IKHandRPos" value=".25,.5,-0.12"/>
+			<property name="IKFootLRot" value="0,0,0"/>				<property name="IKHandLRot" value="60,0,30"/>
+			<property name="IKFootRRot" value="0,0,0"/>				<property name="IKHandRRot" value="60,0,-30"/>
+			<property name="position" value=".4,.4,-1.85"/>
+			<property name="rotation" value="-15,-90,0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/></property>
+		<property class="wheel0">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_L"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_L/Wheel_Front_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel1">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="steerTransform" value="Origin/Wheel_Front_Rotation_R"/>
+			<property name="tireTransform" value="Origin/Wheel_Front_Rotation_R/Wheel_Front_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,.8"/></property>
+		<property class="wheel2">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_L"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="wheel3">
+			<property name="class" value="ULM_Wheel,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="tireTransform" value="Origin/Wheel_Rear_R"/>
+			<property name="tireSuspensionPercent" value="1"/>
+			<property name="torqueScale_motor_brake" value=".2,1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+			<property name="parent_part" value="chassis"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="toplight">
+			<property name="class" value="ULM_TopLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/toplight"/></property>
+		<property class="siren">
+			<property name="class" value="ULM_Siren,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/siren"/></property>
+		<property class="light_animator">
+			<property name="class" value="ULM_LightAnimator,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame"/></property>
+	</vehicle>
+	
+	<vehicle name="ulmVehicleMotorcycle2">
+		<property name="cameraDistance" value="3.5,5"/>		<property name="velocityMax" value="16.667,18.0556"/>
+		<property name="cameraTurnRate" value=".2,.35"/>	<property name="hornSound" value="vehicle/minibike/minibike_horn"/>
+		<property name="tiltUpForce" value="5"/>			<property name="motorTorqueMinQ" value="4500"/>
+		<property name="tiltAngleMax" value="20"/>			<property name="motorTorqueMaxQ" value="4500"/>
+		<property name="tiltThreshold" value="3"/>			<property name="brakeTorque" value="6000"/>
+		<property name="tiltDampening" value=".22"/>		<property name="upAngleMax" value="70"/>
+		<property name="tiltDampenThreshold" value="8"/>	<property name="steerCenteringRate" value="90"/>
+		<property name="upForce" value="1"/>				<property name="steerRate" value="130"/>
+		<property name="hopForce" value="1, .8"/>			<property name="steerAngleMax" value="35"/>
+		<property name="unstickForce" value="1"/>
+		<property name="wheelPtlScale" value="1"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.7, .9, .1"/>
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="display_name" value="chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/>
+			<property name="part_damage_reduction" value="0.5"/>
+			<property name="paint" value="Motorcycle"/></property>
+		<property class="battery">
+			<property name="class" value="Battery"/>
+			<property name="slot_type" value="battery"/>
+			<property name="mesh" value="battery"/>
+			<property name="transform" value="battery"/></property>
+		<property class="fuelTank">
+			<property name="class" value="FuelTank"/>
+			<property name="capacity" value="15"/></property>
+		<property class="engine">
+			<property name="class" value="ULM_RealisticEngine,UndeadLegacy"/>		<property name="fuelKmPerL" value="1.5"/>
+			<property name="slot_type" value="engine"/>								<property name="engineVolume" value=".15"/>
+			<property name="engineTorque" value="Physics/Wheel1"/>					<property name="engineMaxRPM" value="7000"/>
+			<property name="gear1" value="500,5500, -1400,800,0,	800,5300,4000,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear2" value="500,5000, -1000,800,4000, 500,4800,3500,	0,0,0,0,0,0,0,fakeEngine100"/>
+			<property name="gear3" value="500,4750, -1000,800,3000, 250,9999,9999,	0,0,0,0,0,0,0,fakeEngine120"/>
+			<property name="sound_start" value="Vehicles/Motorbike/minibike_start_"/>
+			<property name="sound_shut_off" value="Vehicles/Motorbike/minibike_shutoff_"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/></property>
+		<property class="handlebars">
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="mesh" value="handlebar"/>
+			<property name="transform" value="Origin/Frame/Handlebars"/>
+			<property name="IKHandLPosition" value="-0.366,0.235,-0.052"/>
+			<property name="IKHandLRotation" value="26.25,-28.8,-25.13"/>
+			<property name="IKHandRPosition" value="0.366,0.226,-0.061"/>
+			<property name="IKHandRRotation" value="22.95,27.3,31.12"/>
+		</property>
+		<property class="seat0">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/><property name="transform" value="Origin/feet1"/>
+			<property name="IKFootLPos" value="-.228,.07,-.1"/><property name="driver" value="true"/>
+			<property name="IKFootRPos" value=".228,.07,-.1"/>
+			<property name="IKFootLRot" value="-12,0,0"/>
+			<property name="IKFootRRot" value="-12,0,0"/>
+			<property name="position" value="0,-0.05,-0.05"/><!-- -Left|Right+, -Down|Up+, -Back|Front+ -->
+			<property name="rotation" value="-15,0,0"/>
+			<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/></property>
+		<property class="seat1">
+			<property name="class" value="ULM_Seat,UndeadLegacy"/>	<property name="transform" value="Origin/feet2"/>
+			<property name="IKFootLPos" value="-.228,.1,-.1"/>		<property name="IKHandLPos" value="-.25,.6,-.1"/>
+			<property name="IKFootRPos" value=".228,.1,-.1"/>		<property name="IKHandRPos" value=".25,.6,-.1"/>
+			<property name="IKFootLRot" value="-15,-0.05,0"/>		<property name="IKHandLRot" value="0,0,30"/>
+			<property name="IKFootRRot" value="-15,-0.05,0"/>		<property name="IKHandRRot" value="0,0,-30"/>
+			<property name="position" value="0,0,-0.55"/>
+			<property name="rotation" value="-15,0,0"/>
+			<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/></property>
+		<property class="wheel0">
+			<property name="steerTransform" value="Origin/Frame/Handlebars"/>
+			<property name="tireTransform" value="Origin/Frame/Handlebars/WheelFront"/>
+			<property name="torqueScale_motor_brake" value=".15, .5"/></property>
+		<property class="wheel1">
+			<property name="tireTransform" value="Origin/Frame/RearWheel"/>
+			<property name="torqueScale_motor_brake" value="1, 1"/></property>
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/></property>
+		<property class="headlight">
+			<property name="class" value="Headlight"/>
+			<property name="transform" value="Origin/Frame/Handlebars/headlight"/>
+			<property name="bright" value=".9"/></property>
+		<property class="backlight">
+			<property name="class" value="ULM_BackLight,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame/backlight"/>
+			<property name="bright" value=".75"/></property>
+		<property class="light_animator">
+			<property name="class" value="ULM_LightAnimator,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/>
+			<property name="transform" value="Origin/Frame"/></property>
+		<property class="variantHelper">
+			<property name="class" value="VPULM_VariantMaterialChanger,UndeadLegacy"/>
+			<property name="parent_part" value="chassis"/></property>
+	</vehicle>
+	
+	
+
+</append>
+    
+</Subquake>

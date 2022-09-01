@@ -1,0 +1,76 @@
+<Subquake>
+	
+	<append xpath="/npc">
+
+	<npc_info name="Ellen"
+		id="npcTraderEllen"
+		name_key="npcTraderEllen"
+		portrait="npcTraderEllen"
+		faction="whiteriver"
+		greeting_type="nearby"
+		stance="Like" voice_set="ulm_npc_olivia_"
+		trader_id="16" dialog_id="trader" quest_faction="16"/>
+
+	<!-- Guns, Ammo, Armor -->
+	<npc_info name="Maxton"
+		id="npcTraderMaxton"
+		name_key="npcTraderMaxton"
+		portrait="npcTraderMaxton"
+		faction="whiteriver"
+		greeting_type="nearby"
+		stance="Like" voice_set="ulm_npc_erik_"
+		trader_id="17" dialog_id="ulmVendor" quest_faction="16"/><!-- Ellen -->
+
+	<!-- Armor, Clothing, Melee, Deco (Blacksmith) -->
+	<npc_info name="Ethan"
+		id="npcTraderEthan"
+		name_key="npcTraderEthan"
+		portrait="npcTraderEthan"
+		faction="whiteriver"
+		greeting_type="nearby"
+		stance="Like" voice_set="ulm_npc_erik_"
+		trader_id="18" dialog_id="ulmVendor" quest_faction="1"/><!-- Joel -->
+
+	<!-- Ammo and Guns -->
+	<npc_info name="Logan"
+		id="npcTraderLogan"
+		name_key="npcTraderLogan"
+		portrait="npcTraderLogan"
+		faction="whiteriver"
+		greeting_type="nearby"
+		stance="Like" voice_set="ulm_npc_arthur_"
+		trader_id="19" dialog_id="ulmVendor" quest_faction="3"/><!-- Bob -->
+
+	<!-- Ammo and More Guns -->
+	<npc_info name="Raiden"
+		id="npcTraderRaiden"
+		name_key="npcTraderRaiden"
+		portrait="npcTraderRaiden"
+		faction="whiteriver"
+		greeting_type="nearby"
+		stance="Like" voice_set="ulm_npc_arthur_"
+		trader_id="20" dialog_id="ulmVendor" quest_faction="4"/><!-- Hugh -->
+
+	<!-- Armor, Ammo, All Weapons, Gun and Melee Mods, No Clothing, No Tools -->
+	<npc_info name="Hagen"
+		id="npcTraderHagen"
+		name_key="npcTraderHagen"
+		portrait="npcTraderHagen"
+		faction="whiteriver"
+		greeting_type="nearby"
+		stance="Like" voice_set="ulm_npc_erik_"
+		trader_id="21" dialog_id="ulmVendor" quest_faction="2"/><!-- Jen -->
+
+	<!-- Resources, Seeds and Deco Blocks -->
+	<npc_info name="Ryan"
+		id="npcTraderRyan"
+		name_key="npcTraderRyan"
+		portrait="npcTraderRyan"
+		faction="whiteriver"
+		greeting_type="nearby"
+		stance="Like" voice_set="ulm_npc_ryan_"
+		trader_id="22" dialog_id="ulmVendor" quest_faction="5"/><!-- Rekt -->
+		
+	</append>
+	
+</Subquake>

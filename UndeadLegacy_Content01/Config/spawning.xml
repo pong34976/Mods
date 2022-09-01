@@ -1,0 +1,25 @@
+<Subquake>
+	<set xpath="/spawning/biome[@name='pine_forest'     ]/spawn[@time='Day'     and @entitygroup='ZombiesAll'                   ]/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='pine_forest'     ]/spawn[@time='Night'   and @entitygroup='ZombiesNight'                 ]/@maxcount">6</set>
+	<set xpath="/spawning/biome[@name='pine_forest'     ]/spawn[@time='Any'		and @entitygroup='WildGameForest'				]/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='pine_forest'     ]/spawn[@time='Night'   and @entitygroup='EnemyAnimalsForest'           ]/@maxcount">6</set>
+	
+	<set xpath="/spawning/biome[@name='desert'			]/spawn[@time='Any'		and @entitygroup='ZombiesAll'					]/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='desert'			]/spawn[@time='Night'	and @entitygroup='ZombiesNight'					]/@maxcount">6</set>
+	<set xpath="/spawning/biome[@name='desert'			]/spawn[@time='Any'		and @entitygroup='WildGameForest'				]/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='desert'			]/spawn[@time='Any'		and @entitygroup='EnemyAnimalsDesert'			]/@maxcount">6</set>
+	
+	<set xpath="/spawning/biome[@name='wasteland'		]/spawn[@time='Day'		and @entitygroup='ZombiesWasteland'				]/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='wasteland'		]/spawn[@time='Night'	and @entitygroup='ZombiesWastelandNight'		]/@maxcount">6</set>
+	<set xpath="/spawning/biome[@name='wasteland'		]/spawn[@time='Any'		and @entitygroup='EnemyAnimalsWasteland'		]/@maxcount">2</set>
+	
+	<set xpath="/spawning/biome[@name='burnt_forest'	]/spawn[@time='Day'		and @entitygroup='ZombiesBurntForest'			]/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='burnt_forest'	]/spawn[@time='Night'	and @entitygroup='ZombiesNight'					]/@maxcount">6</set>
+	<set xpath="/spawning/biome[@name='burnt_forest'	]/spawn[@time='Any'		and @entitygroup='WildGameForest'				]/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='burnt_forest'	]/spawn[@time='Night'	and @entitygroup='EnemyAnimalsBurntForest'		]/@maxcount">6</set>
+	
+	<set xpath="/spawning/biome[@name='snow'			]/spawn[@time='Any'		and @entitygroup='SnowZombies'					]/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='snow'			]/spawn[@time='Night'	and @entitygroup='ZombiesNight'					]/@maxcount">6</set>
+	<set xpath="/spawning/biome[@name='snow'			]/spawn[@time='Any'		and @entitygroup='WildGameForest'				]/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='snow'			]/spawn[@time='Any'		and @entitygroup='EnemyAnimalsSnow'				]/@maxcount">6</set>
+</Subquake>
