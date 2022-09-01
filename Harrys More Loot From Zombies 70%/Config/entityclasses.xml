@@ -1,0 +1,10 @@
+<HarrysMoreZombieLoot>
+<!-- <property name="LootDropProb" value="0.02"/> Whether it drops a loot bag on death or not. STOCK SETTING -->
+	
+<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.7</set>
+
+<!-- <property name="TimeStayAfterDeath" value="300"/> STOCK SETTING-->
+
+<set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">900</set>
+
+</HarrysMoreZombieLoot>
